@@ -94,7 +94,8 @@ export type FaqItem = {
 	seoDescription: string;
 };
 
-export const homeFaqs: readonly FaqItem[] = [
+/** Six pillar FAQ answers — thin or duplicate slugs 301 to these (see path-redirects.json). */
+export const seoFaqs: readonly FaqItem[] = [
 	faq({
 		question: 'What is {brand}?',
 		answer:
@@ -107,7 +108,7 @@ export const homeFaqs: readonly FaqItem[] = [
 	faq({
 		question: 'Are {primaryKeyword} undetected in 2026?',
 		answer:
-			'{brand} is maintained for {game} with rebuilds after {antiCheat} and game patches. Check the Status page before you queue. No cheat can guarantee permanent undetected status — maintenance and responsible use matter.',
+			'{brand} is maintained for {game} with rebuilds after {antiCheat} and game patches. {antiCheat} monitors Windows PC clients — check the Status page before you queue. No cheat can guarantee permanent undetected status; maintenance and responsible use matter.',
 		slug: 'are-lol-cheats-undetected-in-2026',
 		seoTitle: 'Are {brand} Undetected in 2026? | FAQ',
 		seoDescription:
@@ -125,16 +126,16 @@ export const homeFaqs: readonly FaqItem[] = [
 	faq({
 		question: 'What is included — ESP, wallhack, radar, or Aimbot?',
 		answer:
-			'{brand} bundles ESP wallhack, ward markers, 2D radar cues, and configurable Aimbot in one license. See Features for the full list.',
+			'{brand} bundles ESP wallhack (enemy champions, minions, and wards through walls with distance readouts), ward markers, 2D radar overlays for nearby threats outside your view, and configurable Aimbot in one license. See Features for the full list.',
 		slug: 'esp-wallhack-radar-or-aimbot',
 		seoTitle: 'What Is Included: ESP, Wallhack, Radar, Aimbot | FAQ',
 		seoDescription:
-			'One LoL Cheats license includes ESP wallhack, ward markers, 2D radar cues, and configurable Aimbot for Windows PC — see Features for the full control list.',
+			'One LoL Cheats license includes ESP wallhack, ward markers, 2D radar overlays, and configurable Aimbot for Windows PC — see Features for the full control list.',
 	}),
 	faq({
 		question: 'How are licenses delivered?',
 		answer:
-			'After payment is confirmed, {brand} license details are delivered digitally through checkout. Timing can vary by payment method and order review. Keep your order confirmation ready if you contact support.',
+			'After payment is confirmed, {brand} license details are delivered digitally through checkout. Timing can vary by payment method and order review. For setup or billing help, use the Support page or email {email}.',
 		slug: 'how-are-licenses-delivered',
 		seoTitle: 'How Are {brand} Licenses Delivered? | FAQ',
 		seoDescription:
@@ -149,56 +150,10 @@ export const homeFaqs: readonly FaqItem[] = [
 		seoDescription:
 			'Check the LoL Cheats Status page after League of Legends or Vanguard patches to confirm the latest ESP, radar, and Aimbot build before you queue.',
 	}),
-	faq({
-		question: 'How do I contact support?',
-		answer:
-			'Use the Support page or email {email}. Include your order details, package length, and a clear description of the setup issue so replies can be faster.',
-		slug: 'how-to-contact-support',
-		seoTitle: 'How to Contact {brand} Support | FAQ',
-		seoDescription:
-			'Contact LoL Cheats support via the Support page or support@lolcheats.org with your order details for faster help with setup, delivery, or billing.',
-	}),
 ] as const;
 
-export const seoFaqs: readonly FaqItem[] = [
-	...homeFaqs,
-	faq({
-		question: 'What is a {game} wallhack?',
-		answer:
-			'A {game} wallhack is an ESP overlay that shows enemy champions, minions, and wards through walls. {brand} includes distance readouts, objective cues, and toggleable categories.',
-		slug: 'what-is-an-lol-wallhack',
-		seoTitle: 'What Is a {game} Wallhack? | FAQ',
-		seoDescription:
-			'A League of Legends wallhack is ESP that reveals enemy champions, minions, and wards through walls — with distance readouts, objectives, and category toggles.',
-	}),
-	faq({
-		question: 'Does {brand} include a radar cheat?',
-		answer:
-			'Yes. {brand} includes 2D radar overlays that highlight nearby threats outside your view — useful for flanks and objective zones.',
-		slug: 'does-lol-cheats-include-radar-cheat',
-		seoTitle: 'Does {brand} Include a Radar Hack? | FAQ',
-		seoDescription:
-			'Yes — LoL Cheats includes 2D radar overlays for nearby threats outside your field of view on Windows PC, useful for flanks and objective zones.',
-	}),
-	faq({
-		question: 'How does {antiCheat} affect {primaryKeyword}?',
-		answer:
-			'{antiCheat} monitors {game} on Windows PC. {brand} posts maintenance notes after patches that may need a rebuild. Check Status before you queue.',
-		slug: 'vanguard-anti-cheat-and-lol-cheats',
-		seoTitle: 'How {antiCheat} Affects {brand} | FAQ',
-		seoDescription:
-			'Vanguard may require LoL Cheats rebuilds after League of Legends patches. Status notes explain the maintenance workflow for ESP, radar, and Aimbot tools.',
-	}),
-	faq({
-		question: 'Can I buy undetected {game} cheats for Windows PC?',
-		answer:
-			'Yes — {brand} sells monthly and lifetime licenses for Windows PC with ESP, radar, and aimbot in one stack. Compare plans on Store before checkout.',
-		slug: 'buy-undetected-lol-cheats-windows-pc',
-		seoTitle: 'Buy Undetected {game} Cheats for Windows PC | FAQ',
-		seoDescription:
-			'Buy monthly or lifetime LoL Cheats licenses for Windows PC — ESP, radar, and aimbot in one stack. Compare pricing and features on Store before checkout.',
-	}),
-] as const;
+/** Homepage FAQ schema — same six pillars as seoFaqs. */
+export const homeFaqs: readonly FaqItem[] = seoFaqs;
 
 export type CustomerReview = {
 	handle: string;
