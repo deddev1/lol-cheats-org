@@ -33,7 +33,7 @@ const LEGACY_PATTERNS = [
 	/^lol-extract-fight/,
 	/^lol-operator-esp/,
 	/^lol-verdansk-combat/,
-	/^lol-growth-run-mode/,
+	/^lol-aram-mode/,
 	/^lol-al-mazrah-map/,
 ];
 

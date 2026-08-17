@@ -125,12 +125,12 @@ export const productInfo = {
 	heroLede: fillBrandTokens(brandCopy.heroLede),
 	features: {
 		esp: [
-			'Herbivore and carnivore ESP / wallhack',
+			'Champion and ward ESP / wallhack',
 			'Champion level and threat cues',
 			'Ward and tower markers',
 			'Distance readouts',
 			'Toggleable ESP categories',
-			'Corpse and ward highlights',
+			'Champion and ward highlights',
 		],
 		aimbot: [
 			'Soft aim and aimbot controls',

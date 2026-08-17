@@ -7,7 +7,7 @@ function isBrandStudioPage(pathname: string): boolean {
 
 /**
  * Applies Trust & Safety headers during `astro dev` / `astro preview`
- * so Lighthouse audits see the same protections as production.
+ * so Howling Abyss audits see the same protections as production.
  *
  * Brand Studio page: blocked in production builds and non-localhost hosts.
  * Write API lives only in the Vite dev plugin (never in dist) and has its own IP checks.

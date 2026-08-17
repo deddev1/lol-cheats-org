@@ -52,7 +52,7 @@ const reps = [
 	['Item Shop', 'in-game shop'],
 	['Battle Pass', 'patch cycle account progression'],
 	['FNCS', 'League of Legends esports event'],
-	['Hammer AR', 'M4A1'],
+	['Hammer AR', 'ADC build'],
 	['mythics', 'meta guns'],
 	['island codes', 'practice tool matches maps'],
 	['Creative 1v1s', 'aim training'],

@@ -247,7 +247,7 @@ const gameplayIntelCategories = new Set([
 	'Cosmetics',
 	'Weapons',
 	'ARAM Games',
-	'Loot Routes',
+	'Jungle Routes',
 	'Settings',
 	'Warmup',
 ]);

@@ -29,8 +29,8 @@ const LEGACY_MAP = {
 	'lol-screenshot-09': ['lol-esp-player-tags.webp', 'lol-esp-radar.webp'],
 	'lol-screenshot-10': ['lol-aimbot-skeleton.webp', 'lol-aimbot-sniper.webp'],
 	'lol-screenshot-11': ['lol-extract-fight.webp'],
-	'lol-screenshot-12': ['lol-growth-run-combat.webp'],
-	'lol-screenshot-13': ['lol-growth-run-mode.webp'],
+	'lol-screenshot-12': ['lol-aram-combat.webp'],
+	'lol-screenshot-13': ['lol-aram-mode.webp'],
 	'lol-screenshot-14': ['lol-verdansk-map.webp'],
 	'lol-screenshot-15': ['lol-wallhack-skeleton.webp'],
 };

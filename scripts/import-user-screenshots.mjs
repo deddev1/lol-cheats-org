@@ -56,8 +56,8 @@ const REMOVE_PREFIXES = [
 	'lol-header-art',
 	'lol-loadout-builder',
 	'lol-player-esp',
-	'lol-growth-run-combat',
-	'lol-growth-run-mode',
+	'lol-aram-combat',
+	'lol-aram-mode',
 	'lol-team-fight',
 	'lol-verdansk-map',
 ];

@@ -110,7 +110,7 @@ export const blogUi: Record<
 	es: {
 		blogTitle: 'Blog LoL Cheats 2026 | Guías en 22 idiomas',
 		blogDescription:
-			'Blog de LoL Cheats con guías de trucos indetectables, ESP wallhack, radar y Aimbot parLeague of Legends en PC Windows.',
+			'Blog de LoL Cheats con guías de trucos indetectables, ESP wallhack, radar y Aimbot para League of Legends en PC Windows.',
 		blogH1: 'Blog LoL Cheats — Guías globales',
 		blogIntro:
 			'Guías SEO de trucos League of Legends indetectables, ESP wallhack, radar hack, Aimbot y mantenimiento Vanguard en 22 idiomas.',
@@ -155,7 +155,7 @@ export const blogUi: Record<
 	pt: {
 		blogTitle: 'Blog LoL Cheats 2026 | Guias em 22 idiomas',
 		blogDescription:
-			'Blog LoL Cheats com guias de cheats indetectáveis, ESP wallhack, radar e Aimbot parLeague of Legends no PC.',
+			'Blog LoL Cheats com guias de cheats indetectáveis, ESP wallhack, radar e Aimbot para League of Legends no PC.',
 		blogH1: 'Blog LoL Cheats — Guias globais',
 		blogIntro:
 			'Guias SEO de cheats League of Legends indetectáveis, ESP wallhack, radar hack, Aimbot e Vanguard em 22 idiomas.',

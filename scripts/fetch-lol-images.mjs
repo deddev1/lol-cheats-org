@@ -75,12 +75,12 @@ const KEYWORD_ASSETS = [
 		overlay: 'esp',
 	},
 	{
-		file: 'lol-growth-run-combat.webp',
+		file: 'lol-aram-combat.webp',
 		url: `${BR}/plunder_px6d.1400.png`,
 		overlay: 'ARAM game',
 	},
 	{
-		file: 'lol-growth-run-mode.webp',
+		file: 'lol-aram-mode.webp',
 		url: `${BR}/parachuting_qhh2.1400.png`,
 		overlay: 'loot',
 	},

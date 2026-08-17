@@ -24,12 +24,12 @@ export const uiStrings = {
 	},
 	es: {
 		nav: { home: 'Inicio', cheats: 'Cheats', aimbot: 'Aimbot', esp: 'ESP', features: 'Funciones', pricing: 'Precios', setup: 'Instalación', updates: 'Actualizaciones', faq: 'FAQ', buyNow: 'Comprar' },
-		hero: { accent: 'Trucos League of Legends indetectables', accentShort: 'LoL Cheats', subtitle: 'ESP wallhack, radar cheat y Aimbot parLeague of Legends en PC Windows — mantenimiento Vanguard incluido.', subtitleShort: 'ESP, radar y Aimbot parLeague of Legends PC', buyNow: 'Comprar ahora', seeFeatures: 'Ver funciones' },
-		trust: { status: 'En línea', statusNote: 'El paquete LoL Cheats está activo parLeague of Legends en PC Windows.', statusShort: 'Activo', delivery: 'Entrega digital instantánea', platform: 'Windows 10 y 11', antiCheat: 'Mantenimiento Vanguard incluido', antiCheatShort: 'Vanguard incluido' },
+		hero: { accent: 'Trucos League of Legends indetectables', accentShort: 'LoL Cheats', subtitle: 'ESP wallhack, radar cheat y Aimbot para League of Legends en PC Windows — mantenimiento Vanguard incluido.', subtitleShort: 'ESP, radar y Aimbot para League of Legends PC', buyNow: 'Comprar ahora', seeFeatures: 'Ver funciones' },
+		trust: { status: 'En línea', statusNote: 'El paquete LoL Cheats está activo para League of Legends en PC Windows.', statusShort: 'Activo', delivery: 'Entrega digital instantánea', platform: 'Windows 10 y 11', antiCheat: 'Mantenimiento Vanguard incluido', antiCheatShort: 'Vanguard incluido' },
 		product: { title: 'LoL Cheats', addToCart: 'Añadir al carrito', monthly: 'Mensual', lifetime: 'De por vida', available: 'Disponible ahora', gameBadge: 'League of Legends', platformBadge: 'PC Windows', statusBadge: 'Paquete indetectable' },
 		reviews: { title: 'Lo que dicen los jugadores', subtitle: 'Comentarios recientes de compradores de LoL Cheats', outOf: 'de 5', countLabel: 'reseñas' },
 		common: { buyNow: 'Comprar ahora', readGuide: 'Leer guía', language: 'Idioma', officialLanguageNote: 'El inglés es el idioma oficial. Otras versiones están traducidas para SEO global.', relatedPages: 'Páginas relacionadas' },
-		footer: { explore: 'Explorar', help: 'Ayuda y legal', tagline: 'ESP, wallhack, radar y Aimbot indetectables parLeague of Legends — checkout en Zadeyo.' },
+		footer: { explore: 'Explorar', help: 'Ayuda y legal', tagline: 'ESP, wallhack, radar y Aimbot indetectables para League of Legends — checkout en Zadeyo.' },
 		images: {
 		hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
 		espWallhack: "Wallhack outlines showing enemy champions and minions through walls",
@@ -87,12 +87,12 @@ export const uiStrings = {
 	},
 	pt: {
 		nav: { home: 'Início', cheats: 'Cheats', aimbot: 'Aimbot', esp: 'ESP', features: 'Recursos', pricing: 'Preços', setup: 'Instalação', updates: 'Atualizações', faq: 'FAQ', buyNow: 'Comprar' },
-		hero: { accent: 'Cheats League of Legends indetectáveis', accentShort: 'LoL Cheats', subtitle: 'ESP wallhack, radar cheat e Aimbot parLeague of Legends no PC Windows — manutenção Vanguard incluída.', subtitleShort: 'ESP, radar e Aimbot parLeague of Legends PC', buyNow: 'Comprar agora', seeFeatures: 'Ver recursos' },
-		trust: { status: 'Online', statusNote: 'O pacote LoL Cheats está ativo parLeague of Legends no PC Windows.', statusShort: 'Ativo', delivery: 'Entrega digital instantânea', platform: 'Windows 10 e 11', antiCheat: 'Manutenção Vanguard incluída', antiCheatShort: 'Vanguard incluído' },
+		hero: { accent: 'Cheats League of Legends indetectáveis', accentShort: 'LoL Cheats', subtitle: 'ESP wallhack, radar cheat e Aimbot para League of Legends no PC Windows — manutenção Vanguard incluída.', subtitleShort: 'ESP, radar e Aimbot para League of Legends PC', buyNow: 'Comprar agora', seeFeatures: 'Ver recursos' },
+		trust: { status: 'Online', statusNote: 'O pacote LoL Cheats está ativo para League of Legends no PC Windows.', statusShort: 'Ativo', delivery: 'Entrega digital instantânea', platform: 'Windows 10 e 11', antiCheat: 'Manutenção Vanguard incluída', antiCheatShort: 'Vanguard incluído' },
 		product: { title: 'LoL Cheats', addToCart: 'Adicionar ao carrinho', monthly: 'Mensal', lifetime: 'Vitalício', available: 'Disponível agora', gameBadge: 'League of Legends', platformBadge: 'PC Windows', statusBadge: 'Pacote indetectável' },
 		reviews: { title: 'O que os jogadores dizem', subtitle: 'Feedback recente de compradores LoL Cheats', outOf: 'de 5', countLabel: 'avaliações' },
 		common: { buyNow: 'Comprar agora', readGuide: 'Ler guia', language: 'Idioma', officialLanguageNote: 'Inglês é o idioma oficial. Outros idiomas são traduzidos para SEO global.', relatedPages: 'Páginas relacionadas' },
-		footer: { explore: 'Explorar', help: 'Ajuda e legal', tagline: 'ESP, wallhack, radar e Aimbot indetectáveis parLeague of Legends — checkout via Zadeyo.' },
+		footer: { explore: 'Explorar', help: 'Ajuda e legal', tagline: 'ESP, wallhack, radar e Aimbot indetectáveis para League of Legends — checkout via Zadeyo.' },
 		images: {
 		hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
 		espWallhack: "Wallhack outlines showing enemy champions and minions through walls",

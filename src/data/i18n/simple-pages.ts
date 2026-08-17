@@ -294,7 +294,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			{
 				h2: 'What it shows',
 				paragraphs: ['Nearby enemy cues with adjustable range for laner and jungler.'],
-				list: ['Flank awareness', 'Nest approaches', 'Adjustable range'],
+				list: ['Flank awareness', 'Objective approaches', 'Adjustable range'],
 			},
 			{
 				h2: 'With ESP',

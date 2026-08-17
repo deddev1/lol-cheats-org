@@ -151,7 +151,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"League of Legends maps punish incomplete information. LoL Cheats ESP wallhack helps you spot enemy teams early, spot enemy champions and minions before they push your angle, and mark low-health targets worth the detour.",
 								"On match, ARAM game, and ranked servers, that visibility gap is often the difference between a clean third-party and a patched team. ESP ships bundled with radar overlays and Aimbot in one license.",
-								"League of Legends’s live seasons and map updates are published by Riot Games (<a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a>). When POIs or matchmaking rules shift, ESP categories stay useful because they track champions and wards — not a single static landmark.",
+								"League of Legends’s live seasons and map updates are published by Riot Games (<a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a>). When objectives or matchmaking rules shift, ESP categories stay useful because they track champions and wards — not a single static landmark.",
 							],
 						},
 						{
@@ -209,7 +209,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Per-champion Aimbot profiles",
 							paragraphs: [
-								"Save separate Aimbot profiles for carnivores, ambush builds, and skillshot champions. Switch between skillshot ambush ganks and high-traffic zone clears without reopening menus every match.",
+								"Save separate Aimbot profiles for assassins, mages, and marksmen. Switch between skillshot picks and teamfight clears without reopening menus every match.",
 								"Prefer softer tracking? Read the <a href=\"/lol-aimbot/\">soft aim guide</a>.",
 								"Aimbot ships alongside <a href=\"/lol-esp/\">ESP wallhack</a> and <a href=\"/lol-radar-cheat/\">2D radar</a> in the same LoL Cheats license.",
 							],
@@ -240,7 +240,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/lol-script-teamfight.webp",
 				},
 				features: {
-					title: "LoL Cheats Features | ESP, Soft Aim & RadarRadar",
+					title: "LoL Cheats Features | ESP, Soft Aim & Radar",
 					description: "Full lol cheats feature list: ESP boxes, soft aim, radar, and toggles for Windows PC. Review controls before checkout.",
 					h1: "LoL Cheats Features — Full Control List",
 					intro: "Every ESP wallhack, radar cheat, and Aimbot control included in LoL Cheats for League of Legends on Windows PC — with Vanguard maintenance after major patches.",
@@ -253,9 +253,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "ESP wallhack and visibility features",
 							paragraphs: [
-								"Enemy player ESP wallhack, apex and nest awareness cues, ward and water markers, distance readouts, snaplines, and toggleable ESP categories for match-critical overlays only.",
+								"Enemy player ESP wallhack, baron and objective awareness cues, ward and objective markers, distance readouts, snaplines, and toggleable ESP categories for match-critical overlays only.",
 								"Team and enemy colour coding supports ranked and normal games. Deep-dive the <a href=\"/lol-esp/\">ESP page</a> and <a href=\"/lol-esp/\">wallhack guide</a> for category-level detail.",
-								"Map and wards systems evolve with <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a> patch cycle and map updates — toggleable ESP categories keep overlays useful when POIs rotate.",
+								"Map and wards systems evolve with <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a> patch cycle and map updates — toggleable ESP categories keep overlays useful when objectives rotate.",
 							],
 						},
 						{
@@ -317,7 +317,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				setup: {
 					title: "LoL Cheats Setup | Windows PC Guide",
-					description: "Set up lol cheats on Windows PC — activate ESP boxes, soft aim profiles, and . Check Vanguard updates before your first queue up.",
+					description: "Set up lol cheats on Windows PC — activate ESP boxes, soft aim profiles, and radar. Check Vanguard updates before your first queue up.",
 					h1: "LoL Cheats Setup — Windows PC Guide",
 					intro: "Install and configure LoL Cheats for League of Legends on Windows 10 or 11. Activate your license, load ESP wallhack and Aimbot profiles, and verify Vanguard maintenance status before queueing.",
 					imageAlt: "LoL Cheats setup guide screenshot for Windows PC",
@@ -392,7 +392,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					heroImage: "/images/lol-hexevade-script-menu.webp",
 				},
 				faq: {
-					title: "LoL Cheats FAQ | ESP, Soft Aim & RadarRadar Answers",
+					title: "LoL Cheats FAQ | ESP, Soft Aim & Radar Answers",
 					description: "lol cheats FAQ: ESP boxes, soft aim, Vanguard maintenance, and pricing for PC. Clear answers before you buy.",
 					h1: "LoL Cheats FAQ — Common Questions",
 					intro: "Answers about undetected LoL Cheats — ESP wallhack, radar cheat, Aimbot, Vanguard maintenance, checkout, and League of Legends compatibility on Windows PC.",
@@ -509,7 +509,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "League of Legends Wallhack 2026 | ESP Boxes & Visibility",
 					description: "lol wallhack ESP with player boxes and ward markers for Windows PC. Undetected lol cheats — learn overlays and buy.",
 					h1: "League of Legends Wallhack — ESP Boxes & Visibility",
-					intro: "LoL wallhack ESP for League of Legends — see champions, wards, apex champions, and water sources through toggleable wallhack overlays built for ranked and normal games.",
+					intro: "LoL wallhack ESP for League of Legends — see champions, wards, baron buffs, and objectives through toggleable wallhack overlays built for ranked and normal games.",
 					imageAlt: "lol wallhack visibility through walls in a match",
 					galleryTitle: "lol wallhack ESP gallery",
 					ctaPrimary: "Buy LoL Cheats",
@@ -519,7 +519,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Wallhack ESP vs raw aim tools",
 							paragraphs: [
-								"An LoL wallhack focuses on information — player outlines, ward pins, apex threat cues — rather than automatic aiming. LoL Cheats bundles wallhack ESP with radar and optional Aimbot in one license.",
+								"An LoL wallhack focuses on information — player outlines, ward pins, baron threat cues — rather than automatic aiming. LoL Cheats bundles wallhack ESP with radar and optional Aimbot in one license.",
 								"Toggle categories so only the wallhack overlays you need stay active during rotations and objective zones.",
 								"For the broader ESP keyword page see <a href=\"/lol-esp/\">LoL ESP</a>; for combat assist see <a href=\"/lol-aimbot/\">Aimbot</a>.",
 							],
@@ -528,7 +528,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Map coverage for wallhack ESP",
 							paragraphs: [
 								"Wallhack overlays support match, ARAM game, and ranked servers with distance readouts and snaplines for engagement control.",
-								"Season maps and POI changes are announced via <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a>. Wallhack remains useful because it tracks entities, not fixed landmarks alone.",
+								"Season maps and objective changes are announced via <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a>. Wallhack remains useful because it tracks entities, not fixed landmarks alone.",
 								"Pair wallhack awareness with <a href=\"/lol-radar-cheat/\">radar cheat</a> cues for flanks during forest and river bank ambushes.",
 							],
 						},
@@ -622,7 +622,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				"cheats-2026": {
 					title: "LoL Cheats 2026 | ESP Soft Aim & Radar",
 					description: "Best lol cheats 2026: ESP boxes, soft aim, and radar for Windows PC. Undetected lol cheats with Vanguard maintenance — compare and buy.",
-					h1: "LoL Cheats 2026 — ESP, Soft Aim & RadarRadar",
+					h1: "LoL Cheats 2026 — ESP, Soft Aim & Radar",
 					intro: "The 2026 LoL Cheats package for League of Legends — undetected ESP wallhack, radar cheat, and Aimbot with Vanguard maintenance, instant delivery, and Windows PC support.",
 					imageAlt: "LoL Cheats product overview for League of Legends",
 					galleryTitle: "LoL Cheats 2026 gallery",
@@ -687,7 +687,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "lol cheats vs single-feature tools",
 							paragraphs: [
-								"Standalone cheats often cover only wallhack or only aim assist. LoL Cheats maps the full survival loop: read enemy teams, track apex champions and wards, spot flanks on radar, and tune Aimbot per champions.",
+								"Standalone cheats often cover only wallhack or only aim assist. LoL Cheats maps the full survival loop: read enemy teams, track baron buffs and wards, spot flanks on radar, and tune Aimbot per champions.",
 								"Compare the <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">Aimbot</a>, and <a href=\"/features/\">Features</a> pages — or review <a href=\"/pricing/\">Pricing</a> for monthly and lifetime licenses.",
 								"Related landings: <a href=\"/setup/\">cheat download</a>, <a href=\"/lol-cheats/\">mod menu</a>, <a href=\"/lol-aimbot/\">aimbot</a>, <a href=\"/lol-esp/\">ESP</a>.",
 							],
@@ -763,7 +763,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Mod menu categories for ranked and normal games",
 							paragraphs: [
-								"Separate ESP wallhack categories for champions, wards, water sources, and apex champions let you reduce overlay noise during rotations and objective zones.",
+								"Separate ESP wallhack categories for champions, wards, objectives, and baron buffs let you reduce overlay noise during rotations and objective zones.",
 								"Radar cheat range and Aimbot smoothness adjust from the same mod menu — useful when ${EXT.lol} seasons change fight distances and mobility.",
 								"Soft tracking champions should start with <a href=\"/lol-aimbot/\">soft aim</a> profiles before aggressive FOV.",
 							],
@@ -801,7 +801,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Soft aim profiles per champions",
 							paragraphs: [
-								"Save separate soft aim profiles for carnivores, ambush builds, and skillshot champions. Switch between skillshot ambush ganks and close team fights with hotkeys mid-match.",
+								"Save separate soft aim profiles for assassins, mages, and marksmen. Switch between skillshot picks and close team fights with hotkeys mid-match.",
 								"Weapon kill speeds shift with <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a> balance patches — retune smoothness after major combat updates.",
 								"Soft aim ships alongside <a href=\"/lol-esp/\">ESP wallhack</a> and <a href=\"/lol-radar-cheat/\">2D radar</a> overlays.",
 							],
@@ -895,9 +895,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"esp-cheat": {
 					title: "LoL ESP Cheat 2026 | Player Boxes & Loot",
-					description: "LoL ESP cheat with player boxes and ward markers for Windows PC. Undetected lol cheats with — see overlays and buy.",
+					description: "LoL ESP cheat with player boxes and ward markers for Windows PC. Undetected lol cheats with Vanguard maintenance — see overlays and buy.",
 					h1: "LoL ESP Cheat — Player Boxes Guide",
-					intro: "LoL ESP cheat overlays for League of Legends — player outlines, apex threat cues, ward and water markers with distance readouts across match and ARAM game.",
+					intro: "LoL ESP cheat overlays for League of Legends — player outlines, baron threat cues, ward and objective markers with distance readouts across match and ARAM game.",
 					imageAlt: "LoL ESP cheat boxes and ward markers",
 					galleryTitle: "LoL ESP cheat gallery",
 					ctaPrimary: "Buy LoL Cheats",
@@ -917,7 +917,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Toggle player ESP cheat, ward markers, chest pins, and vehicle cues independently so only match-critical overlays stay active during rotations.",
 								"Team and enemy colour coding supports ranked and normal games.",
-								"POI and wards changes publish through <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a> — keep categories toggled to what the current map rewards.",
+								"objective and wards changes publish through <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a> — keep categories toggled to what the current map rewards.",
 							],
 						},
 						{
@@ -953,7 +953,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Visibility tools vs unlock-all claims",
 							paragraphs: [
-								"ESP wallhack helps you spot enemy teams, apex champions, and low-health targets during live matches. Radar cheat adds flank awareness; Aimbot covers combat assist with smoothness and hotkey controls.",
+								"ESP wallhack helps you spot enemy teams, baron buffs, and low-health targets during live matches. Radar cheat adds flank awareness; Aimbot covers combat assist with smoothness and hotkey controls.",
 								"For loadout planning during a match, wards and ward markers speed map rotations — see the <a href=\"/lol-esp/\">ESP</a> and <a href=\"/features/\">Features</a> pages for the full tool list.",
 								"Related: <a href=\"/lol-cheats/\">lol cheats</a> and <a href=\"/lol-cheats/\">lol cheats</a>.",
 							],
@@ -1098,14 +1098,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				hero: {
 					accent: "Trucos League of Legends indetectables",
 					accentShort: "LoL Cheats",
-					subtitle: "ESP wallhack, radar cheat y Aimbot parLeague of Legends en PC Windows — mantenimiento Vanguard incluido.",
-					subtitleShort: "ESP, radar y Aimbot parLeague of Legends PC",
+					subtitle: "ESP wallhack, radar cheat y Aimbot para League of Legends en PC Windows — mantenimiento Vanguard incluido.",
+					subtitleShort: "ESP, radar y Aimbot para League of Legends PC",
 					buyNow: "Comprar ahora",
 					seeFeatures: "Ver funciones",
 				},
 				trust: {
 					status: "En línea",
-					statusNote: "El paquete LoL Cheats está activo parLeague of Legends en PC Windows.",
+					statusNote: "El paquete LoL Cheats está activo para League of Legends en PC Windows.",
 					statusShort: "Activo",
 					delivery: "Entrega digital instantánea",
 					platform: "Windows 10 y 11",
@@ -1138,7 +1138,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Explorar",
 					help: "Ayuda y legal",
-					tagline: "ESP, wallhack, radar y Aimbot indetectables parLeague of Legends — checkout en Zadeyo.",
+					tagline: "ESP, wallhack, radar y Aimbot indetectables para League of Legends — checkout en Zadeyo.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -1156,9 +1156,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 			pages: {
 				home: {
 					title: "LoL Cheats 2026 | ESP, Wallhack y Aimbot",
-					description: "Trucos League of Legends indetectables parLeague of Legends en PC. ESP wallhack, radar cheat y Aimbot con mantenimiento Vanguard. Entrega digital instantánea.",
+					description: "Trucos League of Legends indetectables para League of Legends en PC. ESP wallhack, radar cheat y Aimbot con mantenimiento Vanguard. Entrega digital instantánea.",
 					h1: "LoL Cheats — ESP, Wallhack y Aimbot indetectables",
-					intro: "Paquete undetected parLeague of Legends en Windows PC: ESP wallhack, radar y Aimbot con mantenimiento Vanguard tras cada parche.",
+					intro: "Paquete undetected para League of Legends en Windows PC: ESP wallhack, radar y Aimbot con mantenimiento Vanguard tras cada parche.",
 					imageAlt: "LoL ESP — etiquetas de jugador cheat",
 					galleryTitle: "GaleríLoL Cheats — ESP, Aimbot y wallhack",
 					heroImage: "/images/lol-evade-esp-wallhack.webp",
@@ -1569,7 +1569,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				vanguard: {
 					title: "Bypass Vanguard | Mantenimiento de parches",
-					description: "Bypass Vanguard: cómo se gestionan las actualizaciones Vanguard parLeague of Legends cheats. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Bypass Vanguard: cómo se gestionan las actualizaciones Vanguard para League of Legends cheats. entrega digital instantánea. indetectables — Windows PC.",
 					h1: "Bypass Vanguard",
 					intro: "LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. Bypass Vanguard.",
 					imageAlt: "LoL Cheats maintenance after a Vanguard patch",
@@ -1582,7 +1582,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Bypass Vanguard",
 							paragraphs: [
-								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. cómo se gestionan las actualizaciones Vanguard parLeague of Legends cheats.",
+								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. cómo se gestionan las actualizaciones Vanguard para League of Legends cheats.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
@@ -1814,7 +1814,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-cheat": {
 					title: "Cheat aimbot League of Legends | Asistencia soft aim",
-					description: "Cheat aimbot League of Legends: asistencia undetected de cheat Aimbot parLeague of Legends. entrega digital instantánea. indetectables — Windows PC.",
+					description: "Cheat aimbot League of Legends: asistencia undetected de cheat Aimbot para League of Legends. entrega digital instantánea. indetectables — Windows PC.",
 					h1: "Cheat aimbot League of Legends",
 					intro: "LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. Cheat aimbot League of Legends.",
 					imageAlt: "League of Legends script overlays during a teamfight",
@@ -1827,7 +1827,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cheat aimbot League of Legends",
 							paragraphs: [
-								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. asistencia undetected de cheat Aimbot parLeague of Legends.",
+								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. asistencia undetected de cheat Aimbot para League of Legends.",
 								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
@@ -3927,14 +3927,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				hero: {
 					accent: "Cheats League of Legends indetectáveis",
 					accentShort: "LoL Cheats",
-					subtitle: "ESP wallhack, radar cheat e Aimbot parLeague of Legends no PC Windows — manutenção Vanguard incluída.",
-					subtitleShort: "ESP, radar e Aimbot parLeague of Legends PC",
+					subtitle: "ESP wallhack, radar cheat e Aimbot para League of Legends no PC Windows — manutenção Vanguard incluída.",
+					subtitleShort: "ESP, radar e Aimbot para League of Legends PC",
 					buyNow: "Comprar agora",
 					seeFeatures: "Ver recursos",
 				},
 				trust: {
 					status: "Online",
-					statusNote: "O pacote LoL Cheats está ativo parLeague of Legends no PC Windows.",
+					statusNote: "O pacote LoL Cheats está ativo para League of Legends no PC Windows.",
 					statusShort: "Ativo",
 					delivery: "Entrega digital instantânea",
 					platform: "Windows 10 e 11",
@@ -3967,7 +3967,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Explorar",
 					help: "Ajuda e legal",
-					tagline: "ESP, wallhack, radar e Aimbot indetectáveis parLeague of Legends — checkout via Zadeyo.",
+					tagline: "ESP, wallhack, radar e Aimbot indetectáveis para League of Legends — checkout via Zadeyo.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -3985,9 +3985,9 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 			pages: {
 				home: {
 					title: "LoL Cheats 2026 | ESP, Wallhack e Aimbot",
-					description: "Cheats League of Legends indetectáveis parLeague of Legends no PC. ESP wallhack, radar cheat e Aimbot com manutenção Vanguard. Entrega digital instantánea.",
+					description: "Cheats League of Legends indetectáveis para League of Legends no PC. ESP wallhack, radar cheat e Aimbot com manutenção Vanguard. Entrega digital instantánea.",
 					h1: "LoL Cheats — ESP, Wallhack e Aimbot indetectáveis",
-					intro: "Pacote undetected parLeague of Legends no Windows PC: ESP wallhack, radar e Aimbot com manutenção Vanguard após cada patch.",
+					intro: "Pacote undetected para League of Legends no Windows PC: ESP wallhack, radar e Aimbot com manutenção Vanguard após cada patch.",
 					imageAlt: "LoL ESP player tags cheat",
 					galleryTitle: "GaleriLoL Cheats — ESP, Aimbot e wallhack",
 					heroImage: "/images/lol-evade-esp-wallhack.webp",
@@ -4398,7 +4398,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				vanguard: {
 					title: "Bypass Vanguard | Manutenção de patches",
-					description: "Bypass Vanguard: como as atualizações Vanguard são tratadas parLeague of Legends cheats. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Bypass Vanguard: como as atualizações Vanguard são tratadas para League of Legends cheats. entrega digital instantânea. indetectáveis — PC Windows.",
 					h1: "Bypass Vanguard",
 					intro: "LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. Bypass Vanguard.",
 					imageAlt: "LoL Cheats maintenance after a Vanguard patch",
@@ -4411,7 +4411,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Bypass Vanguard",
 							paragraphs: [
-								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. como as atualizações Vanguard são tratadas parLeague of Legends cheats.",
+								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. como as atualizações Vanguard são tratadas para League of Legends cheats.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
@@ -4643,7 +4643,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-cheat": {
 					title: "Cheat aimbot League of Legends | Assistência soft aim",
-					description: "Cheat aimbot League of Legends: assistência undetected de cheat Aimbot parLeague of Legends. entrega digital instantânea. indetectáveis — PC Windows.",
+					description: "Cheat aimbot League of Legends: assistência undetected de cheat Aimbot para League of Legends. entrega digital instantânea. indetectáveis — PC Windows.",
 					h1: "Cheat aimbot League of Legends",
 					intro: "LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. Cheat aimbot League of Legends.",
 					imageAlt: "League of Legends script overlays during a teamfight",
@@ -4656,7 +4656,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cheat aimbot League of Legends",
 							paragraphs: [
-								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. assistência undetected de cheat Aimbot parLeague of Legends.",
+								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. assistência undetected de cheat Aimbot para League of Legends.",
 								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
