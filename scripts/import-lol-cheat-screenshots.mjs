@@ -58,9 +58,21 @@ const REMOVE_PREFIXES = [
 
 function parseUrlArgs(argv) {
 	const urls = {};
-	for (const arg of argv) {
-		const m = arg.match(/^--url ([^=]+)=(.+)$/);
-		if (m) urls[m[1]] = m[2];
+	for (let i = 0; i < argv.length; i += 1) {
+		const arg = argv[i];
+		const inline = arg.match(/^--url ([^=]+)=(.+)$/);
+		if (inline) {
+			urls[inline[1]] = inline[2];
+			continue;
+		}
+		if (arg === '--url' && argv[i + 1]) {
+			const next = argv[i + 1];
+			const split = next.match(/^([^=]+)=(.+)$/);
+			if (split) {
+				urls[split[1]] = split[2];
+				i += 1;
+			}
+		}
 	}
 	return urls;
 }
