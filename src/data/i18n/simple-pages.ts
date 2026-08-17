@@ -209,7 +209,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				h2: 'How to start',
 				paragraphs: ['Buy a plan, get your license by email, then follow setup. Check Status after every major patch.'],
 				list: [
-					'<a href="/pricing/">Open store</a>',
+					'<a href="{checkout}" target="_blank" rel="noopener noreferrer">Open store</a>',
 					'<a href="/setup/">Setup guide</a>',
 					'<a href="/updates/">Check status</a>',
 				],
@@ -243,7 +243,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				list: [
 					'<a href="/">Full product</a>',
 					'<a href="/features/">All features</a>',
-					'<a href="/pricing/">Store</a>',
+					'<a href="{checkout}" target="_blank" rel="noopener noreferrer">Store</a>',
 				],
 			},
 		],
@@ -275,7 +275,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				list: [
 					'<a href="/">Full product</a>',
 					'<a href="/features/">All features</a>',
-					'<a href="/pricing/">Store</a>',
+					'<a href="{checkout}" target="_blank" rel="noopener noreferrer">Store</a>',
 				],
 			},
 		],
@@ -302,7 +302,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				list: [
 					'<a href="/lol-esp/">ESP guide</a>',
 					'<a href="/">Full product</a>',
-					'<a href="/pricing/">Store</a>',
+					'<a href="{checkout}" target="_blank" rel="noopener noreferrer">Store</a>',
 				],
 			},
 		],

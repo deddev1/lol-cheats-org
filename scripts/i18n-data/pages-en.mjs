@@ -27,7 +27,7 @@ export const enPages = {
 				'Instead of stacking separate tools, LoL Cheats bundles player ESP wallhack, ward markers, 2D radar overlays, and Aimbot profiles in one undetected package built for ranked and normal games — covering both “lol cheats” and “lol cheats” search intent.',
 				'Browse the <a href="/lol-esp/">ESP</a>, <a href="/lol-aimbot/">Aimbot</a>, <a href="/lol-esp/">wallhack</a>, and <a href="/lol-radar-cheat/">radar</a> pages for control details — or jump to <a href="/pricing/">Pricing</a> for monthly and lifetime options.',
 				`Before patch days, check ${EXT.status} for Riot Games service health, then confirm our maintenance notes so you are not queueing on an outdated build.`,
-				'Ready to buy? Open <a href="/pricing/">Pricing</a>, follow <a href="/setup/">Setup</a> after delivery, and keep <a href="/faq/">FAQ</a> / <a href="/support/">Support</a> bookmarked for license questions.',
+				'Ready to buy? <a href="{checkout}" target="_blank" rel="noopener noreferrer">Get access</a>, follow <a href="/setup/">Setup</a> after delivery, and keep <a href="/faq/">FAQ</a> / <a href="/support/">Support</a> bookmarked for license questions.',
 			),
 		],
 	},

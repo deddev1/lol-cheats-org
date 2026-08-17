@@ -1,6 +1,6 @@
 ---
 import HomeSeoApp from './react/HomeSeo';
-import { homeFaqs } from '../data/site';
+import { homeFaqs, siteConfig } from '../data/site';
 import { getFaqPath } from '../data/faq';
 import { defaultLocale, type LocaleCode } from '../data/i18n/locales';
 
@@ -17,7 +17,7 @@ const faqs = homeFaqs.map((item) => ({
 }));
 ---
 
-<HomeSeoApp client:visible locale={locale} faqs={faqs} />
+<HomeSeoApp client:visible locale={locale} checkoutUrl={siteConfig.checkoutUrl} faqs={faqs} />
 
 <style is:global>
 	.home-seo {

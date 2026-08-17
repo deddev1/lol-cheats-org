@@ -79,7 +79,9 @@ const articleSchema = {
 };
 
 function localizeParagraphHtml(html: string): string {
-	return html.replace(/href="(\/[^"]+)"/g, (_, path: string) => {
+	return html
+		.replace(/\{checkout\}/g, siteConfig.checkoutUrl)
+		.replace(/href="(\/[^"]+)"/g, (_, path: string) => {
 		return `href="${localizeInternalHref(path, locale)}"`;
 	});
 }

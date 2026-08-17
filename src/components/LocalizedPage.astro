@@ -87,6 +87,11 @@ const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo
 const lifetime = productInfo.plans.find((p) => p.id === 'lifetime') ?? productInfo.plans[1];
 const showStorePlans = pageId === 'pricing' && locale === 'en';
 
+const supportPageIds = ['support', 'privacy', 'refund', 'terms'] as const;
+const ctaPrimaryHref = supportPageIds.includes(pageId as (typeof supportPageIds)[number])
+	? `mailto:${siteConfig.supportEmail}`
+	: siteConfig.checkoutUrl;
+
 const eyebrowByPage: Partial<Record<PageId, string>> = {
 	features: ui.nav.features,
 	pricing: ui.nav.pricing,
@@ -116,7 +121,7 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 	pageId={pageId}
 	extraGraph={extraGraph}
 	showExternalResources={!['privacy', 'refund', 'terms'].includes(pageId)}
-	ctaPrimary={{ href: siteConfig.checkoutUrl, label: ctaPrimaryLabel, edit: 'ctaBuy' }}
+	ctaPrimary={{ href: ctaPrimaryHref, label: ctaPrimaryLabel, edit: supportPageIds.includes(pageId as (typeof supportPageIds)[number]) ? undefined : 'ctaBuy' }}
 	ctaSecondary={
 		resolvedSecondaryLabel
 			? { href: resolvedSecondaryHref, label: resolvedSecondaryLabel }

@@ -5,10 +5,11 @@ type FaqItem = { slug: string; question: string; answer: string; href: string };
 
 type Props = {
 	locale: string;
+	checkoutUrl: string;
 	faqs: FaqItem[];
 };
 
-function HomeSeoInner({ faqs }: Props) {
+function HomeSeoInner({ checkoutUrl, faqs }: Props) {
 	const { t } = useTranslation();
 
 	const categories = [
@@ -36,7 +37,7 @@ function HomeSeoInner({ faqs }: Props) {
 			titleKey: 'homeSeo.catStore',
 			hintKey: 'homeSeo.catStoreHint',
 			links: [
-				{ href: '/pricing/', labelKey: 'homeSeo.linkPlans' },
+				{ href: checkoutUrl, labelKey: 'homeSeo.linkPlans', external: true },
 				{ href: '/reviews/', labelKey: 'homeSeo.linkReviews' },
 				{ href: '/', labelKey: 'homeSeo.linkLeague of LegendsCheats' },
 				{ href: '/features/', labelKey: 'homeSeo.linkAllFeatures' },
@@ -74,7 +75,10 @@ function HomeSeoInner({ faqs }: Props) {
 						<ul>
 							{cat.links.map((link) => (
 								<li key={link.href + link.labelKey}>
-									<a href={link.href}>
+									<a
+										href={link.href}
+										{...(link.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+									>
 										<span>{t(link.labelKey)}</span>
 										<span className="home-seo__cat-arrow" aria-hidden="true" />
 									</a>
