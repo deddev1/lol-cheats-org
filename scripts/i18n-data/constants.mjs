@@ -95,7 +95,7 @@ export function clampDesc(s) {
 	return text;
 }
 
-/** Remove Zadeyo from meta title/description strings only. */
+/** Remove third-party checkout branding from meta title/description strings only. */
 export function stripZadeyoFromMeta(text) {
 	return text
 		.replace(/\s*[—–-]\s*checkout via Zadeyo\.?/gi, '.')
@@ -109,6 +109,7 @@ export function stripZadeyoFromMeta(text) {
 		.replace(/\s*and Zadeyo delivery\.?/gi, ' and instant digital delivery.')
 		.replace(/\|\s*Instant Zadeyo Delivery/g, '| Instant Digital Delivery')
 		.replace(/Buy on Zadeyo/g, 'Buy LoL Cheats')
+		.replace(/\bZadeyo\b/gi, 'secure checkout')
 		.replace(/\s{2,}/g, ' ')
 		.trim();
 }

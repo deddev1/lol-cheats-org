@@ -17,7 +17,7 @@ export const enPages = {
 		sections: [
 			section(
 				'Why champions choose lol cheats in 2026',
-				'League of Legends rewards map awareness. LoL Cheats combines ESP wallhack for enemy champions and wards, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on match, ARAM game, and ranked servers.',
+				'League of Legends rewards map awareness. LoL Cheats combines ESP wallhack for enemy champions and wards, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on match, ARAM, and ranked servers.',
 				`Official seasons, patches, and anti-cheat updates come from ${EXT.lol} and ${EXT.vanguard}. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on the <a href="/updates/">Updates page</a>.`,
 				'Licenses ship digitally after payment confirmation. Monthly ($35) and lifetime ($150) plans include Vanguard maintenance rebuilds when anti-cheat or game patches require updates.',
 				'Start with the <a href="/lol-cheats/">LoL Cheats pillar</a>, <a href="/lol-esp/">ESP guide</a>, <a href="/lol-aimbot/">Aimbot controls</a>, and <a href="/lol-cheats/">undetected status</a> pages if you are comparing tools before checkout.',
@@ -37,7 +37,7 @@ export const enPages = {
 			'LoL ESP for Windows PC with player boxes, ward markers, and distance readouts. Undetected visibility tools bundled in our LoL Cheats package with Vanguard rebuilds.',
 		h1: 'LoL ESP — Player Boxes & Wallhack',
 		intro:
-			'LoL ESP visibility tools for match and ARAM game. Read enemy teams, enemy champions, minions, wards, and distance before you commit — toggleable LoL ESP wallhack overlays bundled in our LoL Cheats package.',
+			'LoL ESP visibility tools for match and ARAM. Read enemy teams, enemy champions, minions, wards, and distance before you commit — toggleable LoL ESP wallhack overlays bundled in our LoL Cheats package.',
 		imageAlt: "LoL ESP player boxes and distance readouts in a match",
 		galleryTitle: 'LoL ESP overlay visuals',
 		ctaPrimary: 'Buy LoL Cheats',
@@ -47,7 +47,7 @@ export const enPages = {
 			section(
 				'What LoL ESP solves in matches',
 				'League of Legends maps punish incomplete information. LoL Cheats ESP wallhack helps you spot enemy teams early, spot enemy champions and minions before they push your angle, and mark low-health targets worth the detour.',
-				'On match, ARAM game, and ranked servers, that visibility gap is often the difference between a clean third-party and a patched team. ESP ships bundled with radar overlays and Aimbot in one license.',
+				'On match, ARAM, and ranked servers, that visibility gap is often the difference between a clean third-party and a patched team. ESP ships bundled with radar overlays and Aimbot in one license.',
 				`League of Legends’s live seasons and map updates are published by Riot Games (${EXT.lol}). When objectives or matchmaking rules shift, ESP categories stay useful because they track champions and wards — not a single static landmark.`,
 			),
 			section(
@@ -237,7 +237,7 @@ export const enPages = {
 				'Why the Updates page matters',
 				'League of Legends and Vanguard receive frequent patches. LoL Cheats publishes maintenance notes when ESP wallhack, radar, or Aimbot behavior needs a rebuild.',
 				`Use ${EXT.status} for Riot Games platform health and this page for LoL Cheats build status — both matter on big update days.`,
-				'Checking this log before you queue reduces surprises after game days or seasonal launches on match and ARAM game.',
+				'Checking this log before you queue reduces surprises after game days or seasonal launches on match and ARAM.',
 			),
 			section(
 				'What maintenance entries cover',
@@ -269,171 +269,8 @@ export const enPages = {
 			section(
 				'What is LoL Cheats?',
 				'LoL Cheats is an undetected cheat package for League of Legends on Windows PC. It includes ESP wallhack, 2D radar-style awareness, and Aimbot controls with Vanguard maintenance updates.',
-				'Packages cover match and ARAM game. Explore <a href="/features/">Features</a> for the full control list and <a href="/lol-esp/">ESP</a> / <a href="/lol-aimbot/">Aimbot</a> for module detail.',
-				`League of Legends itself is published by Riot Games (${EXT.lol}). Cheats are third-party tools and may violate Riot Games' rules — use is at your own risk.`,
-			),
-			section(
-				'Are LoL Cheats undetected in 2026?',
-				'LoL Cheats is maintained with rebuilds after Vanguard and game patches. Check the <a href="/updates/">Updates page</a> for current status — no cheat can guarantee permanent undetected operation.',
-				'Read <a href="/lol-cheats/">undetected lol cheats</a> and the <a href="/updates/">Vanguard guide</a> for the maintenance workflow.',
-				'Responsible settings and reading maintenance notes before queueing are essential.',
-			),
-			section(
-				'Delivery, pricing, and support',
-				'Licenses deliver digitally after payment confirmation. Monthly is $35; lifetime is $150 USD — see <a href="/pricing/">Pricing</a>.',
-				'Contact support@lolcheats.org or the <a href="/support/">Support page</a> with order details for setup or billing help. First launch steps are on <a href="/setup/">Setup</a>.',
-				'Refund eligibility is covered in the <a href="/refund-policy/">Refund Policy</a>.',
-			),
-		],
-	},
-	support: {
-		title: 'LoL Cheats Support | Help & Contact',
-		description:
-			'Contact LoL Cheats support for license delivery, ESP setup, soft aim profiles, and billing on Windows PC. Email with your order ID so replies can start faster.',
-		h1: 'LoL Cheats Support — Contact Us',
-		intro:
-			'Get help with LoL Cheats licenses, checkout, ESP wallhack setup, Aimbot profiles, and Vanguard maintenance for League of Legends on Windows PC.',
-		imageAlt: "LoL Cheats support page for license and setup help",
-		galleryTitle: 'LoL Cheats support resources',
-		ctaPrimary: 'Email support',
-		ctaSecondary: 'Read setup guide',
-		ctaSecondaryHref: '/setup/',
-		sections: [
-			section(
-				'When to contact support',
-				'Reach out for order issues, license activation failures, ESP wallhack or Aimbot setup questions, and post-patch problems after Vanguard maintenance rebuilds.',
-				'Include your order ID, license tier (monthly or lifetime), Windows version, and a clear description of the issue.',
-				'Many answers already live in <a href="/faq/">FAQ</a>, <a href="/setup/">Setup</a>, and <a href="/updates/">Updates</a> — check those first for faster resolution.',
-			),
-			section(
-				'Response times and scope',
-				'Support requests are reviewed daily. LoL Cheats support covers delivery, billing, setup, and maintenance — not in-game coaching or account recovery for Riot Games bans.',
-				`Account and game policy questions belong with Riot Games. We can help with license delivery and product configuration only.`,
-				'Check the Updates page and FAQ before opening a ticket — many post-patch questions are answered there.',
-			),
-			section(
-				'Self-service resources',
-				'Setup guide, Features list, Updates log, Refund Policy, and Terms of Use are linked from the footer. Vanguard bypass notes live on the dedicated <a href="/updates/">Vanguard page</a>.',
-				'Email: support@lolcheats.org',
-				'Ready to purchase or renew? Open <a href="/pricing/">Pricing</a>. Need feature detail first? See <a href="/features/">Features</a>.',
-			),
-		],
-	},
-	undetected: {
-		title: 'Undetected LoL Cheats 2026 | Vanguard Maintenance',
-		description:
-			'Undetected LoL Cheats with active Vanguard maintenance for ESP, soft aim, and radar on Windows PC. Learn what undetected means and check Status before every queue.',
-		h1: 'Undetected LoL Cheats — Vanguard Maintenance',
-		intro:
-			'How LoL Cheats stays maintained for League of Legends after Vanguard patches — ESP wallhack, radar cheat, and Aimbot rebuilds for Windows PC.',
-		imageAlt: "LoL Cheats undetected status overview for Windows PC",
-		galleryTitle: 'Undetected LoL Cheats visuals',
-		ctaPrimary: 'Buy LoL Cheats',
-		ctaSecondary: 'Vanguard bypass guide',
-		ctaSecondaryHref: '/updates/',
-		sections: [
-			section(
-				'What undetected means for LoL Cheats',
-				'Undetected LoL Cheats means the package is actively maintained against Vanguard and major League of Legends patches — not that detection is impossible forever.',
-				'Rebuilds target ESP wallhack overlays, radar behavior, and Aimbot signatures after Vanguard security updates.',
-				`Anti-cheat technology is documented by ${EXT.vanguard}; League of Legends client updates ship through ${EXT.activision}. Undetected status is an ongoing process tied to those releases.`,
-			),
-			section(
-				'Vanguard maintenance workflow',
-				'When Vanguard or League of Legends updates ship, the team assesses ESP, radar, and Aimbot modules, publishes status on the <a href="/updates/">Updates page</a>, and delivers rebuilt builds to active licenses.',
-				`On patch mornings, also check ${EXT.status} for launcher outages that can look like product failures.`,
-				'Deep technical workflow: <a href="/updates/">Vanguard bypass League of Legends guide</a>. Feature stack: <a href="/features/">Features</a>.',
-			),
-			section(
-				'Responsible use and next steps',
-				'Combine maintenance with conservative in-game settings. Read the <a href="/faq/">FAQ</a> and Updates log regularly — undetected status is not a one-time promise.',
-				'Lifetime and monthly plans include rebuild access during active terms — see <a href="/pricing/">Pricing</a>.',
-				'New buyers should also read <a href="/lol-cheats/">lol cheats 2026</a> and complete <a href="/setup/">Setup</a> after delivery.',
-			),
-		],
-	},
-	wallhack: {
-		title: 'League of Legends Wallhack 2026 | ESP Boxes & Visibility',
-		description:
-			'LoL wallhack ESP with player boxes and ward markers for Windows PC. Undetected overlays with distance readouts, bundled with radar and soft aim in LoL Cheats.',
-		h1: 'League of Legends Wallhack — ESP Boxes & Visibility',
-		intro:
-			'LoL wallhack ESP for League of Legends — see champions, wards, baron buffs, and objectives through toggleable wallhack overlays built for ranked and normal games.',
-		imageAlt: "lol wallhack visibility through walls in a match",
-		galleryTitle: 'lol wallhack ESP gallery',
-		ctaPrimary: 'Buy LoL Cheats',
-		ctaSecondary: 'LoL ESP page',
-		ctaSecondaryHref: '/lol-esp/',
-		sections: [
-			section(
-				'Wallhack ESP vs raw aim tools',
-				'An LoL wallhack focuses on information — player outlines, ward pins, baron threat cues — rather than automatic aiming. LoL Cheats bundles wallhack ESP with radar and optional Aimbot in one license.',
-				'Toggle categories so only the wallhack overlays you need stay active during rotations and objective zones.',
-				'For the broader ESP keyword page see <a href="/lol-esp/">LoL ESP</a>; for combat assist see <a href="/lol-aimbot/">Aimbot</a>.',
-			),
-			section(
-				'Map coverage for wallhack ESP',
-				'Wallhack overlays support match, ARAM game, and ranked servers with distance readouts and snaplines for engagement control.',
-				`Season maps and objective changes are announced via ${EXT.lol}. Wallhack remains useful because it tracks entities, not fixed landmarks alone.`,
-				'Pair wallhack awareness with <a href="/lol-radar-cheat/">radar cheat</a> cues for flanks during forest and river bank ambushes.',
-			),
-			section(
-				'Undetected wallhack maintenance',
-				'ESP wallhack modules rebuild after Vanguard patches. Follow the <a href="/updates/">Updates page</a> and complete checkout for instant license delivery on Windows PC.',
-				'Learn the full maintenance story on <a href="/lol-cheats/">undetected lol cheats</a> and <a href="/updates/">Vanguard bypass</a>.',
-				'Ready to buy? Compare <a href="/pricing/">Pricing</a> or continue to the <a href="/lol-esp/">ESP cheat</a> landing for alternate search wording.',
-			),
-		],
-	},
-	radar: {
-		title: 'League of Legends Radar Cheat 2026 | 2D Threat Overlay',
-		description:
-			'LoL radar cheat for flank awareness on Windows PC. 2D threat overlay bundled with ESP boxes and soft aim in one undetected LoL Cheats license with Vanguard updates.',
-		h1: 'League of Legends Radar Cheat — 2D Threat Awareness',
-		intro:
-			'2D radar-style overlay for League of Legends — directional threat cues for nearby champions outside your line of sight, bundled with ESP wallhack and Aimbot.',
-		imageAlt: "League of Legends 2D radar overlay showing nearby threats",
-		galleryTitle: 'lol radar cheat visuals',
-		ctaPrimary: 'Buy LoL Cheats',
-		ctaSecondary: 'See ESP wallhack',
-		ctaSecondaryHref: '/lol-esp/',
-		sections: [
-			section(
-				'Why radar cheat matters in League of Legends',
-				'survival ganks happen across open terrain — hills, forests, and river banks. A 2D radar overlay shows nearby player threats outside direct line of sight so you can reposition before a third player.',
-				'LoL Cheats radar complements <a href="/lol-esp/">ESP wallhack</a> markers during team pushes and nest zone fights.',
-				`Mode rules and seasonal changes come from ${EXT.lol}. Radar range remains configurable when map scale or mobility meta shifts.`,
-			),
-			section(
-				'Configurable radar range',
-				'Adjust radar range for early rotations versus tight objective zones. Directional cues highlight flanks during building clears and flank pushes across match and ARAM game.',
-				'Toggle radar alongside ESP and Aimbot with in-client hotkeys during live matches — see the <a href="/lol-cheats/">mod menu</a> page.',
-				'Combat follow-up lives on <a href="/lol-aimbot/">Aimbot</a> when you convert radar info into a fight.',
-			),
-			section(
-				'Maintenance and licensing',
-				'Radar cheat modules receive Vanguard maintenance rebuilds with the full LoL Cheats package. Monthly and lifetime licenses include digital delivery — see <a href="/pricing/">Pricing</a>.',
-				'Check <a href="/updates/">Updates</a> after major League of Legends patches before relying on previous radar configs.',
-				'New to the stack? Start at <a href="/features/">Features</a> or <a href="/lol-cheats/">undetected status</a>.',
-			),
-		],
-	},
-	'vanguard': {
-		title: 'Vanguard Bypass League of Legends | LoL Cheats Maintenance',
-		description:
-			'How LoL Cheats handles Vanguard patches for ESP, soft aim, and radar on Windows PC. Read the maintenance workflow and check Updates before queueing after anti-cheat updates.',
-		h1: 'Vanguard Bypass — LoL Cheats Maintenance',
-		intro:
-			'Understand Vanguard maintenance for LoL Cheats — how ESP wallhack, radar cheat, and Aimbot rebuild after League of Legends security updates.',
-		imageAlt: "LoL Cheats maintenance after a Vanguard patch",
-		galleryTitle: 'Vanguard maintenance visuals',
-		ctaPrimary: 'Buy LoL Cheats',
-		ctaSecondary: 'Check updates',
-		ctaSecondaryHref: '/updates/',
-		sections: [
-			section(
-				'Vanguard overview',
-				`Vanguard is Riot Games' anti-cheat for League of Legends on PC (see ${EXT.vanguard}). Security updates can affect ESP wallhack, radar, and Aimbot behavior — requiring maintenance rebuilds for undetected packages.`,
+				'Packages cover match and ARAM. Explore <a href="/features/">Features</a> for the full control list and <a href="/lol-esp/">ESP</a> / <a href="/lol-aimbot/">Aimbot</a> for module detail.',
+				`League of Legends itself is published by Riot Games (${EXT.lol}). Cheats are third-party tools and may violate Riot Games'rules — use is at your own risk.`, ), section('Are LoL Cheats undetected in 2026?','LoL Cheats is maintained with rebuilds after Vanguard and game patches. Check the <a href="/updates/">Updates page</a> for current status — no cheat can guarantee permanent undetected operation.','Read <a href="/lol-cheats/">undetected lol cheats</a> and the <a href="/updates/">Vanguard guide</a> for the maintenance workflow.','Responsible settings and reading maintenance notes before queueing are essential.', ), section('Delivery, pricing, and support','Licenses deliver digitally after payment confirmation. Monthly is $35; lifetime is $150 USD — see <a href="/pricing/">Pricing</a>.','Contact support@lolcheats.org or the <a href="/support/">Support page</a> with order details for setup or billing help. First launch steps are on <a href="/setup/">Setup</a>.','Refund eligibility is covered in the <a href="/refund-policy/">Refund Policy</a>.', ), ], }, support: { title:'LoL Cheats Support | Help & Contact', description:'Contact LoL Cheats support for license delivery, ESP setup, soft aim profiles, and billing on Windows PC. Email with your order ID so replies can start faster.', h1:'LoL Cheats Support — Contact Us', intro:'Get help with LoL Cheats licenses, checkout, ESP wallhack setup, Aimbot profiles, and Vanguard maintenance for League of Legends on Windows PC.', imageAlt: "LoL Cheats support page for license and setup help", galleryTitle:'LoL Cheats support resources', ctaPrimary:'Email support', ctaSecondary:'Read setup guide', ctaSecondaryHref:'/setup/', sections: [ section('When to contact support','Reach out for order issues, license activation failures, ESP wallhack or Aimbot setup questions, and post-patch problems after Vanguard maintenance rebuilds.','Include your order ID, license tier (monthly or lifetime), Windows version, and a clear description of the issue.','Many answers already live in <a href="/faq/">FAQ</a>, <a href="/setup/">Setup</a>, and <a href="/updates/">Updates</a> — check those first for faster resolution.', ), section('Response times and scope','Support requests are reviewed daily. LoL Cheats support covers delivery, billing, setup, and maintenance — not in-game coaching or account recovery for Riot Games bans.', `Account and game policy questions belong with Riot Games. We can help with license delivery and product configuration only.`,'Check the Updates page and FAQ before opening a ticket — many post-patch questions are answered there.', ), section('Self-service resources','Setup guide, Features list, Updates log, Refund Policy, and Terms of Use are linked from the footer. Vanguard bypass notes live on the dedicated <a href="/updates/">Vanguard page</a>.','Email: support@lolcheats.org','Ready to purchase or renew? Open <a href="/pricing/">Pricing</a>. Need feature detail first? See <a href="/features/">Features</a>.', ), ], }, undetected: { title:'Undetected LoL Cheats 2026 | Vanguard Maintenance', description:'Undetected LoL Cheats with active Vanguard maintenance for ESP, soft aim, and radar on Windows PC. Learn what undetected means and check Status before every queue.', h1:'Undetected LoL Cheats — Vanguard Maintenance', intro:'How LoL Cheats stays maintained for League of Legends after Vanguard patches — ESP wallhack, radar cheat, and Aimbot rebuilds for Windows PC.', imageAlt: "LoL Cheats undetected status overview for Windows PC", galleryTitle:'Undetected LoL Cheats visuals', ctaPrimary:'Buy LoL Cheats', ctaSecondary:'Vanguard bypass guide', ctaSecondaryHref:'/updates/', sections: [ section('What undetected means for LoL Cheats','Undetected LoL Cheats means the package is actively maintained against Vanguard and major League of Legends patches — not that detection is impossible forever.','Rebuilds target ESP wallhack overlays, radar behavior, and Aimbot signatures after Vanguard security updates.', `Anti-cheat technology is documented by ${EXT.vanguard}; League of Legends client updates ship through ${EXT.activision}. Undetected status is an ongoing process tied to those releases.`, ), section('Vanguard maintenance workflow','When Vanguard or League of Legends updates ship, the team assesses ESP, radar, and Aimbot modules, publishes status on the <a href="/updates/">Updates page</a>, and delivers rebuilt builds to active licenses.', `On patch mornings, also check ${EXT.status} for launcher outages that can look like product failures.`,'Deep technical workflow: <a href="/updates/">Vanguard bypass League of Legends guide</a>. Feature stack: <a href="/features/">Features</a>.', ), section('Responsible use and next steps','Combine maintenance with conservative in-game settings. Read the <a href="/faq/">FAQ</a> and Updates log regularly — undetected status is not a one-time promise.','Lifetime and monthly plans include rebuild access during active terms — see <a href="/pricing/">Pricing</a>.','New buyers should also read <a href="/lol-cheats/">lol cheats 2026</a> and complete <a href="/setup/">Setup</a> after delivery.', ), ], }, wallhack: { title:'League of Legends Wallhack 2026 | ESP Boxes & Visibility', description:'LoL wallhack ESP with player boxes and ward markers for Windows PC. Undetected overlays with distance readouts, bundled with radar and soft aim in LoL Cheats.', h1:'League of Legends Wallhack — ESP Boxes & Visibility', intro:'LoL wallhack ESP for League of Legends — see champions, wards, baron buffs, and objectives through toggleable wallhack overlays built for ranked and normal games.', imageAlt: "lol wallhack visibility through walls in a match", galleryTitle:'lol wallhack ESP gallery', ctaPrimary:'Buy LoL Cheats', ctaSecondary:'LoL ESP page', ctaSecondaryHref:'/lol-esp/', sections: [ section('Wallhack ESP vs raw aim tools','An LoL wallhack focuses on information — player outlines, ward pins, baron threat cues — rather than automatic aiming. LoL Cheats bundles wallhack ESP with radar and optional Aimbot in one license.','Toggle categories so only the wallhack overlays you need stay active during rotations and objective zones.','For the broader ESP keyword page see <a href="/lol-esp/">LoL ESP</a>; for combat assist see <a href="/lol-aimbot/">Aimbot</a>.', ), section('Map coverage for wallhack ESP','Wallhack overlays support match, ARAM game, and ranked servers with distance readouts and snaplines for engagement control.', `Season maps and objective changes are announced via ${EXT.lol}. Wallhack remains useful because it tracks entities, not fixed landmarks alone.`,'Pair wallhack awareness with <a href="/lol-radar-cheat/">radar cheat</a> cues for flanks during forest and river bank ambushes.', ), section('Undetected wallhack maintenance','ESP wallhack modules rebuild after Vanguard patches. Follow the <a href="/updates/">Updates page</a> and complete checkout for instant license delivery on Windows PC.','Learn the full maintenance story on <a href="/lol-cheats/">undetected lol cheats</a> and <a href="/updates/">Vanguard bypass</a>.','Ready to buy? Compare <a href="/pricing/">Pricing</a> or continue to the <a href="/lol-esp/">ESP cheat</a> landing for alternate search wording.', ), ], }, radar: { title:'League of Legends Radar Cheat 2026 | 2D Threat Overlay', description:'LoL radar cheat for flank awareness on Windows PC. 2D threat overlay bundled with ESP boxes and soft aim in one undetected LoL Cheats license with Vanguard updates.', h1:'League of Legends Radar Cheat — 2D Threat Awareness', intro:'2D radar-style overlay for League of Legends — directional threat cues for nearby champions outside your line of sight, bundled with ESP wallhack and Aimbot.', imageAlt: "League of Legends 2D radar overlay showing nearby threats", galleryTitle:'lol radar cheat visuals', ctaPrimary:'Buy LoL Cheats', ctaSecondary:'See ESP wallhack', ctaSecondaryHref:'/lol-esp/', sections: [ section('Why radar cheat matters in League of Legends','survival ganks happen across open terrain — hills, forests, and river banks. A 2D radar overlay shows nearby player threats outside direct line of sight so you can reposition before a third player.','LoL Cheats radar complements <a href="/lol-esp/">ESP wallhack</a> markers during team pushes and nest zone fights.', `Mode rules and seasonal changes come from ${EXT.lol}. Radar range remains configurable when map scale or mobility meta shifts.`, ), section('Configurable radar range','Adjust radar range for early rotations versus tight objective zones. Directional cues highlight flanks during building clears and flank pushes across match and ARAM game.','Toggle radar alongside ESP and Aimbot with in-client hotkeys during live matches — see the <a href="/lol-cheats/">mod menu</a> page.','Combat follow-up lives on <a href="/lol-aimbot/">Aimbot</a> when you convert radar info into a fight.', ), section('Maintenance and licensing','Radar cheat modules receive Vanguard maintenance rebuilds with the full LoL Cheats package. Monthly and lifetime licenses include digital delivery — see <a href="/pricing/">Pricing</a>.','Check <a href="/updates/">Updates</a> after major League of Legends patches before relying on previous radar configs.','New to the stack? Start at <a href="/features/">Features</a> or <a href="/lol-cheats/">undetected status</a>.', ), ], },'vanguard': { title:'Vanguard Bypass League of Legends | LoL Cheats Maintenance', description:'How LoL Cheats handles Vanguard patches for ESP, soft aim, and radar on Windows PC. Read the maintenance workflow and check Updates before queueing after anti-cheat updates.', h1:'Vanguard Bypass — LoL Cheats Maintenance', intro:'Understand Vanguard maintenance for LoL Cheats — how ESP wallhack, radar cheat, and Aimbot rebuild after League of Legends security updates.', imageAlt: "LoL Cheats maintenance after a Vanguard patch", galleryTitle:'Vanguard maintenance visuals', ctaPrimary:'Buy LoL Cheats', ctaSecondary:'Check updates', ctaSecondaryHref:'/updates/', sections: [ section('Vanguard overview', `Vanguard is Riot Games' anti-cheat for League of Legends on PC (see ${EXT.vanguard}). Security updates can affect ESP wallhack, radar, and Aimbot behavior — requiring maintenance rebuilds for undetected packages.`,
 				`LoL Cheats monitors Vanguard patch notes and League of Legends seasonal updates from ${EXT.lol} to schedule module reviews.`,
 				'“Vanguard bypass” in our wording means timely maintenance — not a permanent free pass around anti-cheat.',
 			),
@@ -468,7 +305,7 @@ export const enPages = {
 				'Why lol cheats buyers choose LoL Cheats in 2026',
 				'2026 updates bring new maps, champion balance changes, and Vanguard patches. LoL Cheats bundles ESP wallhack, radar cheat, and Aimbot with active maintenance — not a stale prior-year build.',
 				`Track official season messaging on ${EXT.lol}, then use our <a href="/updates/">Updates log</a> for product rebuild timing.`,
-				'Monthly ($35) and lifetime ($150) plans cover match and ARAM game loops — see <a href="/pricing/">Pricing</a>.',
+				'Monthly ($35) and lifetime ($150) plans cover match and ARAM loops — see <a href="/pricing/">Pricing</a>.',
 			),
 			section(
 				'Full feature stack for 2026 buyers',
@@ -490,7 +327,7 @@ export const enPages = {
 			'lol cheats for Windows PC: undetected ESP wallhack, radar cheat, and Aimbot with Vanguard maintenance. Compare lol cheats options and buy the full package.',
 		h1: 'LoL Cheats — Undetected ESP, Aimbot & Wallhack',
 		intro:
-			'lol cheats for match and ARAM game combine ESP wallhack visibility, 2D radar-style threat cues, and Aimbot controls in one undetected Windows PC license — maintained after Vanguard patches. This is the pillar guide for lol cheats in 2026.',
+			'lol cheats for match and ARAM combine ESP wallhack visibility, 2D radar-style threat cues, and Aimbot controls in one undetected Windows PC license — maintained after Vanguard patches. This is the pillar guide for lol cheats in 2026.',
 		imageAlt: "LoL Cheats product page — ESP, aimbot, and radar",
 		galleryTitle: 'lol cheats gallery — ESP, Aimbot, wallhack',
 		ctaPrimary: 'Buy LoL Cheats',
@@ -500,7 +337,7 @@ export const enPages = {
 			section(
 				'What lol cheats include in 2026',
 				'Players searching for lol cheats usually want visibility and combat tools without stacking separate downloads. LoL Cheats bundles player ESP wallhack, ward markers, 2D radar overlays, and configurable Aimbot in one maintained package — the same toolkit often called lol cheats.',
-				'Coverage spans match and ARAM game with in-client toggles for live matches. Monthly ($35) and lifetime ($150) licenses unlock the full stack.',
+				'Coverage spans match and ARAM with in-client toggles for live matches. Monthly ($35) and lifetime ($150) licenses unlock the full stack.',
 				`Official game updates come from ${EXT.lol}; our cheats package tracks those releases via the <a href="/updates/">Updates page</a>. Cross-check platform health on ${EXT.status} before patch-day queue ups.`,
 			),
 			section(
@@ -604,7 +441,7 @@ export const enPages = {
 		sections: [
 			section(
 				'What League of Legends soft aim means',
-				'League of Legends soft aim refers to Aimbot behavior tuned for smooth, natural-looking tracking rather than instant snap. LoL Cheats exposes smoothness, FOV, and aim smoothing sliders so you control how assist feels in BR ganks.',
+				'League of Legends soft aim refers to Aimbot behavior tuned for smooth, natural-looking tracking rather than instant snap. LoL Cheats exposes smoothness, FOV, and aim smoothing sliders so you control how assist feels in ranked ganks.',
 				'Bone priority and target selection cover closest player, lowest health, or highest-threat targets during team fights.',
 				'Full Aimbot documentation: <a href="/lol-aimbot/">LoL Aimbot</a>. Alternate wording: <a href="/lol-aimbot/">aimbot cheat</a>.',
 			),
@@ -638,7 +475,7 @@ export const enPages = {
 			section(
 				'What makes lol cheats in 2026',
 				'The lol cheats combine active Vanguard maintenance, a full ESP wallhack and radar stack, configurable Aimbot, and clear update communication — not a stale build from a prior season.',
-				'LoL Cheats covers match and ARAM game with in-client toggles and post-patch rebuilds.',
+				'LoL Cheats covers match and ARAM with in-client toggles and post-patch rebuilds.',
 				`Verify the live game is healthy via ${EXT.status}, then confirm our <a href="/updates/">Updates</a> note before you judge any package “best.”`,
 			),
 			section(
@@ -694,7 +531,7 @@ export const enPages = {
 			'LoL ESP cheat with player boxes and ward markers for Windows PC. Undetected visibility overlays with Vanguard maintenance — compare features and buy when status is live.',
 		h1: 'LoL ESP Cheat — Player Boxes Guide',
 		intro:
-			'LoL ESP cheat overlays for League of Legends — player outlines, baron threat cues, ward and objective markers with distance readouts across match and ARAM game.',
+			'LoL ESP cheat overlays for League of Legends — player outlines, baron threat cues, ward and objective markers with distance readouts across match and ARAM.',
 		imageAlt: "LoL ESP cheat boxes and ward markers",
 		galleryTitle: 'LoL ESP cheat gallery',
 		ctaPrimary: 'Buy LoL Cheats',

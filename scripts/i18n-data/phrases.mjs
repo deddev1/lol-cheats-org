@@ -3,7 +3,6 @@ import { HERO_IMAGES, clampTitle, clampDesc, section } from './constants.mjs';
 /** Shared product terms kept in English for SEO keywords across locales. */
 const KW = {
 	cheats: 'lol cheats',
-	cheats: 'lol cheats',
 	hack: 'lol cheat',
 	esp: 'LoL ESP',
 	wallhack: 'ESP wallhack',
@@ -11,7 +10,7 @@ const KW = {
 	aimbot: 'LoL Aimbot',
 	product: 'LoL Cheats',
 	game: 'League of Legends',
-	checkout: 'Zadeyo',
+	checkout: 'secure checkout',
 	vanguard: 'Vanguard',
 };
 
@@ -21,15 +20,7 @@ const KW = {
  */
 export const phrases = {
 	es: {
-		buy: 'Comprar LoL Cheats', undetected: 'indetectables', maps: "Summoner's Rift, lanes, and jungle",
-		win: 'Windows PC', delivery: 'entrega digital instantánea', monthly: '$35/mes', lifetime: '$150 de por vida',
-		s1: (topic) => `${KW.product} ofrece ${KW.wallhack}, ${KW.radar} y ${KW.aimbot} ${phrases.es.undetected} para ${KW.game} en ${phrases.es.win}. ${topic}`,
-		s2: () => `Licencias con ${phrases.es.delivery} vía checkout ${KW.checkout}. Planes ${phrases.es.monthly} y ${phrases.es.lifetime} incluyen mantenimiento ${KW.vanguard}.`,
-		s3: () => `Consulta la página Updates antes de jugar tras parches de ${KW.vanguard}. Ningún cheat garantiza estado indetectable permanente.`,
-		legal: () => 'Contacta support@lolcheats.org para solicitudes legales o de soporte.',
-	},
-	fr: {
-		buy: 'Acheter LoL Cheats', undetected: 'indétectables', maps: "Summoner's Rift, lanes, and jungle",
+		buy: 'Comprar LoL Cheats', undetected: 'indetectables', maps: "Summoner's Rift, carriles y jungla", win:'Windows PC', delivery:'entrega digital instantánea', monthly:'$35/mes', lifetime:'$150 de por vida', s1: (topic) => `${KW.product} ofrece ${KW.wallhack}, ${KW.radar} y ${KW.aimbot} ${phrases.es.undetected} para ${KW.game} en ${phrases.es.win}. ${topic}`, s2: () => `Licencias con ${phrases.es.delivery} vía checkout ${KW.checkout}. Planes ${phrases.es.monthly} y ${phrases.es.lifetime} incluyen mantenimiento ${KW.vanguard}.`, s3: () => `Consulta la página Updates antes de jugar tras parches de ${KW.vanguard}. Ningún cheat garantiza estado indetectable permanente.`, legal: () =>'Contacta support@lolcheats.org para solicitudes legales o de soporte.', }, fr: { buy:'Acheter LoL Cheats', undetected:'indétectables', maps: "Faille de l'invocateur, voies et jungle",
 		win: 'PC Windows', delivery: 'livraison numérique instantanée', monthly: '35 $/mois', lifetime: '150 $ à vie',
 		s1: (topic) => `${KW.product} combine ${KW.wallhack}, ${KW.radar} et ${KW.aimbot} ${phrases.fr.undetected} pour ${KW.game} sur ${phrases.fr.win}. ${topic}`,
 		s2: () => `Licences avec ${phrases.fr.delivery} via checkout ${KW.checkout}. Forfaits ${phrases.fr.monthly} et ${phrases.fr.lifetime} incluent la maintenance ${KW.vanguard}.`,
@@ -37,15 +28,7 @@ export const phrases = {
 		legal: () => 'Contactez support@lolcheats.org pour le support ou les demandes légales.',
 	},
 	de: {
-		buy: 'LoL Cheats kaufen', undetected: 'undetected', maps: "Summoner's Rift, lanes, and jungle",
-		win: 'Windows PC', delivery: 'sofortige digitale Lieferung', monthly: '$35/Monat', lifetime: '$150 Lifetime',
-		s1: (topic) => `${KW.product} bündelt ${KW.wallhack}, ${KW.radar} und ${KW.aimbot} als ${phrases.de.undetected} Paket für ${KW.game} auf ${phrases.de.win}. ${topic}`,
-		s2: () => `Lizenzen mit ${phrases.de.delivery} über ${KW.checkout} Checkout. ${phrases.de.monthly} und ${phrases.de.lifetime} inkl. ${KW.vanguard}-Wartung.`,
-		s3: () => `Updates-Seite nach ${KW.vanguard}-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.`,
-		legal: () => 'support@lolcheats.org für Support und rechtliche Anfragen.',
-	},
-	pt: {
-		buy: 'Comprar LoL Cheats', undetected: 'indetectáveis', maps: "Summoner's Rift, lanes, and jungle",
+		buy: 'LoL Cheats kaufen', undetected: 'undetected', maps: "Summoner's Rift, Lanes und Dschungel", win:'Windows PC', delivery:'sofortige digitale Lieferung', monthly:'$35/Monat', lifetime:'$150 Lifetime', s1: (topic) => `${KW.product} bündelt ${KW.wallhack}, ${KW.radar} und ${KW.aimbot} als ${phrases.de.undetected} Paket für ${KW.game} auf ${phrases.de.win}. ${topic}`, s2: () => `Lizenzen mit ${phrases.de.delivery} über ${KW.checkout} Checkout. ${phrases.de.monthly} und ${phrases.de.lifetime} inkl. ${KW.vanguard}-Wartung.`, s3: () => `Updates-Seite nach ${KW.vanguard}-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.`, legal: () =>'support@lolcheats.org für Support und rechtliche Anfragen.', }, pt: { buy:'Comprar LoL Cheats', undetected:'indetectáveis', maps: "Summoner's Rift, rotas e selva",
 		win: 'PC Windows', delivery: 'entrega digital instantânea', monthly: '$35/mês', lifetime: '$150 vitalício',
 		s1: (topic) => `${KW.product} reúne ${KW.wallhack}, ${KW.radar} e ${KW.aimbot} ${phrases.pt.undetected} para ${KW.game} no ${phrases.pt.win}. ${topic}`,
 		s2: () => `Licenças com ${phrases.pt.delivery} via checkout ${KW.checkout}. Planos ${phrases.pt.monthly} e ${phrases.pt.lifetime} incluem manutenção ${KW.vanguard}.`,
@@ -53,15 +36,7 @@ export const phrases = {
 		legal: () => 'Contacte support@lolcheats.org para suporte ou questões legais.',
 	},
 	it: {
-		buy: 'AcquistLoL Cheats', undetected: 'indetectable', maps: "Summoner's Rift, lanes, and jungle",
-		win: 'PC Windows', delivery: 'consegna digitale istantanea', monthly: '$35/mese', lifetime: '$150 a vita',
-		s1: (topic) => `${KW.product} unisce ${KW.wallhack}, ${KW.radar} e ${KW.aimbot} ${phrases.it.undetected} per ${KW.game} su ${phrases.it.win}. ${topic}`,
-		s2: () => `Licenze con ${phrases.it.delivery} via checkout ${KW.checkout}. Piani ${phrases.it.monthly} e ${phrases.it.lifetime} includono manutenzione ${KW.vanguard}.`,
-		s3: () => `Controlla Updates dopo patch ${KW.vanguard}. Nessun cheat garantisce stato indetectable permanente.`,
-		legal: () => 'Contatta support@lolcheats.org per supporto o richieste legali.',
-	},
-	nl: {
-		buy: 'LoL Cheats kopen', undetected: 'undetected', maps: "Summoner's Rift, lanes, and jungle",
+		buy: 'Acquista LoL Cheats', undetected: 'indetectable', maps: "Summoner's Rift, lane e giungla", win:'PC Windows', delivery:'consegna digitale istantanea', monthly:'$35/mese', lifetime:'$150 a vita', s1: (topic) => `${KW.product} unisce ${KW.wallhack}, ${KW.radar} e ${KW.aimbot} ${phrases.it.undetected} per ${KW.game} su ${phrases.it.win}. ${topic}`, s2: () => `Licenze con ${phrases.it.delivery} via checkout ${KW.checkout}. Piani ${phrases.it.monthly} e ${phrases.it.lifetime} includono manutenzione ${KW.vanguard}.`, s3: () => `Controlla Updates dopo patch ${KW.vanguard}. Nessun cheat garantisce stato indetectable permanente.`, legal: () =>'Contatta support@lolcheats.org per supporto o richieste legali.', }, nl: { buy:'LoL Cheats kopen', undetected:'undetected', maps: "Summoner's Rift, lanes en jungle",
 		win: 'Windows PC', delivery: 'directe digitale levering', monthly: '$35/maand', lifetime: '$150 lifetime',
 		s1: (topic) => `${KW.product} bundelt ${KW.wallhack}, ${KW.radar} en ${KW.aimbot} als ${phrases.nl.undetected} pakket voor ${KW.game} op ${phrases.nl.win}. ${topic}`,
 		s2: () => `Licenties met ${phrases.nl.delivery} via ${KW.checkout} checkout. ${phrases.nl.monthly} en ${phrases.nl.lifetime} incl. ${KW.vanguard}-onderhoud.`,
@@ -69,15 +44,7 @@ export const phrases = {
 		legal: () => 'support@lolcheats.org voor support en juridische vragen.',
 	},
 	pl: {
-		buy: 'Kup LoL Cheats', undetected: 'undetected', maps: "Summoner's Rift, lanes, and jungle",
-		win: 'PC Windows', delivery: 'natychmiastowa dostawa cyfrowa', monthly: '$35/mies.', lifetime: '$150 lifetime',
-		s1: (topic) => `${KW.product} łączy ${KW.wallhack}, ${KW.radar} i ${KW.aimbot} jako pakiet ${phrases.pl.undetected} dla ${KW.game} na ${phrases.pl.win}. ${topic}`,
-		s2: () => `Licencje z ${phrases.pl.delivery} przez checkout ${KW.checkout}. Plany ${phrases.pl.monthly} i ${phrases.pl.lifetime} z konserwacją ${KW.vanguard}.`,
-		s3: () => `Sprawdź Updates po patchach ${KW.vanguard}. Żaden cheat nie gwarantuje permanentnego undetected statusu.`,
-		legal: () => 'support@lolcheats.org w sprawach wsparcia i prawnych.',
-	},
-	ru: {
-		buy: 'Купить LoL Cheats', undetected: 'undetected', maps: "Summoner's Rift, lanes, and jungle",
+		buy: 'Kup LoL Cheats', undetected: 'undetected', maps: "Summoner's Rift, linie i dżungla", win:'PC Windows', delivery:'natychmiastowa dostawa cyfrowa', monthly:'$35/mies.', lifetime:'$150 lifetime', s1: (topic) => `${KW.product} łączy ${KW.wallhack}, ${KW.radar} i ${KW.aimbot} jako pakiet ${phrases.pl.undetected} dla ${KW.game} na ${phrases.pl.win}. ${topic}`, s2: () => `Licencje z ${phrases.pl.delivery} przez checkout ${KW.checkout}. Plany ${phrases.pl.monthly} i ${phrases.pl.lifetime} z konserwacją ${KW.vanguard}.`, s3: () => `Sprawdź Updates po patchach ${KW.vanguard}. Żaden cheat nie gwarantuje permanentnego undetected statusu.`, legal: () =>'support@lolcheats.org w sprawach wsparcia i prawnych.', }, ru: { buy:'Купить LoL Cheats', undetected:'undetected', maps: "Summoner's Rift, линии и джунгли",
 		win: 'Windows PC', delivery: 'мгновенная цифровая доставка', monthly: '$35/мес', lifetime: '$150 навсегда',
 		s1: (topic) => `${KW.product} объединяет ${KW.wallhack}, ${KW.radar} и ${KW.aimbot} в ${phrases.ru.undetected} пакете для ${KW.game} на ${phrases.ru.win}. ${topic}`,
 		s2: () => `Лицензии с ${phrases.ru.delivery} через checkout ${KW.checkout}. Тарифы ${phrases.ru.monthly} и ${phrases.ru.lifetime} включают обслуживание ${KW.vanguard}.`,
@@ -85,15 +52,7 @@ export const phrases = {
 		legal: () => 'support@lolcheats.org для поддержки и юридических вопросов.',
 	},
 	tr: {
-		buy: 'LoL Cheats satın al', undetected: 'undetected', maps: "Summoner's Rift, lanes, and jungle",
-		win: 'Windows PC', delivery: 'anında dijital teslimat', monthly: '$35/ay', lifetime: '$150 ömür boyu',
-		s1: (topic) => `${KW.product}, ${KW.game} için ${phrases.tr.win} üzerinde ${KW.wallhack}, ${KW.radar} ve ${KW.aimbot} ${phrases.tr.undetected} paket sunar. ${topic}`,
-		s2: () => `${KW.checkout} checkout ile ${phrases.tr.delivery}. ${phrases.tr.monthly} ve ${phrases.tr.lifetime} planları ${KW.vanguard} bakımı içerir.`,
-		s3: () => `${KW.vanguard} yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.`,
-		legal: () => 'Destek ve yasal sorular için support@lolcheats.org.',
-	},
-	ar: {
-		buy: 'اشترِ LoL Cheats', undetected: 'غير مكتشف', maps: "Summoner's Rift, lanes, and jungle",
+		buy: 'LoL Cheats satın al', undetected: 'undetected', maps: "Summoner's Rift, koridorlar ve orman", win:'Windows PC', delivery:'anında dijital teslimat', monthly:'$35/ay', lifetime:'$150 ömür boyu', s1: (topic) => `${KW.product}, ${KW.game} için ${phrases.tr.win} üzerinde ${KW.wallhack}, ${KW.radar} ve ${KW.aimbot} ${phrases.tr.undetected} paket sunar. ${topic}`, s2: () => `${KW.checkout} checkout ile ${phrases.tr.delivery}. ${phrases.tr.monthly} ve ${phrases.tr.lifetime} planları ${KW.vanguard} bakımı içerir.`, s3: () => `${KW.vanguard} yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.`, legal: () =>'Destek ve yasal sorular için support@lolcheats.org.', }, ar: { buy:'اشترِ LoL Cheats', undetected:'غير مكتشف', maps: "Summoner's Rift والمسارات والغابة",
 		win: 'Windows PC', delivery: 'تسليم رقمي فوري', monthly: '35$/شهر', lifetime: '150$ مدى الحياة',
 		s1: (topic) => `${KW.product} يجمع ${KW.wallhack} و${KW.radar} و${KW.aimbot} ${phrases.ar.undetected} لـ ${KW.game} على ${phrases.ar.win}. ${topic}`,
 		s2: () => `تراخيص مع ${phrases.ar.delivery} عبر checkout ${KW.checkout}. خطط ${phrases.ar.monthly} و${phrases.ar.lifetime} تشمل صيانة ${KW.vanguard}.`,
@@ -101,7 +60,7 @@ export const phrases = {
 		legal: () => 'support@lolcheats.org للدعم والطلبات القانونية.',
 	},
 	ja: {
-		buy: 'LoL Cheatsを購入', undetected: 'undetected', maps: "Summoner's Rift, lanes, and jungle",
+		buy: 'LoL Cheatsを購入', undetected: 'undetected', maps: "サモナーズリフト、レーン、ジャングル",
 		win: 'Windows PC', delivery: '即時デジタル配信', monthly: '$35/月', lifetime: '$150永久',
 		s1: (topic) => `${KW.product}は${KW.game}向け${phrases.ja.win}用${KW.wallhack}、${KW.radar}、${KW.aimbot}の${phrases.ja.undetected}パッケージです。${topic}`,
 		s2: () => `${KW.checkout} checkoutで${phrases.ja.delivery}。${phrases.ja.monthly}と${phrases.ja.lifetime}プランに${KW.vanguard}メンテナンス含む。`,
@@ -109,7 +68,7 @@ export const phrases = {
 		legal: () => 'サポート・法務: support@lolcheats.org',
 	},
 	ko: {
-		buy: 'LoL Cheats 구매', undetected: 'undetected', maps: "Summoner's Rift, lanes, and jungle",
+		buy: 'LoL Cheats 구매', undetected: 'undetected', maps: "소환사의 협곡, 라인, 정글",
 		win: 'Windows PC', delivery: '즉시 디지털 배송', monthly: '$35/월', lifetime: '$150 평생',
 		s1: (topic) => `${KW.product}는 ${KW.game} ${phrases.ko.win}용 ${KW.wallhack}, ${KW.radar}, ${KW.aimbot} ${phrases.ko.undetected} 패키지입니다. ${topic}`,
 		s2: () => `${KW.checkout} checkout으로 ${phrases.ko.delivery}. ${phrases.ko.monthly} 및 ${phrases.ko.lifetime} 요금제에 ${KW.vanguard} 유지보수 포함.`,
@@ -117,7 +76,7 @@ export const phrases = {
 		legal: () => '지원 및 법무: support@lolcheats.org',
 	},
 	zh: {
-		buy: '购买 LoL Cheats', undetected: 'undetected', maps: "Summoner's Rift, lanes, and jungle",
+		buy: '购买 LoL Cheats', undetected: 'undetected', maps: "召唤师峡谷、线路与野区",
 		win: 'Windows PC', delivery: '即时数字交付', monthly: '$35/月', lifetime: '$150终身',
 		s1: (topic) => `${KW.product}为${KW.game}${phrases.zh.win}提供${KW.wallhack}、${KW.radar}和${KW.aimbot}${phrases.zh.undetected}套餐。${topic}`,
 		s2: () => `通过${KW.checkout} checkout${phrases.zh.delivery}。${phrases.zh.monthly}和${phrases.zh.lifetime}含${KW.vanguard}维护。`,
@@ -125,15 +84,7 @@ export const phrases = {
 		legal: () => '支持与法务：support@lolcheats.org',
 	},
 	hi: {
-		buy: 'LoL Cheats खरीदें', undetected: 'undetected', maps: "Summoner's Rift, lanes, and jungle",
-		win: 'Windows PC', delivery: 'तुरंत डिजिटल डिलीवरी', monthly: '$35/माह', lifetime: '$150 लाइफ़टाइम',
-		s1: (topic) => `${KW.product} ${KW.game} के लिए ${phrases.hi.win} पर ${KW.wallhack}, ${KW.radar} और ${KW.aimbot} ${phrases.hi.undetected} पैकेज देता है। ${topic}`,
-		s2: () => `${KW.checkout} checkout से ${phrases.hi.delivery}। ${phrases.hi.monthly} और ${phrases.hi.lifetime} में ${KW.vanguard} maintenance शामिल।`,
-		s3: () => `${KW.vanguard} पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।`,
-		legal: () => 'सहायता: support@lolcheats.org',
-	},
-	id: {
-		buy: 'Beli LoL Cheats', undetected: 'undetected', maps: "Summoner's Rift, lanes, and jungle",
+		buy: 'LoL Cheats खरीदें', undetected: 'undetected', maps: "Summoner's Rift, लanes और jungle", win:'Windows PC', delivery:'तुरंत डिजिटल डिलीवरी', monthly:'$35/माह', lifetime:'$150 लाइफ़टाइम', s1: (topic) => `${KW.product} ${KW.game} के लिए ${phrases.hi.win} पर ${KW.wallhack}, ${KW.radar} और ${KW.aimbot} ${phrases.hi.undetected} पैकेज देता है। ${topic}`, s2: () => `${KW.checkout} checkout से ${phrases.hi.delivery}। ${phrases.hi.monthly} और ${phrases.hi.lifetime} में ${KW.vanguard} maintenance शामिल।`, s3: () => `${KW.vanguard} पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।`, legal: () =>'सहायता: support@lolcheats.org', }, id: { buy:'Beli LoL Cheats', undetected:'undetected', maps: "Summoner's Rift, lane, dan jungle",
 		win: 'PC Windows', delivery: 'pengiriman digital instan', monthly: '$35/bulan', lifetime: '$150 seumur hidup',
 		s1: (topic) => `${KW.product} menyediakan ${KW.wallhack}, ${KW.radar}, dan ${KW.aimbot} ${phrases.id.undetected} untuk ${KW.game} di ${phrases.id.win}. ${topic}`,
 		s2: () => `${phrases.id.delivery} via checkout ${KW.checkout}. Paket ${phrases.id.monthly} dan ${phrases.id.lifetime} termasuk pemeliharaan ${KW.vanguard}.`,
@@ -141,15 +92,7 @@ export const phrases = {
 		legal: () => 'support@lolcheats.org untuk dukungan dan legal.',
 	},
 	th: {
-		buy: 'ซื้อ LoL Cheats', undetected: 'undetected', maps: "Summoner's Rift, lanes, and jungle",
-		win: 'Windows PC', delivery: 'จัดส่งดิจิทัลทันที', monthly: '$35/เดือน', lifetime: '$150 ตลอดชีพ',
-		s1: (topic) => `${KW.product} รวม ${KW.wallhack}, ${KW.radar} และ ${KW.aimbot} แบบ ${phrases.th.undetected} สำหรับ ${KW.game} บน ${phrases.th.win} ${topic}`,
-		s2: () => `${phrases.th.delivery} ผ่าน checkout ${KW.checkout} แพ็ก ${phrases.th.monthly} และ ${phrases.th.lifetime} รวมการดูแล ${KW.vanguard}`,
-		s3: () => `ตรวจ Updates หลังแพตช์ ${KW.vanguard} ไม่มี cheat รับประกัน undetected ถาวร`,
-		legal: () => 'support@lolcheats.org สำหรับการสนับสนุน',
-	},
-	vi: {
-		buy: 'MuLoL Cheats', undetected: 'undetected', maps: "Summoner's Rift, lanes, and jungle",
+		buy: 'ซื้อ LoL Cheats', undetected: 'undetected', maps: "Summoner's Rift, lane และ jungle", win:'Windows PC', delivery:'จัดส่งดิจิทัลทันที', monthly:'$35/เดือน', lifetime:'$150 ตลอดชีพ', s1: (topic) => `${KW.product} รวม ${KW.wallhack}, ${KW.radar} และ ${KW.aimbot} แบบ ${phrases.th.undetected} สำหรับ ${KW.game} บน ${phrases.th.win} ${topic}`, s2: () => `${phrases.th.delivery} ผ่าน checkout ${KW.checkout} แพ็ก ${phrases.th.monthly} และ ${phrases.th.lifetime} รวมการดูแล ${KW.vanguard}`, s3: () => `ตรวจ Updates หลังแพตช์ ${KW.vanguard} ไม่มี cheat รับประกัน undetected ถาวร`, legal: () =>'support@lolcheats.org สำหรับการสนับสนุน', }, vi: { buy:'Mua LoL Cheats', undetected:'undetected', maps: "Summoner's Rift, lane và rừng",
 		win: 'PC Windows', delivery: 'giao hàng kỹ thuật số tức thì', monthly: '$35/tháng', lifetime: '$150 trọn đời',
 		s1: (topic) => `${KW.product} cung cấp ${KW.wallhack}, ${KW.radar} và ${KW.aimbot} ${phrases.vi.undetected} cho ${KW.game} trên ${phrases.vi.win}. ${topic}`,
 		s2: () => `${phrases.vi.delivery} qua checkout ${KW.checkout}. Gói ${phrases.vi.monthly} và ${phrases.vi.lifetime} gồm bảo trì ${KW.vanguard}.`,
@@ -157,23 +100,13 @@ export const phrases = {
 		legal: () => 'support@lolcheats.org cho hỗ trợ và pháp lý.',
 	},
 	uk: {
-		buy: 'Купити LoL Cheats', undetected: 'undetected', maps: "Summoner's Rift, lanes, and jungle",
-		win: 'Windows PC', delivery: 'миттєва цифрова доставка', monthly: '$35/міс', lifetime: '$150 назавжди',
-		s1: (topic) => `${KW.product} об'єднує ${KW.wallhack}, ${KW.radar} і ${KW.aimbot} у ${phrases.uk.undetected} пакеті для ${KW.game} на ${phrases.uk.win}. ${topic}`,
+		buy: 'Купити LoL Cheats', undetected: 'undetected', maps: "Summoner's Rift, лінії та джунглі", win:'Windows PC', delivery:'миттєва цифрова доставка', monthly:'$35/міс', lifetime:'$150 назавжди', s1: (topic) => `${KW.product} об'єднує ${KW.wallhack}, ${KW.radar} і ${KW.aimbot} у ${phrases.uk.undetected} пакеті для ${KW.game} на ${phrases.uk.win}. ${topic}`,
 		s2: () => `Ліцензії з ${phrases.uk.delivery} через checkout ${KW.checkout}. Тарифи ${phrases.uk.monthly} і ${phrases.uk.lifetime} включають обслуговування ${KW.vanguard}.`,
 		s3: () => `Перевіряйте Updates після патчів ${KW.vanguard}. Жоден чит не гарантує постійний undetected статус.`,
 		legal: () => 'support@lolcheats.org для підтримки та правових питань.',
 	},
 	cs: {
-		buy: 'Koupit LoL Cheats', undetected: 'undetected', maps: "Summoner's Rift, lanes, and jungle",
-		win: 'Windows PC', delivery: 'okamžité digitální doručení', monthly: '$35/měs.', lifetime: '$150 lifetime',
-		s1: (topic) => `${KW.product} spojuje ${KW.wallhack}, ${KW.radar} a ${KW.aimbot} jako ${phrases.cs.undetected} balíček pro ${KW.game} na ${phrases.cs.win}. ${topic}`,
-		s2: () => `Licence s ${phrases.cs.delivery} přes checkout ${KW.checkout}. Plány ${phrases.cs.monthly} a ${phrases.cs.lifetime} včetně údržby ${KW.vanguard}.`,
-		s3: () => `Po patchích ${KW.vanguard} zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.`,
-		legal: () => 'support@lolcheats.org pro podporu a právní dotazy.',
-	},
-	ro: {
-		buy: 'Cumpără LoL Cheats', undetected: 'undetected', maps: "Summoner's Rift, lanes, and jungle",
+		buy: 'Koupit LoL Cheats', undetected: 'undetected', maps: "Summoner's Rift, lane a jungle", win:'Windows PC', delivery:'okamžité digitální doručení', monthly:'$35/měs.', lifetime:'$150 lifetime', s1: (topic) => `${KW.product} spojuje ${KW.wallhack}, ${KW.radar} a ${KW.aimbot} jako ${phrases.cs.undetected} balíček pro ${KW.game} na ${phrases.cs.win}. ${topic}`, s2: () => `Licence s ${phrases.cs.delivery} přes checkout ${KW.checkout}. Plány ${phrases.cs.monthly} a ${phrases.cs.lifetime} včetně údržby ${KW.vanguard}.`, s3: () => `Po patchích ${KW.vanguard} zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.`, legal: () =>'support@lolcheats.org pro podporu a právní dotazy.', }, ro: { buy:'Cumpără LoL Cheats', undetected:'undetected', maps: "Summoner's Rift, lane-uri și jungle",
 		win: 'PC Windows', delivery: 'livrare digitală instantă', monthly: '$35/lună', lifetime: '$150 pe viață',
 		s1: (topic) => `${KW.product} combină ${KW.wallhack}, ${KW.radar} și ${KW.aimbot} ${phrases.ro.undetected} pentru ${KW.game} pe ${phrases.ro.win}. ${topic}`,
 		s2: () => `Licențe cu ${phrases.ro.delivery} via checkout ${KW.checkout}. Planuri ${phrases.ro.monthly} și ${phrases.ro.lifetime} includ mentenanță ${KW.vanguard}.`,
@@ -181,11 +114,6 @@ export const phrases = {
 		legal: () => 'support@lolcheats.org pentru suport și legal.',
 	},
 	sv: {
-		buy: 'Köp LoL Cheats', undetected: 'undetected', maps: "Summoner's Rift, lanes, and jungle",
-		win: 'Windows PC', delivery: 'omedelbar digital leverans', monthly: '$35/mån', lifetime: '$150 lifetime',
-		s1: (topic) => `${KW.product} kombinerar ${KW.wallhack}, ${KW.radar} och ${KW.aimbot} som ${phrases.sv.undetected} paket för ${KW.game} på ${phrases.sv.win}. ${topic}`,
-		s2: () => `Licenser med ${phrases.sv.delivery} via ${KW.checkout} checkout. ${phrases.sv.monthly} och ${phrases.sv.lifetime} inkl. ${KW.vanguard}-underhåll.`,
-		s3: () => `Kontrollera Updates loler ${KW.vanguard}-patchar. Ingen cheat garanterar permanent undetected status.`,
-		legal: () => 'support@lolcheats.org för support och juridik.',
+		buy: 'Köp LoL Cheats', undetected: 'undetected', maps: "Summoner's Rift, lanes och jungle", win:'Windows PC', delivery:'omedelbar digital leverans', monthly:'$35/mån', lifetime:'$150 lifetime', s1: (topic) => `${KW.product} kombinerar ${KW.wallhack}, ${KW.radar} och ${KW.aimbot} som ${phrases.sv.undetected} paket för ${KW.game} på ${phrases.sv.win}. ${topic}`, s2: () => `Licenser med ${phrases.sv.delivery} via ${KW.checkout} checkout. ${phrases.sv.monthly} och ${phrases.sv.lifetime} inkl. ${KW.vanguard}-underhåll.`, s3: () => `Kontrollera Updates loler ${KW.vanguard}-patchar. Ingen cheat garanterar permanent undetected status.`, legal: () =>'support@lolcheats.org för support och juridik.',
 	},
 };

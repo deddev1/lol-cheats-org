@@ -22,9 +22,9 @@
   "hero": {
     "accent": "2026 — Undetected ESP, Aimbot & Wallhack",
     "accentShort": "Undetected lol cheats 2026",
-    "subtitle": "Undetected ESP, soft aim, and radar for League of Legends on Windows PC.",
+    "subtitle": "lol cheats with LoL ESP, radar cheat and LoL Aimbot for Windows PC — Vanguard maintenance included.",
     "subtitleShort": "LoL ESP, radar & aimbot for PC",
-    "buyNow": "Get Access",
+    "buyNow": "Buy LoL Cheats",
     "seeFeatures": "See Features",
     "title": "League of Legends Cheats",
     "priceFrom": "from",
@@ -48,7 +48,7 @@
     "antiCheatShort": "Vanguard supported"
   },
   "product": {
-    "title": "League of Legends Cheats",
+    "title": "LoL Cheats",
     "addToCart": "Add to Cart",
     "monthly": "Monthly",
     "lifetime": "Lifetime",
@@ -60,7 +60,7 @@
     "oneTime": "One-time",
     "plans": "Plans",
     "perMonth": "/ month",
-    "once": " once",
+    "once": "once",
     "buyMonthly": "Buy monthly",
     "buyLifetime": "Buy lifetime"
   },
@@ -88,7 +88,7 @@
     "languageSuggestion": "Language suggestion",
     "dismiss": "Dismiss",
     "localeVersion": "{{name}} version",
-    "localeSuggestLead": "{{nativeName}} ({{region}}) — ",
+    "localeSuggestLead": "{{nativeName}} ({{region}}) —",
     "breadcrumb": "Breadcrumb",
     "gallery": "Gallery",
     "inGameLook": "In-game look",
@@ -124,9 +124,9 @@
     "aboutEsp": "ESP guide",
     "aboutAimbot": "aimbot controls",
     "aboutUndetected": "undetected status",
-    "aboutP2Mid": ", ",
-    "aboutP2Or": ", or ",
-    "aboutP2After": " if you are still comparing tools."
+    "aboutP2Mid": ",",
+    "aboutP2Or": ", or",
+    "aboutP2After": "if you are still comparing tools."
   },
   "homeSeo": {
     "eyebrow": "Guides",
@@ -150,7 +150,7 @@
     "linkSetup": "Setup",
     "linkPlans": "Plans",
     "linkReviews": "Reviews",
-    "linkLeague of LegendsCheats": "lol cheats",
+    "linkLoLCheats": "lol cheats",
     "linkFaq": "FAQ",
     "linkSupport": "Support",
     "linkSetupGuide": "Setup guide",
@@ -173,7 +173,7 @@
   },
   "trustStrip": {
     "instantDelivery": "Instant delivery",
-    "secureCheckout": "Secure checkout",
+    "secureCheckout": "secure checkout",
     "support247": "24/7 support"
   },
   "categoryRow": {
@@ -216,7 +216,7 @@
     "blogTitle": "LoL Cheats Blog | ESP, Cheats & Meta Tips",
     "blogDescription": "lol cheats and lol cheats guides — ESP, aimbot, ranked meta, gank routes, and Vanguard updates. Global English blog at lolcheats.org/blog/.",
     "blogH1": "LoL Cheats Intel",
-    "blogIntro": "Actionable League of Legends guides for match and ARAM game — meta breakdowns, gank routes, champion tiers, and pro warmup routines. Pair these tips with our lol cheats pages for ESP boxes, soft aim, and cloud DMA when you need in-match tools.",
+    "blogIntro": "Actionable League of Legends guides for ranked and ARAM — meta breakdowns, gank routes, champion tiers, and lane warmup routines. Pair these tips with our lol cheats pages for ESP boxes, soft aim, and radar when you need in-match tools.",
     "readMore": "Read guide",
     "published": "Published",
     "updated": "Updated",
@@ -234,7 +234,7 @@
     "highlightEspTitle": "lol cheats esp",
     "highlightEspCopy": "See champions through walls with lol cheats esp and wallhack overlays.",
     "highlightRadarTitle": "lol cheats radar",
-    "highlightRadarCopy": "Track nearby threats with lol cheats radar before you push or extract.",
+    "highlightRadarCopy": "Track nearby threats with lol cheats radar before you push or team fight.",
     "highlightAimbotTitle": "lol cheats aimbot",
     "highlightAimbotCopy": "Use soft aim and aimbot controls tuned for League of Legends matches on Windows PC.",
     "updatesLabel": "lol cheats updates",

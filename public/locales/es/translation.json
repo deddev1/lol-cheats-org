@@ -22,13 +22,13 @@
   "hero": {
     "accent": "Trucos League of Legends indetectables",
     "accentShort": "LoL Cheats",
-    "subtitle": "ESP wallhack, radar cheat y Aimbot parLeague of Legends en PC Windows — mantenimiento Vanguard incluido.",
-    "subtitleShort": "ESP, radar y Aimbot parLeague of Legends PC",
+    "subtitle": "ESP wallhack, radar cheat y Aimbot para League of Legends en PC Windows — mantenimiento Vanguard incluido.",
+    "subtitleShort": "ESP, radar y Aimbot para League of Legends PC",
     "buyNow": "Comprar ahora",
     "seeFeatures": "Ver funciones",
     "title": "Trucos League of Legends indetectables",
     "priceFrom": "desde",
-    "imageAlt": "{{brand}} — League of Legends ESP and aimbot overlay",
+    "imageAlt": "{{brand}} — overlay ESP y aimbot para League of Legends",
     "chipEsp": "ESP / wallhack",
     "chipAim": "Soft aim",
     "chipRadar": "Radar 2D",
@@ -40,7 +40,7 @@
   },
   "trust": {
     "status": "En línea",
-    "statusNote": "El paquete LoL Cheats está activo parLeague of Legends en PC Windows.",
+    "statusNote": "El paquete LoL Cheats está activo para League of Legends en PC Windows.",
     "statusShort": "Activo",
     "delivery": "Entrega digital instantánea",
     "platform": "Windows 10 y 11",
@@ -60,7 +60,7 @@
     "oneTime": "Pago único",
     "plans": "Planes",
     "perMonth": "/ mes",
-    "once": " una vez",
+    "once": "una vez",
     "buyMonthly": "Comprar mensual",
     "buyLifetime": "Comprar de por vida"
   },
@@ -88,7 +88,7 @@
     "languageSuggestion": "Sugerencia de idioma",
     "dismiss": "Cerrar",
     "localeVersion": "versión en {{name}}",
-    "localeSuggestLead": "{{nativeName}} ({{region}}) — ",
+    "localeSuggestLead": "{{nativeName}} ({{region}}) —",
     "breadcrumb": "Miguitas de pan",
     "gallery": "Galería",
     "inGameLook": "Aspecto en el juego",
@@ -114,19 +114,19 @@
   "footer": {
     "explore": "Explorar",
     "help": "Ayuda y legal",
-    "tagline": "ESP, wallhack, radar y Aimbot indetectables parLeague of Legends — checkout en Zadeyo."
+    "tagline": "ESP, wallhack, radar y Aimbot indetectables para League of Legends."
   },
   "home": {
-    "aboutTitle": "Trucos indetectables de League of Legends parLeague of Legends",
-    "aboutP1": "LoL Cheats es un paquete de trucos indetectables parLeague of Legends en PC Windows. Una licencia incluye ESP wallhack, soft aim y radar 2D, con reconstrucciones Vanguard tras los parches del juego. Compara planes en la Tienda y revisa el Estado antes de entrar en match.",
+    "aboutTitle": "Trucos indetectables de League of Legends",
+    "aboutP1": "LoL Cheats es un paquete de trucos indetectables para League of Legends en PC Windows. Una licencia incluye ESP wallhack, soft aim y radar 2D, con reconstrucciones Vanguard tras los parches. Compara planes en la Tienda y revisa el Estado antes de entrar en cola.",
     "aboutP2Before": "Empieza por el",
-    "aboutPillar": "pilar de trucos de League of Legends",
+    "aboutPillar": "pilar de LoL Cheats",
     "aboutEsp": "guía de ESP",
     "aboutAimbot": "controles de aimbot",
     "aboutUndetected": "estado indetectable",
-    "aboutP2Mid": ", ",
-    "aboutP2Or": ", o ",
-    "aboutP2After": " si aún estás comparando herramientas."
+    "aboutP2Mid": ",",
+    "aboutP2Or": ", o",
+    "aboutP2After": "si aún estás comparando herramientas."
   },
   "homeSeo": {
     "eyebrow": "Guías",
@@ -139,7 +139,7 @@
     "catStore": "Tienda",
     "catStoreHint": "Compra y planes",
     "catHelp": "Ayuda",
-    "catHelpHint": "¿Necesitas una mano?",
+    "catHelpHint": "¿Necesitas ayuda?",
     "linkAllFeatures": "Todas las funciones",
     "linkEsp": "ESP",
     "linkAimbot": "Aimbot",
@@ -150,7 +150,7 @@
     "linkSetup": "Instalación",
     "linkPlans": "Planes",
     "linkReviews": "Reseñas",
-    "linkLeague of LegendsCheats": "Trucos de League of Legends",
+    "linkLoLCheats": "lol cheats",
     "linkFaq": "FAQ",
     "linkSupport": "Soporte",
     "linkSetupGuide": "Guía de instalación",
@@ -183,9 +183,22 @@
     "radar": "Radar",
     "wallhack": "Wallhack",
     "undetected": "Indetectable",
+    "features": "Funciones",
     "pricing": "Precios",
     "setup": "Instalación",
     "blog": "Blog"
+  },
+  "internalLinks": {
+    "relatedLede": "Explora más guías de LoL Cheats — los mismos temas de otros sitios de cheats, enlazados a nuestras páginas canónicas.",
+    "topicsTitle": "Guías de producto",
+    "topicsLabel": "Guías por tema de producto",
+    "topicsLede": "Salta a las páginas principales de LoL Cheats sobre ESP, aimbot, radar, instalación y estado."
+  },
+  "externalResources": {
+    "title": "Guías y recursos oficiales del juego",
+    "lede": "Enlazamos fuentes de terceros de confianza para que verifiques parches, estadísticas de campeones e info del mapa fuera de nuestro sitio.",
+    "pillsTitle": "Guías oficiales",
+    "pillsLabel": "Guías oficiales de League of Legends"
   },
   "images": {
     "hero": "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -200,31 +213,31 @@
     "summonersRift": "ESP markers for wards and objectives in League of Legends"
   },
   "blog": {
-    "blogTitle": "Blog LoL Cheats 2026 | Guías en 22 idiomas",
-    "blogDescription": "Blog de LoL Cheats con guías de trucos indetectables, ESP wallhack, radar y Aimbot parLeague of Legends en PC Windows.",
-    "blogH1": "Blog LoL Cheats — Guías globales",
-    "blogIntro": "Guías SEO de trucos League of Legends indetectables, ESP wallhack, radar cheat, Aimbot y mantenimiento Vanguard en 22 idiomas.",
+    "blogTitle": "Blog LoL Cheats | ESP, cheats y consejos meta",
+    "blogDescription": "Guías de lol cheats — ESP, aimbot, meta ranked, rutas de gank y actualizaciones Vanguard. Blog global en lolcheats.org/blog/.",
+    "blogH1": "Intel LoL Cheats",
+    "blogIntro": "Guías prácticas de League of Legends para partidas ranked y ARAM — meta, rutas de gank, tiers de campeones y calentamiento de lane. Combínalas con nuestras páginas lol cheats para ESP, soft aim y radar en partida.",
     "readMore": "Leer guía",
     "published": "Publicado",
     "updated": "Actualizado",
-    "relatedPosts": "Guías League of Legends relacionadas",
+    "relatedPosts": "Guías relacionadas de League of Legends",
     "allPosts": "Todos los artículos",
     "home": "Inicio LoL Cheats",
     "language": "Idioma",
-    "label": "Intel de League of Legends"
+    "label": "Intel LoL"
   },
   "gallery": {
-    "eyebrow": "LoL Cheats",
-    "title": "GaleríLeague of Legends",
-    "subtitle": "Visuales de League of Legends con loadouts, peleas de escuadrón y combate match — junto a herramientas ESP, radar y Aimbot.",
-    "lead": "LoL Cheats está pensado para el loop de League of Legends: leer el mapa, rastrear escuadrones enemigos, wardsear y sobrevivir al extract.",
-    "highlightEspTitle": "ESP de jugadores y escuadrones",
-    "highlightEspCopy": "Detecta jugadores enemigos y contornos de escuadrón en Summoners Rift y ARAM game para elegir peleas con mejor información.",
-    "highlightRadarTitle": "Marcadores de wards y cofres",
-    "highlightRadarCopy": "Resalta loadouts, cofres y wards de alto nivel sin saturar la pantalla en plena partida.",
-    "highlightAimbotTitle": "Controles Aimbot League of Legends",
-    "highlightAimbotCopy": "Ajusta suavidad, prioridad de objetivo y teclas para AR, SMG y francotirador antes de comprar.",
-    "updatesLabel": "Actualizaciones LoL Cheats",
+    "eyebrow": "lol cheats",
+    "title": "galería lol cheats",
+    "subtitle": "Visuales simples de lol cheats — ESP, wallhack, aimbot y radar para League of Legends en PC.",
+    "lead": "LoL Cheats te ayuda a ver campeones enemigos, súbditos, wards y objetivos con ESP, aimbot y radar en una licencia.",
+    "highlightEspTitle": "lol cheats esp",
+    "highlightEspCopy": "Ve campeones a través de paredes con lol cheats esp y overlays wallhack.",
+    "highlightRadarTitle": "lol cheats radar",
+    "highlightRadarCopy": "Rastrea amenazas cercanas con lol cheats radar antes de pushear o pelear en equipo.",
+    "highlightAimbotTitle": "lol cheats aimbot",
+    "highlightAimbotCopy": "Usa soft aim y controles aimbot ajustados para partidas de League of Legends en PC Windows.",
+    "updatesLabel": "actualizaciones lol cheats",
     "updatesShort": "Actualizaciones"
   }
 }

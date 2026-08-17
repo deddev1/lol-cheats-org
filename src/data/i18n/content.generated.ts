@@ -117,10 +117,10 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Why champions choose lol cheats in 2026",
 							paragraphs: [
-								"League of Legends rewards map awareness. LoL Cheats combines ESP wallhack for enemy champions and wards, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on match, ARAM game, and ranked servers.",
+								"League of Legends rewards map awareness. LoL Cheats combines ESP wallhack for enemy champions and wards, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on match, ARAM, and ranked servers.",
 								"Official seasons, patches, and anti-cheat updates come from <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a> and <a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a>. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on the <a href=\"/updates/\">Updates page</a>.",
 								"Licenses ship digitally after payment confirmation. Monthly ($35) and lifetime ($150) plans include Vanguard maintenance rebuilds when anti-cheat or game patches require updates.",
-								"Start with the <a href=\"/\">LoL Cheats pillar</a>, <a href=\"/lol-esp/\">ESP guide</a>, <a href=\"/lol-aimbot/\">Aimbot controls</a>, and <a href=\"/\">undetected status</a> pages if you are comparing tools before checkout.",
+								"Start with the <a href=\"/lol-cheats/\">LoL Cheats pillar</a>, <a href=\"/lol-esp/\">ESP guide</a>, <a href=\"/lol-aimbot/\">Aimbot controls</a>, and <a href=\"/lol-cheats/\">undetected status</a> pages if you are comparing tools before checkout.",
 							],
 						},
 						{
@@ -139,7 +139,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "LoL ESP 2026 | Player Boxes & Wallhack",
 					description: "LoL ESP for Windows PC with player boxes, ward markers, and distance readouts. Undetected visibility tools bundled in our LoL Cheats package with Vanguard.",
 					h1: "LoL ESP — Player Boxes & Wallhack",
-					intro: "LoL ESP visibility tools for match and ARAM game. Read enemy teams, enemy champions, minions, wards, and distance before you commit — toggleable LoL ESP wallhack overlays bundled in our LoL Cheats package.",
+					intro: "LoL ESP visibility tools for match and ARAM. Read enemy teams, enemy champions, minions, wards, and distance before you commit — toggleable LoL ESP wallhack overlays bundled in our LoL Cheats package.",
 					imageAlt: "LoL ESP player boxes and distance readouts in a match",
 					galleryTitle: "LoL ESP overlay visuals",
 					ctaPrimary: "Buy LoL Cheats",
@@ -150,7 +150,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "What LoL ESP solves in matches",
 							paragraphs: [
 								"League of Legends maps punish incomplete information. LoL Cheats ESP wallhack helps you spot enemy teams early, spot enemy champions and minions before they push your angle, and mark low-health targets worth the detour.",
-								"On match, ARAM game, and ranked servers, that visibility gap is often the difference between a clean third-party and a patched team. ESP ships bundled with radar overlays and Aimbot in one license.",
+								"On match, ARAM, and ranked servers, that visibility gap is often the difference between a clean third-party and a patched team. ESP ships bundled with radar overlays and Aimbot in one license.",
 								"League of Legends’s live seasons and map updates are published by Riot Games (<a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a>). When objectives or matchmaking rules shift, ESP categories stay useful because they track champions and wards — not a single static landmark.",
 							],
 						},
@@ -181,7 +181,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"ESP alone wins information wars; Aimbot covers the gank. Review <a href=\"/lol-aimbot/\">Aimbot controls</a> if you want one license for visibility and assist.",
 								"Compare monthly ($35) and lifetime ($150) on <a href=\"/pricing/\">Pricing</a>, then keep <a href=\"/support/\">Support</a> ready if activation needs a human reply.",
-								"Still researching? The <a href=\"/\">LoL Cheats pillar</a> and <a href=\"/\">2026 buyer guide</a> summarize the full stack.",
+								"Still researching? The <a href=\"/lol-cheats/\">LoL Cheats pillar</a> and <a href=\"/lol-cheats/\">2026 buyer guide</a> summarize the full stack.",
 							],
 						},
 					],
@@ -263,7 +263,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"2D radar overlay with directional threat cues, configurable range for rotations and late-match objectives, plus Aimbot smoothness, FOV, bone priority, hotkeys, and per-champion profiles.",
 								"All tools share in-client toggles so you can adjust ESP, radar, and Aimbot during live League of Legends matches. See <a href=\"/lol-radar-cheat/\">radar</a> and <a href=\"/lol-aimbot/\">Aimbot</a> for settings walkthroughs.",
-								"Prefer a menu-first workflow? The <a href=\"/\">mod menu page</a> explains mid-match toggles without alt-tabbing.",
+								"Prefer a menu-first workflow? The <a href=\"/lol-cheats/\">mod menu page</a> explains mid-match toggles without alt-tabbing.",
 							],
 						},
 						{
@@ -271,7 +271,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Monthly ($35) and lifetime ($150) licenses with instant digital delivery. Vanguard maintenance rebuilds publish on the <a href=\"/updates/\">Updates page</a> after anti-cheat or game patches.",
 								"Monitor <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends on Riot Client</a> on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href=\"/support/\">Support</a> and support@lolcheats.org.",
-								"Next step: compare plans on <a href=\"/pricing/\">Pricing</a> or read <a href=\"/\">how undetected maintenance works</a>.",
+								"Next step: compare plans on <a href=\"/pricing/\">Pricing</a> or read <a href=\"/lol-cheats/\">how undetected maintenance works</a>.",
 							],
 						},
 					],
@@ -309,7 +309,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Review the <a href=\"/refund-policy/\">Refund Policy</a> before purchase. For billing or delivery issues, contact Support with your order details.",
 								"Prices are listed in USD. Availability is worldwide for Windows 10 and 11 PCs.",
-								"Still comparing tools? Read <a href=\"/\">lol cheats</a>, <a href=\"/\">undetected status</a>, and <a href=\"/faq/\">FAQ</a> before you checkout.",
+								"Still comparing tools? Read <a href=\"/lol-cheats/\">lol cheats</a>, <a href=\"/lol-cheats/\">undetected status</a>, and <a href=\"/faq/\">FAQ</a> before you checkout.",
 							],
 						},
 					],
@@ -338,7 +338,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Activate ESP wallhack and Aimbot profiles",
 							paragraphs: [
 								"Follow the delivery instructions in your license email. Load default ESP wallhack categories for enemy champions, minions, and wards — then tune radar range and Aimbot smoothness to your playstyle.",
-								"Use in-client hotkeys to toggle ESP, radar, and Aimbot mid-match. Details for Vanguard module live on <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">Aimbot</a>, and <a href=\"/\">mod menu</a>.",
+								"Use in-client hotkeys to toggle ESP, radar, and Aimbot mid-match. Details for Vanguard module live on <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">Aimbot</a>, and <a href=\"/lol-cheats/\">mod menu</a>.",
 								"Prefer a soft tracking feel? Start with the <a href=\"/lol-aimbot/\">soft aim</a> recommendations before raising aggressiveness.",
 							],
 						},
@@ -346,7 +346,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "After League of Legends or Vanguard patches",
 							paragraphs: [
 								"When Riot Games ships a major League of Legends update or Vanguard patch, revisit Updates before queueing. Download maintenance rebuilds when posted.",
-								"Official anti-cheat background: <a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a>. Our practical workflow is documented on the <a href=\"/updates/\">Vanguard bypass page</a> and <a href=\"/\">undetected guide</a>.",
+								"Official anti-cheat background: <a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a>. Our practical workflow is documented on the <a href=\"/updates/\">Vanguard bypass page</a> and <a href=\"/lol-cheats/\">undetected guide</a>.",
 								"Contact <a href=\"/support/\">Support</a> with your order ID if activation fails after a patch — include Windows version and error details for faster replies.",
 							],
 						},
@@ -369,7 +369,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"League of Legends and Vanguard receive frequent patches. LoL Cheats publishes maintenance notes when ESP wallhack, radar, or Aimbot behavior needs a rebuild.",
 								"Use <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends on Riot Client</a> for Riot Games platform health and this page for LoL Cheats build status — both matter on big update days.",
-								"Checking this log before you queue reduces surprises after game days or seasonal launches on match and ARAM game.",
+								"Checking this log before you queue reduces surprises after game days or seasonal launches on match and ARAM.",
 							],
 						},
 						{
@@ -377,7 +377,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Entries note Vanguard compatibility status, rebuilt ESP wallhack overlays, radar range fixes, Aimbot tuning after champions balance changes, and digital delivery of new builds to active licenses.",
 								"Lifetime and monthly subscribers receive rebuild access during active license terms. See <a href=\"/pricing/\">Pricing</a> if you need to renew.",
-								"For context on why rebuilds happen, read the <a href=\"/updates/\">Vanguard bypass guide</a> and <a href=\"/\">undetected lol cheats</a> explainer.",
+								"For context on why rebuilds happen, read the <a href=\"/updates/\">Vanguard bypass guide</a> and <a href=\"/lol-cheats/\">undetected lol cheats</a> explainer.",
 							],
 						},
 						{
@@ -406,15 +406,15 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "What is LoL Cheats?",
 							paragraphs: [
 								"LoL Cheats is an undetected cheat package for League of Legends on Windows PC. It includes ESP wallhack, 2D radar-style awareness, and Aimbot controls with Vanguard maintenance updates.",
-								"Packages cover match and ARAM game. Explore <a href=\"/features/\">Features</a> for the full control list and <a href=\"/lol-esp/\">ESP</a> / <a href=\"/lol-aimbot/\">Aimbot</a> for module detail.",
-								"League of Legends itself is published by Riot Games (<a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a>). Cheats are third-party tools and may violate Riot Games' rules — use is at your own risk.",
+								"Packages cover match and ARAM. Explore <a href=\"/features/\">Features</a> for the full control list and <a href=\"/lol-esp/\">ESP</a> / <a href=\"/lol-aimbot/\">Aimbot</a> for module detail.",
+								"League of Legends itself is published by Riot Games (<a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a>). Cheats are third-party tools and may violate Riot Games'rules — use is at your own risk.",
 							],
 						},
 						{
 							h2: "Are LoL Cheats undetected in 2026?",
 							paragraphs: [
 								"LoL Cheats is maintained with rebuilds after Vanguard and game patches. Check the <a href=\"/updates/\">Updates page</a> for current status — no cheat can guarantee permanent undetected operation.",
-								"Read <a href=\"/\">undetected lol cheats</a> and the <a href=\"/updates/\">Vanguard guide</a> for the maintenance workflow.",
+								"Read <a href=\"/lol-cheats/\">undetected lol cheats</a> and the <a href=\"/updates/\">Vanguard guide</a> for the maintenance workflow.",
 								"Responsible settings and reading maintenance notes before queueing are essential.",
 							],
 						},
@@ -499,7 +499,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Combine maintenance with conservative in-game settings. Read the <a href=\"/faq/\">FAQ</a> and Updates log regularly — undetected status is not a one-time promise.",
 								"Lifetime and monthly plans include rebuild access during active terms — see <a href=\"/pricing/\">Pricing</a>.",
-								"New buyers should also read <a href=\"/\">lol cheats 2026</a> and complete <a href=\"/setup/\">Setup</a> after delivery.",
+								"New buyers should also read <a href=\"/lol-cheats/\">lol cheats 2026</a> and complete <a href=\"/setup/\">Setup</a> after delivery.",
 							],
 						},
 					],
@@ -527,7 +527,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Map coverage for wallhack ESP",
 							paragraphs: [
-								"Wallhack overlays support match, ARAM game, and ranked servers with distance readouts and snaplines for engagement control.",
+								"Wallhack overlays support match, ARAM, and ranked servers with distance readouts and snaplines for engagement control.",
 								"Season maps and objective changes are announced via <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a>. Wallhack remains useful because it tracks entities, not fixed landmarks alone.",
 								"Pair wallhack awareness with <a href=\"/lol-radar-cheat/\">radar cheat</a> cues for flanks during forest and river bank ambushes.",
 							],
@@ -536,7 +536,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected wallhack maintenance",
 							paragraphs: [
 								"ESP wallhack modules rebuild after Vanguard patches. Follow the <a href=\"/updates/\">Updates page</a> and complete checkout for instant license delivery on Windows PC.",
-								"Learn the full maintenance story on <a href=\"/\">undetected lol cheats</a> and <a href=\"/updates/\">Vanguard bypass</a>.",
+								"Learn the full maintenance story on <a href=\"/lol-cheats/\">undetected lol cheats</a> and <a href=\"/updates/\">Vanguard bypass</a>.",
 								"Ready to buy? Compare <a href=\"/pricing/\">Pricing</a> or continue to the <a href=\"/lol-esp/\">ESP cheat</a> landing for alternate search wording.",
 							],
 						},
@@ -565,8 +565,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Configurable radar range",
 							paragraphs: [
-								"Adjust radar range for early rotations versus tight objective zones. Directional cues highlight flanks during building clears and flank pushes across match and ARAM game.",
-								"Toggle radar alongside ESP and Aimbot with in-client hotkeys during live matches — see the <a href=\"/\">mod menu</a> page.",
+								"Adjust radar range for early rotations versus tight objective zones. Directional cues highlight flanks during building clears and flank pushes across match and ARAM.",
+								"Toggle radar alongside ESP and Aimbot with in-client hotkeys during live matches — see the <a href=\"/lol-cheats/\">mod menu</a> page.",
 								"Combat follow-up lives on <a href=\"/lol-aimbot/\">Aimbot</a> when you convert radar info into a fight.",
 							],
 						},
@@ -575,7 +575,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Radar cheat modules receive Vanguard maintenance rebuilds with the full LoL Cheats package. Monthly and lifetime licenses include digital delivery — see <a href=\"/pricing/\">Pricing</a>.",
 								"Check <a href=\"/updates/\">Updates</a> after major League of Legends patches before relying on previous radar configs.",
-								"New to the stack? Start at <a href=\"/features/\">Features</a> or <a href=\"/\">undetected status</a>.",
+								"New to the stack? Start at <a href=\"/features/\">Features</a> or <a href=\"/lol-cheats/\">undetected status</a>.",
 							],
 						},
 					],
@@ -605,7 +605,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The team tests ESP overlays, radar signatures, and Aimbot profiles against the new build, publishes status on <a href=\"/updates/\">Updates</a>, and ships rebuilt packages to active licenses.",
 								"Confirm Riot Games service health on <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends on Riot Client</a> if the launcher or matchmaking fails during the same window.",
-								"Avoid queueing on old builds after major patch days until maintenance notes confirm a new release. Related reading: <a href=\"/\">undetected lol cheats</a>.",
+								"Avoid queueing on old builds after major patch days until maintenance notes confirm a new release. Related reading: <a href=\"/lol-cheats/\">undetected lol cheats</a>.",
 							],
 						},
 						{
@@ -635,22 +635,22 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"2026 updates bring new maps, champion balance changes, and Vanguard patches. LoL Cheats bundles ESP wallhack, radar cheat, and Aimbot with active maintenance — not a stale prior-year build.",
 								"Track official season messaging on <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a>, then use our <a href=\"/updates/\">Updates log</a> for product rebuild timing.",
-								"Monthly ($35) and lifetime ($150) plans cover match and ARAM game loops — see <a href=\"/pricing/\">Pricing</a>.",
+								"Monthly ($35) and lifetime ($150) plans cover match and ARAM loops — see <a href=\"/pricing/\">Pricing</a>.",
 							],
 						},
 						{
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
 								"Player ESP wallhack, ward markers, 2D radar overlays, Aimbot profiles, in-client toggles, and post-patch rebuilds — one license instead of stacking separate tools.",
-								"Deep links: <a href=\"/\">LoL Cheats pillar</a>, <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">Aimbot</a>, <a href=\"/lol-esp/\">wallhack</a>, <a href=\"/lol-radar-cheat/\">radar</a>, <a href=\"/\">undetected</a>.",
+								"Deep links: <a href=\"/lol-cheats/\">LoL Cheats pillar</a>, <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">Aimbot</a>, <a href=\"/lol-esp/\">wallhack</a>, <a href=\"/lol-radar-cheat/\">radar</a>, <a href=\"/lol-cheats/\">undetected</a>.",
 								"Instant digital delivery after checkout confirmation worldwide.",
 							],
 						},
 						{
 							h2: "Before you buy in 2026",
 							paragraphs: [
-								"Read the <a href=\"/\">lol cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.",
-								"Also compare the <a href=\"/\">lol cheats</a> checklist, <a href=\"/blog/lol-cheats-2026-whats-new/\">2026 blog guide</a>, and <a href=\"/faq/\">FAQ</a>.",
+								"Read the <a href=\"/lol-cheats/\">lol cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.",
+								"Also compare the <a href=\"/lol-cheats/\">lol cheats</a> checklist, <a href=\"/blog/lol-cheats-2026-whats-new/\">2026 blog guide</a>, and <a href=\"/faq/\">FAQ</a>.",
 								"Support is available at support@lolcheats.org via the <a href=\"/support/\">Support page</a>.",
 							],
 						},
@@ -661,7 +661,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "LoL Cheats 2026 | Undetected ESP Aimbot Guide",
 					description: "lol cheats for Windows PC: undetected ESP wallhack, radar cheat, and Aimbot with Vanguard maintenance. Compare lol cheats options and buy the full package.",
 					h1: "LoL Cheats — Undetected ESP, Aimbot & Wallhack",
-					intro: "lol cheats for match and ARAM game combine ESP wallhack visibility, 2D radar-style threat cues, and Aimbot controls in one undetected Windows PC license — maintained after Vanguard patches. This is the pillar guide for lol cheats in 2026.",
+					intro: "lol cheats for match and ARAM combine ESP wallhack visibility, 2D radar-style threat cues, and Aimbot controls in one undetected Windows PC license — maintained after Vanguard patches. This is the pillar guide for lol cheats in 2026.",
 					imageAlt: "LoL Cheats product page — ESP, aimbot, and radar",
 					galleryTitle: "lol cheats gallery — ESP, Aimbot, wallhack",
 					ctaPrimary: "Buy LoL Cheats",
@@ -672,14 +672,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "What lol cheats include in 2026",
 							paragraphs: [
 								"Players searching for lol cheats usually want visibility and combat tools without stacking separate downloads. LoL Cheats bundles player ESP wallhack, ward markers, 2D radar overlays, and configurable Aimbot in one maintained package — the same toolkit often called lol cheats.",
-								"Coverage spans match and ARAM game with in-client toggles for live matches. Monthly ($35) and lifetime ($150) licenses unlock the full stack.",
+								"Coverage spans match and ARAM with in-client toggles for live matches. Monthly ($35) and lifetime ($150) licenses unlock the full stack.",
 								"Official game updates come from <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a>; our cheats package tracks those releases via the <a href=\"/updates/\">Updates page</a>. Cross-check platform health on <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends on Riot Client</a> before patch-day queue ups.",
 							],
 						},
 						{
 							h2: "How this LoL Cheats pillar fits nearby pages",
 							paragraphs: [
-								"Use this pillar for the core product overview. For year-specific buying notes, see the <a href=\"/\">lol cheats 2026</a> and <a href=\"/\">lol cheats</a> pages cover buyer comparisons in cheats wording.",
+								"Use this pillar for the core product overview. For year-specific buying notes, see the <a href=\"/lol-cheats/\">lol cheats 2026</a> and <a href=\"/lol-cheats/\">lol cheats</a> pages cover buyer comparisons in cheats wording.",
 								"Deep-dive modules: <a href=\"/lol-esp/\">LoL ESP</a>, <a href=\"/lol-aimbot/\">LoL Aimbot</a>, <a href=\"/lol-esp/\">wallhack</a>, <a href=\"/lol-radar-cheat/\">radar cheat</a>, and <a href=\"/lol-aimbot/\">soft aim</a>.",
 								"Blog guides expand Vanguard keyword: <a href=\"/blog/lol-cheats-complete-guide-2026/\">cheats complete guide</a>, <a href=\"/blog/lol-cheats-buyers-guide/\">cheats buyers guide</a>, and <a href=\"/blog/undetected-lol-cheats-vanguard/\">undetected Vanguard notes</a>.",
 							],
@@ -689,14 +689,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Standalone cheats often cover only wallhack or only aim assist. LoL Cheats maps the full survival loop: read enemy teams, track baron buffs and wards, spot flanks on radar, and tune Aimbot per champions.",
 								"Compare the <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">Aimbot</a>, and <a href=\"/features/\">Features</a> pages — or review <a href=\"/pricing/\">Pricing</a> for monthly and lifetime licenses.",
-								"Related landings: <a href=\"/setup/\">cheat download</a>, <a href=\"/\">mod menu</a>, <a href=\"/lol-aimbot/\">aimbot</a>, <a href=\"/lol-esp/\">ESP</a>.",
+								"Related landings: <a href=\"/setup/\">cheat download</a>, <a href=\"/lol-cheats/\">mod menu</a>, <a href=\"/lol-aimbot/\">aimbot</a>, <a href=\"/lol-esp/\">ESP</a>.",
 							],
 						},
 						{
 							h2: "Undetected lol cheats with Vanguard maintenance",
 							paragraphs: [
 								"Undetected lol cheats require rebuilds after Vanguard and major League of Legends patches. Check Updates before queueing — maintenance notes confirm when a new build is live. No package can promise permanent undetected status.",
-								"See <a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a> for anti-cheat background and our <a href=\"/updates/\">Vanguard bypass guide</a> for the practical workflow. Pair with <a href=\"/\">undetected lol cheats</a> for status language buyers expect.",
+								"See <a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a> for anti-cheat background and our <a href=\"/updates/\">Vanguard bypass guide</a> for the practical workflow. Pair with <a href=\"/lol-cheats/\">undetected lol cheats</a> for status language buyers expect.",
 								"Digital delivery runs after checkout for Windows 10 and 11 PCs worldwide. After purchase, follow <a href=\"/setup/\">Setup</a> and keep <a href=\"/support/\">Support</a> ready with your order ID.",
 							],
 						},
@@ -735,7 +735,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Follow Setup to activate ESP wallhack and Aimbot on Windows 10 or 11. When League of Legends or Vanguard patches ship, check the <a href=\"/updates/\">Updates page</a> for maintenance rebuilds.",
 								"Contact <a href=\"/support/\">Support</a> with your order ID if delivery or activation fails within 24 hours of purchase.",
-								"Also read <a href=\"/\">undetected status</a> so you know what “download ready” means after a patch.",
+								"Also read <a href=\"/lol-cheats/\">undetected status</a> so you know what “download ready” means after a patch.",
 							],
 						},
 					],
@@ -793,7 +793,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "What League of Legends soft aim means",
 							paragraphs: [
-								"League of Legends soft aim refers to Aimbot behavior tuned for smooth, natural-looking tracking rather than instant snap. LoL Cheats exposes smoothness, FOV, and aim smoothing sliders so you control how assist feels in BR ganks.",
+								"League of Legends soft aim refers to Aimbot behavior tuned for smooth, natural-looking tracking rather than instant snap. LoL Cheats exposes smoothness, FOV, and aim smoothing sliders so you control how assist feels in ranked ganks.",
 								"Bone priority and target selection cover closest player, lowest health, or highest-threat targets during team fights.",
 								"Full Aimbot documentation: <a href=\"/lol-aimbot/\">LoL Aimbot</a>. Alternate wording: <a href=\"/lol-aimbot/\">aimbot cheat</a>.",
 							],
@@ -832,7 +832,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "What makes lol cheats in 2026",
 							paragraphs: [
 								"The lol cheats combine active Vanguard maintenance, a full ESP wallhack and radar stack, configurable Aimbot, and clear update communication — not a stale build from a prior season.",
-								"LoL Cheats covers match and ARAM game with in-client toggles and post-patch rebuilds.",
+								"LoL Cheats covers match and ARAM with in-client toggles and post-patch rebuilds.",
 								"Verify the live game is healthy via <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends on Riot Client</a>, then confirm our <a href=\"/updates/\">Updates</a> note before you judge any package “best.”",
 							],
 						},
@@ -840,8 +840,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Best lol cheats feature checklist",
 							paragraphs: [
 								"Look for player ESP wallhack, ward markers, 2D radar overlays, Aimbot profiles, hotkey toggles, and documented maintenance after League of Legends patches.",
-								"Review <a href=\"/features/\">Features</a>, <a href=\"/\">undetected status</a>, and <a href=\"/\">lol cheats 2026</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
-								"Module pages worth opening: <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">Aimbot</a>, <a href=\"/\">cheats</a>.",
+								"Review <a href=\"/features/\">Features</a>, <a href=\"/lol-cheats/\">undetected status</a>, and <a href=\"/lol-cheats/\">lol cheats 2026</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
+								"Module pages worth opening: <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">Aimbot</a>, <a href=\"/lol-cheats/\">cheats</a>.",
 							],
 						},
 						{
@@ -897,7 +897,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					title: "LoL ESP Cheat 2026 | Player Boxes & Loot",
 					description: "LoL ESP cheat with player boxes and ward markers for Windows PC. Undetected visibility overlays with Vanguard maintenance — compare features and buy when.",
 					h1: "LoL ESP Cheat — Player Boxes Guide",
-					intro: "LoL ESP cheat overlays for League of Legends — player outlines, baron threat cues, ward and objective markers with distance readouts across match and ARAM game.",
+					intro: "LoL ESP cheat overlays for League of Legends — player outlines, baron threat cues, ward and objective markers with distance readouts across match and ARAM.",
 					imageAlt: "LoL ESP cheat boxes and ward markers",
 					galleryTitle: "LoL ESP cheat gallery",
 					ctaPrimary: "Buy LoL Cheats",
@@ -925,7 +925,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"ESP cheat modules rebuild after Vanguard and League of Legends patches. Check the <a href=\"/updates/\">Updates page</a> before queueing — pair ESP cheat awareness with <a href=\"/lol-radar-cheat/\">radar cheat</a> for flank reads.",
 								"Licenses deliver digitally after checkout on Windows PC — see <a href=\"/pricing/\">Pricing</a>.",
-								"Install steps: <a href=\"/setup/\">Setup</a>. Status questions: <a href=\"/\">undetected guide</a>.",
+								"Install steps: <a href=\"/setup/\">Setup</a>. Status questions: <a href=\"/lol-cheats/\">undetected guide</a>.",
 							],
 						},
 					],
@@ -955,7 +955,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"ESP wallhack helps you spot enemy teams, baron buffs, and low-health targets during live matches. Radar cheat adds flank awareness; Aimbot covers combat assist with smoothness and hotkey controls.",
 								"For loadout planning during a match, wards and ward markers speed map rotations — see the <a href=\"/lol-esp/\">ESP</a> and <a href=\"/features/\">Features</a> pages for the full tool list.",
-								"Related: <a href=\"/\">lol cheats</a> and <a href=\"/\">lol cheats</a>.",
+								"Related: <a href=\"/lol-cheats/\">lol cheats</a> and <a href=\"/lol-cheats/\">lol cheats</a>.",
 							],
 						},
 						{
@@ -1066,7 +1066,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Risk and anti-cheat disclaimer",
 							paragraphs: [
 								"Using cheats in League of Legends may violate Riot Games terms and result in account penalties. LoL Cheats provides maintenance but does not guarantee undetected status or account safety.",
-								"You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href=\"/\">undetected status</a>.",
+								"You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href=\"/lol-cheats/\">undetected status</a>.",
 							],
 						},
 						{
@@ -1138,7 +1138,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Explorar",
 					help: "Ayuda y legal",
-					tagline: "ESP, wallhack, radar y Aimbot indetectables para League of Legends — checkout en Zadeyo.",
+					tagline: "ESP, wallhack, radar y Aimbot indetectables para League of Legends.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -1160,7 +1160,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					h1: "LoL Cheats — ESP, Wallhack y Aimbot indetectables",
 					intro: "Paquete undetected para League of Legends en Windows PC: ESP wallhack, radar y Aimbot con mantenimiento Vanguard tras cada parche.",
 					imageAlt: "LoL ESP — etiquetas de jugador cheat",
-					galleryTitle: "GaleríLoL Cheats — ESP, Aimbot y wallhack",
+					galleryTitle: "Galería LoL Cheats — ESP, Aimbot y wallhack",
 					heroImage: "/images/lol-evade-esp-wallhack.webp",
 					ctaPrimary: "Comprar LoL Cheats",
 					ctaSecondary: "Ver funciones",
@@ -1169,8 +1169,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Por qué eligen LoL Cheats en 2026",
 							paragraphs: [
-								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. Ideal para leer escuadrones enemigos en BR y ARAM game.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. Ideal para leer escuadrones enemigos en ranked and ARAM matches.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
@@ -1198,20 +1198,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. cajas de jugador, marcadores de carcasa y overlays wallhack.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1233,20 +1233,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. soft aim, FOV y perfiles Aimbot por especie.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1268,20 +1268,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Funciones",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. ESP, soft aim, controles de radar.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1303,20 +1303,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Precios",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. licencias de $35 mensuales o $150 de por vida.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1338,20 +1338,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Instalación",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. activación en Windows PC y configuración del primer arranque.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1373,20 +1373,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Actualizaciones",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. estado de parches Vanguard y notas de reconstrucción.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1408,20 +1408,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. preguntas sobre ESP, soft aim, entrega y Vanguard.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1443,20 +1443,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Soporte",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. ayuda con pedidos y contacto de soporte de licencias.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1478,20 +1478,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Trucos indetectables",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. mantenimiento undetected tras parches Vanguard.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1513,20 +1513,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. wallhack ESP para jugadores, wards y distancia.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1548,20 +1548,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar cheat",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. señales de radar 2D para flancos y rotaciones.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1583,20 +1583,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Bypass Vanguard",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. cómo se gestionan las actualizaciones Vanguard para League of Legends cheats.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1618,20 +1618,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Trucos League of Legends 2026",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. checklist de lol cheats 2026 antes del checkout.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1653,20 +1653,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Trucos League of Legends",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. pilar LoL Cheats para ESP y Aimbot.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1688,20 +1688,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "DescargLoL Cheats",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. descarga de licencia digital tras el pago.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1723,20 +1723,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Menú mod League of Legends",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. toggles de ESP y soft aim en el cliente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1758,20 +1758,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Soft aim League of Legends",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. ajustes suaves de soft aim para Windows PC.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1793,20 +1793,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Mejores trucos League of Legends",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. qué comparar antes de comprar lol cheats.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1828,20 +1828,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. asistencia undetected de cheat Aimbot para League of Legends.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1863,20 +1863,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. cajas ESP cheat, pins de carcasa y distancia.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1898,20 +1898,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Unlock all League of Legends",
 							paragraphs: [
 								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. búsquedas unlock-all vs herramientas reales ESP y Aimbot.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "indetectables",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantánea",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
 							],
 						},
@@ -1932,8 +1932,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Información que recopilamos",
 							paragraphs: [
-								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. Correo de contacto, referencias de pedido Zadeyo y datos básicos de seguridad del sitio.",
-								"Los datos de pago se procesan en el checkout de Zadeyo — no se almacenan en lolcheats.org.",
+								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. Correo de contacto, referencias de pedido secure checkout y datos básicos de seguridad del sitio.",
+								"Los datos de pago se procesan en el checkout de secure checkout — no se almacenan en lolcheats.org.",
 							],
 						},
 						{
@@ -1967,8 +1967,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Entrega digital",
 							paragraphs: [
-								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. Correo de contacto, referencias de pedido Zadeyo y datos básicos de seguridad del sitio.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. Correo de contacto, referencias de pedido secure checkout y datos básicos de seguridad del sitio.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
@@ -2002,8 +2002,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Aceptación de términos",
 							paragraphs: [
-								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. Correo de contacto, referencias de pedido Zadeyo y datos básicos de seguridad del sitio.",
-								"Licencias con entrega digital instantánea vía checkout Zadeyo. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. Correo de contacto, referencias de pedido secure checkout y datos básicos de seguridad del sitio.",
+								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
 							],
 						},
 						{
@@ -2081,7 +2081,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Explorer",
 					help: "Aide et légal",
-					tagline: "ESP, wallhack, radar et Aimbot indétectables pour League of Legends — checkout via Zadeyo.",
+					tagline: "ESP, wallhack, radar et Aimbot indétectables pour League of Legends.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -2112,8 +2112,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Pourquoi choisir LoL Cheats en 2026",
 							paragraphs: [
-								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. Parfait pour lire les escouades ennemies en BR et ARAM game.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. Parfait pour lire les escouades ennemies en ranked et ARAM.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
@@ -2141,20 +2141,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. boîtes joueur, marqueurs de warde et overlays wallhack.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2176,20 +2176,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. soft aim, FOV et profils Aimbot par espèce.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2211,20 +2211,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Fonctions",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. ESP, soft aim, contrôles radar.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2246,20 +2246,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Tarifs",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. licences à $35/mois ou $150 à vie.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2281,20 +2281,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Installation",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. activation Windows PC et configuration au premier lancement.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2316,20 +2316,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Mises à jour",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. statut des patchs Vanguard et notes de rebuild.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2351,20 +2351,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. questions ESP, soft aim, livraison et Vanguard.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2386,20 +2386,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Support",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. aide commande et contact support licence.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2421,20 +2421,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Triches indétectables",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. maintenance undetected après patchs Vanguard.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2456,20 +2456,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. wallhack ESP pour joueurs, wards et distance.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2491,20 +2491,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar cheat",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. indices radar 2D pour flancs et rotations.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2526,20 +2526,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Bypass Vanguard",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. gestion des mises à jour Vanguard pour League of Legends cheats.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2561,20 +2561,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Triches League of Legends 2026",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. checklist lol cheats 2026 avant checkout.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2596,20 +2596,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Triches League of Legends",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. pilier LoL Cheats pour ESP et Aimbot.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2631,20 +2631,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Téléchargement LoL Cheats",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. téléchargement licence numérique après paiement.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2666,20 +2666,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Menu mod League of Legends",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. toggles ESP et soft aim in-client.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2701,20 +2701,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Soft aim League of Legends",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. réglages soft aim fluides pour Windows PC.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2736,20 +2736,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Meilleures triches League of Legends",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. quoi comparer avant d'acheter lol cheats.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2771,20 +2771,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. assist cheat Aimbot undetected pour League of Legends.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2806,20 +2806,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. boîtes ESP cheat, pins warde et distance.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2841,20 +2841,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Unlock all League of Legends",
 							paragraphs: [
 								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. recherches unlock-all vs vrais outils ESP et Aimbot.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "indétectables",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
 							h2: "livraison numérique instantanée",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
 							],
 						},
@@ -2875,8 +2875,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Informations collectées",
 							paragraphs: [
-								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. E-mail de contact, références de commande Zadeyo et données de sécurité de base du site.",
-								"Les détails de paiement sont traités par le checkout Zadeyo — non stockés sur lolcheats.org.",
+								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. E-mail de contact, références de commande secure checkout et données de sécurité de base du site.",
+								"Les détails de paiement sont traités par le secure checkout — non stockés sur lolcheats.org.",
 							],
 						},
 						{
@@ -2910,8 +2910,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Livraison numérique",
 							paragraphs: [
-								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. E-mail de contact, références de commande Zadeyo et données de sécurité de base du site.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. E-mail de contact, références de commande secure checkout et données de sécurité de base du site.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
@@ -2945,8 +2945,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Acceptation des conditions",
 							paragraphs: [
-								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. E-mail de contact, références de commande Zadeyo et données de sécurité de base du site.",
-								"Licences avec livraison numérique instantanée via checkout Zadeyo. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. E-mail de contact, références de commande secure checkout et données de sécurité de base du site.",
+								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
 							],
 						},
 						{
@@ -3024,7 +3024,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Entdecken",
 					help: "Hilfe & Rechtliches",
-					tagline: "Undetected ESP, Wallhack, Radar und Aimbot für League of Legends — Checkout über Zadeyo.",
+					tagline: "Undetected ESP, Wallhack, Radar und Aimbot für League of Legends.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -3055,8 +3055,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Warum LoL Cheats 2026 führt",
 							paragraphs: [
-								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. Ideal um feindliche Squads in BR und ARAM game zu lesen.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. Ideal um feindliche Squads in ranked and ARAM matches zu lesen.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
@@ -3084,20 +3084,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. Spielerboxen, Kadaver-Marker und Wallhack-Overlays.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3119,20 +3119,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. Soft Aim, FOV und Aimbot-Profile pro Spezies.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3154,20 +3154,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Features",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. ESP, Soft Aim, Radar-Steuerung.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3189,20 +3189,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Preise",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. $35 monatliche oder $150 Lifetime-Lizenzen.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3224,20 +3224,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Setup",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. Windows PC Aktivierung und Erststart-Setup.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3259,20 +3259,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Updates",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. Vanguard Patch-Status und Rebuild-Notizen.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3294,20 +3294,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. Fragen zu ESP, Soft Aim, Lieferung und Vanguard.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3329,20 +3329,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Support",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. Bestellhilfe und Lizenz-Support-Kontakt.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3364,20 +3364,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected Cheats",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. Undetected-Wartung nach Vanguard Patches.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3399,20 +3399,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. Wallhack ESP für Spieler, Kadaver und Entfernung.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3434,20 +3434,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar Cheat",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. 2D-Radar-Hinweise für Flanken und Rotationen.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3469,20 +3469,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Vanguard Bypass",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. wie Vanguard Updates für LoL Cheats gehandhabt werden.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3504,20 +3504,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Cheats 2026",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. 2026 lol cheats Checkliste vor dem Checkout.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3539,20 +3539,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Cheats",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. LoL Cheats Säule für ESP und Aimbot.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3574,20 +3574,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Cheat Download",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. digitaler Lizenz-Download nach Zahlung.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3609,20 +3609,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Mod-Menü",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. In-Client ESP- und Soft-Aim-Toggles.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3644,20 +3644,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Soft Aim",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. sanfte Soft-Aim-Einstellungen für Windows PC.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3679,20 +3679,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Beste LoL Cheats",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. was vor dem Kauf der lol cheats verglichen werden sollte.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3714,20 +3714,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot Cheat",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. undetected Aimbot-Cheat-Assist für League of Legends.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3749,20 +3749,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP Cheat",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. ESP-Cheat-Boxen, Kadaver-Pins und Entfernung.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3784,20 +3784,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Unlock All",
 							paragraphs: [
 								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. unlock-all Suchen vs echte ESP- und Aimbot-Tools.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
 							h2: "sofortige digitale Lieferung",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 								"support@lolcheats.org für Support und rechtliche Anfragen.",
 							],
 						},
@@ -3818,8 +3818,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Erhobene Daten",
 							paragraphs: [
-								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. Kontakt-E-Mail, Zadeyo-Bestellreferenzen und grundlegende Sicherheitsdaten der Website.",
-								"Zahlungsdaten werden über Zadeyo-Checkout verarbeitet — nicht auf lolcheats.org gespeichert.",
+								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. Kontakt-E-Mail, secure checkout-Bestellreferenzen und grundlegende Sicherheitsdaten der Website.",
+								"Zahlungsdaten werden über secure checkout-Checkout verarbeitet — nicht auf lolcheats.org gespeichert.",
 							],
 						},
 						{
@@ -3853,8 +3853,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Digitale Lieferung",
 							paragraphs: [
-								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. Kontakt-E-Mail, Zadeyo-Bestellreferenzen und grundlegende Sicherheitsdaten der Website.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. Kontakt-E-Mail, secure checkout-Bestellreferenzen und grundlegende Sicherheitsdaten der Website.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
@@ -3888,8 +3888,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Annahme der Bedingungen",
 							paragraphs: [
-								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. Kontakt-E-Mail, Zadeyo-Bestellreferenzen und grundlegende Sicherheitsdaten der Website.",
-								"Lizenzen mit sofortige digitale Lieferung über Zadeyo Checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. Kontakt-E-Mail, secure checkout-Bestellreferenzen und grundlegende Sicherheitsdaten der Website.",
+								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
 							],
 						},
 						{
@@ -3967,7 +3967,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Explorar",
 					help: "Ajuda e legal",
-					tagline: "ESP, wallhack, radar e Aimbot indetectáveis para League of Legends — checkout via Zadeyo.",
+					tagline: "ESP, wallhack, radar e Aimbot indetectáveis para League of Legends.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -3989,7 +3989,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					h1: "LoL Cheats — ESP, Wallhack e Aimbot indetectáveis",
 					intro: "Pacote undetected para League of Legends no Windows PC: ESP wallhack, radar e Aimbot com manutenção Vanguard após cada patch.",
 					imageAlt: "LoL ESP player tags cheat",
-					galleryTitle: "GaleriLoL Cheats — ESP, Aimbot e wallhack",
+					galleryTitle: "Galeria LoL Cheats — ESP, Aimbot e wallhack",
 					heroImage: "/images/lol-evade-esp-wallhack.webp",
 					ctaPrimary: "Comprar LoL Cheats",
 					ctaSecondary: "Ver recursos",
@@ -3998,8 +3998,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Por que escolher LoL Cheats em 2026",
 							paragraphs: [
-								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. Ideal para ler eteamrões inimigos em BR e ARAM game.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. Ideal para ler esquadrões inimigos em ranked and ARAM matches.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
@@ -4027,20 +4027,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. caixas de jogador, marcadores de carcaça e overlays wallhack.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4062,20 +4062,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. soft aim, FOV e perfis Aimbot por espécie.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4097,20 +4097,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Recursos",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. ESP, soft aim, controles de radar.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4132,20 +4132,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Preços",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. licenças de $35 mensais ou $150 vitalícias.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4167,20 +4167,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Instalação",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. ativação no Windows PC e configuração do primeiro lançamento.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4202,20 +4202,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Atualizações",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. status de patches Vanguard e notas de rebuild.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4237,20 +4237,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. perguntas sobre ESP, soft aim, entrega e Vanguard.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4272,20 +4272,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Suporte",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. ajuda com pedidos e contato de suporte de licenças.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4307,20 +4307,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheats indetectáveis",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. manutenção undetected após patches Vanguard.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4342,20 +4342,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. wallhack ESP para jogadores, carcaças e distância.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4377,20 +4377,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar cheat",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. sinais de radar 2D para flancos e rotações.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4412,20 +4412,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Bypass Vanguard",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. como as atualizações Vanguard são tratadas para League of Legends cheats.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4447,20 +4447,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheats League of Legends 2026",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. checklist de lol cheats 2026 antes do checkout.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4482,20 +4482,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheats League of Legends",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. pilar LoL Cheats para ESP e Aimbot.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4517,20 +4517,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Download LoL Cheats",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. download de licença digital após pagamento.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4552,20 +4552,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Menu mod League of Legends",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. toggles de ESP e soft aim no cliente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4587,20 +4587,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Soft aim League of Legends",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. ajustes suaves de soft aim para Windows PC.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4622,20 +4622,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Melhores cheats League of Legends",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. o que comparar antes de comprar lol cheats.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4657,20 +4657,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. assistência undetected de cheat Aimbot para League of Legends.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4692,20 +4692,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. caixas ESP cheat, pins de carcaça e distância.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4727,20 +4727,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Unlock all League of Legends",
 							paragraphs: [
 								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. buscas unlock-all vs ferramentas reais ESP e Aimbot.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "indetectáveis",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
 							h2: "entrega digital instantânea",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 								"Contacte support@lolcheats.org para suporte ou questões legais.",
 							],
 						},
@@ -4761,8 +4761,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Informações que coletamos",
 							paragraphs: [
-								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. E-mail de contato, referências de pedido Zadeyo e dados básicos de segurança do site.",
-								"Detalhes de pagamento são processados pelo checkout Zadeyo — não armazenados em lolcheats.org.",
+								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. E-mail de contato, referências de pedido secure checkout e dados básicos de segurança do site.",
+								"Detalhes de pagamento são processados pelo secure checkout — não armazenados em lolcheats.org.",
 							],
 						},
 						{
@@ -4796,8 +4796,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Entrega digital",
 							paragraphs: [
-								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. E-mail de contato, referências de pedido Zadeyo e dados básicos de segurança do site.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. E-mail de contato, referências de pedido secure checkout e dados básicos de segurança do site.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
@@ -4831,8 +4831,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Aceitação dos termos",
 							paragraphs: [
-								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. E-mail de contato, referências de pedido Zadeyo e dados básicos de segurança do site.",
-								"Licenças com entrega digital instantânea via checkout Zadeyo. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. E-mail de contato, referências de pedido secure checkout e dados básicos de segurança do site.",
+								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
 							],
 						},
 						{
@@ -4910,7 +4910,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Esplora",
 					help: "Aiuto e legale",
-					tagline: "ESP, wallhack, radar e Aimbot indetectable per League of Legends — checkout via Zadeyo.",
+					tagline: "ESP, wallhack, radar e Aimbot indetectable per League of Legends.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -4932,17 +4932,17 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					h1: "LoL Cheats — ESP, Wallhack e Aimbot indetectable",
 					intro: "Pacchetto undetected per League of Legends su PC Windows: ESP wallhack, radar e Aimbot con manutenzione Vanguard dopo ogni patch.",
 					imageAlt: "LoL ESP player tags cheat",
-					galleryTitle: "GalleriLoL Cheats — ESP, Aimbot e wallhack",
+					galleryTitle: "Galleria LoL Cheats — ESP, Aimbot e wallhack",
 					heroImage: "/images/lol-evade-esp-wallhack.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Perché scegliere LoL Cheats nel 2026",
 							paragraphs: [
-								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. Ideale per leggere teamre nemiche in BR e ARAM game.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. Ideale per leggere squadre nemiche in ranked and ARAM matches.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
@@ -4962,7 +4962,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL ESP player boxes and distance readouts in a match",
 					galleryTitle: "ESP League of Legends",
 					heroImage: "/images/lol-evade-esp-wallhack.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/lol-cheats/",
 					sections: [
@@ -4970,20 +4970,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. box giocatore, marcatori warda e overlay wallhack.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -4997,7 +4997,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Aimbot and soft aim controls on Windows PC",
 					galleryTitle: "Aimbot League of Legends",
 					heroImage: "/images/lol-script-teamfight.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/lol-esp/",
 					sections: [
@@ -5005,20 +5005,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. soft aim, FOV e profili Aimbot per specie.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5032,7 +5032,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats features — ESP, soft aim, and radar screenshots",
 					galleryTitle: "Funzioni",
 					heroImage: "/images/lol-cheat-mod-menu-evade.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/pricing/",
 					sections: [
@@ -5040,20 +5040,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Funzioni",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. ESP, soft aim, controlli radar.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5067,7 +5067,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats store plans for monthly and lifetime licenses",
 					galleryTitle: "Prezzi",
 					heroImage: "/images/lol-script-teamfight.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/setup/",
 					sections: [
@@ -5075,20 +5075,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Prezzi",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. licenze $35 mensili o $150 lifetime.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5102,7 +5102,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats setup guide screenshot for Windows PC",
 					galleryTitle: "Setup",
 					heroImage: "/images/lol-hexevade-script-menu.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/support/",
 					sections: [
@@ -5110,20 +5110,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Setup",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. attivazione Windows PC e setup al primo avvio.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5137,7 +5137,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats live status after Vanguard and game patches",
 					galleryTitle: "Aggiornamenti",
 					heroImage: "/images/lol-hexevade-script-menu.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/lol-cheats/",
 					sections: [
@@ -5145,20 +5145,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Aggiornamenti",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. stato patch Vanguard e note di rebuild.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5172,7 +5172,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats FAQ — delivery, setup, and update answers",
 					galleryTitle: "FAQ",
 					heroImage: "/images/lol-cheat-mod-menu-evade.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/support/",
 					sections: [
@@ -5180,20 +5180,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. domande su ESP, soft aim, consegna e Vanguard.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5207,7 +5207,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats support page for license and setup help",
 					galleryTitle: "Supporto",
 					heroImage: "/images/lol-hexevade-script-menu.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/setup/",
 					sections: [
@@ -5215,20 +5215,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Supporto",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. aiuto ordini e contatto supporto licenze.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5242,7 +5242,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats undetected status overview for Windows PC",
 					galleryTitle: "Cheat indetectable",
 					heroImage: "/images/lol-hexevade-script-menu.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/lol-cheats/",
 					sections: [
@@ -5250,20 +5250,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat indetectable",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. manutenzione undetected dopo patch Vanguard.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5277,7 +5277,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "lol wallhack visibility through walls in a match",
 					galleryTitle: "League of Legends Wallhack",
 					heroImage: "/images/lol-evade-esp-wallhack.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/lol-esp/",
 					sections: [
@@ -5285,20 +5285,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. wallhack ESP per giocatori, wards e distanza.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5312,7 +5312,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "League of Legends 2D radar overlay showing nearby threats",
 					galleryTitle: "Radar cheat",
 					heroImage: "/images/lol-hexevade-script-menu.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/lol-esp/",
 					sections: [
@@ -5320,20 +5320,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar cheat",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. segnali radar 2D per flanchi e rotazioni.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5347,7 +5347,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats maintenance after a Vanguard patch",
 					galleryTitle: "Bypass Vanguard",
 					heroImage: "/images/lol-hexevade-script-menu.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/updates/",
 					sections: [
@@ -5355,20 +5355,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Bypass Vanguard",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. come vengono gestiti gli aggiornamenti Vanguard per League of Legends cheats.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5382,7 +5382,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats product overview for League of Legends",
 					galleryTitle: "Cheat League of Legends 2026",
 					heroImage: "/images/lol-cheat-mod-menu-evade.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/lol-cheats/",
 					sections: [
@@ -5390,20 +5390,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat League of Legends 2026",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. checklist lol cheats 2026 prima del checkout.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5417,7 +5417,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats product page — ESP, aimbot, and radar",
 					galleryTitle: "Cheat League of Legends",
 					heroImage: "/images/lol-cheat-mod-menu-evade.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/features/",
 					sections: [
@@ -5425,20 +5425,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat League of Legends",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. pilastro LoL Cheats per ESP e Aimbot.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5452,7 +5452,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats download and install delivery flow",
 					galleryTitle: "Download LoL Cheats",
 					heroImage: "/images/lol-cheat-mod-menu-evade.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/setup/",
 					sections: [
@@ -5460,20 +5460,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Download LoL Cheats",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. download licenza digitale dopo il pagamento.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5487,7 +5487,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "League of Legends cheat mod menu with EvadePlus dodge settings",
 					galleryTitle: "Mod menu League of Legends",
 					heroImage: "/images/lol-cheat-mod-menu-evade.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/features/",
 					sections: [
@@ -5495,20 +5495,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Mod menu League of Legends",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. toggle ESP e soft aim in-client.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5522,7 +5522,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "League of Legends script overlays during a teamfight",
 					galleryTitle: "Soft aim League of Legends",
 					heroImage: "/images/lol-script-teamfight.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/lol-aimbot/",
 					sections: [
@@ -5530,20 +5530,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Soft aim League of Legends",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. impostazioni soft aim fluide per Windows PC.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5557,7 +5557,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "League of Legends evade script with ESP wallhack distance tracking",
 					galleryTitle: "Migliori cheat League of Legends",
 					heroImage: "/images/lol-evade-esp-wallhack.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/pricing/",
 					sections: [
@@ -5565,20 +5565,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Migliori cheat League of Legends",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. cosa confrontare prima di acquistare lol cheats.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5592,7 +5592,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "League of Legends script overlays during a teamfight",
 					galleryTitle: "Cheat aimbot League of Legends",
 					heroImage: "/images/lol-script-teamfight.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/lol-aimbot/",
 					sections: [
@@ -5600,20 +5600,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. assist undetected cheat Aimbot per League of Legends.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5627,7 +5627,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "League of Legends evade and ESP wallhack overlay in match",
 					galleryTitle: "Cheat ESP League of Legends",
 					heroImage: "/images/lol-evade-esp-wallhack.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/lol-esp/",
 					sections: [
@@ -5635,20 +5635,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. box ESP cheat, pin warda e distanza.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5662,7 +5662,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats license features overview",
 					galleryTitle: "Unlock all League of Legends",
 					heroImage: "/images/lol-script-teamfight.webp",
-					ctaPrimary: "AcquistLoL Cheats",
+					ctaPrimary: "Acquista LoL Cheats",
 					ctaSecondary: "Vedi funzioni",
 					ctaSecondaryHref: "/features/",
 					sections: [
@@ -5670,20 +5670,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Unlock all League of Legends",
 							paragraphs: [
 								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. ricerche unlock-all vs veri strumenti ESP e Aimbot.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "indetectable",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
 							h2: "consegna digitale istantanea",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 								"Contatta support@lolcheats.org per supporto o richieste legali.",
 							],
 						},
@@ -5704,8 +5704,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Informazioni raccolte",
 							paragraphs: [
-								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. Email di contatto, riferimenti ordine Zadeyo e dati di sicurezza di base del sito.",
-								"I dati di pagamento sono elaborati dal checkout Zadeyo — non memorizzati su lolcheats.org.",
+								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. Email di contatto, riferimenti ordine secure checkout e dati di sicurezza di base del sito.",
+								"I dati di pagamento sono elaborati dal secure checkout — non memorizzati su lolcheats.org.",
 							],
 						},
 						{
@@ -5739,8 +5739,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Consegna digitale",
 							paragraphs: [
-								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. Email di contatto, riferimenti ordine Zadeyo e dati di sicurezza di base del sito.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. Email di contatto, riferimenti ordine secure checkout e dati di sicurezza di base del sito.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
@@ -5774,8 +5774,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Accettazione dei termini",
 							paragraphs: [
-								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. Email di contatto, riferimenti ordine Zadeyo e dati di sicurezza di base del sito.",
-								"Licenze con consegna digitale istantanea via checkout Zadeyo. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. Email di contatto, riferimenti ordine secure checkout e dati di sicurezza di base del sito.",
+								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
 							],
 						},
 						{
@@ -5853,7 +5853,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Verkennen",
 					help: "Help & juridisch",
-					tagline: "Undetected ESP, wallhack, radar en Aimbot voor League of Legends — checkout via Zadeyo.",
+					tagline: "Undetected ESP, wallhack, radar en Aimbot voor League of Legends.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -5884,8 +5884,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Waarom LoL Cheats in 2026",
 							paragraphs: [
-								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. Ideaal om vijandelijke teams te lezen in BR en ARAM game.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. Ideaal om vijandelijke teams te lezen in ranked and ARAM matches.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
@@ -5913,20 +5913,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. spelerboxen, karkas-markers en wallhack overlays.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -5948,20 +5948,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. soft aim, FOV en Aimbot-profielen per soort.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -5983,20 +5983,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Functies",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. ESP, soft aim, radar bediening.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6018,20 +6018,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Prijzen",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. $35 maandelijkse of $150 lifetime licenties.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6053,20 +6053,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Setup",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. Windows PC activatie en eerste-start setup.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6088,20 +6088,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Updates",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. Vanguard patchstatus en rebuild-notities.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6123,20 +6123,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. vragen over ESP, soft aim, levering en Vanguard.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6158,20 +6158,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Support",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. bestelhulp en licentie support contact.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6193,20 +6193,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected Cheats",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. undetected onderhoud na Vanguard patches.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6228,20 +6228,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. wallhack ESP voor spelers, karkassen en afstand.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6263,20 +6263,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar Cheat",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. 2D radar signalen voor flanks en rotaties.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6298,20 +6298,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Vanguard Bypass",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. hoe Vanguard updates worden afgehandeld voor League of Legends cheats.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6333,20 +6333,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Cheats 2026",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. 2026 lol cheats checklist vóór checkout.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6368,20 +6368,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Cheats",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. LoL Cheats pijler voor ESP en Aimbot.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6403,20 +6403,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Cheat Download",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. digitale licentiedownload na betaling.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6438,20 +6438,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Mod Menu",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. in-client ESP en soft aim toggles.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6473,20 +6473,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Soft Aim",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. vloeiende soft aim instellingen voor Windows PC.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6508,20 +6508,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Beste LoL Cheats",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. wat te vergelijken vóór aankoop van lol cheats.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6543,20 +6543,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot Cheat",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. undetected Aimbot cheat assist voor League of Legends.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6578,20 +6578,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP Cheat",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. ESP cheat boxen, karkas pins en afstand.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6613,20 +6613,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Unlock All",
 							paragraphs: [
 								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. unlock-all zoekopdrachten vs echte ESP en Aimbot tools.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
 							h2: "directe digitale levering",
 							paragraphs: [
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 								"support@lolcheats.org voor support en juridische vragen.",
 							],
 						},
@@ -6647,8 +6647,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Informatie die we verzamelen",
 							paragraphs: [
-								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. Contact-e-mail, Zadeyo-orderreferenties en basisbeveiligingsgegevens van de site.",
-								"Betalingsgegevens worden verwerkt via Zadeyo checkout — niet opgeslagen op lolcheats.org.",
+								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. Contact-e-mail, secure checkout-orderreferenties en basisbeveiligingsgegevens van de site.",
+								"Betalingsgegevens worden verwerkt. — niet opgeslagen op lolcheats.org.",
 							],
 						},
 						{
@@ -6682,8 +6682,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Digitale levering",
 							paragraphs: [
-								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. Contact-e-mail, Zadeyo-orderreferenties en basisbeveiligingsgegevens van de site.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. Contact-e-mail, secure checkout-orderreferenties en basisbeveiligingsgegevens van de site.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
@@ -6717,8 +6717,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Acceptatie van voorwaarden",
 							paragraphs: [
-								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. Contact-e-mail, Zadeyo-orderreferenties en basisbeveiligingsgegevens van de site.",
-								"Licenties met directe digitale levering via Zadeyo checkout. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. Contact-e-mail, secure checkout-orderreferenties en basisbeveiligingsgegevens van de site.",
+								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
 							],
 						},
 						{
@@ -6757,13 +6757,13 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					accent: "Undetected cheaty League of Legends",
 					accentShort: "LoL Cheats",
 					subtitle: "ESP wallhack, radar cheat i Aimbot do League of Legends na PC Windows — konserwacja Vanguard w cenie.",
-					subtitleShort: "ESP, radar i Aimbot dlLeague of Legends PC",
+					subtitleShort: "ESP, radar i Aimbot dla League of Legends PC",
 					buyNow: "Kup teraz",
 					seeFeatures: "Zobacz funkcje",
 				},
 				trust: {
 					status: "Online",
-					statusNote: "Pakiet LoL Cheats jest aktywny dlLeague of Legends na PC Windows.",
+					statusNote: "Pakiet LoL Cheats jest aktywny dla League of Legends na PC Windows.",
 					statusShort: "Aktywny",
 					delivery: "Natychmiastowa dostawa cyfrowa",
 					platform: "Windows 10 i 11",
@@ -6796,7 +6796,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Odkrywaj",
 					help: "Pomoc i prawo",
-					tagline: "Undetected ESP, wallhack, radar i Aimbot dlLeague of Legends — checkout przez Zadeyo.",
+					tagline: "Undetected ESP, wallhack, radar i Aimbot dla League of Legends.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -6814,11 +6814,11 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 			pages: {
 				home: {
 					title: "LoL Cheats 2026 | ESP, Wallhack i Aimbot",
-					description: "Undetected cheaty League of Legends dlLeague of Legends na PC. ESP wallhack, radar cheat i Aimbot z konserwacją Vanguard. Natychmiastowa dostawa cyfrowa.",
+					description: "Undetected cheaty League of Legends dla League of Legends na PC. ESP wallhack, radar cheat i Aimbot z konserwacją Vanguard. Natychmiastowa dostawa cyfrowa.",
 					h1: "LoL Cheats — Undetected ESP, Wallhack i Aimbot",
-					intro: "Pakiet undetected dlLeague of Legends na Windows PC: ESP wallhack, radar i Aimbot z konserwacją Vanguard po każdym patchu.",
+					intro: "Pakiet undetected dla League of Legends na Windows PC: ESP wallhack, radar i Aimbot z konserwacją Vanguard po każdym patchu.",
 					imageAlt: "LoL ESP player tags cheat",
-					galleryTitle: "GaleriLoL Cheats — ESP, Aimbot i wallhack",
+					galleryTitle: "Galeria LoL Cheats — ESP, Aimbot i wallhack",
 					heroImage: "/images/lol-evade-esp-wallhack.webp",
 					ctaPrimary: "Kup LoL Cheats",
 					ctaSecondary: "Zobacz funkcje",
@@ -6827,8 +6827,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Dlaczego LoL Cheats w 2026",
 							paragraphs: [
-								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. Idealny do czytania wrogich teamów w BR i ARAM game.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. Idealny do czytania wrogich teamów w ranked and ARAM matches.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
@@ -6856,20 +6856,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. boxy graczy, markery tusz i overlay wallhack.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -6891,20 +6891,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. soft aim, FOV i profile Aimbot per gatunek.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -6926,20 +6926,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Funkcje",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. ESP, soft aim, sterowanie radar.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -6961,20 +6961,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cennik",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. licencje $35 miesięcznie lub $150 lifetime.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -6996,20 +6996,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Instalacja",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. aktywacja Windows PC i konfiguracja pierwszego uruchomienia.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7031,20 +7031,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Aktualizacje",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. status patchy Vanguard i notatki rebuild.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7066,20 +7066,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. pytania o ESP, soft aim, dostawę i Vanguard.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7101,20 +7101,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Wsparcie",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. pomoc przy zamówieniu i kontakt wsparcia licencji.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7136,20 +7136,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheaty undetected",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. undetected konserwacja po patchach Vanguard.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7171,20 +7171,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. wallhack ESP dla graczy, tusz i dystansu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7206,20 +7206,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar cheat",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. 2D radar wskazówki dla flank i rotacji.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7227,7 +7227,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				vanguard: {
 					title: "Bypass Vanguard | Patch Maintenance",
-					description: "Bypass Vanguard: jak obsługiwane są aktualizacje Vanguard dlLeague of Legends cheats. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Bypass Vanguard: jak obsługiwane są aktualizacje Vanguard dla League of Legends cheats. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
 					h1: "Bypass Vanguard",
 					intro: "LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. Bypass Vanguard.",
 					imageAlt: "LoL Cheats maintenance after a Vanguard patch",
@@ -7240,21 +7240,21 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Bypass Vanguard",
 							paragraphs: [
-								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. jak obsługiwane są aktualizacje Vanguard dlLeague of Legends cheats.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. jak obsługiwane są aktualizacje Vanguard dla League of Legends cheats.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7276,20 +7276,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheaty League of Legends 2026",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. checklista lol cheats 2026 przed checkout.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7311,20 +7311,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheaty League of Legends",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. filary LoL Cheats dla ESP i Aimbot.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7346,20 +7346,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Pobieranie LoL Cheats",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. cyfrowe pobranie licencji po płatności.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7381,20 +7381,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Mod menu League of Legends",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. przełączniki ESP i soft aim w kliencie.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7416,20 +7416,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Soft aim League of Legends",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. płynne ustawienia soft aim dla Windows PC.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7451,20 +7451,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Najlepsze cheaty League of Legends",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. co porównać przed zakupem lol cheats.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7472,7 +7472,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				},
 				"aimbot-cheat": {
 					title: "Cheat aimbot League of Legends | Soft Aim Assist",
-					description: "Cheat aimbot League of Legends: undetected Aimbot cheat assist dlLeague of Legends. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
+					description: "Cheat aimbot League of Legends: undetected Aimbot cheat assist dla League of Legends. natychmiastowa dostawa cyfrowa. undetected — PC Windows.",
 					h1: "Cheat aimbot League of Legends",
 					intro: "LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. Cheat aimbot League of Legends.",
 					imageAlt: "League of Legends script overlays during a teamfight",
@@ -7485,21 +7485,21 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Cheat aimbot League of Legends",
 							paragraphs: [
-								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. undetected Aimbot cheat assist dlLeague of Legends.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. undetected Aimbot cheat assist dla League of Legends.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7521,20 +7521,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. boxy ESP cheat, piny tusz i dystans.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7556,20 +7556,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Unlock all League of Legends",
 							paragraphs: [
 								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. wyszukiwania unlock-all vs prawdziwe narzędzia ESP i Aimbot.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
 							h2: "natychmiastowa dostawa cyfrowa",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 								"support@lolcheats.org w sprawach wsparcia i prawnych.",
 							],
 						},
@@ -7590,8 +7590,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Informacje, które zbieramy",
 							paragraphs: [
-								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. E-mail kontaktowy, referencje zamówień Zadeyo i podstawowe dane bezpieczeństwa witryny.",
-								"Dane płatności są przetwarzane przez checkout Zadeyo — nie przechowywane na lolcheats.org.",
+								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. E-mail kontaktowy, referencje zamówień secure checkout i podstawowe dane bezpieczeństwa witryny.",
+								"Dane płatności są przetwarzane przez secure checkout — nie przechowywane na lolcheats.org.",
 							],
 						},
 						{
@@ -7625,8 +7625,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Dostawa cyfrowa",
 							paragraphs: [
-								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. E-mail kontaktowy, referencje zamówień Zadeyo i podstawowe dane bezpieczeństwa witryny.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. E-mail kontaktowy, referencje zamówień secure checkout i podstawowe dane bezpieczeństwa witryny.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
@@ -7660,8 +7660,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Akceptacja warunków",
 							paragraphs: [
-								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. E-mail kontaktowy, referencje zamówień Zadeyo i podstawowe dane bezpieczeństwa witryny.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez checkout Zadeyo. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. E-mail kontaktowy, referencje zamówień secure checkout i podstawowe dane bezpieczeństwa witryny.",
+								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
 							],
 						},
 						{
@@ -7739,7 +7739,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Обзор",
 					help: "Помощь и право",
-					tagline: "Undetected ESP, wallhack, radar и Aimbot для League of Legends — оплата через Zadeyo.",
+					tagline: "Undetected ESP, wallhack, radar и Aimbot для League of Legends — оплата через secure checkout.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -7770,8 +7770,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Почему выбирают LoL Cheats в 2026",
 							paragraphs: [
-								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. Идеально для чтения вражеских отрядов в BR и ARAM game.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. Идеально для чтения вражеских отрядов в ranked и ARAM.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
@@ -7799,20 +7799,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. боксы игроков, маркеры туш и wallhack overlays.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -7834,20 +7834,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. soft aim, FOV и профили Aimbot по видам.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -7869,20 +7869,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Функции",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. ESP, soft aim, управление radar.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -7904,20 +7904,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Цены",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. лицензии $35 в месяц или $150 lifetime.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -7939,20 +7939,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Установка",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. активация на Windows PC и настройка первого запуска.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -7974,20 +7974,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Обновления",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. статус патчей Vanguard и заметки о rebuild.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -8009,20 +8009,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. вопросы об ESP, soft aim, доставке и Vanguard.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -8044,20 +8044,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Поддержка",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. помощь с заказом и контакт поддержки лицензий.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -8079,20 +8079,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected читы",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. undetected обслуживание после патчей Vanguard.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -8114,20 +8114,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. wallhack ESP для игроков, туш и дистанции.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -8149,20 +8149,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar cheat",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. 2D radar подсказки для флангов и ротаций.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -8184,20 +8184,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Bypass Vanguard",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. как обрабатываются обновления Vanguard для League of Legends cheats.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -8219,20 +8219,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Читы League of Legends 2026",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. чеклист lol cheats 2026 перед checkout.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -8254,20 +8254,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Читы League of Legends",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. столп LoL Cheats для ESP и Aimbot.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -8289,20 +8289,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Скачать LoL Cheats",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. цифровая загрузка лицензии после оплаты.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -8324,20 +8324,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Мод-меню League of Legends",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. переключатели ESP и soft aim в клиенте.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -8359,20 +8359,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Soft aim League of Legends",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. плавные настройки soft aim для Windows PC.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -8394,20 +8394,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Лучшие читы League of Legends",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. что сравнить перед покупкой lol cheats.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -8429,20 +8429,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Хак aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. undetected Aimbot cheat assist для League of Legends.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -8464,20 +8464,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Хак ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. ESP cheat боксы, pins туш и дистанция.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -8499,20 +8499,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Unlock all League of Legends",
 							paragraphs: [
 								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. поиски unlock-all vs настоящие ESP и Aimbot инструменты.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
 							h2: "мгновенная цифровая доставка",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 								"support@lolcheats.org для поддержки и юридических вопросов.",
 							],
 						},
@@ -8533,8 +8533,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Информация, которую мы собираем",
 							paragraphs: [
-								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. Контактный email, ссылки на заказы Zadeyo и базовые данные безопасности сайта.",
-								"Платёжные данные обрабатываются через checkout Zadeyo — не хранятся на lolcheats.org.",
+								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. Контактный email, ссылки на заказы secure checkout и базовые данные безопасности сайта.",
+								"Платёжные данные обрабатываются через secure checkout — не хранятся на lolcheats.org.",
 							],
 						},
 						{
@@ -8568,8 +8568,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Цифровая доставка",
 							paragraphs: [
-								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. Контактный email, ссылки на заказы Zadeyo и базовые данные безопасности сайта.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. Контактный email, ссылки на заказы secure checkout и базовые данные безопасности сайта.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
@@ -8603,8 +8603,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Принятие условий",
 							paragraphs: [
-								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. Контактный email, ссылки на заказы Zadeyo и базовые данные безопасности сайта.",
-								"Лицензии с мгновенная цифровая доставка через checkout Zadeyo. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. Контактный email, ссылки на заказы secure checkout и базовые данные безопасности сайта.",
+								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
 							],
 						},
 						{
@@ -8682,7 +8682,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Keşfet",
 					help: "Yardım ve yasal",
-					tagline: "League of Legends için undetected ESP, wallhack, radar ve Aimbot — Zadeyo checkout.",
+					tagline: "League of Legends için undetected ESP, wallhack, radar ve Aimbot —secure checkout.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -8713,8 +8713,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "2026'da neden LoL Cheats",
 							paragraphs: [
-								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. BR ve ARAM game'da düşman team okumak için ideal.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. Dereceli ve ARAM maçlarında düşman takım okumak için ideal.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
@@ -8742,20 +8742,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. oyuncu kutuları, leş işaretleri ve wallhack overlay'leri.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -8777,20 +8777,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. soft aim, FOV ve türe özel Aimbot profilleri.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -8812,20 +8812,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Özellikler",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. ESP, soft aim, radar kontrolleri.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -8847,20 +8847,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Fiyatlar",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. aylık $35 veya lifetime $150 lisanslar.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -8882,20 +8882,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Kurulum",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. Windows PC aktivasyonu ve ilk açılış kurulumu.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -8917,20 +8917,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Güncellemeler",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. Vanguard yama durumu ve rebuild notları.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -8952,20 +8952,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "SSS",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. ESP, soft aim, teslimat ve Vanguard soruları.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -8987,20 +8987,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Destek",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. sipariş yardımı ve lisans destek iletişimi.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -9022,20 +9022,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected hileler",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. Vanguard yamalarından sonra undetected bakım.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -9057,20 +9057,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. oyuncular, leşler ve mesafe için wallhack ESP.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -9092,20 +9092,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar cheat",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. flank ve rotasyonlar için 2D radar ipuçları.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -9127,20 +9127,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Vanguard bypass",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. League of Legends cheats için Vanguard güncellemelerinin nasıl yönetildiği.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -9162,20 +9162,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Hileleri 2026",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. checkout öncesi 2026 lol cheats kontrol listesi.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -9197,20 +9197,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Hileleri",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. ESP ve Aimbot için LoL Cheats sütunu.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -9232,20 +9232,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Hile İndir",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. ödeme sonrası dijital lisans indirme.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -9267,20 +9267,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Mod Menü",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. istemci içi ESP ve soft aim toggle'ları.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -9302,20 +9302,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Soft Aim",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. Windows PC için akıcı soft aim ayarları.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -9337,20 +9337,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "En İyi League of Legends Hileleri",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. lol cheats satın almadan önce ne karşılaştırılmalı.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -9372,20 +9372,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot Hilesi",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. League of Legends için undetected Aimbot cheat assist.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -9407,20 +9407,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP Hilesi",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. ESP cheat kutuları, leş pinleri ve mesafe.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -9442,20 +9442,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Unlock All",
 							paragraphs: [
 								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. unlock-all aramaları vs gerçek ESP ve Aimbot araçları.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
 							h2: "anında dijital teslimat",
 							paragraphs: [
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 								"Destek ve yasal sorular için support@lolcheats.org.",
 							],
 						},
@@ -9476,8 +9476,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Topladığımız bilgiler",
 							paragraphs: [
-								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. İletişim e-postası, Zadeyo sipariş referansları ve temel site güvenlik verileri.",
-								"Ödeme bilgileri Zadeyo checkout ile işlenir — lolcheats.org'da saklanmaz.",
+								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. İletişim e-postası, secure checkout sipariş referansları ve temel site güvenlik verileri.",
+								"Ödeme bilgileri secure checkout ile işlenir — lolcheats.org sitesinde saklanmaz.",
 							],
 						},
 						{
@@ -9511,8 +9511,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Dijital teslimat",
 							paragraphs: [
-								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. İletişim e-postası, Zadeyo sipariş referansları ve temel site güvenlik verileri.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. İletişim e-postası, secure checkout sipariş referansları ve temel site güvenlik verileri.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
@@ -9546,8 +9546,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Şartların kabulü",
 							paragraphs: [
-								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. İletişim e-postası, Zadeyo sipariş referansları ve temel site güvenlik verileri.",
-								"Zadeyo checkout ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. İletişim e-postası, secure checkout sipariş referansları ve temel site güvenlik verileri.",
+								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
 							],
 						},
 						{
@@ -9625,7 +9625,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "استكشف",
 					help: "المساعدة والقانون",
-					tagline: "ESP وwallhack ورadar وAimbot غير مكتشف لـ League of Legends — الدفع عبر Zadeyo.",
+					tagline: "ESP وwallhack ورadar وAimbot غير مكتشف لـ League of Legends — الدفع عبر secure checkout.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -9656,8 +9656,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "لماذا LoL Cheats في 2026",
 							paragraphs: [
-								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. مثالي لقراءة فرق العدو في BR وARAM game.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. مثالي لقراءة فرق العدو في ranked وARAM.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
@@ -9685,20 +9685,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. صناديق اللاعبين وعلامات الجيفة وoverlays wallhack.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -9720,20 +9720,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. soft aim وFOV وملفات Aimbot لكل نوع.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -9755,20 +9755,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "الميزات",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. ESP وsoft aim وضوابط radar.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -9790,20 +9790,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "الأسعار",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. تراخيص $35 شهرياً أو $150 lifetime.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -9825,20 +9825,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "التثبيت",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. تفعيل Windows PC وإعداد أول تشغيل.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -9860,20 +9860,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "التحديثات",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. حالة patch Vanguard وملاحظات rebuild.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -9895,20 +9895,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "الأسئلة",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. أسئلة ESP وsoft aim والتسليم وVanguard.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -9930,20 +9930,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "الدعم",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. مساعدة الطلبات واتصال دعم التراخيص.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -9965,20 +9965,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "غش undetected",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. صيانة undetected بعد patch Vanguard.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -10000,20 +10000,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. wallhack ESP للاعبين والجيف والمسافة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -10035,20 +10035,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar cheat",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. إشارات radar ثنائية الأبعاد للهجمات الجانبية والتدوير.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -10070,20 +10070,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Bypass Vanguard",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. كيف تُدار تحديثات Vanguard لـ League of Legends cheats.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -10105,20 +10105,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "غش League of Legends 2026",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. قائمة lol cheats 2026 قبل checkout.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -10140,20 +10140,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "غش League of Legends",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. ركيزة LoL Cheats لـ ESP وAimbot.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -10175,20 +10175,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "تحميل LoL Cheats",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. تنزيل ترخيص رقمي بعد الدفع.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -10210,20 +10210,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "قائمة مود League of Legends",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. مفاتيح ESP وsoft aim داخل العميل.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -10245,20 +10245,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Soft aim League of Legends",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. إعدادات soft aim سلسة لـ Windows PC.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -10280,20 +10280,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "أفضل غش League of Legends",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. ما يجب مقارنته قبل شراء lol cheats.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -10315,20 +10315,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "هاك Aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. مساعدة cheat Aimbot undetected لـ League of Legends.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -10350,20 +10350,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "هاك ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. صناديق ESP cheat وpins الجيف والمسافة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -10385,20 +10385,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Unlock all League of Legends",
 							paragraphs: [
 								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. بحث unlock-all مقابل أدوات ESP وAimbot الحقيقية.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "غير مكتشف",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
 							h2: "تسليم رقمي فوري",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 								"support@lolcheats.org للدعم والطلبات القانونية.",
 							],
 						},
@@ -10419,8 +10419,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "المعلومات التي نجمعها",
 							paragraphs: [
-								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. بريد الاتصال ومراجع طلبات Zadeyo وبيانات أمان الموقع الأساسية.",
-								"تُعالَج تفاصيل الدفع عبر checkout Zadeyo — ولا تُخزَّن على lolcheats.org.",
+								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. بريد الاتصال ومراجع طلبات secure checkout وبيانات أمان الموقع الأساسية.",
+								"تُعالَج تفاصيل الدفع عبر secure checkout — ولا تُخزَّن على lolcheats.org.",
 							],
 						},
 						{
@@ -10454,8 +10454,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "التسليم الرقمي",
 							paragraphs: [
-								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. بريد الاتصال ومراجع طلبات Zadeyo وبيانات أمان الموقع الأساسية.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. بريد الاتصال ومراجع طلبات secure checkout وبيانات أمان الموقع الأساسية.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
@@ -10489,8 +10489,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "قبول الشروط",
 							paragraphs: [
-								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. بريد الاتصال ومراجع طلبات Zadeyo وبيانات أمان الموقع الأساسية.",
-								"تراخيص مع تسليم رقمي فوري عبر checkout Zadeyo. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. بريد الاتصال ومراجع طلبات secure checkout وبيانات أمان الموقع الأساسية.",
+								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
 							],
 						},
 						{
@@ -10568,7 +10568,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "探索",
 					help: "ヘルプと法務",
-					tagline: "League of Legends向けundetected ESP、wallhack、radar、Aimbot — Zadeyoで購入。",
+					tagline: "League of Legends向けundetected ESP、wallhack、radar、Aimbot — secure checkoutで購入。",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -10599,8 +10599,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "2026年にLoL Cheatsを選ぶ理由",
 							paragraphs: [
-								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。BRとARAM gameで敵スクワッドを読むのに最適。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。rankedとARAMで敵スクワッドを読むのに最適。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
@@ -10628,20 +10628,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。プレイヤーボックス、死体マーカー、wallhackオーバーレイ.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -10663,20 +10663,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。soft aim、FOV、種別ごとのAimbotプロファイル.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -10698,20 +10698,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "機能",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。ESP、soft aim、radarコントロール.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -10733,20 +10733,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "料金",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。月額$35またはlifetime $150ライセンス.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -10768,20 +10768,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "セットアップ",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。Windows PCアクティベーションと初回起動セットアップ.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -10803,20 +10803,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "更新",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。Vanguardパッチ状況とrebuildメモ.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -10838,20 +10838,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。ESP、soft aim、配信、Vanguardに関する質問.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -10873,20 +10873,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "サポート",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。注文ヘルプとライセンスサポート連絡先.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -10908,20 +10908,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetectedチート",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。Vanguardパッチ後のundetectedメンテナンス.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -10943,20 +10943,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。プレイヤー、死体、距離向けwallhack ESP.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -10978,20 +10978,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar Cheat",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。側面攻撃とローテーション向け2D radarキュー.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -11013,20 +11013,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Vanguard Bypass",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。League of Legends cheats向けVanguard更新の対応方法.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -11048,20 +11048,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Cheats 2026",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。checkout前の2026 lol cheatsチェックリスト.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -11083,20 +11083,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Cheats",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。ESPとAimbotのLoL Cheats柱.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -11118,20 +11118,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Cheat Download",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。支払い後のデジタルライセンスダウンロード.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -11153,20 +11153,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Mod Menu",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。クライアント内ESPとsoft aimトグル.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -11188,20 +11188,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Soft Aim",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。Windows PC向けスムーズなsoft aim設定.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -11223,20 +11223,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "最強League of Legendsチート",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。lol cheats購入前に比較すべき点.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -11258,20 +11258,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot Cheat",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。League of Legends向けundetected Aimbot cheat assist.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -11293,20 +11293,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP Cheat",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。ESP cheatボックス、死体pin、距離.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -11328,20 +11328,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Unlock All",
 							paragraphs: [
 								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。unlock-all検索 vs 本物のESPとAimbotツール.",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
 							h2: "即時デジタル配信",
 							paragraphs: [
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 								"サポート・法務: support@lolcheats.org",
 							],
 						},
@@ -11362,8 +11362,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "収集する情報",
 							paragraphs: [
-								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。連絡メール、Zadeyo注文参照、基本的なサイトセキュリティデータ。",
-								"支払い情報はZadeyo checkoutで処理され、lolcheats.orgには保存されません。",
+								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。連絡メール、secure checkout注文参照、基本的なサイトセキュリティデータ。",
+								"支払い情報はsecure checkout.で処理され、lolcheats.orgには保存されません。",
 							],
 						},
 						{
@@ -11397,8 +11397,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "デジタル配信",
 							paragraphs: [
-								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。連絡メール、Zadeyo注文参照、基本的なサイトセキュリティデータ。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。連絡メール、secure checkout注文参照、基本的なサイトセキュリティデータ。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
@@ -11432,8 +11432,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "規約への同意",
 							paragraphs: [
-								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。連絡メール、Zadeyo注文参照、基本的なサイトセキュリティデータ。",
-								"Zadeyo checkoutで即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。連絡メール、secure checkout注文参照、基本的なサイトセキュリティデータ。",
+								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
 							],
 						},
 						{
@@ -11511,7 +11511,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "탐색",
 					help: "도움말 및 법적",
-					tagline: "League of Legends용 undetected ESP, wallhack, radar, Aimbot — Zadeyo 결제.",
+					tagline: "League of Legends용 undetected ESP, wallhack, radar, Aimbot — secure checkout 결제.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -11542,8 +11542,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "2026년 LoL Cheats를 선택하는 이유",
 							paragraphs: [
-								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. BR 및 ARAM game에서 적 분대 읽기에 이상적.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. ranked 및 ARAM에서 적 분대 읽기에 이상적.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
@@ -11571,20 +11571,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. 플레이어 박스, 시체 마커, wallhack 오버레이.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -11606,20 +11606,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. soft aim, FOV, 종별 Aimbot 프로필.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -11641,20 +11641,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "기능",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. ESP, soft aim, radar 컨트롤.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -11676,20 +11676,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "가격",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. 월 $35 또는 lifetime $150 라이선스.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -11711,20 +11711,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "설치",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. Windows PC 활성화 및 첫 실행 설정.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -11746,20 +11746,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "업데이트",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. Vanguard 패치 상태 및 rebuild 메모.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -11781,20 +11781,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. ESP, soft aim, 배송, Vanguard 질문.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -11816,20 +11816,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "지원",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. 주문 도움 및 라이선스 지원 연락처.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -11851,20 +11851,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected 치트",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. Vanguard 패치 후 undetected 유지보수.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -11886,20 +11886,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. 플레이어, 시체, 거리용 wallhack ESP.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -11921,20 +11921,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar Cheat",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. 측면 공격과 로테이션용 2D radar 신호.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -11956,20 +11956,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Vanguard Bypass",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. League of Legends cheats용 Vanguard 업데이트 처리 방법.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -11991,20 +11991,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Cheats 2026",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. checkout 전 2026 lol cheats 체크리스트.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -12026,20 +12026,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Cheats",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. ESP와 Aimbot을 위한 LoL Cheats 기둥.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -12061,20 +12061,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Cheat Download",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. 결제 후 디지털 라이선스 다운로드.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -12096,20 +12096,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends 모드 메뉴",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. 클라이언트 내 ESP 및 soft aim 토글.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -12131,20 +12131,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Soft Aim",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. Windows PC용 부드러운 soft aim 설정.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -12166,20 +12166,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "최고의 League of Legends 치트",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. lol cheats 구매 전 비교할 항목.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -12201,20 +12201,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends 에임봇 핵",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. League of Legends용 undetected Aimbot cheat assist.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -12236,20 +12236,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP 핵",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. ESP cheat 박스, 시체 pin, 거리.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -12271,20 +12271,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Unlock All",
 							paragraphs: [
 								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. unlock-all 검색 vs 실제 ESP 및 Aimbot 도구.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
 							h2: "즉시 디지털 배송",
 							paragraphs: [
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 								"지원 및 법무: support@lolcheats.org",
 							],
 						},
@@ -12305,8 +12305,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "수집하는 정보",
 							paragraphs: [
-								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. 연락 이메일, Zadeyo 주문 참조 및 기본 사이트 보안 데이터.",
-								"결제 정보는 Zadeyo checkout에서 처리되며 lolcheats.org에 저장되지 않습니다.",
+								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. 연락 이메일, secure checkout 주문 참조 및 기본 사이트 보안 데이터.",
+								"결제 정보는secure checkout.에서 처리되며 lolcheats.org에 저장되지 않습니다.",
 							],
 						},
 						{
@@ -12340,8 +12340,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "디지털 배송",
 							paragraphs: [
-								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. 연락 이메일, Zadeyo 주문 참조 및 기본 사이트 보안 데이터.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. 연락 이메일, secure checkout 주문 참조 및 기본 사이트 보안 데이터.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
@@ -12375,8 +12375,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "약관 동의",
 							paragraphs: [
-								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. 연락 이메일, Zadeyo 주문 참조 및 기본 사이트 보안 데이터.",
-								"Zadeyo checkout으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. 연락 이메일, secure checkout 주문 참조 및 기본 사이트 보안 데이터.",
+								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
 							],
 						},
 						{
@@ -12454,7 +12454,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "探索",
 					help: "帮助与法律",
-					tagline: "League of Legends undetected ESP、wallhack、radar与Aimbot — 通过Zadeyo结账。",
+					tagline: "League of Legends undetected ESP、wallhack、radar与Aimbot — 通过secure checkout结账。",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -12485,8 +12485,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "2026年选择LoL Cheats的原因",
 							paragraphs: [
-								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。适合在BR和ARAM game中读取敌方小队。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。适合在ranked and ARAM matches中读取敌方小队。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
@@ -12514,20 +12514,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。玩家方框、尸体标记和wallhack overlay.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -12549,20 +12549,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。soft aim、FOV和按物种的Aimbot配置.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -12584,20 +12584,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "功能",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。ESP、soft aim、radar控制.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -12619,20 +12619,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "价格",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。月付$35或lifetime $150许可证.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -12654,20 +12654,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "安装",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。Windows PC激活和首次启动设置.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -12689,20 +12689,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "更新",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。Vanguard补丁状态和rebuild说明.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -12724,20 +12724,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "常见问题",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。ESP、soft aim、交付和Vanguard问题.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -12759,20 +12759,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "支持",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。订单帮助和许可证支持联系方式.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -12794,20 +12794,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected作弊",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。Vanguard补丁后的undetected维护.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -12829,20 +12829,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。玩家、尸体和距离的wallhack ESP.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -12864,20 +12864,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar Cheat",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。侧翼和轮换的2D radar提示.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -12899,20 +12899,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Vanguard Bypass",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。League of Legends cheats的Vanguard更新处理方式.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -12934,20 +12934,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends作弊 2026",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。checkout前的2026 lol cheats清单.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -12969,20 +12969,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends作弊",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。ESP和Aimbot的LoL Cheats支柱.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -13004,20 +13004,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends作弊下载",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。付款后的数字许可证下载.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -13039,20 +13039,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends修改菜单",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。客户端内ESP和soft aim开关.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -13074,20 +13074,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Soft Aim",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。Windows PC的流畅soft aim设置.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -13109,20 +13109,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "最佳League of Legends作弊",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。购买lol cheats前应比较的内容.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -13144,20 +13144,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends自瞄外挂",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。League of Legends的undetected Aimbot cheat assist.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -13179,20 +13179,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP外挂",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。ESP cheat方框、尸体pin和距离.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -13214,20 +13214,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Unlock All",
 							paragraphs: [
 								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。unlock-all搜索 vs 真正的ESP和Aimbot工具.",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
 							h2: "即时数字交付",
 							paragraphs: [
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 								"支持与法务：support@lolcheats.org",
 							],
 						},
@@ -13248,8 +13248,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "我们收集的信息",
 							paragraphs: [
-								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。联系邮箱、Zadeyo 订单参考及基本网站安全数据。",
-								"支付详情由 Zadeyo checkout 处理 — 不存储在 lolcheats.org。",
+								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。联系邮箱、secure checkout 订单参考及基本网站安全数据。",
+								"支付详情由secure checkout. 处理 — 不存储在 lolcheats.org。",
 							],
 						},
 						{
@@ -13283,8 +13283,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "数字交付",
 							paragraphs: [
-								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。联系邮箱、Zadeyo 订单参考及基本网站安全数据。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。联系邮箱、secure checkout 订单参考及基本网站安全数据。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
@@ -13318,8 +13318,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "接受条款",
 							paragraphs: [
-								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。联系邮箱、Zadeyo 订单参考及基本网站安全数据。",
-								"通过Zadeyo checkout即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。联系邮箱、secure checkout 订单参考及基本网站安全数据。",
+								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
 							],
 						},
 						{
@@ -13397,7 +13397,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "एक्सप्लोर",
 					help: "सहायता और कानूनी",
-					tagline: "League of Legends के लिए undetected ESP, wallhack, radar और Aimbot — Zadeyo checkout।",
+					tagline: "League of Legends के लिए undetected ESP, wallhack, radar और Aimbot —secure checkout.।",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -13428,8 +13428,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "2026 में LoL Cheats क्यों",
 							paragraphs: [
-								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। BR और ARAM game में दुश्मन team पढ़ने के लिए आदर्श.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। ranked and ARAM matches में दुश्मन team पढ़ने के लिए आदर्श.",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
@@ -13457,20 +13457,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। प्लेयर बॉक्स, ward markers और wallhack overlays.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -13492,20 +13492,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। soft aim, FOV और प्रजाति-वार Aimbot profiles.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -13527,20 +13527,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "फ़ीचर्स",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। ESP, soft aim, radar controls.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -13562,20 +13562,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "कीमत",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। $35 monthly या $150 lifetime licenses.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -13597,20 +13597,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "सेटअप",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। Windows PC activation और first-launch setup.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -13632,20 +13632,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "अपडेट",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। Vanguard patch status और rebuild notes.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -13667,20 +13667,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। ESP, soft aim, delivery और Vanguard questions.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -13702,20 +13702,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "सहायता",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। order help और license support contact.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -13737,20 +13737,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected cheats",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। Vanguard patches के बाद undetected maintenance.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -13772,20 +13772,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। champions, wards और distance के लिए wallhack ESP.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -13807,20 +13807,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar Cheat",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। flanks और rotations के लिए 2D radar cues.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -13842,20 +13842,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Vanguard Bypass",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। League of Legends cheats के लिए Vanguard updates कैसे handle होते हैं.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -13877,20 +13877,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Cheats 2026",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। checkout से पहले 2026 lol cheats checklist.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -13912,20 +13912,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Cheats",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। ESP और Aimbot के लिए LoL Cheats pillar.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -13947,20 +13947,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Cheat Download",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। payment के बाद digital license download.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -13982,20 +13982,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Mod Menu",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। in-client ESP और soft aim toggles.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -14017,20 +14017,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Soft Aim",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। Windows PC के लिए smooth soft aim settings.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -14052,20 +14052,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "सर्वश्रेष्ठ LoL Cheats",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। lol cheats खरीदने से पहले क्या compare करें.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -14087,20 +14087,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot Cheat",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। League of Legends के लिए undetected Aimbot cheat assist.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -14122,20 +14122,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP Cheat",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। ESP cheat boxes, ward pins और distance.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -14157,20 +14157,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Unlock All",
 							paragraphs: [
 								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। unlock-all searches vs real ESP और Aimbot tools.",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
 							h2: "तुरंत डिजिटल डिलीवरी",
 							paragraphs: [
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 								"सहायता: support@lolcheats.org",
 							],
 						},
@@ -14191,8 +14191,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "हम जो जानकारी एकत्र करते हैं",
 							paragraphs: [
-								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। संपर्क ईमेल, Zadeyo ऑर्डर संदर्भ और बुनियादी साइट सुरक्षा डेटा।",
-								"भुगतान विवरण Zadeyo checkout द्वारा संसाधित — lolcheats.org पर संग्रहीत नहीं।",
+								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। संपर्क ईमेल, secure checkout ऑर्डर संदर्भ और बुनियादी साइट सुरक्षा डेटा।",
+								"भुगतान विवरणsecure checkout. द्वारा संसाधित — lolcheats.org पर संग्रहीत नहीं।",
 							],
 						},
 						{
@@ -14226,8 +14226,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "डिजिटल डिलीवरी",
 							paragraphs: [
-								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। संपर्क ईमेल, Zadeyo ऑर्डर संदर्भ और बुनियादी साइट सुरक्षा डेटा।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। संपर्क ईमेल, secure checkout ऑर्डर संदर्भ और बुनियादी साइट सुरक्षा डेटा।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
@@ -14261,8 +14261,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "शर्तों की स्वीकृति",
 							paragraphs: [
-								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। संपर्क ईमेल, Zadeyo ऑर्डर संदर्भ और बुनियादी साइट सुरक्षा डेटा।",
-								"Zadeyo checkout से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। संपर्क ईमेल, secure checkout ऑर्डर संदर्भ और बुनियादी साइट सुरक्षा डेटा।",
+								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
 							],
 						},
 						{
@@ -14340,7 +14340,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Jelajahi",
 					help: "Bantuan & legal",
-					tagline: "ESP, wallhack, radar, dan Aimbot undetected untuk League of Legends — checkout via Zadeyo.",
+					tagline: "ESP, wallhack, radar, dan Aimbot undetected untuk League of Legends.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -14369,10 +14369,10 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/features/",
 					sections: [
 						{
-							h2: "MengapLoL Cheats di 2026",
+							h2: "Mengapa LoL Cheats di 2026",
 							paragraphs: [
-								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. Ideal membaca team musuh di BR dan ARAM game.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. Ideal membaca team musuh di ranked and ARAM matches.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
@@ -14400,20 +14400,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. kotak pemain, penanda bangkai, dan overlay wallhack.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14435,20 +14435,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. soft aim, FOV, dan profil Aimbot per spesies.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14470,20 +14470,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Fitur",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. ESP, soft aim, kontrol radar.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14505,20 +14505,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Harga",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. lisensi $35 bulanan atau $150 lifetime.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14540,20 +14540,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Setup",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. aktivasi Windows PC dan setup peluncuran pertama.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14575,20 +14575,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Pembaruan",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. status patch Vanguard dan catatan rebuild.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14610,20 +14610,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. pertanyaan ESP, soft aim, pengiriman, dan Vanguard.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14645,20 +14645,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Dukungan",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. bantuan pesanan dan kontak dukungan lisensi.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14680,20 +14680,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat undetected",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. pemeliharaan undetected setelah patch Vanguard.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14715,20 +14715,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. wallhack ESP untuk pemain, bangkai, dan jarak.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14750,20 +14750,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar cheat",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. petunjuk radar 2D untuk flanking dan rotasi.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14785,20 +14785,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Bypass Vanguard",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. cara pembaruan Vanguard ditangani untuk League of Legends cheats.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14820,20 +14820,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat League of Legends 2026",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. checklist lol cheats 2026 sebelum checkout.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14855,20 +14855,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat League of Legends",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. pilar LoL Cheats untuk ESP dan Aimbot.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14890,20 +14890,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Download Cheat League of Legends",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. unduhan lisensi digital setelah pembayaran.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14925,20 +14925,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Menu mod League of Legends",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. toggle ESP dan soft aim in-client.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14960,20 +14960,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Soft aim League of Legends",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. pengaturan soft aim halus untuk Windows PC.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -14995,20 +14995,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat League of Legends terbaik",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. apa yang dibandingkan sebelum membeli lol cheats.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -15030,20 +15030,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. assist cheat Aimbot undetected untuk League of Legends.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -15065,20 +15065,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. kotak ESP cheat, pin bangkai, dan jarak.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -15100,20 +15100,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Unlock all League of Legends",
 							paragraphs: [
 								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. pencarian unlock-all vs alat ESP dan Aimbot asli.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
 							h2: "pengiriman digital instan",
 							paragraphs: [
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 								"support@lolcheats.org untuk dukungan dan legal.",
 							],
 						},
@@ -15134,8 +15134,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Informasi yang kami kumpulkan",
 							paragraphs: [
-								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. Email kontak, referensi pesanan Zadeyo, dan data keamanan situs dasar.",
-								"Detail pembayaran diproses oleh checkout Zadeyo — tidak disimpan di lolcheats.org.",
+								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. Email kontak, referensi pesanan secure checkout, dan data keamanan situs dasar.",
+								"Detail pembayaran diproses oleh secure checkout — tidak disimpan di lolcheats.org.",
 							],
 						},
 						{
@@ -15169,8 +15169,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Pengiriman digital",
 							paragraphs: [
-								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. Email kontak, referensi pesanan Zadeyo, dan data keamanan situs dasar.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. Email kontak, referensi pesanan secure checkout, dan data keamanan situs dasar.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
@@ -15204,8 +15204,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Penerimaan syarat",
 							paragraphs: [
-								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. Email kontak, referensi pesanan Zadeyo, dan data keamanan situs dasar.",
-								"pengiriman digital instan via checkout Zadeyo. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. Email kontak, referensi pesanan secure checkout, dan data keamanan situs dasar.",
+								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
 							],
 						},
 						{
@@ -15283,7 +15283,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "สำรวจ",
 					help: "ช่วยเหลือและกฎหมาย",
-					tagline: "ESP, wallhack, radar และ Aimbot ไม่ถูกตรวจจับสำหรับ League of Legends — ชำระผ่าน Zadeyo",
+					tagline: "ESP, wallhack, radar และ Aimbot ไม่ถูกตรวจจับสำหรับ League of Legends — ชำระผ่าน secure checkout",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -15314,8 +15314,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "ทำไมเลือก LoL Cheats ปี 2026",
 							paragraphs: [
-								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC เหมาะสำหรับอ่าน team ศัตรูใน BR และ ARAM game",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC เหมาะสำหรับอ่าน team ศัตรูใน ranked and ARAM matches",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
@@ -15343,20 +15343,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC กล่องผู้เล่น มาร์กเกอร์ซาก และ overlay wallhack.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15378,20 +15378,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC soft aim, FOV และโปรไฟล์ Aimbot ตามสายพันธุ์.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15413,20 +15413,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ฟีเจอร์",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC ESP, soft aim, การควบคุม radar.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15448,20 +15448,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ราคา",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC ใบอนุญาต $35 รายเดือนหรือ $150 lifetime.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15483,20 +15483,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ติดตั้ง",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC การเปิดใช้งาน Windows PC และการตั้งค่าเปิดครั้งแรก.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15518,20 +15518,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "อัปเดต",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC สถานะ patch Vanguard และบันทึก rebuild.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15553,20 +15553,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC คำถาม ESP, soft aim, การจัดส่ง และ Vanguard.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15588,20 +15588,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "สนับสนุน",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC ความช่วยเหลือคำสั่งซื้อและติดต่อสนับสนุนใบอนุญาต.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15623,20 +15623,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheats undetected",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC การบำรุงรักษา undetected หลัง patch Vanguard.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15658,20 +15658,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC wallhack ESP สำหรับผู้เล่น ซาก และระยะทาง.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15693,20 +15693,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar Cheat",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC สัญญาณ radar 2D สำหรับการโจมตีด้านข้างและการหมุน.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15728,20 +15728,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Vanguard Bypass",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC วิธีจัดการอัปเดต Vanguard สำหรับ League of Legends cheats.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15763,20 +15763,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Cheats 2026",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC checklist lol cheats 2026 ก่อน checkout.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15798,20 +15798,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Cheats",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC เสาหลัก LoL Cheats สำหรับ ESP และ Aimbot.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15833,20 +15833,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ดาวน์โหลด LoL Cheats",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC ดาวน์โหลดใบอนุญาตดิจิทัลหลังชำระเงิน.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15868,20 +15868,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "เมนูมอด League of Legends",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC สวิตช์ ESP และ soft aim ในไคลเอนต์.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15903,20 +15903,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Soft Aim",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC การตั้งค่า soft aim ที่ลื่นไหลสำหรับ Windows PC.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15938,20 +15938,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat League of Legends ที่ดีที่สุด",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC สิ่งที่ควรเปรียบเทียบก่อนซื้อ lol cheats.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -15973,20 +15973,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat Aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC assist cheat Aimbot undetected สำหรับ League of Legends.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -16008,20 +16008,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC กล่อง ESP cheat, pin ซาก และระยะทาง.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -16043,20 +16043,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Unlock All",
 							paragraphs: [
 								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC การค้นหา unlock-all vs เครื่องมือ ESP และ Aimbot จริง.",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
 							h2: "จัดส่งดิจิทัลทันที",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 								"support@lolcheats.org สำหรับการสนับสนุน",
 							],
 						},
@@ -16077,8 +16077,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "ข้อมูลที่เราเก็บ",
 							paragraphs: [
-								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC อีเมลติดต่อ อ้างอิงคำสั่งซื้อ Zadeyo และข้อมูลความปลอดภัยพื้นฐานของเว็บไซต์",
-								"รายละเอียดการชำระเงินประมวลผลผ่าน checkout Zadeyo — ไม่เก็บบน lolcheats.org",
+								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC อีเมลติดต่อ อ้างอิงคำสั่งซื้อ secure checkout และข้อมูลความปลอดภัยพื้นฐานของเว็บไซต์",
+								"รายละเอียดการชำระเงินประมวลผลผ่าน secure checkout — ไม่เก็บบน lolcheats.org",
 							],
 						},
 						{
@@ -16112,8 +16112,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "การจัดส่งดิจิทัล",
 							paragraphs: [
-								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC อีเมลติดต่อ อ้างอิงคำสั่งซื้อ Zadeyo และข้อมูลความปลอดภัยพื้นฐานของเว็บไซต์",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC อีเมลติดต่อ อ้างอิงคำสั่งซื้อ secure checkout และข้อมูลความปลอดภัยพื้นฐานของเว็บไซต์",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
@@ -16147,8 +16147,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "การยอมรับข้อกำหนด",
 							paragraphs: [
-								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC อีเมลติดต่อ อ้างอิงคำสั่งซื้อ Zadeyo และข้อมูลความปลอดภัยพื้นฐานของเว็บไซต์",
-								"จัดส่งดิจิทัลทันที ผ่าน checkout Zadeyo แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC อีเมลติดต่อ อ้างอิงคำสั่งซื้อ secure checkout และข้อมูลความปลอดภัยพื้นฐานของเว็บไซต์",
+								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
 							],
 						},
 						{
@@ -16226,7 +16226,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Khám phá",
 					help: "Trợ giúp & pháp lý",
-					tagline: "ESP, wallhack, radar và Aimbot undetected cho League of Legends — thanh toán qua Zadeyo.",
+					tagline: "ESP, wallhack, radar và Aimbot undetected cho League of Legends — thanh toán qua secure checkout.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -16250,15 +16250,15 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL ESP player tags cheat",
 					galleryTitle: "Thư viện LoL Cheats — ESP, Aimbot, wallhack",
 					heroImage: "/images/lol-evade-esp-wallhack.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/features/",
 					sections: [
 						{
 							h2: "Vì sao chọn LoL Cheats 2026",
 							paragraphs: [
-								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. Lý tưởng đọc team địch trong BR và ARAM game.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. Lý tưởng đọc team địch trong ranked and ARAM matches.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
@@ -16278,7 +16278,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL ESP player boxes and distance readouts in a match",
 					galleryTitle: "ESP League of Legends",
 					heroImage: "/images/lol-evade-esp-wallhack.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/lol-cheats/",
 					sections: [
@@ -16286,20 +16286,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. hộp người chơi, đánh dấu xác thịt và overlay wallhack.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16313,7 +16313,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Aimbot and soft aim controls on Windows PC",
 					galleryTitle: "Aimbot League of Legends",
 					heroImage: "/images/lol-script-teamfight.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/lol-esp/",
 					sections: [
@@ -16321,20 +16321,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. soft aim, FOV và hồ sơ Aimbot theo loài.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16348,7 +16348,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats features — ESP, soft aim, and radar screenshots",
 					galleryTitle: "Tính năng",
 					heroImage: "/images/lol-cheat-mod-menu-evade.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/pricing/",
 					sections: [
@@ -16356,20 +16356,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Tính năng",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. ESP, soft aim, điều khiển radar.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16383,7 +16383,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats store plans for monthly and lifetime licenses",
 					galleryTitle: "Giá",
 					heroImage: "/images/lol-script-teamfight.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/setup/",
 					sections: [
@@ -16391,20 +16391,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Giá",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. giấy phép $35 hàng tháng hoặc $150 lifetime.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16418,7 +16418,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats setup guide screenshot for Windows PC",
 					galleryTitle: "Cài đặt",
 					heroImage: "/images/lol-hexevade-script-menu.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/support/",
 					sections: [
@@ -16426,20 +16426,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cài đặt",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. kích hoạt Windows PC và thiết lập lần chạy đầu.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16453,7 +16453,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats live status after Vanguard and game patches",
 					galleryTitle: "Cập nhật",
 					heroImage: "/images/lol-hexevade-script-menu.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/lol-cheats/",
 					sections: [
@@ -16461,20 +16461,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cập nhật",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. trạng thái patch Vanguard và ghi chú rebuild.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16488,7 +16488,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats FAQ — delivery, setup, and update answers",
 					galleryTitle: "FAQ",
 					heroImage: "/images/lol-cheat-mod-menu-evade.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/support/",
 					sections: [
@@ -16496,20 +16496,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. câu hỏi ESP, soft aim, giao hàng và Vanguard.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16523,7 +16523,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats support page for license and setup help",
 					galleryTitle: "Hỗ trợ",
 					heroImage: "/images/lol-hexevade-script-menu.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/setup/",
 					sections: [
@@ -16531,20 +16531,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Hỗ trợ",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. trợ giúp đơn hàng và liên hệ hỗ trợ giấy phép.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16558,7 +16558,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats undetected status overview for Windows PC",
 					galleryTitle: "Cheat undetected",
 					heroImage: "/images/lol-hexevade-script-menu.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/lol-cheats/",
 					sections: [
@@ -16566,20 +16566,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat undetected",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. bảo trì undetected sau patch Vanguard.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16593,7 +16593,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "lol wallhack visibility through walls in a match",
 					galleryTitle: "League of Legends Wallhack",
 					heroImage: "/images/lol-evade-esp-wallhack.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/lol-esp/",
 					sections: [
@@ -16601,20 +16601,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. wallhack ESP cho người chơi, xác thịt và khoảng cách.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16628,7 +16628,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "League of Legends 2D radar overlay showing nearby threats",
 					galleryTitle: "Radar cheat",
 					heroImage: "/images/lol-hexevade-script-menu.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/lol-esp/",
 					sections: [
@@ -16636,20 +16636,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar cheat",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. tín hiệu radar 2D cho đánh hông và xoay vòng.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16663,7 +16663,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats maintenance after a Vanguard patch",
 					galleryTitle: "Bypass Vanguard",
 					heroImage: "/images/lol-hexevade-script-menu.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/updates/",
 					sections: [
@@ -16671,20 +16671,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Bypass Vanguard",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. cách xử lý cập nhật Vanguard cho League of Legends cheats.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16698,7 +16698,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats product overview for League of Legends",
 					galleryTitle: "Cheat League of Legends 2026",
 					heroImage: "/images/lol-cheat-mod-menu-evade.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/lol-cheats/",
 					sections: [
@@ -16706,20 +16706,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat League of Legends 2026",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. checklist lol cheats 2026 trước checkout.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16733,7 +16733,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats product page — ESP, aimbot, and radar",
 					galleryTitle: "Cheat League of Legends",
 					heroImage: "/images/lol-cheat-mod-menu-evade.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/features/",
 					sections: [
@@ -16741,20 +16741,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat League of Legends",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. trụ cột LoL Cheats cho ESP và Aimbot.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16768,7 +16768,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats download and install delivery flow",
 					galleryTitle: "Tải Cheat League of Legends",
 					heroImage: "/images/lol-cheat-mod-menu-evade.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/setup/",
 					sections: [
@@ -16776,20 +16776,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Tải Cheat League of Legends",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. tải giấy phép kỹ thuật số sau thanh toán.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16803,7 +16803,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "League of Legends cheat mod menu with EvadePlus dodge settings",
 					galleryTitle: "Mod menu League of Legends",
 					heroImage: "/images/lol-cheat-mod-menu-evade.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/features/",
 					sections: [
@@ -16811,20 +16811,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Mod menu League of Legends",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. công tắc ESP và soft aim trong client.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16838,7 +16838,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "League of Legends script overlays during a teamfight",
 					galleryTitle: "Soft aim League of Legends",
 					heroImage: "/images/lol-script-teamfight.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/lol-aimbot/",
 					sections: [
@@ -16846,20 +16846,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Soft aim League of Legends",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. cài đặt soft aim mượt cho Windows PC.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16873,7 +16873,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "League of Legends evade script with ESP wallhack distance tracking",
 					galleryTitle: "Cheat League of Legends tốt nhất",
 					heroImage: "/images/lol-evade-esp-wallhack.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/pricing/",
 					sections: [
@@ -16881,20 +16881,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat League of Legends tốt nhất",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. nên so sánh gì trước khi mua lol cheats.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16908,7 +16908,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "League of Legends script overlays during a teamfight",
 					galleryTitle: "Cheat aimbot League of Legends",
 					heroImage: "/images/lol-script-teamfight.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/lol-aimbot/",
 					sections: [
@@ -16916,20 +16916,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. hỗ trợ cheat Aimbot undetected cho League of Legends.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16943,7 +16943,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "League of Legends evade and ESP wallhack overlay in match",
 					galleryTitle: "Cheat ESP League of Legends",
 					heroImage: "/images/lol-evade-esp-wallhack.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/lol-esp/",
 					sections: [
@@ -16951,20 +16951,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. hộp ESP cheat, pin xác thịt và khoảng cách.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -16978,7 +16978,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					imageAlt: "LoL Cheats license features overview",
 					galleryTitle: "Unlock all League of Legends",
 					heroImage: "/images/lol-script-teamfight.webp",
-					ctaPrimary: "MuLoL Cheats",
+					ctaPrimary: "Mua LoL Cheats",
 					ctaSecondary: "Xem tính năng",
 					ctaSecondaryHref: "/features/",
 					sections: [
@@ -16986,20 +16986,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Unlock all League of Legends",
 							paragraphs: [
 								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. tìm kiếm unlock-all vs công cụ ESP và Aimbot thật.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
 							h2: "giao hàng kỹ thuật số tức thì",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 								"support@lolcheats.org cho hỗ trợ và pháp lý.",
 							],
 						},
@@ -17020,8 +17020,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Thông tin chúng tôi thu thập",
 							paragraphs: [
-								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. Email liên hệ, tham chiếu đơn hàng Zadeyo và dữ liệu bảo mật cơ bản của trang.",
-								"Chi tiết thanh toán được xử lý qua checkout Zadeyo — không lưu trên lolcheats.org.",
+								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. Email liên hệ, tham chiếu đơn hàng secure checkout và dữ liệu bảo mật cơ bản của trang.",
+								"Chi tiết thanh toán được xử lý qua secure checkout — không lưu trên lolcheats.org.",
 							],
 						},
 						{
@@ -17055,8 +17055,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Giao hàng kỹ thuật số",
 							paragraphs: [
-								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. Email liên hệ, tham chiếu đơn hàng Zadeyo và dữ liệu bảo mật cơ bản của trang.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. Email liên hệ, tham chiếu đơn hàng secure checkout và dữ liệu bảo mật cơ bản của trang.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
@@ -17090,8 +17090,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Chấp nhận điều khoản",
 							paragraphs: [
-								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. Email liên hệ, tham chiếu đơn hàng Zadeyo và dữ liệu bảo mật cơ bản của trang.",
-								"giao hàng kỹ thuật số tức thì qua checkout Zadeyo. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. Email liên hệ, tham chiếu đơn hàng secure checkout và dữ liệu bảo mật cơ bản của trang.",
+								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
 							],
 						},
 						{
@@ -17169,7 +17169,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Огляд",
 					help: "Допомога та право",
-					tagline: "Undetected ESP, wallhack, radar і Aimbot для League of Legends — оплата через Zadeyo.",
+					tagline: "Undetected ESP, wallhack, radar і Aimbot для League of Legends — оплата через secure checkout.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -17200,8 +17200,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Чому LoL Cheats у 2026",
 							paragraphs: [
-								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. Ідеально для читання ворожих загонів у BR і ARAM game.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. Ідеально для читання ворожих загонів у ranked і ARAM.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
@@ -17229,20 +17229,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. бокси гравців, маркери туш і wallhack overlays.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17264,20 +17264,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. soft aim, FOV і профілі Aimbot за видами.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17299,20 +17299,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Функції",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. ESP, soft aim, керування radar.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17334,20 +17334,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Ціни",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. ліцензії $35 на місяць або $150 lifetime.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17369,20 +17369,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Встановлення",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. активація Windows PC і налаштування першого запуску.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17404,20 +17404,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Оновлення",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. статус патчів Vanguard і нотатки rebuild.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17439,20 +17439,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. питання про ESP, soft aim, доставку та Vanguard.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17474,20 +17474,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Підтримка",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. допомога з замовленням і контакт підтримки ліцензій.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17509,20 +17509,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected чіти",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. undetected обслуговування після патчів Vanguard.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17544,20 +17544,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. wallhack ESP для гравців, туш і дистанції.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17579,20 +17579,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar cheat",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. 2D radar підказки для флангів і ротацій.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17614,20 +17614,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Bypass Vanguard",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. як обробляються оновлення Vanguard для League of Legends cheats.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17649,20 +17649,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Чіти League of Legends 2026",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. чеклист lol cheats 2026 перед checkout.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17684,20 +17684,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Чіти League of Legends",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. стовп LoL Cheats для ESP і Aimbot.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17719,20 +17719,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Завантаження LoL Cheats",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. цифрове завантаження ліцензії після оплати.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17754,20 +17754,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Мод-меню League of Legends",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. перемикачі ESP і soft aim у клієнті.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17789,20 +17789,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Soft aim League of Legends",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. плавні налаштування soft aim для Windows PC.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17824,20 +17824,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Найкращі чіти League of Legends",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. що порівняти перед покупкою lol cheats.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17859,20 +17859,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Хак aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. undetected Aimbot cheat assist для League of Legends.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17894,20 +17894,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Хак ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. ESP cheat бокси, pins туш і дистанція.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17929,20 +17929,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Unlock all League of Legends",
 							paragraphs: [
 								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. пошуки unlock-all vs справжні ESP і Aimbot інструменти.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
 							h2: "миттєва цифрова доставка",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 								"support@lolcheats.org для підтримки та правових питань.",
 							],
 						},
@@ -17963,8 +17963,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Інформація, яку ми збираємо",
 							paragraphs: [
-								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. Контактний email, посилання на замовлення Zadeyo та базові дані безпеки сайту.",
-								"Платіжні дані обробляються через checkout Zadeyo — не зберігаються на lolcheats.org.",
+								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. Контактний email, посилання на замовлення secure checkout та базові дані безпеки сайту.",
+								"Платіжні дані обробляються через secure checkout — не зберігаються на lolcheats.org.",
 							],
 						},
 						{
@@ -17998,8 +17998,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Цифрова доставка",
 							paragraphs: [
-								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. Контактний email, посилання на замовлення Zadeyo та базові дані безпеки сайту.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. Контактний email, посилання на замовлення secure checkout та базові дані безпеки сайту.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
@@ -18033,8 +18033,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Прийняття умов",
 							paragraphs: [
-								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. Контактний email, посилання на замовлення Zadeyo та базові дані безпеки сайту.",
-								"Ліцензії з миттєва цифрова доставка через checkout Zadeyo. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. Контактний email, посилання на замовлення secure checkout та базові дані безпеки сайту.",
+								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
 							],
 						},
 						{
@@ -18112,7 +18112,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Prozkoumat",
 					help: "Nápověda a právo",
-					tagline: "Undetected ESP, wallhack, radar a Aimbot pro League of Legends — checkout přes Zadeyo.",
+					tagline: "Undetected ESP, wallhack, radar a Aimbot pro League of Legends — checkout přes secure checkout.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -18143,8 +18143,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Proč LoL Cheats v roce 2026",
 							paragraphs: [
-								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. Ideální pro čtení nepřátelských teamů v BR a ARAM game.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. Ideální pro čtení nepřátelských teamů v ranked and ARAM matches.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
@@ -18172,20 +18172,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. hráčské boxy, markery kadáverů a wallhack overlaye.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18207,20 +18207,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. soft aim, FOV a Aimbot profily podle druhu.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18242,20 +18242,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Funkce",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. ESP, soft aim, ovládání radar.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18277,20 +18277,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Ceny",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. licence $35 měsíčně nebo $150 lifetime.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18312,20 +18312,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Instalace",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. aktivace Windows PC a nastavení prvního spuštění.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18347,20 +18347,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Aktualizace",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. stav patchů Vanguard a poznámky k rebuild.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18382,20 +18382,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. otázky k ESP, soft aim, doručení a Vanguard.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18417,20 +18417,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Podpora",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. pomoc s objednávkou a kontakt podpory licencí.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18452,20 +18452,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected cheaty",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. undetected údržba po patchech Vanguard.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18487,20 +18487,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. wallhack ESP pro hráče, kadávery a vzdálenost.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18522,20 +18522,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar Cheat",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. 2D radar signály pro flanly a rotace.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18557,20 +18557,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Vanguard Bypass",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. jak se řeší aktualizace Vanguard pro League of Legends cheats.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18592,20 +18592,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "lol cheaty 2026",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. checklist lol cheats 2026 před checkout.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18627,20 +18627,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "lol cheaty",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. pilíř LoL Cheats pro ESP a Aimbot.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18662,20 +18662,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Stáhnout LoL Cheats",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. digitální stažení licence po platbě.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18697,20 +18697,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends mod menu",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. přepínače ESP a soft aim v klientu.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18732,20 +18732,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Soft Aim",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. plynulé nastavení soft aim pro Windows PC.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18767,20 +18767,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Nejlepší lol cheaty",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. co porovnat před nákupem lol cheats.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18802,20 +18802,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot cheat",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. undetected Aimbot cheat assist pro League of Legends.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18837,20 +18837,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP cheat",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. ESP cheat boxy, piny kadáverů a vzdálenost.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18872,20 +18872,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Unlock All",
 							paragraphs: [
 								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. vyhledávání unlock-all vs skutečné ESP a Aimbot nástroje.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
 							h2: "okamžité digitální doručení",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 								"support@lolcheats.org pro podporu a právní dotazy.",
 							],
 						},
@@ -18906,8 +18906,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Informace, které shromažďujeme",
 							paragraphs: [
-								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. Kontaktní e-mail, reference objednávek Zadeyo a základní bezpečnostní data webu.",
-								"Platební údaje zpracovává checkout Zadeyo — neukládají se na lolcheats.org.",
+								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. Kontaktní e-mail, reference objednávek secure checkout a základní bezpečnostní data webu.",
+								"Platební údaje zpracovává secure checkout — neukládají se na lolcheats.org.",
 							],
 						},
 						{
@@ -18941,8 +18941,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Digitální doručení",
 							paragraphs: [
-								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. Kontaktní e-mail, reference objednávek Zadeyo a základní bezpečnostní data webu.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. Kontaktní e-mail, reference objednávek secure checkout a základní bezpečnostní data webu.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
@@ -18976,8 +18976,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Přijetí podmínek",
 							paragraphs: [
-								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. Kontaktní e-mail, reference objednávek Zadeyo a základní bezpečnostní data webu.",
-								"Licence s okamžité digitální doručení přes checkout Zadeyo. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. Kontaktní e-mail, reference objednávek secure checkout a základní bezpečnostní data webu.",
+								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
 							],
 						},
 						{
@@ -19055,7 +19055,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Explorează",
 					help: "Ajutor și legal",
-					tagline: "ESP, wallhack, radar și Aimbot undetected pentru League of Legends — checkout via Zadeyo.",
+					tagline: "ESP, wallhack, radar și Aimbot undetected pentru League of Legends.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -19086,8 +19086,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "De ce LoL Cheats în 2026",
 							paragraphs: [
-								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. Ideal pentru citirea team-urilor inamice în BR și ARAM game.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. Ideal pentru citirea team-urilor inamice în ranked and ARAM matches.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
@@ -19115,20 +19115,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. casete jucător, markere carcase și overlay-uri wallhack.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19150,20 +19150,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. soft aim, FOV și profile Aimbot pe specie.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19185,20 +19185,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Funcții",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. ESP, soft aim, controale radar.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19220,20 +19220,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Prețuri",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. licențe $35 lunar sau $150 lifetime.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19255,20 +19255,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Instalare",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. activare Windows PC și setup la prima lansare.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19290,20 +19290,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Actualizări",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. status patch Vanguard și note rebuild.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19325,20 +19325,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. întrebări ESP, soft aim, livrare și Vanguard.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19360,20 +19360,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Suport",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. ajutor comenzi și contact suport licențe.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19395,20 +19395,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheats undetected",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. mentenanță undetected după patch-uri Vanguard.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19430,20 +19430,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. wallhack ESP pentru jucători, carcase și distanță.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19465,20 +19465,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar cheat",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. indicii radar 2D pentru flancuri și rotații.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19500,20 +19500,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Bypass Vanguard",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. cum sunt gestionate actualizările Vanguard pentru League of Legends cheats.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19535,20 +19535,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheats League of Legends 2026",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. checklist lol cheats 2026 înainte de checkout.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19570,20 +19570,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheats League of Legends",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. pilon LoL Cheats pentru ESP și Aimbot.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19605,20 +19605,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Descărcare LoL Cheats",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. descărcare licență digitală după plată.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19640,20 +19640,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Meniu mod League of Legends",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. toggle-uri ESP și soft aim in-client.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19675,20 +19675,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Soft aim League of Legends",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. setări soft aim fluide pentru Windows PC.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19710,20 +19710,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cele mai bune cheats League of Legends",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. ce să compari înainte de a cumpăra lol cheats.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19745,20 +19745,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat aimbot League of Legends",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. assist cheat Aimbot undetected pentru League of Legends.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19780,20 +19780,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Cheat ESP League of Legends",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. casete ESP cheat, pin-uri carcase și distanță.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19815,20 +19815,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Unlock all League of Legends",
 							paragraphs: [
 								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. căutări unlock-all vs instrumente reale ESP și Aimbot.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
 							h2: "livrare digitală instantă",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 								"support@lolcheats.org pentru suport și legal.",
 							],
 						},
@@ -19849,8 +19849,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Informații pe care le colectăm",
 							paragraphs: [
-								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. Email de contact, referințe comenzi Zadeyo și date de securitate de bază ale site-ului.",
-								"Detaliile de plată sunt procesate prin checkout Zadeyo — nu sunt stocate pe lolcheats.org.",
+								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. Email de contact, referințe comenzi secure checkout și date de securitate de bază ale site-ului.",
+								"Detaliile de plată sunt procesate prin secure checkout — nu sunt stocate pe lolcheats.org.",
 							],
 						},
 						{
@@ -19884,8 +19884,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Livrare digitală",
 							paragraphs: [
-								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. Email de contact, referințe comenzi Zadeyo și date de securitate de bază ale site-ului.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. Email de contact, referințe comenzi secure checkout și date de securitate de bază ale site-ului.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
@@ -19919,8 +19919,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Acceptarea termenilor",
 							paragraphs: [
-								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. Email de contact, referințe comenzi Zadeyo și date de securitate de bază ale site-ului.",
-								"Licențe cu livrare digitală instantă via checkout Zadeyo. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. Email de contact, referințe comenzi secure checkout și date de securitate de bază ale site-ului.",
+								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
 							],
 						},
 						{
@@ -19998,7 +19998,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 				footer: {
 					explore: "Utforska",
 					help: "Hjälp & juridik",
-					tagline: "Undetected ESP, wallhack, radar och Aimbot för League of Legends — checkout via Zadeyo.",
+					tagline: "Undetected ESP, wallhack, radar och Aimbot för League of Legends.",
 				},
 				images: {
 					hero: "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
@@ -20029,8 +20029,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Varför LoL Cheats 2026",
 							paragraphs: [
-								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. Ideal för att läsa fiendeteams i BR och ARAM game.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. Ideal för att läsa fiendeteams i ranked and ARAM matches.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
@@ -20058,20 +20058,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. spelarboxar, kadavermarkörer och wallhack-overlays.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20093,20 +20093,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. soft aim, FOV och Aimbot-profiler per art.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20128,20 +20128,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Funktioner",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. ESP, soft aim, radar-kontroller.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20163,20 +20163,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Priser",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. $35 månatliga eller $150 lifetime-licenser.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20198,20 +20198,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Installation",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. Windows PC-aktivering och första-start setup.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20233,20 +20233,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Uppdateringar",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. Vanguard patchstatus och rebuild-anteckningar.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20268,20 +20268,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "FAQ",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. frågor om ESP, soft aim, leverans och Vanguard.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20303,20 +20303,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Support",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. orderhjälp och licens support-kontakt.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20338,20 +20338,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected cheats",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. undetected underhåll loler Vanguard patchar.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20373,20 +20373,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Wallhack",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. wallhack ESP för spelare, kadaver och avstånd.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20408,20 +20408,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Radar Cheat",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. 2D radar-signaler för flanker och rotationer.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20443,20 +20443,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Vanguard Bypass",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. hur Vanguard-uppdateringar hanteras för League of Legends cheats.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20478,20 +20478,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Cheats 2026",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. 2026 lol cheats checklist före checkout.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20513,20 +20513,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Cheats",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. LoL Cheats pelare för ESP och Aimbot.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20548,20 +20548,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Cheat Download",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. digital licensnedladdning loler betalning.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20583,20 +20583,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Mod-meny",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. in-client ESP och soft aim-växlar.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20618,20 +20618,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Soft Aim",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. mjuka soft aim-inställningar för Windows PC.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20653,20 +20653,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "BästLoL Cheats",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. vad du ska jämföra innan du köper lol cheats.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20688,20 +20688,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL Aimbot Cheat",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. undetected Aimbot cheat assist för League of Legends.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20723,20 +20723,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "LoL ESP Cheat",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. ESP cheat-boxar, kadaver-pins och avstånd.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20758,20 +20758,20 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "League of Legends Unlock All",
 							paragraphs: [
 								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. unlock-all-sökningar vs riktiga ESP- och Aimbot-verktyg.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "undetected",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
 							h2: "omedelbar digital leverans",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 								"support@lolcheats.org för support och juridik.",
 							],
 						},
@@ -20792,8 +20792,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Information vi samlar in",
 							paragraphs: [
-								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. Kontakt-e-post, Zadeyo-orderreferenser och grundläggande säkerhetsdata för webbplatsen.",
-								"Betalningsuppgifter behandlas via Zadeyo checkout — lagras inte på lolcheats.org.",
+								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. Kontakt-e-post, secure checkout-orderreferenser och grundläggande säkerhetsdata för webbplatsen.",
+								"Betalningsuppgifter behandlas. — lagras inte på lolcheats.org.",
 							],
 						},
 						{
@@ -20827,8 +20827,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Digital leverans",
 							paragraphs: [
-								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. Kontakt-e-post, Zadeyo-orderreferenser och grundläggande säkerhetsdata för webbplatsen.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. Kontakt-e-post, secure checkout-orderreferenser och grundläggande säkerhetsdata för webbplatsen.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{
@@ -20862,8 +20862,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "Godkännande av villkor",
 							paragraphs: [
-								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. Kontakt-e-post, Zadeyo-orderreferenser och grundläggande säkerhetsdata för webbplatsen.",
-								"Licenser med omedelbar digital leverans via Zadeyo checkout. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. Kontakt-e-post, secure checkout-orderreferenser och grundläggande säkerhetsdata för webbplatsen.",
+								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
 							],
 						},
 						{

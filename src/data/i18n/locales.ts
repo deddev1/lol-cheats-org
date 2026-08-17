@@ -200,7 +200,7 @@ export const blogUi: Record<
 	pl: {
 		blogTitle: 'Blog LoL Cheats 2026 | Poradniki w 22 językach',
 		blogDescription:
-			'Blog LoL Cheats z poradnikami undetected ESP, wallhack, radar i Aimbot dlLeague of Legends na PC.',
+			'Blog LoL Cheats z poradnikami undetected ESP, wallhack, radar i Aimbot dla League of Legends na PC.',
 		blogH1: 'Blog LoL Cheats — Globalne poradniki',
 		blogIntro:
 			'Poradniki SEO undetected cheatów League of Legends, ESP wallhack, radar hack, Aimbot i Vanguard w 22 językach.',
