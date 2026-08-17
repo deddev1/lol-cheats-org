@@ -135,9 +135,6 @@ function pageTitle(headline: string): string {
 				</p>
 			</header>
 
-			<ExternalGuidePills locale={locale} class="post__guide-pills" />
-			<ExternalResources locale={locale} class="post__external post__external--top" />
-
 			<RelatedPages locale={locale} variant="topics" links={topicLinks} class="post__topics post__topics--top" />
 
 			<img
@@ -170,6 +167,11 @@ function pageTitle(headline: string): string {
 				))
 			}
 		</article>
+
+		<div class="post__guides">
+			<ExternalGuidePills locale={locale} />
+			<ExternalResources locale={locale} />
+		</div>
 
 		{
 			related.length > 0 && (
@@ -314,11 +316,9 @@ function pageTitle(headline: string): string {
 		margin-top: 0.5rem;
 	}
 
-	.post__external--top {
-		margin-top: 0;
-	}
-
-	.post__guide-pills {
-		margin-top: 0.25rem;
+	.post__guides {
+		margin-top: 2rem;
+		display: grid;
+		gap: 1rem;
 	}
 </style>

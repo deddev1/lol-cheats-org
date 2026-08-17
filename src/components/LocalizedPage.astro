@@ -122,11 +122,6 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 	extraGraph={extraGraph}
 	showExternalResources={!['privacy', 'refund', 'terms'].includes(pageId)}
 	ctaPrimary={{ href: ctaPrimaryHref, label: ctaPrimaryLabel, edit: supportPageIds.includes(pageId as (typeof supportPageIds)[number]) ? undefined : 'ctaBuy' }}
-	ctaSecondary={
-		resolvedSecondaryLabel
-			? { href: resolvedSecondaryHref, label: resolvedSecondaryLabel }
-			: undefined
-	}
 >
 	{/* JSON-LD is emitted via PageLayout → Layout extraGraph */}
 
@@ -186,9 +181,66 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 			</section>
 		)
 	}
+
+	{
+		resolvedSecondaryLabel && (
+			<nav class="page-bottom-guide" aria-label={t('common.relatedPages')}>
+				<p class="page-bottom-guide__label">{t('common.readGuide')}</p>
+				<a
+					class="page-bottom-guide__link"
+					href={resolvedSecondaryHref}
+					target={resolvedSecondaryHref.startsWith('http') ? '_blank' : undefined}
+					rel={resolvedSecondaryHref.startsWith('http') ? 'noopener noreferrer' : undefined}
+				>
+					{resolvedSecondaryLabel}
+				</a>
+			</nav>
+		)
+	}
 </PageLayout>
 
 <style>
+	.page-bottom-guide {
+		margin-top: 0.5rem;
+		padding: 1rem 1.15rem;
+		border: 1px solid var(--line);
+		border-radius: var(--radius-md);
+		background: var(--bg-panel);
+	}
+
+	.page-bottom-guide__label {
+		margin: 0 0 0.55rem;
+		color: var(--ink-muted);
+		font-size: 0.78rem;
+		font-weight: 600;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+	}
+
+	.page-bottom-guide__link {
+		display: inline-flex;
+		align-items: center;
+		min-height: var(--touch-min, 2.75rem);
+		padding: 0.45rem 0.85rem;
+		border: 1px solid var(--line);
+		border-radius: var(--radius-pill);
+		background: var(--bg-elevated);
+		color: var(--ink-muted);
+		font-size: 0.8125rem;
+		font-weight: 600;
+		text-decoration: none;
+		transition:
+			color 0.15s ease,
+			border-color 0.15s ease,
+			background 0.15s ease;
+	}
+
+	.page-bottom-guide__link:hover {
+		color: var(--ink);
+		border-color: color-mix(in srgb, var(--magenta) 40%, var(--line));
+		background: color-mix(in srgb, var(--magenta) 8%, var(--bg-elevated));
+	}
+
 	.faq-index__list {
 		margin: 1rem 0 0;
 		padding: 0;
