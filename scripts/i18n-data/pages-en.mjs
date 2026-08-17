@@ -3,9 +3,9 @@ import { HERO_IMAGES, clampTitle, clampDesc, section, stripZadeyoFromMeta, EXT }
 /** Richest English page content — source of truth for structure. */
 export const enPages = {
 	home: {
-		title: 'League of Legends Cheats | Undetected Aimbot, ESP & Wallhack 2026',
+		title: 'LoL Cheats 2026 | Undetected ESP, Aimbot & Wallhack',
 		description:
-			'League of Legends cheats for PC with aimbot, ESP and wallhack features. Explore gameplay features, pricing, setup information and the latest updates.',
+			'LoL cheats for League of Legends on Windows PC with aimbot, ESP, and wallhack. Compare features, pricing, setup steps, and Vanguard update notes before you buy.',
 		h1: 'League of Legends Cheats — Undetected ESP, Wallhack & Aimbot',
 		intro:
 			'LoL Cheats is the undetected LoL Cheats package for Windows PC — built for League of Legends on Windows PC. LoL ESP wallhack, 2D radar, and LoL Aimbot with Vanguard maintenance after every major patch.',
@@ -34,7 +34,7 @@ export const enPages = {
 	'lol-esp': {
 		title: 'LoL ESP 2026 | Player Boxes & Wallhack',
 		description:
-			'LoL ESP for Windows PC — player boxes, ward markers, and distance readouts. Part of our undetected lol cheats for League of Legends.',
+			'LoL ESP for Windows PC with player boxes, ward markers, and distance readouts. Undetected visibility tools bundled in our LoL Cheats package with Vanguard rebuilds.',
 		h1: 'LoL ESP — Player Boxes & Wallhack',
 		intro:
 			'LoL ESP visibility tools for match and ARAM game. Read enemy teams, enemy champions, minions, wards, and distance before you commit — toggleable LoL ESP wallhack overlays bundled in our LoL Cheats package.',
@@ -79,7 +79,7 @@ export const enPages = {
 	'lol-aimbot': {
 		title: 'LoL Aimbot 2026 | Soft Aim for Windows PC',
 		description:
-			'LoL Aimbot with soft aim tuning for Windows PC. FOV, bone priority, and hotkeys bundled with ESP boxes in our LoL Cheats package.',
+			'LoL Aimbot with soft aim for Windows PC. Tune FOV, bone priority, and hotkeys per champion. Bundled with ESP and radar in one undetected LoL Cheats license.',
 		h1: 'LoL Aimbot — Soft Aim for Windows PC',
 		intro:
 			'Configurable Aimbot tools for League of Legends ganks. Smoothness, FOV, bone priority, and per-champion profiles — bundled with ESP wallhack and radar in one undetected license.',
@@ -124,7 +124,7 @@ export const enPages = {
 	features: {
 		title: 'LoL Cheats Features | ESP, Soft Aim & Radar',
 		description:
-			'Full lol cheats feature list: ESP boxes, soft aim, radar, and toggles for Windows PC. Review controls before checkout.',
+			'Full LoL Cheats feature list for Windows PC: ESP boxes, soft aim, radar, and toggle controls. Review everything included before you buy a monthly or lifetime license.',
 		h1: 'LoL Cheats Features — Full Control List',
 		intro:
 			'Every ESP wallhack, radar cheat, and Aimbot control included in LoL Cheats for League of Legends on Windows PC — with Vanguard maintenance after major patches.',
@@ -157,7 +157,7 @@ export const enPages = {
 	pricing: {
 		title: 'LoL Cheats Pricing | $35/mo or $150 Life',
 		description:
-			'lol cheats pricing: $35/month or $150 lifetime for ESP, soft aim, and radar on Windows PC. Instant delivery — pick a plan.',
+			'LoL Cheats pricing: $35 per month or $150 lifetime for ESP, soft aim, and radar on Windows PC. Same features on both plans with instant digital delivery after checkout.',
 		h1: 'LoL Cheats Pricing — Monthly & Lifetime',
 		intro:
 			'Choose monthly or lifetime access to undetected LoL Cheats — ESP wallhack, radar cheat, and Aimbot for League of Legends on Windows PC. Instant digital delivery after payment.',
@@ -190,7 +190,7 @@ export const enPages = {
 	setup: {
 		title: 'LoL Cheats Setup | Windows PC Guide',
 		description:
-			'Set up lol cheats on Windows PC — activate ESP boxes, soft aim profiles, and radar. Check Vanguard updates before your first queue up.',
+			'Set up LoL Cheats on Windows PC after purchase. Activate ESP boxes, soft aim profiles, and radar, then confirm Vanguard status on Updates before your first queue.',
 		h1: 'LoL Cheats Setup — Windows PC Guide',
 		intro:
 			'Install and configure LoL Cheats for League of Legends on Windows 10 or 11. Activate your license, load ESP wallhack and Aimbot profiles, and verify Vanguard maintenance status before queueing.',
@@ -223,7 +223,7 @@ export const enPages = {
 	updates: {
 		title: 'LoL Cheats Updates | Vanguard Maintenance Log',
 		description:
-			'lol cheats update log: Vanguard rebuilds for ESP boxes, soft aim, and radar on Windows PC. Check status before queueing after patches.',
+			'LoL Cheats update log with Vanguard rebuild notes for ESP, soft aim, and radar on Windows PC. Check maintenance status here before queueing after League of Legends patches.',
 		h1: 'LoL Cheats Updates — Maintenance Log',
 		intro:
 			'Track Vanguard maintenance and League of Legends patch rebuilds for the undetected ESP wallhack, radar cheat, and Aimbot package. Check here before queueing after major updates.',
@@ -256,7 +256,7 @@ export const enPages = {
 	faq: {
 		title: 'LoL Cheats FAQ | ESP, Soft Aim & Radar Answers',
 		description:
-			'lol cheats FAQ: ESP boxes, soft aim, Vanguard maintenance, and pricing for PC. Clear answers before you buy.',
+			'LoL Cheats FAQ covers ESP, soft aim, radar, Vanguard maintenance, pricing, and delivery on Windows PC. Clear answers about licenses, setup, and updates before you buy.',
 		h1: 'LoL Cheats FAQ — Common Questions',
 		intro:
 			'Answers about undetected LoL Cheats — ESP wallhack, radar cheat, Aimbot, Vanguard maintenance, checkout, and League of Legends compatibility on Windows PC.',
@@ -289,7 +289,7 @@ export const enPages = {
 	support: {
 		title: 'LoL Cheats Support | Help & Contact',
 		description:
-			'Contact lol cheats support for licenses, ESP setup, soft aim profiles, and on Windows PC. Include your order ID for faster help.',
+			'Contact LoL Cheats support for license delivery, ESP setup, soft aim profiles, and billing on Windows PC. Email with your order ID so replies can start faster.',
 		h1: 'LoL Cheats Support — Contact Us',
 		intro:
 			'Get help with LoL Cheats licenses, checkout, ESP wallhack setup, Aimbot profiles, and Vanguard maintenance for League of Legends on Windows PC.',
@@ -322,7 +322,7 @@ export const enPages = {
 	undetected: {
 		title: 'Undetected LoL Cheats 2026 | Vanguard Maintenance',
 		description:
-			'Undetected lol cheats with Vanguard maintenance for ESP boxes, soft aim, and radar on Windows PC. Check status before you queue.',
+			'Undetected LoL Cheats with active Vanguard maintenance for ESP, soft aim, and radar on Windows PC. Learn what undetected means and check Status before every queue.',
 		h1: 'Undetected LoL Cheats — Vanguard Maintenance',
 		intro:
 			'How LoL Cheats stays maintained for League of Legends after Vanguard patches — ESP wallhack, radar cheat, and Aimbot rebuilds for Windows PC.',
@@ -355,7 +355,7 @@ export const enPages = {
 	wallhack: {
 		title: 'League of Legends Wallhack 2026 | ESP Boxes & Visibility',
 		description:
-			'lol wallhack ESP with player boxes and ward markers for Windows PC. Undetected lol cheats — learn overlays and buy.',
+			'LoL wallhack ESP with player boxes and ward markers for Windows PC. Undetected overlays with distance readouts, bundled with radar and soft aim in LoL Cheats.',
 		h1: 'League of Legends Wallhack — ESP Boxes & Visibility',
 		intro:
 			'LoL wallhack ESP for League of Legends — see champions, wards, baron buffs, and objectives through toggleable wallhack overlays built for ranked and normal games.',
@@ -388,7 +388,7 @@ export const enPages = {
 	radar: {
 		title: 'League of Legends Radar Cheat 2026 | 2D Threat Overlay',
 		description:
-			'lol radar cheat for flank awareness on Windows PC. Bundled with ESP boxes, soft aim, and radar in our LoL Cheats package.',
+			'LoL radar cheat for flank awareness on Windows PC. 2D threat overlay bundled with ESP boxes and soft aim in one undetected LoL Cheats license with Vanguard updates.',
 		h1: 'League of Legends Radar Cheat — 2D Threat Awareness',
 		intro:
 			'2D radar-style overlay for League of Legends — directional threat cues for nearby champions outside your line of sight, bundled with ESP wallhack and Aimbot.',
@@ -421,7 +421,7 @@ export const enPages = {
 	'vanguard': {
 		title: 'Vanguard Bypass League of Legends | LoL Cheats Maintenance',
 		description:
-			'How lol cheats rebuild after Vanguard patches — ESP boxes, soft aim, and radar maintenance for Windows PC. Read before queueing.',
+			'How LoL Cheats handles Vanguard patches for ESP, soft aim, and radar on Windows PC. Read the maintenance workflow and check Updates before queueing after anti-cheat updates.',
 		h1: 'Vanguard Bypass — LoL Cheats Maintenance',
 		intro:
 			'Understand Vanguard maintenance for LoL Cheats — how ESP wallhack, radar cheat, and Aimbot rebuild after League of Legends security updates.',
@@ -454,7 +454,7 @@ export const enPages = {
 	'cheats-2026': {
 		title: 'LoL Cheats 2026 | ESP Soft Aim & Radar',
 		description:
-			'Best lol cheats 2026: ESP boxes, soft aim, and radar for Windows PC. Undetected lol cheats with Vanguard maintenance — compare and buy.',
+			'Best LoL Cheats for 2026 on Windows PC: ESP boxes, soft aim, and radar with Vanguard maintenance. Compare features, pricing, and status notes before you buy or renew.',
 		h1: 'LoL Cheats 2026 — ESP, Soft Aim & Radar',
 		intro:
 			'The 2026 LoL Cheats package for League of Legends — undetected ESP wallhack, radar cheat, and Aimbot with Vanguard maintenance, instant delivery, and Windows PC support.',
@@ -526,7 +526,7 @@ export const enPages = {
 	'cheat-download': {
 		title: 'League of Legends Cheat Download 2026 | Instant Access',
 		description:
-			'lol cheat download with instant license delivery — ESP boxes, soft aim, and radar for Windows PC. Buy, activate, and play.',
+			'LoL cheat download with instant license delivery after checkout on Windows PC. Unlock ESP boxes, soft aim, and radar, then follow Setup to activate before your first match.',
 		h1: 'League of Legends Cheat Download — Instant License Delivery',
 		intro:
 			'How lol cheat download works for League of Legends — digital license delivery after payment confirmation, with ESP wallhack, radar cheat, and Aimbot access on Windows PC.',
@@ -559,7 +559,7 @@ export const enPages = {
 	'mod-menu': {
 		title: 'League of Legends Mod Menu 2026 | ESP & Soft Aim Toggles',
 		description:
-			'League of Legends mod menu for in-match toggles — ESP boxes, soft aim, radar, and on Windows PC. Undetected LoL Cheats package.',
+			'League of Legends mod menu for in-match ESP, soft aim, and radar toggles on Windows PC. Control overlays mid-game in one undetected LoL Cheats package with Vanguard updates.',
 		h1: 'League of Legends Mod Menu — In-Client Control Panel',
 		intro:
 			'League of Legends mod menu controls for League of Legends — toggle ESP wallhack categories, radar range, and Aimbot profiles mid-match without leaving your League of Legends match on Windows PC.',
@@ -625,7 +625,7 @@ export const enPages = {
 	'best-cheats': {
 		title: 'Best LoL Cheats 2026 | Buyer Guide',
 		description:
-			'Best lol cheats for 2026: ESP boxes, soft aim, and Vanguard maintenance on Windows PC. Use this checklist before checkout.',
+			'Best LoL Cheats buyer guide for 2026 on Windows PC. Compare ESP, soft aim, radar, and Vanguard maintenance before checkout with this practical pre-purchase checklist.',
 		h1: 'Best LoL Cheats — 2026 Buyer Guide',
 		intro:
 			'Compare lol cheats for League of Legends in 2026 — undetected ESP wallhack, radar cheat, and Aimbot in one maintained package with Vanguard rebuilds and instant delivery.',
@@ -658,7 +658,7 @@ export const enPages = {
 	'aimbot-cheat': {
 		title: 'LoL Aimbot Cheat 2026 | Soft Aim Assist',
 		description:
-			'LoL Aimbot cheat with soft aim for Windows PC. FOV, bone priority, and hotkeys — bundled with ESP boxes in our LoL Cheats package.',
+			'LoL Aimbot cheat with soft aim assist for Windows PC. Configure FOV, bone priority, and hotkeys per champion, bundled with ESP and radar in one LoL Cheats license.',
 		h1: 'LoL Aimbot Cheat — Soft Aim Assist',
 		intro:
 			'LoL Aimbot cheat tools for League of Legends — smoothness, FOV, bone priority, per-champion profiles, and hotkey toggles bundled with ESP wallhack and radar in one undetected license.',
@@ -691,7 +691,7 @@ export const enPages = {
 	'esp-cheat': {
 		title: 'LoL ESP Cheat 2026 | Player Boxes & Loot',
 		description:
-			'LoL ESP cheat with player boxes and ward markers for Windows PC. Undetected lol cheats with Vanguard maintenance — see overlays and buy.',
+			'LoL ESP cheat with player boxes and ward markers for Windows PC. Undetected visibility overlays with Vanguard maintenance — compare features and buy when status is live.',
 		h1: 'LoL ESP Cheat — Player Boxes Guide',
 		intro:
 			'LoL ESP cheat overlays for League of Legends — player outlines, baron threat cues, ward and objective markers with distance readouts across match and ARAM game.',
@@ -724,7 +724,7 @@ export const enPages = {
 	'unlock-all': {
 		title: 'League of Legends Unlock All 2026 | What It Really Means',
 		description:
-			'League of Legends unlock-all explained vs real lol cheats — ESP boxes, soft aim, and radar for Windows PC. Know what you are buying.',
+			'League of Legends unlock-all searches explained versus real LoL Cheats tools on Windows PC. Compare ESP, soft aim, and radar features so you know what you are buying.',
 		h1: 'League of Legends Unlock All — What Players Search For',
 		intro:
 			'League of Legends unlock-all is a common search term for League of Legends — this page clarifies what unlock-all tools claim versus the ESP wallhack, radar cheat, and Aimbot tools LoL Cheats actually provides on Windows PC.',
@@ -757,7 +757,7 @@ export const enPages = {
 	privacy: {
 		title: 'Privacy Policy | LoL Cheats',
 		description:
-			'Privacy policy for LoL Cheats. How we handle support emails, order data, and checkout for lol cheats licenses on lolcheats.org.',
+			'Privacy policy for LoL Cheats on lolcheats.org. How we handle support emails, order references, checkout data, and site security when you browse or contact support.',
 		h1: 'Privacy Policy',
 		intro: 'How LoL Cheats handles information when you browse lolcheats.org or contact support about League of Legends license.',
 		imageAlt: "LoL Cheats privacy policy page",
@@ -787,7 +787,7 @@ export const enPages = {
 	refund: {
 		title: 'Refund Policy | LoL Cheats',
 		description:
-			'Refund policy for LoL Cheats. Digital delivery terms and eligibility for LoL Cheats packages with ESP, soft aim, and radar.',
+			'Refund policy for LoL Cheats licenses on Windows PC. Digital delivery terms, eligibility windows, and how to request help for ESP, soft aim, and radar package purchases.',
 		h1: 'Refund Policy',
 		intro:
 			'Refund terms for LoL Cheats licenses — ESP wallhack, radar cheat, and Aimbot packages purchased through checkout for League of Legends.',
@@ -817,7 +817,7 @@ export const enPages = {
 	terms: {
 		title: 'Terms of Use 2026 | LoL Cheats Rules',
 		description:
-			'Terms of use for lolcheats.org and LoL Cheats licenses. Usage rules, anti-cheat risk, and liability for Windows PC cheats.',
+			'Terms of use for lolcheats.org and LoL Cheats licenses on Windows PC. Usage rules, anti-cheat risk disclaimers, and liability limits for ESP, soft aim, and radar tools.',
 		h1: 'Terms of Use',
 		intro: 'Terms governing use of lolcheats.org and LoL Cheats licenses for League of Legends on Windows PC.',
 		imageAlt: "LoL Cheats terms of use page",

@@ -82,10 +82,17 @@ export function clampTitle(s) {
 }
 
 export function clampDesc(s) {
-	if (s.length <= 160) return s;
-	const trimmed = s.slice(0, 160);
-	const lastSpace = trimmed.lastIndexOf(' ');
-	return lastSpace > 130 ? trimmed.slice(0, lastSpace) : trimmed.slice(0, 160);
+	const text = String(s).trim();
+	if (text.length >= 140 && text.length <= 160) return text;
+	if (text.length > 160) {
+		const trimmed = text.slice(0, 160);
+		const lastPeriod = trimmed.lastIndexOf('.');
+		if (lastPeriod >= 130) return trimmed.slice(0, lastPeriod + 1);
+		const lastSpace = trimmed.lastIndexOf(' ');
+		const cut = lastSpace > 130 ? trimmed.slice(0, lastSpace) : trimmed;
+		return cut.endsWith('.') ? cut : `${cut}.`;
+	}
+	return text;
 }
 
 /** Remove Zadeyo from meta title/description strings only. */

@@ -102,7 +102,7 @@ export const homeFaqs: readonly FaqItem[] = [
 		slug: 'what-are-lol-cheats',
 		seoTitle: 'What is {brand}? | FAQ',
 		seoDescription:
-			'{brand} explained: undetected ESP, radar, and aimbot for {game} on Windows PC with {antiCheat} maintenance.',
+			'LoL Cheats explained: undetected ESP, radar, and aimbot for League of Legends on Windows PC with Vanguard maintenance, digital delivery, and setup support.',
 	}),
 	faq({
 		question: 'Are {primaryKeyword} undetected in 2026?',
@@ -111,7 +111,7 @@ export const homeFaqs: readonly FaqItem[] = [
 		slug: 'are-lol-cheats-undetected-in-2026',
 		seoTitle: 'Are {brand} Undetected in 2026? | FAQ',
 		seoDescription:
-			'How {brand} stays maintained after {antiCheat} patches in 2026 — and why no cheat can promise permanent undetected status.',
+			'How LoL Cheats stays maintained after Vanguard patches in 2026 — and why no cheat can promise permanent undetected status on Windows PC after updates.',
 	}),
 	faq({
 		question: 'Does this work in ranked and normal games?',
@@ -120,7 +120,7 @@ export const homeFaqs: readonly FaqItem[] = [
 		slug: 'ranked-and-normal-games',
 		seoTitle: 'Ranked and Normal Games Support | FAQ',
 		seoDescription:
-			'{brand} works in ranked and normal games — ESP, radar, and aimbot for Windows PC.',
+			'LoL Cheats works in ranked and normal games on Windows PC — ESP, radar, and aimbot built for Summoners Rift match flow, objectives, and river awareness.',
 	}),
 	faq({
 		question: 'What is included — ESP, wallhack, radar, or Aimbot?',
@@ -129,7 +129,7 @@ export const homeFaqs: readonly FaqItem[] = [
 		slug: 'esp-wallhack-radar-or-aimbot',
 		seoTitle: 'What Is Included: ESP, Wallhack, Radar, Aimbot | FAQ',
 		seoDescription:
-			'One {brand} license includes ESP wallhack, ward markers, 2D radar cues, and configurable Aimbot for Windows PC.',
+			'One LoL Cheats license includes ESP wallhack, ward markers, 2D radar cues, and configurable Aimbot for Windows PC — see Features for the full control list.',
 	}),
 	faq({
 		question: 'How are licenses delivered?',
@@ -138,7 +138,7 @@ export const homeFaqs: readonly FaqItem[] = [
 		slug: 'how-are-licenses-delivered',
 		seoTitle: 'How Are {brand} Licenses Delivered? | FAQ',
 		seoDescription:
-			'{brand} licenses are delivered digitally after payment confirmation. Timing varies by payment method and order review.',
+			'LoL Cheats licenses are delivered digitally after payment confirmation on Windows PC. Timing varies by payment method, and support can help with order lookup.',
 	}),
 	faq({
 		question: 'Where do I check updates after League of Legends or {antiCheat} patch?',
@@ -147,7 +147,7 @@ export const homeFaqs: readonly FaqItem[] = [
 		slug: 'where-to-check-updates',
 		seoTitle: 'Where to Check {game} / {antiCheat} Updates | FAQ',
 		seoDescription:
-			'Check the Status page after {game} or {antiCheat} patches to confirm the latest {brand} build status.',
+			'Check the LoL Cheats Status page after League of Legends or Vanguard patches to confirm the latest ESP, radar, and Aimbot build before you queue.',
 	}),
 	faq({
 		question: 'How do I contact support?',
@@ -156,7 +156,7 @@ export const homeFaqs: readonly FaqItem[] = [
 		slug: 'how-to-contact-support',
 		seoTitle: 'How to Contact {brand} Support | FAQ',
 		seoDescription:
-			'Contact {brand} support via the Support page or {email} with your order details for faster help.',
+			'Contact LoL Cheats support via the Support page or support@lolcheats.org with your order details for faster help with setup, delivery, or billing.',
 	}),
 ] as const;
 
@@ -169,7 +169,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		slug: 'what-is-an-lol-wallhack',
 		seoTitle: 'What Is a {game} Wallhack? | FAQ',
 		seoDescription:
-			'A {game} wallhack is ESP that reveals enemy champions, minions, and wards through walls — with distance, objectives, and category toggles.',
+			'A League of Legends wallhack is ESP that reveals enemy champions, minions, and wards through walls — with distance readouts, objectives, and category toggles.',
 	}),
 	faq({
 		question: 'Does {brand} include a radar cheat?',
@@ -178,7 +178,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		slug: 'does-lol-cheats-include-radar-cheat',
 		seoTitle: 'Does {brand} Include a Radar Hack? | FAQ',
 		seoDescription:
-			'Yes — {brand} includes 2D radar overlays for nearby threats outside your FOV.',
+			'Yes — LoL Cheats includes 2D radar overlays for nearby threats outside your field of view on Windows PC, useful for flanks and objective zones.',
 	}),
 	faq({
 		question: 'How does {antiCheat} affect {primaryKeyword}?',
@@ -187,7 +187,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		slug: 'vanguard-anti-cheat-and-lol-cheats',
 		seoTitle: 'How {antiCheat} Affects {brand} | FAQ',
 		seoDescription:
-			'{antiCheat} may require {brand} rebuilds after patches. Status notes explain the update workflow.',
+			'Vanguard may require LoL Cheats rebuilds after League of Legends patches. Status notes explain the maintenance workflow for ESP, radar, and Aimbot tools.',
 	}),
 	faq({
 		question: 'Can I buy undetected {game} cheats for Windows PC?',
@@ -196,7 +196,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		slug: 'buy-undetected-lol-cheats-windows-pc',
 		seoTitle: 'Buy Undetected {game} Cheats for Windows PC | FAQ',
 		seoDescription:
-			'Buy monthly or lifetime {brand} licenses for Windows PC — ESP, radar, and aimbot in one stack. Compare pricing before checkout.',
+			'Buy monthly or lifetime LoL Cheats licenses for Windows PC — ESP, radar, and aimbot in one stack. Compare pricing and features on Store before checkout.',
 	}),
 ] as const;
 
@@ -220,7 +220,7 @@ export const customerReviews = [
 		short: "Soft aim in LoL Cheats feels smooth on Summoner's Rift.",
 		slug: 'lol-soft-aim-review-xkrypt0',
 		seoTitle: 'Soft Aim Review by @xKrypt0_LoL — 5/5 | {brand}',
-		seoDescription: "@xKrypt0_LoL rates {brand} soft aim 5/5 for Summoner's Rift on Windows PC.",
+		seoDescription: "@xKrypt0_LoL rates LoL Cheats soft aim 5/5 for Summoner's Rift on Windows PC — smooth tracking, clear menu, and strong ESP support during ranked matches.",
 		date: '2026-07-24',
 		tag: 'Soft aim',
 	}),
@@ -231,7 +231,7 @@ export const customerReviews = [
 		short: 'ESP boxes help on ARAM games. Still worth the price for LoL Cheats.',
 		slug: 'lol-esp-aram-review-buildsr4k',
 		seoTitle: 'ESP Review by @buildsR4K — 4/5 | {brand}',
-		seoDescription: '@buildsR4K rates {brand} ESP 4/5 for ARAM games on Windows PC.',
+		seoDescription: '@buildsR4K rates LoL Cheats ESP 4/5 for ARAM games on Windows PC — readable boxes, useful river awareness, and solid value for the monthly plan.',
 		date: '2026-07-19',
 		tag: 'ARAM game',
 	}),
@@ -242,7 +242,7 @@ export const customerReviews = [
 		short: 'LoL Cheats stayed up after the last Vanguard update. Lifetime was a good buy.',
 		slug: 'lol-cloud-dma-review-dma-wizard',
 		seoTitle: 'Update Review by @dma_wizard — 5/5 | {brand}',
-		seoDescription: '@dma_wizard rates {brand} 5/5 after a {antiCheat} update on Windows PC.',
+		seoDescription: '@dma_wizard rates LoL Cheats 5/5 after a Vanguard update on Windows PC — fast setup, stable rebuilds, and lifetime access that outlasted a failing old cheat.',
 		date: '2026-06-27',
 		tag: 'Updates',
 	}),
@@ -253,7 +253,7 @@ export const customerReviews = [
 		short: 'Soft aim in LoL Cheats is easy to tune on PC.',
 		slug: 'lol-soft-aim-review-ctrl-player99',
 		seoTitle: 'Soft Aim Review by @ctrl_player99 — 4/5 | {brand}',
-		seoDescription: '@ctrl_player99 rates {brand} soft aim 4/5 on Windows PC.',
+		seoDescription: '@ctrl_player99 rates LoL Cheats soft aim 4/5 on Windows PC — easy FOV tuning, natural feel in teamfights, and a menu clear enough for quick profile swaps.',
 		date: '2026-07-11',
 		tag: 'Soft aim',
 	}),
@@ -264,7 +264,7 @@ export const customerReviews = [
 		short: 'ESP in lane brushes is solid. Support helped after a slow first launch.',
 		slug: 'lol-cheat-setup-review-stormchaser07',
 		seoTitle: 'Setup Review by @stormChaser_07 — 3/5 | {brand}',
-		seoDescription: '@stormChaser_07 rates {brand} setup 3/5. ESP in lane brushes is solid after support help.',
+		seoDescription: '@stormChaser_07 rates LoL Cheats setup 3/5 on Windows PC. ESP in lane bushes is solid after support helped with a slow first launch and Defender warning.',
 		date: '2026-06-15',
 		tag: 'Setup',
 	}),
@@ -275,7 +275,7 @@ export const customerReviews = [
 		short: 'Ward ESP in LoL Cheats pays for the monthly plan.',
 		slug: 'lol-ward-esp-review-lootgoblinx',
 		seoTitle: 'Ward ESP Review by @lootGoblinx — 5/5 | {brand}',
-		seoDescription: '@lootGoblinx rates {brand} ward ESP 5/5 for early matches on Windows PC.',
+		seoDescription: '@lootGoblinx rates LoL Cheats ward ESP 5/5 for early matches on Windows PC — objective markers and distance readouts that speed up the first minutes.',
 		date: '2026-08-01',
 	}),
 	reviewMeta({
@@ -285,7 +285,7 @@ export const customerReviews = [
 		short: 'Soft aim per champions in LoL Cheats helps in teamfight zones.',
 		slug: 'lol-soft-aim-match-review-rankedgrind42',
 		seoTitle: 'Ranked Soft Aim by @rankedGrind42 — 4/5 | {brand}',
-		seoDescription: '@rankedGrind42 rates {brand} soft aim 4/5 for ranked matches on Windows PC.',
+		seoDescription: '@rankedGrind42 rates LoL Cheats soft aim 4/5 for ranked matches on Windows PC — per-champion profiles help in teamfights after Vanguard patches.',
 		date: '2026-07-07',
 		tag: 'Ranked',
 	}),
@@ -296,7 +296,7 @@ export const customerReviews = [
 		short: 'Radar in LoL Cheats saved me near objectives and river.',
 		slug: 'lol-radar-cheat-review-vanlifelol',
 		seoTitle: 'Radar Review by @vanLifeLoL — 5/5 | {brand}',
-		seoDescription: '@vanLifeLoL rates {brand} radar 5/5 near objectives and river on Windows PC.',
+		seoDescription: '@vanLifeLoL rates LoL Cheats radar 5/5 near objectives and river on Windows PC — early third-player reads in duos plus clean boxes with the radar overlay.',
 		date: '2026-07-28',
 		tag: 'Objectives',
 	}),
@@ -307,7 +307,7 @@ export const customerReviews = [
 		short: 'LoL Cheats was back the next morning after a patch.',
 		slug: 'lol-vanguard-update-review-patchdaymike',
 		seoTitle: 'Status Review by @patchDayMike — 4/5 | {brand}',
-		seoDescription: '@patchDayMike rates {brand} status updates 4/5 after {antiCheat} patches.',
+		seoDescription: '@patchDayMike rates LoL Cheats status updates 4/5 after Vanguard patches on Windows PC — faster rebuild notes than his previous tool on patch day.',
 		date: '2026-06-09',
 		tag: 'Vanguard updates',
 	}),
@@ -318,7 +318,7 @@ export const customerReviews = [
 		short: 'Skillshot soft aim plus ESP in LoL Cheats is excellent.',
 		slug: 'lol-skillshot-soft-aim-review-snipezonly',
 		seoTitle: 'Sniper Soft Aim by @snipezOnly_ — 5/5 | {brand}',
-		seoDescription: '@snipezOnly_ rates {brand} sniper soft aim 5/5 with ESP on Windows PC.',
+		seoDescription: '@snipezOnly_ rates LoL Cheats sniper soft aim 5/5 with ESP on Windows PC — excellent long-range skillshot assist paired with readable player boxes.',
 		date: '2026-08-01',
 	}),
 ] as const satisfies readonly CustomerReview[];

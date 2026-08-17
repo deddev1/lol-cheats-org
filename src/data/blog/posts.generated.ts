@@ -63,7 +63,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "lol-skin-leaks-guide",
-		title: "League of Legends Cosmetics & Skin Previews: What Is Worth Buying",
+		title: "LoL Cosmetics Guide: What Skins Are Worth Buying",
 		metaDescription: "Sensible advice on League of Legends cosmetics and skin previews — what to buy on the in-game shop, what to skip, and how looks affect match readability.",
 		h1: "League of Legends Cosmetics Buying Guide",
 		intro: "Leaks make every patch cycle feel like a fashion drop. Before you dump gold into another loud outfit, decide whether the skin helps you play League of Legends — or just looks cool in a screenshot.",
@@ -112,7 +112,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "lol-champion-tier-list",
-		title: "League of Legends Champion Tier List: Best Champions for Ranked",
+		title: "LoL Champion Tier List: Best Picks for Ranked 2026",
 		metaDescription: "A practical League of Legends champion tier list for laner and jungler matches — assassins, mages, marksmen, items, and when each pick actually wins fights.",
 		h1: "League of Legends Champion Tier List for 2026",
 		intro: "Creator tier lists love flashy picks. League of Legends rewards expected value: damage output, attack speed you can control, and a kit you can rebuild after you die. Here is how to rank champions for real matches — not highlight reels.",
@@ -162,7 +162,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "lol-aram-aggressive-strategies",
-		title: "League of Legends ARAM Game Strategies That Actually Clear Wards",
+		title: "LoL ARAM Strategies That Actually Clear Wards",
 		metaDescription: "Five aggressive but smart League of Legends macro strategies — timings, objectives, third-champions, and how to leave matches with gold instead of low gold.",
 		h1: "League of Legends ARAM Game Strategies",
 		intro: "Passive early-game players wait behind a bush while two teams erase each other, then dive into the mess and die. Strong ARAM games manufacture a short advantage, grab what matters, and recall before the fight collapses on you.",
@@ -260,7 +260,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "lol-loot-routes-guide",
-		title: "League of Legends Jungle Routes That Leave Base Ready to Fight",
+		title: "LoL Jungle Routes: Leave Base Ready to Fight",
 		metaDescription: "High-percentage League of Legends jungle routes for Summoners Rift and ARAM — how to leave base with items, boots, and health regen that win mid-match fights.",
 		h1: "League of Legends Jungle Routes Guide",
 		intro: "Winning in League of Legends starts before the first teamfight. Random warding gets you killed with starter items and no health regen. These route habits consistently convert a queue up to a loadout you can actually fight with.",
@@ -309,7 +309,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "lol-pro-settings-guide",
-		title: "League of Legends Pro Settings That Actually Help You See Enemies",
+		title: "LoL Pro Settings That Help You See Enemies",
 		metaDescription: "Practical League of Legends settings used by strong champions — visibility, audio cues, aim smoothing, and what to copy vs ignore from pro configs.",
 		h1: "League of Legends Pro Settings Guide",
 		intro: "Copying a champion’s entire config will not make you one. But a few League of Legends settings reliably improve visibility, audio reads, and aim consistency. Here is what is worth stealing.",
@@ -358,7 +358,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "lol-warmup-maps-ranked",
-		title: "League of Legends Warmup Routine Before Serious Ranked Matchs",
+		title: "LoL Warmup Routine Before Ranked Matches",
 		metaDescription: "A short League of Legends warmup routine before matches — aim, peeks, audio focus, and what to practice offline so your first fight is not your warmup.",
 		h1: "League of Legends Warmup Routine",
 		intro: "Queuing cold into high-traffic zones or high-traffic zones is how you donate a kit. A short League of Legends warmup — even ten to fifteen minutes — makes your first real fight feel like your third.",
@@ -464,7 +464,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "lol-cheats-buyers-guide",
 		title: "League of Legends Cheats Buyers Guide",
-		metaDescription: "What to check before you buy lol cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.",
+		metaDescription: "What to check before you buy LoL Cheats on Windows PC — status pages, ESP features, soft aim, refunds, pricing, and red flags that signal weak maintenance.",
 		h1: "LoL Cheats Buyers Guide",
 		intro: "Buying lol cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.",
 		keywords: ["buy lol cheats","lol cheats guide","lol pricing"],
@@ -706,7 +706,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "lol-cheats-vs-cheatvault-comparison",
 		title: "LoL Cheats vs Typical Budget LoL Cheat Shops",
-		metaDescription: "How LoL Cheats compares to typical budget lol cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.",
+		metaDescription: "How LoL Cheats compares to typical budget lol cheat shops on Windows PC — ESP depth, radar, status pages, pricing, and what cheap sellers usually skip.",
 		h1: "LoL Cheats vs Budget Shops",
 		intro: "Budget League of Legends stores often look identical: neon banners, “undetected” badges, and a low weekly price. LoL Cheats costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.",
 		keywords: ["lol cheats comparison","budget lol cheats","esp radar"],
@@ -755,7 +755,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "elitefn-vs-lol-cheats-two-week-test",
 		title: "I Tested Another League of Legends Cheat for 2 Weeks First",
-		metaDescription: "A two-week test of another budget lol cheat before switching to LoL Cheats — ESP feel, soft aim, patch downtime, and support differences.",
+		metaDescription: "A two-week test of another budget lol cheat before switching to LoL Cheats on Windows PC — ESP feel, soft aim, patch downtime, and support differences.",
 		h1: "Two-Week LoL Cheat Comparison Test",
 		intro: "My Discord kept recommending a popular budget lol cheat shop. I gave it fourteen days on the same PC and ranked servers, then moved to LoL Cheats. This is what actually differed — without the usual affiliate script.",
 		keywords: ["lol cheats review","cheat comparison","soft aim test"],
