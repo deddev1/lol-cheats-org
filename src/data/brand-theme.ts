@@ -37,11 +37,12 @@ export type BrandThemeResolved = {
 };
 
 export const themeDefaults: BrandThemeInput = {
-	accent: '#c026d3',
-	bg: '#08090a',
+	accent: '#00A8D8',
+	bg: '#060A10',
 };
 
 export const themePresets: { id: string; label: string; accent: string; bg: string }[] = [
+	{ id: 'hextech', label: 'Hextech Blue', accent: '#00A8D8', bg: '#060A10' },
 	{ id: 'magenta', label: 'Magenta', accent: '#c026d3', bg: '#08090a' },
 	{ id: 'valorant', label: 'Valorant', accent: '#ff4655', bg: '#0f1419' },
 	{ id: 'fortnite', label: 'Fortnite', accent: '#2b9dff', bg: '#0a0e17' },
@@ -225,7 +226,7 @@ export function brandThemeCssMap(theme: BrandThemeResolved = brandTheme): Record
 		'--ink-muted': theme.inkMuted,
 		'--ink-faint': theme.inkFaint,
 		'--magenta': theme.accent,
-		'--magenta-soft': theme.accentSoft,
+		'--magenta-soft': theme.accentHover,
 		'--magenta-deep': theme.accentDeep,
 		'--accent': theme.accent,
 		'--accent-hover': theme.accentHover,

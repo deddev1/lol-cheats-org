@@ -5,24 +5,24 @@
 	--font-sans: "Inter Variable", "Inter", ui-sans-serif, system-ui, sans-serif;
 	--font-display: "Syne Variable", "Syne", ui-sans-serif, sans-serif;
 
-	/* Near-black canvas — Linear / open-source product surface ladder */
-	--bg: #08090a;
-	--bg-panel: #0f1011;
-	--bg-elevated: #161618;
-	--bg-hover: #1c1c1f;
-	--line: #23252a;
-	--line-soft: #1a1b1e;
-	--line-strong: #34343a;
+	/* Hextech blue canvas — LoL Cheats theme */
+	--bg: #060a10;
+	--bg-panel: #101a26;
+	--bg-elevated: #1b1b23;
+	--bg-hover: #23232a;
+	--line: #27272e;
+	--line-soft: #1e1e25;
+	--line-strong: #36363d;
 	--ink: #f5f5f7;
 	--ink-muted: #a1a1aa;
 	--ink-faint: #8b8b93;
 
-	/* Single brand accent: magenta (user request) — used sparingly */
-	--magenta: #c026d3;
-	--magenta-soft: #e879f9;
-	--magenta-deep: #86198f;
+	/* Hextech blue accent */
+	--magenta: #00a8d8;
+	--magenta-soft: #22d3ee;
+	--magenta-deep: #080d14;
 	--accent: var(--magenta);
-	--accent-hover: #d946ef;
+	--accent-hover: #22d3ee;
 	--ok: #34d399;
 	--warn: #f43f5e;
 

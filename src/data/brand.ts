@@ -17,8 +17,6 @@ export const brand = {
 
 	/** Game this template instance targets */
 	game: 'League of Legends',
-	/** Official game store page — linked from the hero image */
-	gameUrl: 'https://www.leagueoflegends.com/',
 	/** Anti-cheat name used in Status / FAQ copy */
 	antiCheat: 'Vanguard',
 
@@ -42,12 +40,12 @@ export const brand = {
 	 * Edit in Brand Studio → Colors (tones are fully customizable).
 	 */
 	theme: {
-		accent: '#c89b3c',
-		bg: '#0a0a12',
-		soft: '#f0e6d2',
-		deep: '#785a28',
-		hover: '#d4af37',
-		panel: '#12121c',
+		accent: '#00A8D8',
+		bg: '#060A10',
+		soft: '#16384A',
+		deep: '#080D14',
+		hover: '#22D3EE',
+		panel: '#101A26',
 	},
 
 	/**
@@ -73,9 +71,8 @@ export const brand = {
 	 * Aim ~50–60 chars titles, ~140–160 chars descriptions.
 	 */
 	seo: {
-		homeTitle: 'League of Legends Cheats | Undetected Aimbot, ESP & Wallhack 2026',
-		homeDescription:
-			'LoL cheats for League of Legends on PC with aimbot, ESP and wallhack features. Explore gameplay features, pricing, setup information and the latest updates.',
+		homeTitle: 'LoL Cheats | Undetected Aimbot, ESP & Wallhack 2026',
+		homeDescription: 'LoL cheats for League of Legends on PC with aimbot, ESP and wallhack features. Explore gameplay features, pricing, setup information and the latest updates.',
 		featuresTitle: '{game} Features | {brand}',
 		featuresDescription: 'Everything in one {game} license for Windows PC — ESP, soft aim, radar, macro tools, and patch updates after {antiCheat}. See what is included.',
 		storeTitle: '{game} Store | {brand}',
@@ -130,7 +127,7 @@ export const brand = {
 	 */
 	sitemap: {
 		/** YYYY-MM-DD — Brand Studio can bump this on save to refresh crawl dates */
-		contentLastmod: '2026-08-15',
+		contentLastmod: '2026-08-17',
 		blogImageTitle: '{brand} blog',
 		blogImageCaption: 'Tips and updates for {primaryKeyword}',
 		reviewsImageTitle: '{brand} reviews',
@@ -165,51 +162,6 @@ export const brand = {
 				src: '/images/lol-screenshot-06.webp',
 				title: 'League of Legends gameplay screenshot 6',
 				caption: 'Dragon and Baron objective zones in League of Legends',
-			},
-			{
-				src: '/images/lol-screenshot-07.webp',
-				title: 'League of Legends gameplay screenshot 7',
-				caption: 'Multiplayer ranked gameplay in League of Legends',
-			},
-			{
-				src: '/images/lol-screenshot-08.webp',
-				title: 'League of Legends gameplay screenshot 8',
-				caption: 'Champion combat and ability combos in League of Legends',
-			},
-			{
-				src: '/images/lol-screenshot-09.webp',
-				title: 'League of Legends gameplay screenshot 9',
-				caption: 'Late-game teamfight tactics in League of Legends',
-			},
-			{
-				src: '/images/lol-screenshot-10.webp',
-				title: 'League of Legends gameplay screenshot 10',
-				caption: 'Assassin picks and burst damage in League of Legends',
-			},
-			{
-				src: '/images/lol-screenshot-11.webp',
-				title: 'League of Legends gameplay screenshot 11',
-				caption: 'River and jungle skirmishes in League of Legends',
-			},
-			{
-				src: '/images/lol-screenshot-12.webp',
-				title: 'League of Legends gameplay screenshot 12',
-				caption: 'ADC positioning and team support in League of Legends',
-			},
-			{
-				src: '/images/lol-screenshot-13.webp',
-				title: 'League of Legends gameplay screenshot 13',
-				caption: 'Night and low-light ranked matches in League of Legends',
-			},
-			{
-				src: '/images/lol-screenshot-14.webp',
-				title: 'League of Legends gameplay screenshot 14',
-				caption: 'Map traversal and lane positioning in League of Legends',
-			},
-			{
-				src: '/images/lol-screenshot-15.webp',
-				title: 'League of Legends gameplay screenshot 15',
-				caption: 'Endgame carry gameplay in League of Legends',
 			},
 		],
 	},
