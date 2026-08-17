@@ -451,7 +451,7 @@ export function validateBrandPayload(body) {
 	const copyDefaults = {
 		tagline: 'Undetected {primaryKeyword} -- ESP, aimbot, and radar for PC',
 		summary:
-			'{brand} is an undetected {game} cheat teamage for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
+			'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
 		heroLede: 'Hacks and cheats available -- 0% detection.',
 		blogLabel: '{game} Intel',
 		ctaBuy: 'Buy now',
@@ -616,7 +616,7 @@ export function renderBrandTs(data) {
 	const copyDefaults = {
 		tagline: 'Undetected {primaryKeyword} — ESP, aimbot, and radar for PC',
 		summary:
-			'{brand} is an undetected {game} cheat teamage for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
+			'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
 		heroLede: 'Hacks and cheats available — 0% detection.',
 		blogLabel: '{game} Intel',
 		ctaBuy: 'Buy now',

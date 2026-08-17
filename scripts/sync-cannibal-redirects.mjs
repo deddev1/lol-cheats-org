@@ -64,8 +64,8 @@ for (const [fromId, toId] of Object.entries(TARGETS)) {
 	}
 }
 
-// Retired EN hacks pillar URLs → locale homepages (merged into homepage cluster).
-const hacksSlugs = extractSlugBlock(routing, 'hacks');
+// Retired EN cheats pillar URLs → locale homepages (merged into homepage cluster).
+const hacksSlugs = extractSlugBlock(routing, 'cheats');
 for (const [locale, slug] of Object.entries(hacksSlugs)) {
 	if (locale === 'en') continue;
 	if (slug === undefined) continue;
@@ -77,5 +77,5 @@ for (const [locale, slug] of Object.entries(hacksSlugs)) {
 
 writeFileSync(JSON_OUT, `${JSON.stringify(map, null, 2)}\n`);
 console.log(
-	`Synced ${Object.keys(map).length / 2} locale redirect duos (${Object.keys(TARGETS).length} cannibal pageIds + hacks pillar) → functions/cannibal-redirects.json`,
+	`Synced ${Object.keys(map).length / 2} locale redirect duos (${Object.keys(TARGETS).length} cannibal pageIds + cheats pillar) → functions/cannibal-redirects.json`,
 );

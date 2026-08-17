@@ -55,7 +55,7 @@ const sources = [
 				paragraphs: [
 					`Official notes live on ${EXT.lol}. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how fed carries gank? Does this change what wards are worth ganking? Does this change which nest or map I should play tonight?`,
 					'Champion stat tables, rank tiers, baron spawn rates, and champions unlocks move the real economy. A small attack timing tweak on an off-meta picks look boring in a video title, but it quietly reshapes mid-range fights in lane brushes and Gateway. Cosmetic lines and UI polish almost never decide whether you survive high-traffic zones.',
-					`If you also run third-party tools, separate game balance from anti-cheat maintenance. After a ${EXT.vanguard} or client update, check our <a href="/updates/">League of Legends Hacks status page</a> before you blame your own aim.`,
+					`If you also run third-party tools, separate game balance from anti-cheat maintenance. After a ${EXT.vanguard} or client update, check our <a href="/updates/">LoL Cheats status page</a> before you blame your own aim.`,
 				],
 			},
 			{
@@ -406,12 +406,12 @@ const sources = [
 		category: 'Cheats Guide',
 		featured: true,
 		slug: 'lol-cheats-complete-guide-2026',
-		title: 'League of Legends Hacks 2026: Complete Undetected Guide',
+		title: 'LoL Cheats 2026: Complete Undetected Guide',
 		metaDescription:
 			'A clear 2026 guide to lol cheats — what ESP, soft aim, and radar actually do in League of Legends, how Vanguard maintenance works, and how to buy safely.',
-		h1: 'League of Legends Hacks in 2026: What They Are and How to Use Them Carefully',
+		h1: 'LoL Cheats in 2026: What They Are and How to Use Them Carefully',
 		intro:
-			'People search “lol cheats” for a simple reason: League of Legends is information-heavy, punishing, and full of nest campers. This guide explains what modern undetected teamages actually include, how Vanguard maintenance works, and how to decide whether a tool fits your play style.',
+			'People search “lol cheats” for a simple reason: League of Legends is information-heavy, punishing, and full of nest campers. This guide explains what modern undetected packages actually include, how Vanguard maintenance works, and how to decide whether a tool fits your play style.',
 		keywords: [
 			'lol cheats',
 			'undetected lol cheats',
@@ -419,20 +419,20 @@ const sources = [
 			'LoL Aimbot',
 			'vanguard',
 		],
-		imageAlt: 'Overview of League of Legends Hacks ESP soft aim and radar tools for 2026',
+		imageAlt: 'Overview of LoL Cheats ESP soft aim and radar tools for 2026',
 		sections: [
 			{
 				h2: 'What do people mean when they say lol cheats?',
 				paragraphs: [
 					'In plain language, lol cheats are third-party tools that add information or aim assistance on top of League of Legends client. The common stack is ESP wallhack for champions and wards, a 2D radar for threats outside your view, and configurable soft aim for ganks. One license should cover that loop instead of forcing you to juggle separate downloads.',
-					'Searchers also say “lol cheats,” “lol cheats,” or “lol wallhack.” Those phrases usually point at the same intent: survive matches with better reads. Start at our <a href="/">League of Legends Hacks pillar</a> if you want the product overview without the long essay.',
+					'Searchers also say “lol cheats,” “lol cheats,” or “lol wallhack.” Those phrases usually point at the same intent: survive matches with better reads. Start at our <a href="/">LoL Cheats pillar</a> if you want the product overview without the long essay.',
 				],
 			},
 			{
 				h2: 'ESP, soft aim, and radar — what each tool is for',
 				paragraphs: [
 					'ESP answers “who is near me and what is worth wardsing?” Soft aim answers “can I finish the fight once I choose it?” Radar answers “is someone flanking while I heal?” Used together, they cover information and combat. Used badly, they create noisy overlays and obvious aim corrections.',
-					'Deep dives live on <a href="/lol-esp/">ESP</a>, <a href="/lol-aimbot/">aimbot</a>, <a href="/lol-wallhack/">wallhack</a>, and <a href="/lol-radar-hack/">radar</a>. Read those before you buy if you only need one job done well.',
+					'Deep dives live on <a href="/lol-esp/">ESP</a>, <a href="/lol-aimbot/">aimbot</a>, <a href="/lol-wallhack/">wallhack</a>, and <a href="/lol-radar-cheat/">radar</a>. Read those before you buy if you only need one job done well.',
 				],
 			},
 			{
@@ -446,7 +446,7 @@ const sources = [
 				h2: 'How to buy and set up without wasting a night',
 				paragraphs: [
 					'Compare monthly and lifetime on <a href="/pricing/">Pricing</a>, then follow <a href="/setup/">Setup</a> after delivery. Keep your order ID ready for <a href="/support/">Support</a>. If you are still shopping, the <a href="/blog/lol-cheats-buyers-guide/">buyers guide</a> lists the checklist we wish every shopper used.',
-					'League of Legends Hacks is built for Windows PC laner and jungler play. It will not replace map knowledge — it amplifies the reads you already practice in matches.',
+					'LoL Cheats is built for Windows PC laner and jungler play. It will not replace map knowledge — it amplifies the reads you already practice in matches.',
 				],
 			},
 		],
@@ -472,12 +472,12 @@ const sources = [
 			'undetected lol cheats',
 			'lol pricing',
 		],
-		imageAlt: 'Checklist for buying League of Legends Hacks safely',
+		imageAlt: 'Checklist for buying LoL Cheats safely',
 		sections: [
 			{
 				h2: 'Start with status, not screenshots',
 				paragraphs: [
-					'Ask whether the seller publishes a dated status page after Vanguard or client patches. Fancy galleries do not help if the tool is offline for three days. League of Legends Hacks posts rebuild notes on <a href="/updates/">Updates</a> for that reason.',
+					'Ask whether the seller publishes a dated status page after Vanguard or client patches. Fancy galleries do not help if the tool is offline for three days. LoL Cheats posts rebuild notes on <a href="/updates/">Updates</a> for that reason.',
 					'If a shop only answers in private Discord and never writes public notes, assume you will miss patch windows.',
 				],
 			},
@@ -505,12 +505,12 @@ const sources = [
 		category: 'Product Updates',
 		featured: false,
 		slug: 'lol-cheats-2026-whats-new',
-		title: 'League of Legends Hacks 2026: What Changed This Year',
+		title: 'LoL Cheats 2026: What Changed This Year',
 		metaDescription:
-			'What changed for lol cheats in 2026 — patch cycle cadence, Vanguard maintenance habits, ESP focus, and how League of Legends Hacks adapted for League of Legends.',
-		h1: 'What Changed for League of Legends Hacks in 2026',
+			'What changed for lol cheats in 2026 — patch cycle cadence, Vanguard maintenance habits, ESP focus, and how LoL Cheats adapted for League of Legends.',
+		h1: 'What Changed for LoL Cheats in 2026',
 		intro:
-			'2026 did not invent cheating in League of Legends — it raised the bar for maintenance. Wipes, Vanguard pushes, and map updates punish stale builds. Here is what changed in how serious League of Legends Hacks teamages need to operate.',
+			'2026 did not invent cheating in League of Legends — it raised the bar for maintenance. Wipes, Vanguard pushes, and map updates punish stale builds. Here is what changed in how serious LoL Cheats packages need to operate.',
 		keywords: [
 			'lol cheats 2026',
 			'lol cheats 2026',
@@ -518,7 +518,7 @@ const sources = [
 			'lol patch cycle',
 			'lol cheats updates',
 		],
-		imageAlt: '2026 updates for League of Legends Hacks on League of Legends',
+		imageAlt: '2026 updates for LoL Cheats on League of Legends',
 		sections: [
 			{
 				h2: 'Why 2026 buyers care more about status pages',
@@ -622,7 +622,7 @@ const sources = [
 				h2: 'How to keep overlays from becoming noise',
 				paragraphs: [
 					'Toggle categories. During a hot push you may want champions only. During a wards route you may want wards. Near objectives you may want threats and exits. Too many boxes at once create hesitation — the opposite of an advantage.',
-					'Pair ESP with <a href="/lol-radar-hack/">radar</a> for flanks outside your field of view. Visibility wins information wars; aim tools cover the gank afterward.',
+					'Pair ESP with <a href="/lol-radar-cheat/">radar</a> for flanks outside your field of view. Visibility wins information wars; aim tools cover the gank afterward.',
 				],
 			},
 			{
@@ -641,12 +641,12 @@ const sources = [
 		category: 'Undetected',
 		featured: true,
 		slug: 'undetected-lol-cheats-vanguard',
-		title: 'Undetected League of Legends Hacks and Vanguard Reality',
+		title: 'Undetected LoL Cheats and Vanguard Reality',
 		metaDescription:
 			'What “undetected lol cheats” really means under Vanguard — maintenance, patch days, risk, and how to read status before you queue League of Legends.',
-		h1: 'Undetected League of Legends Hacks: What Vanguard Reality Looks Like',
+		h1: 'Undetected LoL Cheats: What Vanguard Reality Looks Like',
 		intro:
-			'“Undetected” is the most abused word in cheat marketing. Under Vanguard, it means a teamage is being maintained against current detections — not that bans are impossible. Here is the honest version for League of Legends champions.',
+			'“Undetected” is the most abused word in cheat marketing. Under Vanguard, it means a package is being maintained against current detections — not that bans are impossible. Here is the honest version for League of Legends champions.',
 		keywords: [
 			'undetected lol cheats',
 			'vanguard lol',
@@ -659,7 +659,7 @@ const sources = [
 			{
 				h2: 'What undetected can honestly mean',
 				paragraphs: [
-					`Vanguard is documented at ${EXT.vanguard}. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. League of Legends Hacks does that on <a href="/updates/">Updates</a> and explains the workflow on <a href="/vanguard-bypass/">Vanguard maintenance</a>.`,
+					`Vanguard is documented at ${EXT.vanguard}. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. LoL Cheats does that on <a href="/updates/">Updates</a> and explains the workflow on <a href="/vanguard-bypass/">Vanguard maintenance</a>.`,
 					'If a seller says “100% undetected forever,” treat it as advertising. Your risk also depends on how obviously you play.',
 				],
 			},
@@ -686,12 +686,12 @@ const sources = [
 		category: 'Comparisons',
 		featured: false,
 		slug: 'lol-cheats-vs-cheatvault-comparison',
-		title: 'League of Legends Hacks vs Typical Budget LoL Hack Shops',
+		title: 'LoL Cheats vs Typical Budget LoL Cheat Shops',
 		metaDescription:
-			'How League of Legends Hacks compares to typical budget lol hack shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.',
-		h1: 'League of Legends Hacks vs Typical Budget LoL Hack Shops',
+			'How LoL Cheats compares to typical budget lol cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.',
+		h1: 'LoL Cheats vs Typical Budget LoL Cheat Shops',
 		intro:
-			'Budget League of Legends stores often look identical: neon banners, “undetected” badges, and a low weekly price. League of Legends Hacks costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.',
+			'Budget League of Legends stores often look identical: neon banners, “undetected” badges, and a low weekly price. LoL Cheats costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.',
 		keywords: [
 			'lol cheats comparison',
 			'budget lol cheats',
@@ -699,13 +699,13 @@ const sources = [
 			'esp radar pricing',
 			'lol cheats',
 		],
-		imageAlt: 'Comparing League of Legends Hacks features against budget lol hack shops',
+		imageAlt: 'Comparing LoL Cheats features against budget lol cheat shops',
 		sections: [
 			{
 				h2: 'What budget shops usually optimize for',
 				paragraphs: [
 					'Low entry price and fast checkout. That can be fine for a weekend experiment. The common gaps are thin ward ESP, no real radar, Discord-only status, and slow rebuild communication after Vanguard pushes.',
-					'League of Legends Hacks focuses on a full match stack — player ESP, ward filters, radar, soft aim profiles — with a public <a href="/updates/">Updates</a> page. See <a href="/features/">Features</a> for the list.',
+					'LoL Cheats focuses on a full match stack — player ESP, ward filters, radar, soft aim profiles — with a public <a href="/updates/">Updates</a> page. See <a href="/features/">Features</a> for the list.',
 				],
 			},
 			{
@@ -734,13 +734,13 @@ const sources = [
 		slug: 'elitefn-vs-lol-cheats-two-week-test',
 		title: 'I Tested Another League of Legends Cheat for 2 Weeks First',
 		metaDescription:
-			'A two-week test of another budget lol hack before switching to League of Legends Hacks — ESP feel, soft aim, patch downtime, and support differences.',
+			'A two-week test of another budget lol cheat before switching to LoL Cheats — ESP feel, soft aim, patch downtime, and support differences.',
 		h1: 'I Tested Another League of Legends Cheat for Two Weeks Before Switching',
 		intro:
-			'My Discord kept recommending a popular budget lol hack shop. I gave it fourteen days on the same PC and ranked servers, then moved to League of Legends Hacks. This is what actually differed — without the usual affiliate script.',
+			'My Discord kept recommending a popular budget lol cheat shop. I gave it fourteen days on the same PC and ranked servers, then moved to LoL Cheats. This is what actually differed — without the usual affiliate script.',
 		keywords: [
 			'lol cheats review',
-			'lol hack comparison',
+			'lol cheat comparison',
 			'lol cheat downtime',
 			'soft aim test',
 			'lol cheats',
@@ -751,21 +751,21 @@ const sources = [
 				h2: 'Week one — setup and first impressions',
 				paragraphs: [
 					'Delivery was fine: license in email, loader as admin, overlays disabled. Menu learning took a couple evenings. Player ESP was readable. Carcass ESP felt secondary. I ran several nights with information tools only and no aim assist so I could judge visibility on its own.',
-					'League of Legends Hacks later felt similar on install time, but filters for wards and objectives were easier to toggle independently during gank routes.',
+					'LoL Cheats later felt similar on install time, but filters for wards and objectives were easier to toggle independently during gank routes.',
 				],
 			},
 			{
 				h2: 'Soft aim and the mid-match feel',
 				paragraphs: [
 					'Conservative FOV soft aim helped SMG and AR tracking. Sniping needed manual profile swaps that slowed me down. When I pushed smoothness too low, corrections looked obvious in review clips. Tuning toward smoother tracking fixed kills and reduced the robotic look.',
-					'On League of Legends Hacks I relied more on per-champion profiles so high-traffic zones and long peeks did not share one magnet. Details are in the <a href="/lol-aimbot/">aimbot guide</a>.',
+					'On LoL Cheats I relied more on per-champion profiles so high-traffic zones and long peeks did not share one magnet. Details are in the <a href="/lol-aimbot/">aimbot guide</a>.',
 				],
 			},
 			{
 				h2: 'The patch window that ended the trial',
 				paragraphs: [
 					'A League of Legends plus Vanguard update landed mid-test. The other tool’s status went quiet without a clear ETA. I skipped queue ups while my group played without me. A rebuild arrived days later; stability was mixed. That downtime — not a single feature screenshot — pushed me to switch.',
-					'League of Legends Hacks won me over with written notes on <a href="/updates/">Updates</a>. I still do not queue up blind after patches on any tool.',
+					'LoL Cheats won me over with written notes on <a href="/updates/">Updates</a>. I still do not queue up blind after patches on any tool.',
 				],
 			},
 			{
@@ -785,12 +785,12 @@ const sources = [
 		category: 'Comparisons',
 		featured: false,
 		slug: 'lol-cheats-vs-ghostware-features-pricing',
-		title: 'Full-Stack League of Legends Hacks vs Minimal ESP Tools',
+		title: 'Full-Stack LoL Cheats vs Minimal ESP Tools',
 		metaDescription:
-			'Full-stack League of Legends Hacks versus minimal ESP-only League of Legends tools — feature depth, radar, soft aim, pricing, and who should buy which style.',
-		h1: 'Full-Stack League of Legends Hacks vs Minimal ESP-Only Tools',
+			'Full-stack LoL Cheats versus minimal ESP-only League of Legends tools — feature depth, radar, soft aim, pricing, and who should buy which style.',
+		h1: 'Full-Stack LoL Cheats vs Minimal ESP-Only Tools',
 		intro:
-			'Some League of Legends tools sell a slim ESP module and call it a day. League of Legends Hacks ships the wider match stack. Neither philosophy is automatically wrong — they fit different champions. Here is a clear comparison.',
+			'Some League of Legends tools sell a slim ESP module and call it a day. LoL Cheats ships the wider match stack. Neither philosophy is automatically wrong — they fit different champions. Here is a clear comparison.',
 		keywords: [
 			'LoL ESP only cheat',
 			'lol cheats features',
@@ -798,33 +798,33 @@ const sources = [
 			'lol cheat pricing',
 			'lol cheats',
 		],
-		imageAlt: 'Full stack League of Legends Hacks compared with minimal ESP-only tools',
+		imageAlt: 'Full stack LoL Cheats compared with minimal ESP-only tools',
 		sections: [
 			{
 				h2: 'Two philosophies: minimal surface vs full match loop',
 				paragraphs: [
 					'Minimal tools focus on player boxes and light assist. Fewer features can mean a simpler menu and a lower price. Full-stack tools add ward filters, radar, and soft aim profiles so one menu covers information and fights.',
-					'League of Legends Hacks is intentionally full-stack. If you only need outlines in quiet matches, a slim ESP product may feel enough. If you rotate, wards, and hold objectives, missing radar becomes obvious.',
+					'LoL Cheats is intentionally full-stack. If you only need outlines in quiet matches, a slim ESP product may feel enough. If you rotate, wards, and hold objectives, missing radar becomes obvious.',
 				],
 			},
 			{
 				h2: 'Feature and pricing reality check',
 				paragraphs: [
-					'League of Legends Hacks monthly is $35 and lifetime is $150 for ESP, radar, and soft aim together. Slimmer competitors often undercut sticker price while charging extra for modules you assumed were included. Always read the feature list, not the banner.',
-					'Our public comparison points live on <a href="/features/">Features</a>, <a href="/lol-esp/">ESP</a>, <a href="/lol-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a>.',
+					'LoL Cheats monthly is $35 and lifetime is $150 for ESP, radar, and soft aim together. Slimmer competitors often undercut sticker price while charging extra for modules you assumed were included. Always read the feature list, not the banner.',
+					'Our public comparison points live on <a href="/features/">Features</a>, <a href="/lol-esp/">ESP</a>, <a href="/lol-radar-cheat/">radar</a>, and <a href="/pricing/">Pricing</a>.',
 				],
 			},
 			{
 				h2: 'Detection talk without fairy tales',
 				paragraphs: [
 					'Smaller user bases generate fewer public ban screenshots — that is not proof of safety. Larger brands generate more noise even when maintenance is solid. Judge sellers by patch communication speed and whether you can find a dated status note.',
-					'League of Legends Hacks documents maintenance on <a href="/vanguard-bypass/">Vanguard workflow</a> and <a href="/undetected-lol-cheats/">undetected notes</a>.',
+					'LoL Cheats documents maintenance on <a href="/vanguard-bypass/">Vanguard workflow</a> and <a href="/undetected-lol-cheats/">undetected notes</a>.',
 				],
 			},
 			{
 				h2: 'Which style should you buy?',
 				paragraphs: [
-					'Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose League of Legends Hacks if radar, ward filters, configurable soft aim, and a public Updates URL are must-haves.',
+					'Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose LoL Cheats if radar, ward filters, configurable soft aim, and a public Updates URL are must-haves.',
 					'Decide your must-haves on paper first. Then open <a href="/">lol cheats</a> or keep shopping slim tools — but do not skip patch-day checks on either path.',
 				],
 			},
@@ -881,16 +881,16 @@ const POST_META = {
 		keywords: ['lol warmup', 'lol aim practice', 'survival routine'],
 	},
 	'lol-cheats-complete-guide': {
-		h1: 'League of Legends Hacks Guide for 2026',
-		keywords: ['lol cheats', 'undetected hacks', 'LoL ESP'],
+		h1: 'LoL Cheats Guide for 2026',
+		keywords: ['lol cheats', 'undetected cheats', 'LoL ESP'],
 	},
 	'lol-cheats-buyers-guide': {
-		h1: 'League of Legends Hacks Buyers Guide',
-		keywords: ['buy lol hacks', 'lol cheats guide', 'lol pricing'],
+		h1: 'LoL Cheats Buyers Guide',
+		keywords: ['buy lol cheats', 'lol cheats guide', 'lol pricing'],
 	},
 	'lol-cheats-2026-whats-new': {
-		h1: 'League of Legends Hacks Updates in 2026',
-		keywords: ['lol hacks 2026', 'vanguard updates', 'hack status'],
+		h1: 'LoL Cheats Updates in 2026',
+		keywords: ['lol cheats 2026', 'vanguard updates', 'cheat status'],
 	},
 	'lol-aimbot-settings-guide': {
 		h1: 'League of Legends Aimbot Settings Guide',
@@ -901,20 +901,20 @@ const POST_META = {
 		keywords: ['LoL ESP', 'lol wallhack', 'lol cheats'],
 	},
 	'undetected-lol-cheats-vanguard': {
-		h1: 'Undetected League of Legends Hacks Explained',
-		keywords: ['undetected lol hacks', 'vanguard lol', 'ban risk'],
+		h1: 'Undetected LoL Cheats Explained',
+		keywords: ['undetected lol cheats', 'vanguard lol', 'ban risk'],
 	},
 	'lol-cheats-vs-cheatvault': {
-		h1: 'League of Legends Hacks vs Budget Shops',
-		keywords: ['lol hacks comparison', 'budget lol hacks', 'esp radar'],
+		h1: 'LoL Cheats vs Budget Shops',
+		keywords: ['lol cheats comparison', 'budget lol cheats', 'esp radar'],
 	},
 	'elitefn-two-week-test': {
-		h1: 'Two-Week LoL Hack Comparison Test',
-		keywords: ['lol hacks review', 'hack comparison', 'soft aim test'],
+		h1: 'Two-Week LoL Cheat Comparison Test',
+		keywords: ['lol cheats review', 'cheat comparison', 'soft aim test'],
 	},
 	'lol-cheats-vs-ghostware': {
 		h1: 'Full-Stack vs ESP-Only LoL Cheats',
-		keywords: ['LoL ESP cheat', 'full stack hacks', 'radar vs esp'],
+		keywords: ['LoL ESP cheat', 'full stack cheats', 'radar vs esp'],
 	},
 };
 
@@ -925,7 +925,7 @@ const EXTRA_SECTIONS = {
 			h2: 'Staying ahead after every League of Legends update',
 			paragraphs: [
 				'Patch days are when most champions lose account progress — not because the game broke, but because they never updated their habits. After you read the notes, spend ten minutes on our <a href="/updates/">status page</a> if you use overlays, then adjust your main champions and nest plan before you queue.',
-				'If you rely on information tools, confirm the stack on <a href="/lol-cheats/">League of Legends Hacks</a> still matches the current client. Pair patch reading with the <a href="/faq/">FAQ</a> when something in the notes is unclear — guessing costs more time than one careful read.',
+				'If you rely on information tools, confirm the stack on <a href="/lol-cheats/">LoL Cheats</a> still matches the current client. Pair patch reading with the <a href="/faq/">FAQ</a> when something in the notes is unclear — guessing costs more time than one careful read.',
 			],
 		},
 	],
@@ -942,8 +942,8 @@ const EXTRA_SECTIONS = {
 		{
 			h2: 'Turn tier knowledge into match wins',
 			paragraphs: [
-				'A tier list only helps when you spawn with the right plan. Match your pick to your map, nest route, and whether you solo or trio. Competitive champions often pair champions choice with <a href="/lol-radar-hack/">radar</a> reads so flanks do not erase a good spawn.',
-				'If you want the full cheat-side stack that supports aggressive picks, start at <a href="/lol-cheats/">League of Legends Hacks</a> and compare plans on <a href="/pricing/">Pricing</a> before you commit to a main champions for the wipe.',
+				'A tier list only helps when you spawn with the right plan. Match your pick to your map, nest route, and whether you solo or trio. Competitive champions often pair champions choice with <a href="/lol-radar-cheat/">radar</a> reads so flanks do not erase a good spawn.',
+				'If you want the full cheat-side stack that supports aggressive picks, start at <a href="/lol-cheats/">LoL Cheats</a> and compare plans on <a href="/pricing/">Pricing</a> before you commit to a main champions for the wipe.',
 			],
 		},
 	],
@@ -958,10 +958,10 @@ const EXTRA_SECTIONS = {
 	],
 	'lol-competitive-meta': [
 		{
-			h2: 'Competitive habits that pair with League of Legends Hacks tools',
+			h2: 'Competitive habits that pair with LoL Cheats tools',
 			paragraphs: [
 				'High-level champions win on information timing: who rotates first, who holds nest, who peeks with armor. That is the same loop <a href="/features/">ESP, radar, and soft aim</a> support when tuned conservatively.',
-				'If you study competitive meta, also read <a href="/lol-cheats/">League of Legends Hacks</a> and <a href="/setup/">Setup</a> so your overlay stack stays readable instead of noisy during real fights.',
+				'If you study competitive meta, also read <a href="/lol-cheats/">LoL Cheats</a> and <a href="/setup/">Setup</a> so your overlay stack stays readable instead of noisy during real fights.',
 			],
 		},
 	],
@@ -970,7 +970,7 @@ const EXTRA_SECTIONS = {
 			h2: 'Route discipline plus ward awareness',
 			paragraphs: [
 				'Routes fail when champions ward like tourists. Mark your ninety-second plan, stick to cover ladders, and use <a href="/lol-esp/">ward ESP filters</a> only to confirm what your route already predicted — not to replace map knowledge.',
-				'Strong routes feed into ARAM games and competitive spawns. Link this guide with <a href="/lol-cheats/">League of Legends Hacks</a> if you want radar for objective zones after your kit is online.',
+				'Strong routes feed into ARAM games and competitive spawns. Link this guide with <a href="/lol-cheats/">LoL Cheats</a> if you want radar for objective zones after your kit is online.',
 			],
 		},
 	],
@@ -1006,7 +1006,7 @@ const EXTRA_SECTIONS = {
 			h2: 'Final checklist before checkout',
 			paragraphs: [
 				'Confirm dated status, ward ESP, radar, soft aim profiles, Windows support, and a written refund policy. If any item is missing, pause — cheap weekly subs add up when rebuilds are slow.',
-				'When the checklist passes, open <a href="/lol-cheats/">League of Legends Hacks</a>, compare <a href="/pricing/">Pricing</a>, and read <a href="/blog/lol-cheats-complete-guide-2026/">the 2026 complete guide</a> for feature context.',
+				'When the checklist passes, open <a href="/lol-cheats/">LoL Cheats</a>, compare <a href="/pricing/">Pricing</a>, and read <a href="/blog/lol-cheats-complete-guide-2026/">the 2026 complete guide</a> for feature context.',
 			],
 		},
 	],
@@ -1024,7 +1024,7 @@ const EXTRA_SECTIONS = {
 			h2: 'Build a profile set you can trust in objectives',
 			paragraphs: [
 				'Save carnivore, ambush, and skillshot profiles separately. Test each on <a href="/blog/lol-warmup-maps-ranked/">warmup maps</a> before you take a fed champion into high-traffic zones.',
-				'Combine tuned aim with <a href="/lol-esp/">ESP</a> and <a href="/lol-radar-hack/">radar</a> so you only assist fights you chose on purpose. After patches, confirm <a href="/updates/">Updates</a> before you tweak FOV on an old build.',
+				'Combine tuned aim with <a href="/lol-esp/">ESP</a> and <a href="/lol-radar-cheat/">radar</a> so you only assist fights you chose on purpose. After patches, confirm <a href="/updates/">Updates</a> before you tweak FOV on an old build.',
 			],
 		},
 	],
@@ -1033,7 +1033,7 @@ const EXTRA_SECTIONS = {
 			h2: 'ESP in real League of Legends matches — practical takeaways',
 			paragraphs: [
 				'Use player ESP when rotating, ward ESP when routing, and objective cues when holding water or cliffs. Switch profiles instead of leaving every box on — clutter kills reaction time.',
-				'For the maintained stack behind this guide, see <a href="/lol-cheats/">League of Legends Hacks</a>, <a href="/lol-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a>. Patch-day rules live on <a href="/updates/">Updates</a>.',
+				'For the maintained stack behind this guide, see <a href="/lol-cheats/">LoL Cheats</a>, <a href="/lol-radar-cheat/">radar</a>, and <a href="/pricing/">Pricing</a>. Patch-day rules live on <a href="/updates/">Updates</a>.',
 			],
 		},
 	],
@@ -1042,7 +1042,7 @@ const EXTRA_SECTIONS = {
 			h2: 'Responsible undetected habits for League of Legends',
 			paragraphs: [
 				'Undetected means maintained today — not immune forever. Read public notes, wait for rebuilds, and avoid rage settings that draw reports even on clean builds.',
-				'Use <a href="/updates/">Updates</a>, <a href="/vanguard-bypass/">EAC maintenance</a>, and <a href="/setup/">Setup</a> as your patch-week routine. Compare the full stack on <a href="/lol-cheats/">League of Legends Hacks</a> when you are ready to buy.',
+				'Use <a href="/updates/">Updates</a>, <a href="/vanguard-bypass/">EAC maintenance</a>, and <a href="/setup/">Setup</a> as your patch-week routine. Compare the full stack on <a href="/lol-cheats/">LoL Cheats</a> when you are ready to buy.',
 			],
 		},
 	],
@@ -1068,8 +1068,8 @@ const EXTRA_SECTIONS = {
 		{
 			h2: 'Pick the stack that matches how you play',
 			paragraphs: [
-				'Casual outline-only champions may tolerate minimal ESP. Players who rotate, ward, and hold objectives usually need radar and filters in one menu — that is the full-stack case for <a href="/lol-cheats/">League of Legends Hacks</a>.',
-				'Compare <a href="/lol-esp/">ESP</a>, <a href="/lol-radar-hack/">radar</a>, and <a href="/pricing/">Pricing</a> on paper first. Then read <a href="/undetected-lol-cheats/">undetected notes</a> on whichever path you choose.',
+				'Casual outline-only champions may tolerate minimal ESP. Players who rotate, ward, and hold objectives usually need radar and filters in one menu — that is the full-stack case for <a href="/lol-cheats/">LoL Cheats</a>.',
+				'Compare <a href="/lol-esp/">ESP</a>, <a href="/lol-radar-cheat/">radar</a>, and <a href="/pricing/">Pricing</a> on paper first. Then read <a href="/undetected-lol-cheats/">undetected notes</a> on whichever path you choose.',
 			],
 		},
 	],

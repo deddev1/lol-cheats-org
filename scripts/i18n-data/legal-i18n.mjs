@@ -5,7 +5,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Leer términos',
 		readPrivacy: 'Leer privacidad',
 		introTopic: 'para lolcheats.org y licencias de League of Legends.',
-		descFor: 'parLeague of Legends Hacks — ESP wallhack, Aimbot',
+		descFor: 'parLoL Cheats — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Información que recopilamos', 'Cómo usamos los datos', 'Tus derechos'],
 			sec1p2: 'Los datos de pago se procesan en el checkout de Zadeyo — no se almacenan en lolcheats.org.',
@@ -26,7 +26,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Lire les conditions',
 		readPrivacy: 'Lire la confidentialité',
 		introTopic: 'pour lolcheats.org et les licences League of Legends.',
-		descFor: 'pour League of Legends Hacks — ESP wallhack, Aimbot',
+		descFor: 'pour LoL Cheats — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informations collectées', 'Utilisation des données', 'Vos droits'],
 			sec1p2: 'Les détails de paiement sont traités par le checkout Zadeyo — non stockés sur lolcheats.org.',
@@ -47,7 +47,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Nutzungsbedingungen',
 		readPrivacy: 'Datenschutz lesen',
 		introTopic: 'für lolcheats.org und League of Legends-Lizenzen.',
-		descFor: 'für League of Legends Hacks — ESP wallhack, Aimbot',
+		descFor: 'für LoL Cheats — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Erhobene Daten', 'Datennutzung', 'Ihre Rechte'],
 			sec1p2: 'Zahlungsdaten werden über Zadeyo-Checkout verarbeitet — nicht auf lolcheats.org gespeichert.',
@@ -68,7 +68,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Ler termos',
 		readPrivacy: 'Ler privacidade',
 		introTopic: 'para lolcheats.org e licenças League of Legends.',
-		descFor: 'parLeague of Legends Hacks — ESP wallhack, Aimbot',
+		descFor: 'parLoL Cheats — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informações que coletamos', 'Como usamos os dados', 'Seus direitos'],
 			sec1p2: 'Detalhes de pagamento são processados pelo checkout Zadeyo — não armazenados em lolcheats.org.',
@@ -89,7 +89,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Leggi i termini',
 		readPrivacy: 'Leggi la privacy',
 		introTopic: 'per lolcheats.org e licenze League of Legends.',
-		descFor: 'per League of Legends Hacks — ESP wallhack, Aimbot',
+		descFor: 'per LoL Cheats — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informazioni raccolte', 'Uso dei dati', 'I tuoi diritti'],
 			sec1p2: 'I dati di pagamento sono elaborati dal checkout Zadeyo — non memorizzati su lolcheats.org.',
@@ -110,7 +110,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Voorwaarden lezen',
 		readPrivacy: 'Privacy lezen',
 		introTopic: 'voor lolcheats.org en League of Legends-licenties.',
-		descFor: 'voor League of Legends Hacks — ESP wallhack, Aimbot',
+		descFor: 'voor LoL Cheats — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informatie die we verzamelen', 'Hoe we gegevens gebruiken', 'Uw rechten'],
 			sec1p2: 'Betalingsgegevens worden verwerkt via Zadeyo checkout — niet opgeslagen op lolcheats.org.',
@@ -131,7 +131,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Przeczytaj warunki',
 		readPrivacy: 'Przeczytaj politykę prywatności',
 		introTopic: 'dla lolcheats.org i licencji League of Legends.',
-		descFor: 'dlLeague of Legends Hacks — ESP wallhack, Aimbot',
+		descFor: 'dlLoL Cheats — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informacje, które zbieramy', 'Jak wykorzystujemy dane', 'Twoje prawa'],
 			sec1p2: 'Dane płatności są przetwarzane przez checkout Zadeyo — nie przechowywane na lolcheats.org.',
@@ -152,7 +152,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Читать условия',
 		readPrivacy: 'Читать политику конфиденциальности',
 		introTopic: 'для lolcheats.org и лицензий League of Legends.',
-		descFor: 'для League of Legends Hacks — ESP wallhack, Aimbot',
+		descFor: 'для LoL Cheats — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Информация, которую мы собираем', 'Как мы используем данные', 'Ваши права'],
 			sec1p2: 'Платёжные данные обрабатываются через checkout Zadeyo — не хранятся на lolcheats.org.',
@@ -173,7 +173,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Şartları oku',
 		readPrivacy: 'Gizliliği oku',
 		introTopic: 'lolcheats.org ve League of Legends lisansları için.',
-		descFor: 'League of Legends Hacks — ESP wallhack, Aimbot için',
+		descFor: 'LoL Cheats — ESP wallhack, Aimbot için',
 		privacy: {
 			h2: ['Topladığımız bilgiler', 'Verileri nasıl kullanıyoruz', 'Haklarınız'],
 			sec1p2: 'Ödeme bilgileri Zadeyo checkout ile işlenir — lolcheats.org\'da saklanmaz.',
@@ -194,7 +194,7 @@ export const LEGAL_I18N = {
 		readTerms: 'اقرأ الشروط',
 		readPrivacy: 'اقرأ الخصوصية',
 		introTopic: 'لـ lolcheats.org وتراخيص League of Legends.',
-		descFor: 'لـ League of Legends Hacks — ESP wallhack, Aimbot',
+		descFor: 'لـ LoL Cheats — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['المعلومات التي نجمعها', 'كيف نستخدم البيانات', 'حقوقك'],
 			sec1p2: 'تُعالَج تفاصيل الدفع عبر checkout Zadeyo — ولا تُخزَّن على lolcheats.org.',
@@ -215,7 +215,7 @@ export const LEGAL_I18N = {
 		readTerms: '利用規約を読む',
 		readPrivacy: 'プライバシーを読む',
 		introTopic: 'lolcheats.orgおよびLeague of Legendsライセンス向け。',
-		descFor: 'League of Legends Hacks — ESP wallhack、Aimbot向け',
+		descFor: 'LoL Cheats — ESP wallhack、Aimbot向け',
 		privacy: {
 			h2: ['収集する情報', 'データの利用方法', 'あなたの権利'],
 			sec1p2: '支払い情報はZadeyo checkoutで処理され、lolcheats.orgには保存されません。',
@@ -236,7 +236,7 @@ export const LEGAL_I18N = {
 		readTerms: '이용 약관 읽기',
 		readPrivacy: '개인정보 읽기',
 		introTopic: 'lolcheats.org 및 League of Legends 라이선스용.',
-		descFor: 'League of Legends Hacks — ESP wallhack, Aimbot용',
+		descFor: 'LoL Cheats — ESP wallhack, Aimbot용',
 		privacy: {
 			h2: ['수집하는 정보', '데이터 사용 방법', '귀하의 권리'],
 			sec1p2: '결제 정보는 Zadeyo checkout에서 처리되며 lolcheats.org에 저장되지 않습니다.',
@@ -257,7 +257,7 @@ export const LEGAL_I18N = {
 		readTerms: '阅读使用条款',
 		readPrivacy: '阅读隐私政策',
 		introTopic: '适用于 lolcheats.org 和 League of Legends 许可证。',
-		descFor: 'League of Legends Hacks — ESP wallhack、Aimbot',
+		descFor: 'LoL Cheats — ESP wallhack、Aimbot',
 		privacy: {
 			h2: ['我们收集的信息', '数据使用方式', '您的权利'],
 			sec1p2: '支付详情由 Zadeyo checkout 处理 — 不存储在 lolcheats.org。',
@@ -278,7 +278,7 @@ export const LEGAL_I18N = {
 		readTerms: 'शर्तें पढ़ें',
 		readPrivacy: 'गोपनीयता पढ़ें',
 		introTopic: 'lolcheats.org और League of Legends लाइसेंस के लिए।',
-		descFor: 'League of Legends Hacks — ESP wallhack, Aimbot के लिए',
+		descFor: 'LoL Cheats — ESP wallhack, Aimbot के लिए',
 		privacy: {
 			h2: ['हम जो जानकारी एकत्र करते हैं', 'हम डेटा का उपयोग कैसे करते हैं', 'आपके अधिकार'],
 			sec1p2: 'भुगतान विवरण Zadeyo checkout द्वारा संसाधित — lolcheats.org पर संग्रहीत नहीं।',
@@ -299,7 +299,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Baca syarat',
 		readPrivacy: 'Baca privasi',
 		introTopic: 'untuk lolcheats.org dan lisensi League of Legends.',
-		descFor: 'untuk League of Legends Hacks — ESP wallhack, Aimbot',
+		descFor: 'untuk LoL Cheats — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informasi yang kami kumpulkan', 'Cara kami menggunakan data', 'Hak Anda'],
 			sec1p2: 'Detail pembayaran diproses oleh checkout Zadeyo — tidak disimpan di lolcheats.org.',
@@ -320,7 +320,7 @@ export const LEGAL_I18N = {
 		readTerms: 'อ่านข้อกำหนด',
 		readPrivacy: 'อ่านนโยบายความเป็นส่วนตัว',
 		introTopic: 'สำหรับ lolcheats.org และใบอนุญาต League of Legends',
-		descFor: 'สำหรับ League of Legends Hacks — ESP wallhack, Aimbot',
+		descFor: 'สำหรับ LoL Cheats — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['ข้อมูลที่เราเก็บ', 'การใช้ข้อมูล', 'สิทธิของคุณ'],
 			sec1p2: 'รายละเอียดการชำระเงินประมวลผลผ่าน checkout Zadeyo — ไม่เก็บบน lolcheats.org',
@@ -341,7 +341,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Đọc điều khoản',
 		readPrivacy: 'Đọc quyền riêng tư',
 		introTopic: 'cho lolcheats.org và giấy phép League of Legends.',
-		descFor: 'cho League of Legends Hacks — ESP wallhack, Aimbot',
+		descFor: 'cho LoL Cheats — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Thông tin chúng tôi thu thập', 'Cách chúng tôi sử dụng dữ liệu', 'Quyền của bạn'],
 			sec1p2: 'Chi tiết thanh toán được xử lý qua checkout Zadeyo — không lưu trên lolcheats.org.',
@@ -362,7 +362,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Читати умови',
 		readPrivacy: 'Читати конфіденційність',
 		introTopic: 'для lolcheats.org та ліцензій League of Legends.',
-		descFor: 'для League of Legends Hacks — ESP wallhack, Aimbot',
+		descFor: 'для LoL Cheats — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Інформація, яку ми збираємо', 'Як ми використовуємо дані', 'Ваші права'],
 			sec1p2: 'Платіжні дані обробляються через checkout Zadeyo — не зберігаються на lolcheats.org.',
@@ -383,7 +383,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Přečíst podmínky',
 		readPrivacy: 'Přečíst soukromí',
 		introTopic: 'pro lolcheats.org a licence League of Legends.',
-		descFor: 'pro League of Legends Hacks — ESP wallhack, Aimbot',
+		descFor: 'pro LoL Cheats — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informace, které shromažďujeme', 'Jak používáme data', 'Vaše práva'],
 			sec1p2: 'Platební údaje zpracovává checkout Zadeyo — neukládají se na lolcheats.org.',
@@ -404,7 +404,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Citește termenii',
 		readPrivacy: 'Citește confidențialitatea',
 		introTopic: 'pentru lolcheats.org și licențe League of Legends.',
-		descFor: 'pentru League of Legends Hacks — ESP wallhack, Aimbot',
+		descFor: 'pentru LoL Cheats — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informații pe care le colectăm', 'Cum folosim datele', 'Drepturile tale'],
 			sec1p2: 'Detaliile de plată sunt procesate prin checkout Zadeyo — nu sunt stocate pe lolcheats.org.',
@@ -425,7 +425,7 @@ export const LEGAL_I18N = {
 		readTerms: 'Läs villkor',
 		readPrivacy: 'Läs integritet',
 		introTopic: 'för lolcheats.org och League of Legends-licenser.',
-		descFor: 'för League of Legends Hacks — ESP wallhack, Aimbot',
+		descFor: 'för LoL Cheats — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Information vi samlar in', 'Hur vi använder data', 'Dina rättigheter'],
 			sec1p2: 'Betalningsuppgifter behandlas via Zadeyo checkout — lagras inte på lolcheats.org.',

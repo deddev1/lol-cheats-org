@@ -8,8 +8,8 @@ export const LOCALES = [
 export const PAGE_IDS = [
 	'home', 'lol-esp', 'lol-aimbot', 'features', 'pricing', 'setup',
 	'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'vanguard',
-	'cheats-2026', 'hacks', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats',
-	'aimbot-hack', 'esp-hack', 'unlock-all', 'privacy', 'refund', 'terms',
+	'cheats-2026', 'cheats', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats',
+	'aimbot-cheat', 'esp-cheat', 'unlock-all', 'privacy', 'refund', 'terms',
 ];
 
 /** Hero image per page — simple lol cheats keyword filenames. */
@@ -28,13 +28,13 @@ export const HERO_IMAGES = {
 	radar: '/images/lol-cheats-radar.webp',
 	vanguard: '/images/lol-cheats-aimbot.webp',
 	'cheats-2026': '/images/lol-cheats-esp.webp',
-	hacks: '/images/lol-cheats-match.webp',
+	cheats: '/images/lol-cheats-match.webp',
 	'cheat-download': '/images/lol-cheats-match.webp',
 	'mod-menu': '/images/lol-cheats-radar.webp',
 	'soft-aim': '/images/lol-cheats-aimbot-view.webp',
 	'best-cheats': '/images/lol-cheats-esp.webp',
-	'aimbot-hack': '/images/lol-cheats-aimbot-view.webp',
-	'esp-hack': '/images/lol-cheats-wallhack.webp',
+	'aimbot-cheat': '/images/lol-cheats-aimbot-view.webp',
+	'esp-cheat': '/images/lol-cheats-wallhack.webp',
 	'unlock-all': '/images/lol-cheats-radar.webp',
 	privacy: '/images/lol-cheats-aimbot.webp',
 	refund: '/images/lol-cheats-match.webp',
@@ -58,7 +58,7 @@ export type PageContent = {
 \tctaSecondaryHref?: string;
 };
 export type LocaleUi = {
-\tnav: { home: string; hacks: string; aimbot: string; esp: string; features: string; pricing: string; setup: string; updates: string; faq: string; buyNow: string };
+\tnav: { home: string; cheats: string; aimbot: string; esp: string; features: string; pricing: string; setup: string; updates: string; faq: string; buyNow: string };
 \thero: { accent: string; accentShort: string; subtitle: string; subtitleShort: string; buyNow: string; seeFeatures: string };
 \ttrust: { status: string; statusNote: string; statusShort: string; delivery: string; platform: string; antiCheat: string; antiCheatShort: string };
 \tproduct: { title: string; addToCart: string; monthly: string; lifetime: string; available: string; gameBadge: string; platformBadge: string; statusBadge: string };
@@ -70,7 +70,7 @@ export type LocaleUi = {
 \t\theaderArt: string; cheatsPackage: string; teamfight: string; battleRoyale: string; summonersRift: string;
 \t};
 };
-export type PageId = 'home' | 'lol-esp' | 'lol-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'vanguard' | 'cheats-2026' | 'hacks' | 'cheat-download' | 'mod-menu' | 'soft-aim' | 'best-cheats' | 'aimbot-hack' | 'esp-hack' | 'unlock-all' | 'privacy' | 'refund' | 'terms';
+export type PageId = 'home' | 'lol-esp' | 'lol-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'vanguard' | 'cheats-2026' | 'cheats' | 'cheat-download' | 'mod-menu' | 'soft-aim' | 'best-cheats' | 'aimbot-cheat' | 'esp-cheat' | 'unlock-all' | 'privacy' | 'refund' | 'terms';
 `;
 
 /** Clamp meta strings to SEO limits without ugly ellipsis. */
@@ -101,7 +101,7 @@ export function stripZadeyoFromMeta(text) {
 		.replace(/\s*Zadeyo delivery\.?/gi, ' instant digital delivery.')
 		.replace(/\s*and Zadeyo delivery\.?/gi, ' and instant digital delivery.')
 		.replace(/\|\s*Instant Zadeyo Delivery/g, '| Instant Digital Delivery')
-		.replace(/Buy on Zadeyo/g, 'Buy League of Legends Hacks')
+		.replace(/Buy on Zadeyo/g, 'Buy LoL Cheats')
 		.replace(/\s{2,}/g, ' ')
 		.trim();
 }

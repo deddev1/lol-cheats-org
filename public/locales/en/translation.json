@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Home",
-    "hacks": "Hacks",
+    "cheats": "Cheats",
     "aimbot": "Aimbot",
     "esp": "ESP",
     "features": "Features",
@@ -26,7 +26,7 @@
     "subtitleShort": "LoL ESP, radar & aimbot for PC",
     "buyNow": "Get Access",
     "seeFeatures": "See Features",
-    "title": "League of Legends Hacks",
+    "title": "LoL Cheats",
     "priceFrom": "from",
     "imageAlt": "{{brand}} — League of Legends ESP and aimbot overlay",
     "chipEsp": "ESP / wallhack",
@@ -40,7 +40,7 @@
   },
   "trust": {
     "status": "Online",
-    "statusNote": "League of Legends Hacks — undetected lol cheats live for League of Legends on Windows PC.",
+    "statusNote": "LoL Cheats — undetected lol cheats live for League of Legends on Windows PC.",
     "statusShort": "Live",
     "delivery": "Instant digital delivery",
     "platform": "Windows 10 & 11",
@@ -48,7 +48,7 @@
     "antiCheatShort": "Vanguard supported"
   },
   "product": {
-    "title": "League of Legends Hacks",
+    "title": "LoL Cheats",
     "addToCart": "Add to Cart",
     "monthly": "Monthly",
     "lifetime": "Lifetime",
@@ -66,18 +66,18 @@
   },
   "reviews": {
     "title": "What champions say",
-    "subtitle": "Recent feedback from League of Legends Hacks buyers",
+    "subtitle": "Recent feedback from LoL Cheats buyers",
     "outOf": "out of 5",
     "countLabel": "reviews",
     "eyebrow": "Reviews",
-    "homeTitle": "League of Legends Hacks reviews",
+    "homeTitle": "LoL Cheats reviews",
     "buyerReviews": "{{count}} buyer reviews",
     "averageAria": "{{rating}} average from {{count}} reviews",
     "outOfFiveAria": "{{rating}} out of 5",
     "readAll": "Read all reviews →"
   },
   "common": {
-    "buyNow": "Buy League of Legends Hacks",
+    "buyNow": "Buy LoL Cheats",
     "readGuide": "Read guide",
     "language": "Language",
     "officialLanguageNote": "English is official; other locales are translated.",
@@ -94,7 +94,7 @@
     "inGameLook": "In-game look",
     "allQuestions": "All questions",
     "openAnyQuestion": "Open any question for the full answer.",
-    "teamageStatus": "Package status",
+    "packageStatus": "Package status",
     "productDetails": "Product details",
     "browse": "Browse",
     "featured": "Featured",
@@ -118,9 +118,9 @@
   },
   "home": {
     "aboutTitle": "Undetected lol cheats for League of Legends",
-    "aboutP1": "League of Legends Hacks is an undetected lol cheats teamage for League of Legends on Windows PC. One license includes ESP wallhack, soft aim, and 2D radar, with Vanguard rebuilds after game patches. Compare plans on Store, then check Status before you queue.",
+    "aboutP1": "LoL Cheats is an undetected lol cheats package for League of Legends on Windows PC. One license includes ESP wallhack, soft aim, and 2D radar, with Vanguard rebuilds after game patches. Compare plans on Store, then check Status before you queue.",
     "aboutP2Before": "Start with the",
-    "aboutPillar": "League of Legends Hacks pillar",
+    "aboutPillar": "LoL Cheats pillar",
     "aboutEsp": "ESP guide",
     "aboutAimbot": "aimbot controls",
     "aboutUndetected": "undetected status",
@@ -177,7 +177,7 @@
     "support247": "24/7 support"
   },
   "categoryRow": {
-    "hacks": "Hacks",
+    "cheats": "Cheats",
     "esp": "ESP",
     "aimbot": "Aimbot",
     "radar": "Radar",
@@ -189,10 +189,10 @@
     "blog": "Blog"
   },
   "internalLinks": {
-    "relatedLede": "Explore more League of Legends Hacks guides — the same topics covered on other cheat sites, mapped to our canonical pages.",
+    "relatedLede": "Explore more LoL Cheats guides — the same topics covered on other cheat sites, mapped to our canonical pages.",
     "topicsTitle": "Product guides",
     "topicsLabel": "Product topic guides",
-    "topicsLede": "Jump to the main League of Legends Hacks pages for ESP, aimbot, radar, setup, and status."
+    "topicsLede": "Jump to the main LoL Cheats pages for ESP, aimbot, radar, setup, and status."
   },
   "externalResources": {
     "title": "Official game guides & resources",
@@ -201,28 +201,28 @@
     "pillsLabel": "Official League of Legends guides"
   },
   "images": {
-    "hero": "League of Legends Hacks hero — ESP and aimbot overlay in League of Legends",
+    "hero": "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
     "espWallhack": "Wallhack outlines showing enemy champions and minions through walls",
     "aimbotCombat": "Soft aim assist overlay during League of Legends match",
-    "teamFight": "League of Legends Hacks combat overlay during a team fight",
+    "teamFight": "LoL Cheats combat overlay during a team fight",
     "champEsp": "Player ESP boxes and distance readouts in League of Legends match",
     "headerArt": "Aimbot view and bone priority controls for League of Legends",
     "cheatsPackage": "2D radar threat overlay for League of Legends",
     "teamfight": "Aimbot assist during League of Legends gank",
-    "battleRoyale": "League of Legends Hacks in-match overview for Windows PC",
+    "battleRoyale": "LoL Cheats in-match overview for Windows PC",
     "summonersRift": "ESP markers for wards and objectives in League of Legends"
   },
   "blog": {
-    "blogTitle": "League of Legends Hacks Blog | ESP, Cheats & Meta Tips",
+    "blogTitle": "LoL Cheats Blog | ESP, Cheats & Meta Tips",
     "blogDescription": "lol cheats and lol cheats guides — ESP, aimbot, ranked meta, gank routes, and Vanguard updates. Global English blog at lolcheats.org/blog/.",
-    "blogH1": "League of Legends Hacks Intel",
+    "blogH1": "LoL Cheats Intel",
     "blogIntro": "Actionable League of Legends guides for match and ARAM game — meta breakdowns, gank routes, champion tiers, and pro warmup routines. Pair these tips with our lol cheats pages for ESP boxes, soft aim, and cloud DMA when you need in-match tools.",
     "readMore": "Read guide",
     "published": "Published",
     "updated": "Updated",
     "relatedPosts": "Related League of Legends guides",
     "allPosts": "All blog posts",
-    "home": "League of Legends Hacks home",
+    "home": "LoL Cheats home",
     "language": "Language",
     "label": "LoL Intel"
   },
@@ -230,7 +230,7 @@
     "eyebrow": "the lol cheats",
     "title": "lol cheats gallery",
     "subtitle": "Simple lol cheats visuals — ESP, wallhack, aimbot, and radar for League of Legends on PC.",
-    "lead": "League of Legends Hacks helps you spot enemy champions, minions, wards, and objectives with ESP, aimbot, and radar in one license.",
+    "lead": "LoL Cheats helps you spot enemy champions, minions, wards, and objectives with ESP, aimbot, and radar in one license.",
     "highlightEspTitle": "lol cheats esp",
     "highlightEspCopy": "See champions through walls with lol cheats esp and wallhack overlays.",
     "highlightRadarTitle": "lol cheats radar",

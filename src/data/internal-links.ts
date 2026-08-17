@@ -15,20 +15,20 @@ const TOPIC_LINKS = {
 	overview: { kind: 'page' as const, pageId: 'home' as const, label: L('{brand} overview') },
 	esp: { kind: 'page' as const, pageId: 'lol-esp' as const, label: L('{game} ESP & wallhack') },
 	aimbot: { kind: 'page' as const, pageId: 'lol-aimbot' as const, label: L('{game} aimbot & soft aim') },
-	radar: { kind: 'page' as const, pageId: 'radar' as const, label: L('{game} radar hack') },
+	radar: { kind: 'page' as const, pageId: 'radar' as const, label: L('{game} radar cheat') },
 	features: { kind: 'page' as const, pageId: 'features' as const, label: L('Full {game} feature list') },
 	pricing: { kind: 'page' as const, pageId: 'pricing' as const, label: 'Store & pricing' },
 	setup: { kind: 'page' as const, pageId: 'setup' as const, label: L('{game} setup guide') },
 	status: { kind: 'page' as const, pageId: 'updates' as const, label: L('Live {game} status') },
-	faq: { kind: 'page' as const, pageId: 'faq' as const, label: L('{game} hacks FAQ') },
+	faq: { kind: 'page' as const, pageId: 'faq' as const, label: L('{game} cheats FAQ') },
 	support: { kind: 'page' as const, pageId: 'support' as const, label: L('{brand} support') },
 	blog: { kind: 'path' as const, path: '/blog/', label: L('{game} Intel blog') },
 	reviews: { kind: 'path' as const, path: '/reviews/', label: L('{brand} buyer reviews') },
-	hacks: { kind: 'page' as const, pageId: 'hacks' as const, label: L('{primaryKeyword} pillar') },
+	cheats: { kind: 'page' as const, pageId: 'cheats' as const, label: L('{primaryKeyword} pillar') },
 	undetected: {
 		kind: 'page' as const,
 		pageId: 'undetected' as const,
-		label: L('Undetected {game} hacks'),
+		label: L('Undetected {game} cheats'),
 	},
 } satisfies Record<string, InternalLinkTarget>;
 
@@ -46,7 +46,7 @@ export const relatedLinksByPageId: Partial<Record<PageId, InternalLinkTarget[]>>
 		TOPIC_LINKS.blog,
 		TOPIC_LINKS.reviews,
 	],
-	hacks: [
+	cheats: [
 		TOPIC_LINKS.esp,
 		TOPIC_LINKS.aimbot,
 		TOPIC_LINKS.radar,
@@ -145,7 +145,7 @@ export const relatedLinksByPageId: Partial<Record<PageId, InternalLinkTarget[]>>
 /** Product-topic links for blog posts, FAQ answers, and reviews. */
 export const productTopicLinks: InternalLinkTarget[] = [
 	TOPIC_LINKS.overview,
-	TOPIC_LINKS.hacks,
+	TOPIC_LINKS.cheats,
 	TOPIC_LINKS.esp,
 	TOPIC_LINKS.aimbot,
 	TOPIC_LINKS.radar,
@@ -157,7 +157,7 @@ export const productTopicLinks: InternalLinkTarget[] = [
 
 /** Pillar links for the public blog index. */
 export const blogIndexTopicLinks: InternalLinkTarget[] = [
-	TOPIC_LINKS.hacks,
+	TOPIC_LINKS.cheats,
 	TOPIC_LINKS.esp,
 	TOPIC_LINKS.aimbot,
 	TOPIC_LINKS.radar,
@@ -189,14 +189,14 @@ const blogCategoryLinks: Record<string, InternalLinkTarget[]> = {
 	],
 	Undetected: [
 		TOPIC_LINKS.undetected,
-		TOPIC_LINKS.hacks,
+		TOPIC_LINKS.cheats,
 		TOPIC_LINKS.status,
 		TOPIC_LINKS.setup,
 		TOPIC_LINKS.faq,
 		TOPIC_LINKS.status,
 	],
 	Comparisons: [
-		TOPIC_LINKS.hacks,
+		TOPIC_LINKS.cheats,
 		TOPIC_LINKS.esp,
 		TOPIC_LINKS.aimbot,
 		TOPIC_LINKS.features,
@@ -204,7 +204,7 @@ const blogCategoryLinks: Record<string, InternalLinkTarget[]> = {
 		TOPIC_LINKS.reviews,
 	],
 	'Cheats Guide': [
-		TOPIC_LINKS.hacks,
+		TOPIC_LINKS.cheats,
 		TOPIC_LINKS.features,
 		TOPIC_LINKS.pricing,
 		TOPIC_LINKS.setup,
@@ -214,7 +214,7 @@ const blogCategoryLinks: Record<string, InternalLinkTarget[]> = {
 	'Buyers Guide': [
 		TOPIC_LINKS.pricing,
 		TOPIC_LINKS.reviews,
-		TOPIC_LINKS.hacks,
+		TOPIC_LINKS.cheats,
 		TOPIC_LINKS.features,
 		TOPIC_LINKS.setup,
 		TOPIC_LINKS.faq,
@@ -223,12 +223,12 @@ const blogCategoryLinks: Record<string, InternalLinkTarget[]> = {
 		TOPIC_LINKS.status,
 		TOPIC_LINKS.features,
 		TOPIC_LINKS.setup,
-		TOPIC_LINKS.hacks,
+		TOPIC_LINKS.cheats,
 		TOPIC_LINKS.faq,
 	],
 	'Patch Notes': [
 		TOPIC_LINKS.status,
-		TOPIC_LINKS.hacks,
+		TOPIC_LINKS.cheats,
 		TOPIC_LINKS.setup,
 		TOPIC_LINKS.features,
 		TOPIC_LINKS.faq,
@@ -238,7 +238,7 @@ const blogCategoryLinks: Record<string, InternalLinkTarget[]> = {
 		TOPIC_LINKS.aimbot,
 		TOPIC_LINKS.radar,
 		TOPIC_LINKS.features,
-		TOPIC_LINKS.hacks,
+		TOPIC_LINKS.cheats,
 		TOPIC_LINKS.pricing,
 	],
 };
@@ -253,7 +253,7 @@ const gameplayIntelCategories = new Set([
 ]);
 
 const gameplayIntelLinks: InternalLinkTarget[] = [
-	TOPIC_LINKS.hacks,
+	TOPIC_LINKS.cheats,
 	TOPIC_LINKS.esp,
 	TOPIC_LINKS.aimbot,
 	TOPIC_LINKS.features,

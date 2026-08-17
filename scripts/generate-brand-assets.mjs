@@ -57,8 +57,8 @@ async function generateFavicons(logoBuffer) {
 
 async function generateWebManifest() {
 	const manifest = {
-		name: 'League of Legends Hacks',
-		short_name: 'League of Legends Hacks',
+		name: 'LoL Cheats',
+		short_name: 'LoL Cheats',
 		description: 'Undetected lol cheats — ESP, aimbot, radar and for PC',
 		start_url: '/',
 		display: 'standalone',

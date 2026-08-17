@@ -19,7 +19,7 @@ function HomeSeoInner({ faqs }: Props) {
 				{ href: '/features/', labelKey: 'homeSeo.linkAllFeatures' },
 				{ href: '/lol-esp/', labelKey: 'homeSeo.linkEsp' },
 				{ href: '/lol-aimbot/', labelKey: 'homeSeo.linkAimbot' },
-				{ href: '/lol-radar-hack/', labelKey: 'homeSeo.linkRadar' },
+				{ href: '/lol-radar-cheat/', labelKey: 'homeSeo.linkRadar' },
 			],
 		},
 		{

@@ -17,8 +17,8 @@ const bad = [
 	'soft aim, and .',
 	'ESP, Soft Aim,',
 	'best-lol-cheats',
-	'lol-esp-hack',
-	'lol-aimbot-hack',
+	'lol-esp-cheat',
+	'lol-aimbot-cheat',
 ];
 console.log('--- pages-en leftovers ---');
 for (const b of bad) {
@@ -40,7 +40,7 @@ for (const b of [
 	'RVanguard',
 	'soft aim, and .',
 	'best-lol-cheats',
-	'lol-esp-hack',
+	'lol-esp-cheat',
 ]) {
 	const n = en.split(b).length - 1;
 	if (n) console.log(`${b}: ${n}`);
@@ -64,8 +64,8 @@ const reps = [
 	['EliteFN', 'a Fortnite cheat shop'],
 	['GhostWare', 'a slim cheat vendor'],
 	['CheatVault', 'another cheat shop'],
-	['/lol-aimbot-hack/', '/lol-aimbot/'],
-	['/lol-esp-hack/', '/lol-esp/'],
+	['/lol-aimbot-cheat/', '/lol-aimbot/'],
+	['/lol-esp-cheat/', '/lol-esp/'],
 	['/best-lol-cheats/', '/'],
 	['best lol cheats', 'lol cheats'],
 	['hot drops', 'hot spawns'],

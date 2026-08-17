@@ -59,7 +59,7 @@ const FAQ_PAGES = 11; // FAQ answer pages (index is in the product pages)
 const ENGLISH_PRODUCT_PAGES = 13;
 const ENGLISH_PAGES = ENGLISH_PRODUCT_PAGES + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES;
 const I18N_LOCALES = 21;
-/** Locale product pages also exclude the same cannibal pageIds and retired hacks pillar */
+/** Locale product pages also exclude the same cannibal pageIds and retired cheats pillar */
 const PRODUCT_PAGES_PER_LOCALE = 13;
 const BLOG_PAGES_PER_LOCALE = 0; // Locale blog URLs 301 to EN; not in sitemaps
 const PAGES_PER_LOCALE = PRODUCT_PAGES_PER_LOCALE + BLOG_PAGES_PER_LOCALE;
@@ -77,8 +77,8 @@ const SITEMAP_INDEX_ENTRIES = 1 + I18N_LOCALES + 1; // EN + locales + images
 /** Built HTML that intentionally 301s — allowed to be absent from sitemaps */
 const REDIRECT_ONLY_PATHS = new Set([
 	'/best-lol-cheats/',
-	'/lol-aimbot-hack/',
-	'/lol-esp-hack/',
+	'/lol-aimbot-cheat/',
+	'/lol-esp-cheat/',
 	'/lol-cheats-2026/',
 	'/undetected-lol-cheats/',
 	'/lol-mod-menu/',
@@ -88,7 +88,7 @@ const REDIRECT_ONLY_PATHS = new Set([
 	'/lol-cheat-download/',
 	'/vanguard-bypass/',
 	'/lol-cheats/',
-	'/lol-hacks/',
+	'/lol-cheats/',
 ]);
 
 const ENGLISH_PATHS = [
@@ -103,7 +103,7 @@ const ENGLISH_PATHS = [
 	'/support/',
 	'/undetected-lol-cheats/',
 	'/lol-wallhack/',
-	'/lol-radar-hack/',
+	'/lol-radar-cheat/',
 	'/vanguard-bypass/',
 	'/lol-cheats-2026/',
 	'/lol-cheat-download/',
@@ -122,15 +122,15 @@ const ENGLISH_PATHS = [
 	'/blog/lol-pro-settings-guide/',
 	'/blog/lol-warmup-maps-ranked/',
 	'/blog/lol-patch-notes-guide/',
-	'/blog/lol-hacks-complete-guide-2026/',
-	'/blog/lol-hacks-buyers-guide/',
+	'/blog/lol-cheats-complete-guide-2026/',
+	'/blog/lol-cheats-buyers-guide/',
 	'/blog/lol-cheats-2026-whats-new/',
 	'/blog/lol-aimbot-settings-guide/',
 	'/blog/lol-esp-wallhack-explained/',
 	'/blog/undetected-lol-cheats-vanguard/',
-	'/blog/lol-hacks-vs-cheatvault-comparison/',
-	'/blog/elitefn-vs-lol-hacks-two-week-test/',
-	'/blog/lol-hacks-vs-ghostware-features-pricing/',
+	'/blog/lol-cheats-vs-cheatvault-comparison/',
+	'/blog/elitefn-vs-lol-cheats-two-week-test/',
+	'/blog/lol-cheats-vs-ghostware-features-pricing/',
 	'/reviews/',
 	'/reviews/lol-soft-aim-review-xkrypt0/',
 	'/reviews/lol-esp-growth-run-review-buildsr4k/',
@@ -139,7 +139,7 @@ const ENGLISH_PATHS = [
 	'/reviews/lol-cheat-setup-review-stormchaser07/',
 	'/reviews/lol-ward-esp-review-lootgoblinx/',
 	'/reviews/lol-soft-aim-match-review-rankedgrind42/',
-	'/reviews/lol-radar-hack-review-vanlifelol/',
+	'/reviews/lol-radar-cheat-review-vanlifelol/',
 	'/reviews/lol-vanguard-update-review-patchdaymike/',
 	'/reviews/lol-skillshot-soft-aim-review-snipezonly/',
 	'/faq/what-are-lol-cheats/',
@@ -150,8 +150,8 @@ const ENGLISH_PATHS = [
 	'/faq/where-to-check-updates/',
 	'/faq/how-to-contact-support/',
 	'/faq/what-is-an-lol-wallhack/',
-	'/faq/does-lol-cheats-include-radar-hack/',
-	'/faq/vanguard-anti-cheat-and-lol-hacks/',
+	'/faq/does-lol-cheats-include-radar-cheat/',
+	'/faq/vanguard-anti-cheat-and-lol-cheats/',
 	'/faq/buy-undetected-lol-cheats-windows-pc/',
 ];
 

@@ -40,14 +40,14 @@ export const trustSignals = {
 } as const;
 
 export const seoLandingPages = [
-	{ label: fillBrandTokens('{game} hacks'), href: '/' },
+	{ label: fillBrandTokens('{game} cheats'), href: '/' },
 	{ label: fillBrandTokens('{primaryKeyword}'), href: '/' },
 	{ label: fillBrandTokens('{game} esp'), href: '/lol-esp/' },
 	{ label: fillBrandTokens('{game} aimbot'), href: '/lol-aimbot/' },
 	{ label: fillBrandTokens('{game} setup'), href: '/setup/' },
 	{ label: fillBrandTokens('Undetected {primaryKeyword}'), href: '/' },
 	{ label: fillBrandTokens('{game} wallhack'), href: '/lol-esp/' },
-	{ label: fillBrandTokens('{game} radar hack'), href: '/lol-radar-hack/' },
+	{ label: fillBrandTokens('{game} radar cheat'), href: '/lol-radar-cheat/' },
 ] as const;
 
 export const mainNav = [
@@ -72,15 +72,15 @@ export const footerNav = [
 
 export const footerExplore = [
 	{ label: fillBrandTokens('{brand} home'), href: '/' },
-	{ label: fillBrandTokens('{game} hacks pillar'), href: '/' },
+	{ label: fillBrandTokens('{game} cheats pillar'), href: '/' },
 	{ label: fillBrandTokens('Live {game} status'), href: '/updates/' },
 	{ label: fillBrandTokens('{game} ESP overlays'), href: '/lol-esp/' },
 	{ label: fillBrandTokens('{game} Aimbot controls'), href: '/lol-aimbot/' },
-	{ label: fillBrandTokens('{game} radar hack'), href: '/lol-radar-hack/' },
+	{ label: fillBrandTokens('{game} radar cheat'), href: '/lol-radar-cheat/' },
 	{ label: fillBrandTokens('Full {game} hack feature list'), href: '/features/' },
 	{ label: 'Monthly & lifetime pricing', href: '/pricing/' },
 	{ label: fillBrandTokens('{game} hack setup guide'), href: '/setup/' },
-	{ label: fillBrandTokens('{game} hacks FAQ'), href: '/faq/' },
+	{ label: fillBrandTokens('{game} cheats FAQ'), href: '/faq/' },
 	{ label: fillBrandTokens('{brand} reviews'), href: '/reviews/' },
 	{ label: fillBrandTokens('{game} Intel blog'), href: '/blog/' },
 	{ label: fillBrandTokens('Contact {brand} support'), href: '/support/' },
@@ -98,7 +98,7 @@ export const homeFaqs: readonly FaqItem[] = [
 	faq({
 		question: 'What is {brand}?',
 		answer:
-			'{brand} is an undetected {primaryKeyword} teamage for League of Legends on Windows PC. It includes ESP wallhack, 2D radar, and aimbot controls, with {antiCheat} maintenance and setup support.',
+			'{brand} is an undetected {primaryKeyword} package for League of Legends on Windows PC. It includes ESP wallhack, 2D radar, and aimbot controls, with {antiCheat} maintenance and setup support.',
 		slug: 'what-are-lol-cheats',
 		seoTitle: 'What is {brand}? | FAQ',
 		seoDescription:
@@ -143,7 +143,7 @@ export const homeFaqs: readonly FaqItem[] = [
 	faq({
 		question: 'Where do I check updates after League of Legends or {antiCheat} patch?',
 		answer:
-			'Maintenance notes are posted on the Status page when League of Legends or {antiCheat} update affects the teamage. That is the fastest place to confirm whether a new {brand} build is live.',
+			'Maintenance notes are posted on the Status page when League of Legends or {antiCheat} update affects the package. That is the fastest place to confirm whether a new {brand} build is live.',
 		slug: 'where-to-check-updates',
 		seoTitle: 'Where to Check {game} / {antiCheat} Updates | FAQ',
 		seoDescription:
@@ -152,7 +152,7 @@ export const homeFaqs: readonly FaqItem[] = [
 	faq({
 		question: 'How do I contact support?',
 		answer:
-			'Use the Support page or email {email}. Include your order details, teamage length, and a clear description of the setup issue so replies can be faster.',
+			'Use the Support page or email {email}. Include your order details, package length, and a clear description of the setup issue so replies can be faster.',
 		slug: 'how-to-contact-support',
 		seoTitle: 'How to Contact {brand} Support | FAQ',
 		seoDescription:
@@ -172,10 +172,10 @@ export const seoFaqs: readonly FaqItem[] = [
 			'A {game} wallhack is ESP that reveals enemy champions, minions, and wards through walls — with distance, objectives, and category toggles.',
 	}),
 	faq({
-		question: 'Does {brand} include a radar hack?',
+		question: 'Does {brand} include a radar cheat?',
 		answer:
 			'Yes. {brand} includes 2D radar overlays that highlight nearby threats outside your view — useful for flanks and objective zones.',
-		slug: 'does-lol-cheats-include-radar-hack',
+		slug: 'does-lol-cheats-include-radar-cheat',
 		seoTitle: 'Does {brand} Include a Radar Hack? | FAQ',
 		seoDescription:
 			'Yes — {brand} includes 2D radar overlays for nearby threats outside your FOV.',
@@ -184,7 +184,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		question: 'How does {antiCheat} affect {primaryKeyword}?',
 		answer:
 			'{antiCheat} monitors {game} on Windows PC. {brand} posts maintenance notes after patches that may need a rebuild. Check Status before you queue.',
-		slug: 'vanguard-anti-cheat-and-lol-hacks',
+		slug: 'vanguard-anti-cheat-and-lol-cheats',
 		seoTitle: 'How {antiCheat} Affects {brand} | FAQ',
 		seoDescription:
 			'{antiCheat} may require {brand} rebuilds after patches. Status notes explain the update workflow.',
@@ -227,8 +227,8 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'buildsR4K',
 		rating: 4,
-		text: 'ESP boxes help on ARAM games. You can see who is stalking a river bank before you push. Still worth the price for League of Legends Hacks.',
-		short: 'ESP boxes help on ARAM games. Still worth the price for League of Legends Hacks.',
+		text: 'ESP boxes help on ARAM games. You can see who is stalking a river bank before you push. Still worth the price for LoL Cheats.',
+		short: 'ESP boxes help on ARAM games. Still worth the price for LoL Cheats.',
 		slug: 'lol-esp-growth-run-review-buildsr4k',
 		seoTitle: 'ESP Review by @buildsR4K — 4/5 | {brand}',
 		seoDescription: '@buildsR4K rates {brand} ESP 4/5 for ARAM games on Windows PC.',
@@ -238,8 +238,8 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'dma_wizard',
 		rating: 5,
-		text: 'I moved to League of Legends Hacks this patch cycle. Setup was simple. It stayed up after the last Vanguard update when my old cheat failed. Lifetime was a good buy.',
-		short: 'League of Legends Hacks stayed up after the last Vanguard update. Lifetime was a good buy.',
+		text: 'I moved to LoL Cheats this patch cycle. Setup was simple. It stayed up after the last Vanguard update when my old cheat failed. Lifetime was a good buy.',
+		short: 'LoL Cheats stayed up after the last Vanguard update. Lifetime was a good buy.',
 		slug: 'lol-cloud-dma-review-dma-wizard',
 		seoTitle: 'Update Review by @dma_wizard — 5/5 | {brand}',
 		seoDescription: '@dma_wizard rates {brand} 5/5 after a {antiCheat} update on Windows PC.',
@@ -249,8 +249,8 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'ctrl_player99',
 		rating: 4,
-		text: 'Soft aim in League of Legends Hacks is easy to tune on PC. I changed FOV a little and it felt natural. Menu is clear enough.',
-		short: 'Soft aim in League of Legends Hacks is easy to tune on PC.',
+		text: 'Soft aim in LoL Cheats is easy to tune on PC. I changed FOV a little and it felt natural. Menu is clear enough.',
+		short: 'Soft aim in LoL Cheats is easy to tune on PC.',
 		slug: 'lol-soft-aim-review-ctrl-player99',
 		seoTitle: 'Soft Aim Review by @ctrl_player99 — 4/5 | {brand}',
 		seoDescription: '@ctrl_player99 rates {brand} soft aim 4/5 on Windows PC.',
@@ -260,7 +260,7 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'stormChaser_07',
 		rating: 3,
-		text: 'League of Legends Hacks works well once it is running. First launch was slow because Windows Defender flagged the loader. Support replied in about two hours. ESP in lane brushes is solid.',
+		text: 'LoL Cheats works well once it is running. First launch was slow because Windows Defender flagged the loader. Support replied in about two hours. ESP in lane brushes is solid.',
 		short: 'ESP in lane brushes is solid. Support helped after a slow first launch.',
 		slug: 'lol-cheat-setup-review-stormchaser07',
 		seoTitle: 'Setup Review by @stormChaser_07 — 3/5 | {brand}',
@@ -271,8 +271,8 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'lootGoblinx',
 		rating: 5,
-		text: 'Carcass ESP in League of Legends Hacks pays for the monthly plan. Nest markers and distance make early matches faster.',
-		short: 'Carcass ESP in League of Legends Hacks pays for the monthly plan.',
+		text: 'Carcass ESP in LoL Cheats pays for the monthly plan. Nest markers and distance make early matches faster.',
+		short: 'Carcass ESP in LoL Cheats pays for the monthly plan.',
 		slug: 'lol-ward-esp-review-lootgoblinx',
 		seoTitle: 'Carcass ESP Review by @lootGoblinx — 5/5 | {brand}',
 		seoDescription: '@lootGoblinx rates {brand} ward ESP 5/5 for early matches on Windows PC.',
@@ -281,8 +281,8 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'rankedGrind42',
 		rating: 4,
-		text: 'I have used League of Legends Hacks since last patch. Soft aim per champions helps in teamfight zones. Status updates after Vanguard patches could be clearer, but it came back the next day.',
-		short: 'Soft aim per champions in League of Legends Hacks helps in teamfight zones.',
+		text: 'I have used LoL Cheats since last patch. Soft aim per champions helps in teamfight zones. Status updates after Vanguard patches could be clearer, but it came back the next day.',
+		short: 'Soft aim per champions in LoL Cheats helps in teamfight zones.',
 		slug: 'lol-soft-aim-match-review-rankedgrind42',
 		seoTitle: 'Raid Soft Aim by @rankedGrind42 — 4/5 | {brand}',
 		seoDescription: '@rankedGrind42 rates {brand} soft aim 4/5 for matches on Windows PC.',
@@ -292,9 +292,9 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'vanLifeLoL',
 		rating: 5,
-		text: 'Radar in League of Legends Hacks saved me near objectives and river. Seeing the third player early in duos is huge. Boxes plus radar look clean.',
-		short: 'Radar in League of Legends Hacks saved me near objectives and river.',
-		slug: 'lol-radar-hack-review-vanlifelol',
+		text: 'Radar in LoL Cheats saved me near objectives and river. Seeing the third player early in duos is huge. Boxes plus radar look clean.',
+		short: 'Radar in LoL Cheats saved me near objectives and river.',
+		slug: 'lol-radar-cheat-review-vanlifelol',
 		seoTitle: 'Radar Review by @vanLifeLoL — 5/5 | {brand}',
 		seoDescription: '@vanLifeLoL rates {brand} radar 5/5 near objectives and river on Windows PC.',
 		date: '2026-07-28',
@@ -303,8 +303,8 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'patchDayMike',
 		rating: 4,
-		text: 'Most cheats go down on patch day. League of Legends Hacks posted on the status page within a few hours and was back the next morning. My old tool left me waiting for days.',
-		short: 'League of Legends Hacks was back the next morning after a patch.',
+		text: 'Most cheats go down on patch day. LoL Cheats posted on the status page within a few hours and was back the next morning. My old tool left me waiting for days.',
+		short: 'LoL Cheats was back the next morning after a patch.',
 		slug: 'lol-vanguard-update-review-patchdaymike',
 		seoTitle: 'Status Review by @patchDayMike — 4/5 | {brand}',
 		seoDescription: '@patchDayMike rates {brand} status updates 4/5 after {antiCheat} patches.',
@@ -314,8 +314,8 @@ export const customerReviews = [
 	reviewMeta({
 		handle: 'snipezOnly_',
 		rating: 5,
-		text: 'Skillshot soft aim plus ESP in League of Legends Hacks is excellent for long shots. Simple and strong.',
-		short: 'Skillshot soft aim plus ESP in League of Legends Hacks is excellent.',
+		text: 'Skillshot soft aim plus ESP in LoL Cheats is excellent for long shots. Simple and strong.',
+		short: 'Skillshot soft aim plus ESP in LoL Cheats is excellent.',
 		slug: 'lol-skillshot-soft-aim-review-snipezonly',
 		seoTitle: 'Sniper Soft Aim by @snipezOnly_ — 5/5 | {brand}',
 		seoDescription: '@snipezOnly_ rates {brand} sniper soft aim 5/5 with ESP on Windows PC.',

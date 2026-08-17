@@ -11,13 +11,13 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const NODE = 'C:\\Program Files\\nodejs\\node.exe';
 
 const EXTRA_PAGES = [
-	{ id: 'hacks', dir: 'lol-cheats', pageId: 'hacks' },
+	{ id: 'cheats', dir: 'lol-cheats', pageId: 'cheats' },
 	{ id: 'cheat-download', dir: 'lol-cheat-download', pageId: 'cheat-download' },
 	{ id: 'mod-menu', dir: 'lol-mod-menu', pageId: 'mod-menu' },
 	{ id: 'soft-aim', dir: 'lol-soft-aim', pageId: 'soft-aim' },
 	{ id: 'best-cheats', dir: 'best-lol-cheats', pageId: 'best-cheats' },
-	{ id: 'aimbot-hack', dir: 'lol-aimbot-hack', pageId: 'aimbot-hack' },
-	{ id: 'esp-hack', dir: 'lol-esp-hack', pageId: 'esp-hack' },
+	{ id: 'aimbot-cheat', dir: 'lol-aimbot-cheat', pageId: 'aimbot-cheat' },
+	{ id: 'esp-cheat', dir: 'lol-esp-cheat', pageId: 'esp-cheat' },
 	{ id: 'unlock-all', dir: 'lol-unlock-all', pageId: 'unlock-all' },
 ];
 
@@ -90,7 +90,7 @@ function stripZadeyoFromMeta(text) {
 		.replace(/\s*Zadeyo delivery\.?/gi, 'instant digital delivery.')
 		.replace(/\s*and Zadeyo delivery\.?/gi, ' and instant digital delivery.')
 		.replace(/\|\s*Instant Zadeyo Delivery/g, '| Instant Digital Delivery')
-		.replace(/Buy on Zadeyo/g, 'Buy League of Legends Hacks')
+		.replace(/Buy on Zadeyo/g, 'Buy LoL Cheats')
 		.replace(/\s{2,}/g, ' ')
 		.trim();
 }
@@ -200,7 +200,7 @@ async function fixLocalesBlogUi() {
 	console.log('Fixed locales.ts blogUi');
 }
 
-console.log('=== League of Legends Hacks SEO completion ===\n');
+console.log('=== LoL Cheats SEO completion ===\n');
 await applyGlobalFixes();
 await createExtraPages();
 await fixLocalesBlogUi();

@@ -64,7 +64,7 @@ export const featuredGuidePills: GuideCta[] = [
 export const externalSecondaryByPageId: Partial<Record<PageId, GuideCta>> = {
 	features: { label: 'Official patch notes', href: externalUrls.steamNews },
 	updates: { label: 'Steam patch notes', href: externalUrls.steamNews },
-	hacks: { label: 'League of Legends Wiki', href: externalUrls.wiki },
+	cheats: { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	'lol-esp': { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	'lol-aimbot': { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	radar: { label: 'League of Legends Wiki', href: externalUrls.wiki },
@@ -79,8 +79,8 @@ export const externalSecondaryByPageId: Partial<Record<PageId, GuideCta>> = {
 	'mod-menu': { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	'soft-aim': { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	'best-cheats': { label: 'Steam Community', href: externalUrls.steamCommunity },
-	'aimbot-hack': { label: 'League of Legends Wiki', href: externalUrls.wiki },
-	'esp-hack': { label: 'League of Legends Wiki', href: externalUrls.wiki },
+	'aimbot-cheat': { label: 'League of Legends Wiki', href: externalUrls.wiki },
+	'esp-cheat': { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	'unlock-all': { label: 'Official game site', href: externalUrls.officialSite },
 	pricing: { label: 'League of Legends on Riot Client', href: externalUrls.steam },
 };

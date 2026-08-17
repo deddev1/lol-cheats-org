@@ -8,8 +8,8 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SRC = path.resolve(ROOT, '..', 'amansand');
 
 const REMOVE_PAGE_KEYS = [
-	'hacks', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats',
-	'aimbot-hack', 'esp-hack', 'unlock-all',
+	'cheats', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats',
+	'aimbot-cheat', 'esp-cheat', 'unlock-all',
 ];
 
 const REPLACEMENTS = [
@@ -19,13 +19,13 @@ const REPLACEMENTS = [
 	['vanguard-bypass', 'vanguard-bypass'],
 	['undetected-lol-cheats', 'undetected-lol-cheats'],
 	['lol-wallhack', 'lol-wallhack'],
-	['lol-radar-hack', 'lol-radar-hack'],
+	['lol-radar-cheat', 'lol-radar-cheat'],
 	['lol-cheats-2026', 'lol-cheats-2026'],
 	['lol-cheats', 'lol-cheats'],
 	['the-lol', 'lol'],
 	['League of Legends', 'League of Legends'],
 	['League of Legends', 'League of Legends'],
-	['League of Legends Hacks', 'League of Legends Hacks'],
+	['LoL Cheats', 'LoL Cheats'],
 	['lol cheats', 'lol cheats'],
 	['lol cheat', 'lol cheat'],
 	['LoL ESP', 'League of Legends ESP'],
@@ -115,7 +115,7 @@ phrases = phrases.replace(
 	esp: 'ESP wallhack',
 	radar: 'radar hack',
 	aimbot: 'Aimbot',
-	product: 'League of Legends Hacks',
+	product: 'LoL Cheats',
 	game: 'League of Legends',
 	checkout: 'Zadeyo',
 	vanguard: 'Vanguard',

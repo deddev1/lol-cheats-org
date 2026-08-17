@@ -5,7 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'src');
-const REMOVE_PAGE_IDS = ['hacks', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats', 'aimbot-hack', 'esp-hack', 'unlock-all'];
+const REMOVE_PAGE_IDS = ['cheats', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats', 'aimbot-cheat', 'esp-cheat', 'unlock-all'];
 
 const REPLACEMENTS = [
 	['lolImages', 'lolImages'],
@@ -13,13 +13,13 @@ const REPLACEMENTS = [
 	["from './lol'", "from './lol'"],
 	['/undetected-lol-cheats/', '/undetected-lol-cheats/'],
 	['/lol-wallhack/', '/lol-wallhack/'],
-	['/lol-radar-hack/', '/lol-radar-hack/'],
+	['/lol-radar-cheat/', '/lol-radar-cheat/'],
 	['/vanguard-bypass/', '/vanguard-bypass/'],
 	['/lol-cheats-2026/', '/lol-cheats-2026/'],
 	['/lol-aimbot/', '/lol-aimbot/'],
 	['/lol-esp/', '/lol-esp/'],
 	['/lol-cheats/', '/lol-esp/'],
-	['League of Legends Hacks', 'League of Legends Hacks'],
+	['LoL Cheats', 'LoL Cheats'],
 	['lol cheats', 'lol cheats'],
 	['lol wallhack', 'League of Legends wallhack'],
 	['lol radar', 'League of Legends radar'],

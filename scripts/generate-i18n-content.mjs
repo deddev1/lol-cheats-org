@@ -53,8 +53,8 @@ function buildI18nContent() {
 		const requiredPages = [
 			'home', 'lol-esp', 'lol-aimbot', 'features', 'pricing', 'setup',
 			'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'vanguard',
-			'cheats-2026', 'hacks', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats',
-			'aimbot-hack', 'esp-hack', 'unlock-all', 'privacy', 'refund', 'terms',
+			'cheats-2026', 'cheats', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats',
+			'aimbot-cheat', 'esp-cheat', 'unlock-all', 'privacy', 'refund', 'terms',
 		];
 		for (const pageId of requiredPages) {
 			if (!pages[pageId]) throw new Error(`Missing page "${pageId}" for locale "${locale}"`);

@@ -99,7 +99,7 @@ export const brand = {
 	/** On-page marketing copy (tokens allowed) */
 	copy: {
 		tagline: 'Undetected {primaryKeyword} — ESP, aimbot, and radar for PC',
-		summary: '{brand} is an undetected {game} cheat teamage for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
+		summary: '{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
 		heroLede: 'Undetected ESP, soft aim, and radar for League of Legends on Windows PC.',
 		blogLabel: 'LoL Intel',
 		ctaBuy: 'Get Access',
@@ -116,7 +116,7 @@ export const brand = {
 		chipAim: 'Soft aim',
 		chipRadar: '2D radar',
 		chipUpdates: 'Patch updates',
-		navPreview: 'Hacks',
+		navPreview: 'Cheats',
 		navFeatures: 'Features',
 		navStore: 'Store',
 		navStatus: 'Status',

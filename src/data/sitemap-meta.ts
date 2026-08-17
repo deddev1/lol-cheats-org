@@ -21,15 +21,15 @@ export type PageSitemapMeta = {
 export const pageSitemapMeta: Record<PageId, PageSitemapMeta> = {
 	home: { priority: 0.95, changefreq: 'daily', i18nPriority: 0.88, lastmod: '2026-08-13' },
 	/** Money URL for "lol cheats" */
-	hacks: { priority: 1.0, changefreq: 'weekly', i18nPriority: 0.9, lastmod: '2026-08-13' },
+	cheats: { priority: 1.0, changefreq: 'weekly', i18nPriority: 0.9, lastmod: '2026-08-13' },
 	undetected: { priority: 0.3, changefreq: 'yearly', i18nPriority: 0.2, lastmod: '2026-08-13' },
 	'cheats-2026': { priority: 0.3, changefreq: 'yearly', i18nPriority: 0.2, lastmod: '2026-08-13' },
 	'cheat-download': { priority: 0.3, changefreq: 'yearly', i18nPriority: 0.2, lastmod: '2026-08-13' },
 	'mod-menu': { priority: 0.3, changefreq: 'yearly', i18nPriority: 0.2, lastmod: '2026-08-13' },
 	'soft-aim': { priority: 0.3, changefreq: 'yearly', i18nPriority: 0.2, lastmod: '2026-08-13' },
 	'best-cheats': { priority: 0.3, changefreq: 'yearly', i18nPriority: 0.2, lastmod: '2026-08-13' },
-	'aimbot-hack': { priority: 0.3, changefreq: 'yearly', i18nPriority: 0.2, lastmod: '2026-08-13' },
-	'esp-hack': { priority: 0.3, changefreq: 'yearly', i18nPriority: 0.2, lastmod: '2026-08-13' },
+	'aimbot-cheat': { priority: 0.3, changefreq: 'yearly', i18nPriority: 0.2, lastmod: '2026-08-13' },
+	'esp-cheat': { priority: 0.3, changefreq: 'yearly', i18nPriority: 0.2, lastmod: '2026-08-13' },
 	'unlock-all': { priority: 0.3, changefreq: 'yearly', i18nPriority: 0.2, lastmod: '2026-08-13' },
 	wallhack: { priority: 0.3, changefreq: 'yearly', i18nPriority: 0.2, lastmod: '2026-08-13' },
 	radar: { priority: 0.9, changefreq: 'weekly', i18nPriority: 0.85, lastmod: '2026-08-13' },

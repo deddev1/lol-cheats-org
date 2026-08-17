@@ -8,9 +8,9 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SRC = path.resolve(ROOT, '..', 'amansand');
 
 const UI_REPLACEMENTS = [
-	['League of Legends Hacks', 'League of Legends Hacks'],
+	['LoL Cheats', 'LoL Cheats'],
 	['lol cheats', 'lol cheats'],
-	['League of Legends Hacks', 'League of Legends Hacks'],
+	['LoL Cheats', 'LoL Cheats'],
 	['League of Legends', 'League of Legends'],
 	['League of Legends', 'League of Legends'],
 	['Call of Duty', 'League of Legends'],

@@ -8,8 +8,8 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const file = path.join(ROOT, 'src/data/i18n/routing.ts');
 
 const REMOVE = [
-	'hacks', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats',
-	'aimbot-hack', 'esp-hack', 'unlock-all',
+	'cheats', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats',
+	'aimbot-cheat', 'esp-cheat', 'unlock-all',
 ];
 
 let content = await readFile(file, 'utf8');

@@ -108,7 +108,7 @@ const replacements = [
 	],
 	[
 		'lol cheats vs lol cheats — same stack, clear pages',
-		'How this League of Legends Hacks pillar fits nearby pages',
+		'How this LoL Cheats pillar fits nearby pages',
 	],
 	[
 		'Searchers use lol cheats and lol cheats interchangeably. This pillar focuses on hacks language; the',
@@ -116,10 +116,10 @@ const replacements = [
 	],
 
 	// Point cannibal URLs at canonicals
-	['/lol-esp-hack/', '/lol-esp/'],
-	['/lol-aimbot-hack/', '/lol-aimbot/'],
+	['/lol-esp-cheat/', '/lol-esp/'],
+	['/lol-aimbot-cheat/', '/lol-aimbot/'],
 	['/best-lol-cheats/', '/'],
-	['best lol cheats guide', 'League of Legends Hacks pillar'],
+	['best lol cheats guide', 'LoL Cheats pillar'],
 	['best lol cheats checklist', 'lol cheats checklist'],
 	['best lol cheats', 'lol cheats'],
 	[

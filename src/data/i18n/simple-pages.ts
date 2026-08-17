@@ -79,7 +79,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				list: [
 					'<a href="/lol-esp/">ESP & wallhack guide</a>',
 					'<a href="/lol-aimbot/">Aimbot & soft aim</a>',
-					'<a href="/lol-radar-hack/">2D radar overlay</a>',
+					'<a href="/lol-radar-cheat/">2D radar overlay</a>',
 					'<a href="/setup/">Setup guide</a>',
 					'<a href="/updates/">Live status</a>',
 					'<a href="/blog/">LoL Intel blog</a>',
@@ -141,7 +141,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'Status',
 		intro: brandCopy.statusIntro,
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'League of Legends Hacks overview',
+		ctaSecondary: 'LoL Cheats overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'In-game look',
 		sections: [
@@ -171,10 +171,10 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 			},
 		],
 	}),
-	hacks: page({
+	cheats: page({
 		title: brandSeo.previewTitle,
 		description: brandSeo.previewDescription,
-		h1: 'League of Legends Hacks',
+		h1: 'LoL Cheats',
 		intro: brandCopy.previewIntro,
 		ctaPrimary: brandCopy.ctaBuy,
 		ctaSecondary: 'View features',
@@ -201,7 +201,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				list: [
 					'<a href="/lol-esp/">ESP guide</a>',
 					'<a href="/lol-aimbot/">Aimbot controls</a>',
-					'<a href="/lol-radar-hack/">Radar overlay</a>',
+					'<a href="/lol-radar-cheat/">Radar overlay</a>',
 					'<a href="/updates/">Live status</a>',
 				],
 			},
@@ -223,7 +223,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'ESP',
 		intro: 'See champions and wards through walls during League of Legends matches. Part of the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'League of Legends Hacks overview',
+		ctaSecondary: 'LoL Cheats overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'ESP in match',
 		sections: [
@@ -255,7 +255,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'Aimbot',
 		intro: 'Soft aim and aim assist you can tune for League of Legends. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'League of Legends Hacks overview',
+		ctaSecondary: 'LoL Cheats overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'Aimbot view',
 		sections: [
@@ -287,7 +287,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 		h1: 'Radar',
 		intro: 'A simple 2D radar for threats outside your view. Included in the same {brand} license.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'League of Legends Hacks overview',
+		ctaSecondary: 'LoL Cheats overview',
 		ctaSecondaryHref: '/',
 		galleryTitle: 'Radar overlay',
 		sections: [

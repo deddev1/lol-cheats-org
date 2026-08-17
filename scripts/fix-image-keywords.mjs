@@ -51,11 +51,11 @@ let i18n = readFileSync('scripts/i18n-data/pages-i18n.mjs', 'utf8');
 i18n = i18n
 	.split("imageAlt: `League of Legends ${meta.altKeyword}`")
 	.join("imageAlt: 'lol cheats'")
-	.split("galleryTitle: `League of Legends Hacks ${topicName}`")
+	.split("galleryTitle: `LoL Cheats ${topicName}`")
 	.join("galleryTitle: 'lol cheats'")
 	.split("imageAlt: `lol cheats ${kind} policy`")
 	.join("imageAlt: 'lol cheats'")
-	.split("galleryTitle: `League of Legends Hacks ${kind} resources`")
+	.split("galleryTitle: `LoL Cheats ${kind} resources`")
 	.join("galleryTitle: 'lol cheats'");
 writeFileSync('scripts/i18n-data/pages-i18n.mjs', i18n);
 console.log('pages-i18n image alts simplified');
