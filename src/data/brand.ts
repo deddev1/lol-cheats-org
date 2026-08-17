@@ -73,7 +73,7 @@ export const brand = {
 	 * Aim ~50–60 chars titles, ~140–160 chars descriptions.
 	 */
 	seo: {
-		homeTitle: 'LoL Cheats | Undetected Aimbot, ESP & Wallhack 2026',
+		homeTitle: 'League of Legends Cheats | Undetected Aimbot, ESP & Wallhack 2026',
 		homeDescription:
 			'LoL cheats for League of Legends on PC with aimbot, ESP and wallhack features. Explore gameplay features, pricing, setup information and the latest updates.',
 		featuresTitle: '{game} Features | {brand}',

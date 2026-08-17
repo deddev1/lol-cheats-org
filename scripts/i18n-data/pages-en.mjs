@@ -3,10 +3,10 @@ import { HERO_IMAGES, clampTitle, clampDesc, section, stripZadeyoFromMeta, EXT }
 /** Richest English page content — source of truth for structure. */
 export const enPages = {
 	home: {
-		title: 'LoL Cheats | Undetected Aimbot, ESP & Wallhack 2026',
+		title: 'League of Legends Cheats | Undetected Aimbot, ESP & Wallhack 2026',
 		description:
 			'League of Legends cheats for PC with aimbot, ESP and wallhack features. Explore gameplay features, pricing, setup information and the latest updates.',
-		h1: 'LoL Cheats — Undetected ESP, Wallhack & Aimbot',
+		h1: 'League of Legends Cheats — Undetected ESP, Wallhack & Aimbot',
 		intro:
 			'LoL Cheats is the undetected LoL Cheats package for Windows PC — built for League of Legends on Windows PC. LoL ESP wallhack, 2D radar, and LoL Aimbot with Vanguard maintenance after every major patch.',
 		imageAlt: "LoL Cheats homepage hero — ESP and aimbot for League of Legends",
