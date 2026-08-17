@@ -14,7 +14,7 @@ export {
 	type CannibalPageId,
 };
 
-export const sitemapExcludedPageIds = new Set<PageId>([...(cannibalPageIds as PageId[]), 'cheats']);
+export const sitemapExcludedPageIds = new Set<PageId>(cannibalPageIds as PageId[]);
 
 /** Primary commercial landing for the head term "lol cheats". */
 export const MONEY_PAGE_ID = 'home' as const satisfies PageId;

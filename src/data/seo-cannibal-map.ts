@@ -3,6 +3,7 @@
  * Kept free of routing imports to avoid circular deps with localizeInternalHref.
  */
 export const cannibalRedirectTargets = {
+	cheats: 'home',
 	'best-cheats': 'home',
 	'cheats-2026': 'home',
 	undetected: 'home',

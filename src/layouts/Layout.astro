@@ -25,6 +25,7 @@ interface Props {
 	breadcrumbs?: Crumb[];
 	locale?: LocaleCode;
 	pageId?: PageId;
+	showHreflang?: boolean;
 	hreflangAlternates?: HreflangAlternate[];
 	extraGraph?: Record<string, unknown>[];
 	keywords?: string[];
@@ -44,6 +45,7 @@ const {
 	breadcrumbs,
 	locale = defaultLocale,
 	pageId,
+	showHreflang = true,
 	hreflangAlternates,
 	extraGraph = [],
 	keywords,
@@ -217,7 +219,7 @@ if (aboutNode) {
 				)
 			)
 		}
-		{pageId && <I18nHead pageId={pageId} locale={locale} />}
+		{pageId && showHreflang && <I18nHead pageId={pageId} locale={locale} />}
 		{
 			!pageId &&
 				hreflangAlternates?.map((alt) => (

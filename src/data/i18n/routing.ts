@@ -7,7 +7,7 @@ import {
 	type LocaleCode,
 	locales,
 } from './locales';
-import { getCannibalTargetId, isCannibalPageId } from '../seo-cannibal-map';
+import { getCannibalTargetId } from '../seo-cannibal-map';
 
 /** Canonical page identifiers shared across all locales. */
 export type PageId =
@@ -690,8 +690,8 @@ export function localizeInternalHref(href: string, locale: LocaleCode): string {
 	}
 	const trimmed = href.replace(/\/+$/, '') || '/';
 	const withSlash = trimmed === '/' ? '/' : `${trimmed}/`;
-	if (withSlash === '/lol-cheats/' || withSlash === '/lol-cheats/') {
-		return getLocalizedPath('cheats', locale);
+	if (withSlash === '/lol-cheats/' || withSlash === '/lol-hacks/') {
+		return getLocalizedPath(getCannibalTargetId('cheats') as PageId, locale);
 	}
 	for (const pageId of pageIds) {
 		const english = englishPaths[pageId];
@@ -733,7 +733,7 @@ export function getSelfHreflangAlternates(
 }
 
 export function getHreflangAlternates(pageId: PageId, currentLocale: LocaleCode = defaultLocale) {
-	const resolvedId = (isCannibalPageId(pageId) ? getCannibalTargetId(pageId) : pageId) as PageId;
+	const resolvedId = getCannibalTargetId(pageId) as PageId;
 	const byLocale = localeCodes.map((code) => ({
 		hreflang: localeMap[code].hreflang,
 		href: absoluteLocalizedUrl(resolvedId, code),
@@ -862,7 +862,11 @@ export function localeFromAcceptLanguage(header: string | null): LocaleCode {
 export function getNavForLocale(locale: LocaleCode, labels: Record<string, string>) {
 	const items: { label: string; href: string; pageId?: PageId }[] = [
 		{ label: labels.home, href: getLocalizedPath('home', locale), pageId: 'home' },
-	{ label: labels.cheats ?? 'Cheats', href: getLocalizedPath('cheats', locale), pageId: 'cheats' },
+	{
+		label: labels.cheats ?? 'Cheats',
+		href: getLocalizedPath(getCannibalTargetId('cheats') as PageId, locale),
+		pageId: 'home',
+	},
 		{ label: labels.aimbot, href: getLocalizedPath('lol-aimbot', locale), pageId: 'lol-aimbot' },
 		{ label: labels.esp, href: getLocalizedPath('lol-esp', locale), pageId: 'lol-esp' },
 		{ label: 'Blog', href: locale === defaultLocale ? '/blog/' : `/${locale}/blog/` },

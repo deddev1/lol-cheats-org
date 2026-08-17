@@ -28,6 +28,8 @@
 		"preview": "astro preview --host 0.0.0.0 --port 3000",
 		"preview:4321": "astro preview --host 0.0.0.0 --port 4321",
 		"validate:sitemaps": "node scripts/validate-sitemaps.mjs && node scripts/audit-sitemap-deep.mjs",
+		"validate:hreflang": "node scripts/audit-hreflang.mjs",
+		"validate:seo": "node scripts/audit-en-seo.mjs && npm run validate:sitemaps && npm run validate:hreflang",
 		"generate:i18n": "node scripts/generate-i18n-content.mjs",
 		"postinstall": "node scripts/ensure-dist-for-workers-ci.mjs",
 		"deploy": "npm run build && wrangler deploy",
