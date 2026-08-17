@@ -14,6 +14,7 @@ export const brand = {
 	market: 'Worldwide',
 	supportEmail: 'support@lolcheats.org',
 	checkoutUrl: 'https://zadeyo.com/go/QRH?to=%2Fproducts%2Fleague-of-legends',
+	gameUrl: 'https://www.leagueoflegends.com/en-us/download/',
 
 	/** Game this template instance targets */
 	game: 'League of Legends',

@@ -15,7 +15,6 @@ import { getLocalizedPath, localizeInternalHref } from '../data/i18n/routing';
 import { getTopicLinksForBlogCategory } from '../data/internal-links';
 import RelatedPages from './RelatedPages.astro';
 import ExternalResources from './ExternalResources.astro';
-import ExternalGuidePills from './ExternalGuidePills.astro';
 import { getT } from '../i18n/server';
 
 interface Props {
@@ -169,7 +168,6 @@ function pageTitle(headline: string): string {
 		</article>
 
 		<div class="post__guides">
-			<ExternalGuidePills locale={locale} />
 			<ExternalResources locale={locale} />
 		</div>
 

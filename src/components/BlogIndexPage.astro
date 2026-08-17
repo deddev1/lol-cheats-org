@@ -18,7 +18,6 @@ import { blogIndexTopicLinks } from '../data/internal-links';
 import RelatedPages from './RelatedPages.astro';
 import CategoryRow from './CategoryRow.astro';
 import ExternalResources from './ExternalResources.astro';
-import ExternalGuidePills from './ExternalGuidePills.astro';
 import { getT } from '../i18n/server';
 
 interface Props {
@@ -82,7 +81,6 @@ const articleListSchema = {
 
 		<CategoryRow locale={locale} />
 
-		<ExternalGuidePills locale={locale} class="blog__guide-pills" />
 		<ExternalResources locale={locale} class="blog__external blog__external--top" />
 
 		{
@@ -253,7 +251,6 @@ const articleListSchema = {
 		margin-top: 2.5rem;
 	}
 
-	.blog__guide-pills,
 	.blog__external--top {
 		margin-top: 1.5rem;
 	}

@@ -12,49 +12,42 @@ export type GuideCta = {
 	href: string;
 };
 
-/** Canonical outbound URLs — single source for CTAs, pills, and resource blocks. */
+/** Canonical outbound URLs — single source for CTAs and resource blocks. */
 export const externalUrls = {
-	steam: brand.gameUrl,
-	steamNews: 'https://store.steampowered.com/app/376210/news/',
-	officialSite: 'https://www.survivethelol.com/',
-	wiki: 'https://lol.fandom.com/wiki/The_LoL',
-	steamCommunity: 'https://steamcommunity.com/app/376210',
+	riotClient: brand.gameUrl,
+	patchNotes: 'https://www.leagueoflegends.com/en-us/news/tags/patch-notes/',
+	officialSite: 'https://www.leagueoflegends.com/',
+	wiki: 'https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki',
+	community: 'https://www.reddit.com/r/leagueoflegends/',
 } as const;
 
 /** Authoritative third-party guides — cite official game sources for readers and search engines. */
 export const externalResources: ExternalResource[] = [
 	{
 		label: 'League of Legends on Riot Client',
-		href: externalUrls.steam,
-		note: 'Official store page, system requirements, and player reviews.',
+		href: externalUrls.riotClient,
+		note: 'Download the game, check system requirements, and create a Riot account.',
 	},
 	{
-		label: 'Steam patch notes & news',
-		href: externalUrls.steamNews,
-		note: 'Read official update posts before you change your loadout.',
+		label: 'Official patch notes',
+		href: externalUrls.patchNotes,
+		note: 'Read official balance and update posts before you change your loadout.',
 	},
 	{
 		label: 'Official League of Legends website',
 		href: externalUrls.officialSite,
-		note: 'Game overview from Afterthought LLC.',
+		note: 'Game overview, news, and esports from Riot Games.',
 	},
 	{
 		label: 'League of Legends Wiki (Fandom)',
 		href: externalUrls.wiki,
-		note: 'Champion stats, maps, and survival mechanics.',
+		note: 'Champion stats, items, maps, and ability details.',
 	},
 	{
-		label: 'Steam Community hub',
-		href: externalUrls.steamCommunity,
-		note: 'Announcements and community discussions.',
+		label: 'League of Legends community (Reddit)',
+		href: externalUrls.community,
+		note: 'Announcements, patch discussion, and player guides.',
 	},
-];
-
-/** Compact above-the-fold guide links for blogs and page banners. */
-export const featuredGuidePills: GuideCta[] = [
-	{ label: 'League of Legends on Riot Client', href: externalUrls.steam },
-	{ label: 'Official patch notes', href: externalUrls.steamNews },
-	{ label: 'League of Legends Wiki', href: externalUrls.wiki },
 ];
 
 /**
@@ -62,27 +55,27 @@ export const featuredGuidePills: GuideCta[] = [
  * Keeps primary Buy CTAs while giving Google clear outbound citations.
  */
 export const externalSecondaryByPageId: Partial<Record<PageId, GuideCta>> = {
-	features: { label: 'Official patch notes', href: externalUrls.steamNews },
-	updates: { label: 'Steam patch notes', href: externalUrls.steamNews },
+	features: { label: 'Official patch notes', href: externalUrls.patchNotes },
+	updates: { label: 'Official patch notes', href: externalUrls.patchNotes },
 	cheats: { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	'lol-esp': { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	'lol-aimbot': { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	radar: { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	setup: { label: 'Official game site', href: externalUrls.officialSite },
-	support: { label: 'Steam Community', href: externalUrls.steamCommunity },
+	support: { label: 'LoL community', href: externalUrls.community },
 	faq: { label: 'League of Legends Wiki', href: externalUrls.wiki },
-	undetected: { label: 'Steam patch notes', href: externalUrls.steamNews },
+	undetected: { label: 'Official patch notes', href: externalUrls.patchNotes },
 	wallhack: { label: 'League of Legends Wiki', href: externalUrls.wiki },
-	vanguard: { label: 'Steam patch notes', href: externalUrls.steamNews },
-	'cheats-2026': { label: 'League of Legends on Riot Client', href: externalUrls.steam },
+	vanguard: { label: 'Official patch notes', href: externalUrls.patchNotes },
+	'cheats-2026': { label: 'League of Legends on Riot Client', href: externalUrls.riotClient },
 	'cheat-download': { label: 'Official game site', href: externalUrls.officialSite },
 	'mod-menu': { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	'soft-aim': { label: 'League of Legends Wiki', href: externalUrls.wiki },
-	'best-cheats': { label: 'Steam Community', href: externalUrls.steamCommunity },
+	'best-cheats': { label: 'LoL community', href: externalUrls.community },
 	'aimbot-cheat': { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	'esp-cheat': { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	'unlock-all': { label: 'Official game site', href: externalUrls.officialSite },
-	pricing: { label: 'League of Legends on Riot Client', href: externalUrls.steam },
+	pricing: { label: 'League of Legends on Riot Client', href: externalUrls.riotClient },
 };
 
 export function getExternalSecondaryCta(pageId: PageId): GuideCta | undefined {

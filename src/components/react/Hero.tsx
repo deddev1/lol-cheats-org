@@ -97,7 +97,7 @@ function HeroInner({
 					href={gameUrl}
 					target="_blank"
 					rel="noopener noreferrer"
-					aria-label={`${gameName} on Steam`}
+					aria-label={`${gameName} on Riot Client`}
 				>
 					<img
 						src={heroSrc}

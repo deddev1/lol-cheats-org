@@ -20,7 +20,6 @@ import { getT } from '../i18n/server';
 import RelatedPages from '../components/RelatedPages.astro';
 import CategoryRow from '../components/CategoryRow.astro';
 import ExternalResources from '../components/ExternalResources.astro';
-import ExternalGuidePills from '../components/ExternalGuidePills.astro';
 
 type GalleryInput = string | { src: string; alt: string };
 
@@ -191,7 +190,6 @@ const useHomeHero =
 				{showRelatedPages && pageId && (
 					<RelatedPages locale={locale} pageId={pageId} />
 				)}
-				{showExternalResources && <ExternalGuidePills locale={locale} />}
 				{showExternalResources && <ExternalResources locale={locale} />}
 			</article>
 

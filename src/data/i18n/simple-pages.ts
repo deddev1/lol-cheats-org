@@ -83,8 +83,8 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 					'<a href="/setup/">Setup guide</a>',
 					'<a href="/updates/">Live status</a>',
 					'<a href="/blog/">LoL Intel blog</a>',
-					'<a href="https://store.steampowered.com/app/376210/news/" target="_blank" rel="noopener noreferrer">Official Steam patch notes</a>',
-					'<a href="https://lol.fandom.com/wiki/The_LoL" target="_blank" rel="noopener noreferrer">League of Legends Wiki (Fandom)</a>',
+					'<a href="https://www.leagueoflegends.com/en-us/news/tags/patch-notes/" target="_blank" rel="noopener noreferrer">Official patch notes</a>',
+					'<a href="https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki" target="_blank" rel="noopener noreferrer">League of Legends Wiki (Fandom)</a>',
 				],
 			},
 			{
@@ -92,7 +92,7 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 				paragraphs: [
 					'We rebuild after big {game} or {antiCheat} patches.',
 					'Check Status before you play after a patch day.',
-					'Verify official changes on <a href="https://store.steampowered.com/app/376210/news/" target="_blank" rel="noopener noreferrer">Steam patch notes</a> and the <a href="https://lol.fandom.com/wiki/The_LoL" target="_blank" rel="noopener noreferrer">LoL Wiki</a> before you tune overlays.',
+					'Verify official changes on <a href="https://www.leagueoflegends.com/en-us/news/tags/patch-notes/" target="_blank" rel="noopener noreferrer">official patch notes</a> and the <a href="https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki" target="_blank" rel="noopener noreferrer">LoL Wiki</a> before you tune overlays.',
 				],
 				list: ['Status on the Status page', 'Setup guide included', 'Email support with your order ID'],
 			},
