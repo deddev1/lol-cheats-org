@@ -16,7 +16,7 @@ export {
 
 export const sitemapExcludedPageIds = new Set<PageId>([...(cannibalPageIds as PageId[]), 'hacks']);
 
-/** Primary commercial landing for the head term "the isle hacks". */
+/** Primary commercial landing for the head term "lol cheats". */
 export const MONEY_PAGE_ID = 'home' as const satisfies PageId;
 export const MONEY_PATH = '/' as const;
 

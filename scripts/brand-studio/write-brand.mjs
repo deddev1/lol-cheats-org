@@ -71,32 +71,32 @@ const SITEMAP_TEXT_KEYS = [
 
 const DEFAULT_SITEMAP_IMAGES = [
 	{
-		src: '/images/isle-esp-player-tags.webp',
+		src: '/images/lol-esp-player-tags.webp',
 		title: '{primaryKeyword} ESP',
-		caption: 'See players with {primaryKeyword}',
+		caption: 'See champions with {primaryKeyword}',
 	},
 	{
-		src: '/images/isle-wallhack-skeleton.webp',
+		src: '/images/lol-wallhack-skeleton.webp',
 		title: '{primaryKeyword} wallhack',
 		caption: 'See through walls with {primaryKeyword}',
 	},
 	{
-		src: '/images/isle-aimbot-sniper.webp',
+		src: '/images/lol-aimbot-sniper.webp',
 		title: '{primaryKeyword} aimbot',
 		caption: 'Aimbot in {primaryKeyword}',
 	},
 	{
-		src: '/images/isle-aimbot-skeleton.webp',
+		src: '/images/lol-aimbot-skeleton.webp',
 		title: '{primaryKeyword} aimbot view',
 		caption: 'Aimbot bone view in {primaryKeyword}',
 	},
 	{
-		src: '/images/isle-esp-radar.webp',
+		src: '/images/lol-esp-radar.webp',
 		title: '{primaryKeyword} radar',
 		caption: 'Radar map in {primaryKeyword}',
 	},
 	{
-		src: '/images/isle-hacks-combat.webp',
+		src: '/images/lol-cheats-combat.webp',
 		title: '{primaryKeyword} in a fight',
 		caption: 'Fight view with {primaryKeyword}',
 	},
@@ -364,10 +364,10 @@ export function validateBrandPayload(body) {
 	const lifetime = price(b.lifetimePrice ?? b.lifetime);
 	const monthlyLabel = soft(b.monthlyLabel, 'Monthly', 40);
 	const lifetimeLabel = soft(b.lifetimeLabel, 'Lifetime', 40);
-	const logo = assetPath(b.logo ?? '/images/isle-hacks-logo.webp');
-	const logoRaster = assetPath(b.logoRaster ?? '/images/isle-hacks-logo.png');
-	const defaultOgImage = assetPath(b.defaultOgImage ?? '/images/isle-hacks-combat.webp');
-	const heroImage = assetPath(b.heroImage ?? '/images/isle-hero-banner.webp');
+	const logo = assetPath(b.logo ?? '/images/lol-cheats-logo.webp');
+	const logoRaster = assetPath(b.logoRaster ?? '/images/lol-cheats-logo.png');
+	const defaultOgImage = assetPath(b.defaultOgImage ?? '/images/lol-cheats-combat.webp');
+	const heroImage = assetPath(b.heroImage ?? '/images/lol-hero-banner.webp');
 	const logoAlt = soft(b.logoAlt, `${name || 'Brand'} logo`, 120);
 	const logoW = price(b.logoRasterWidth ?? 512) ?? 512;
 	const logoH = price(b.logoRasterHeight ?? 512) ?? 512;
@@ -424,7 +424,7 @@ export function validateBrandPayload(body) {
 		storeDescription: 'Monthly and lifetime {game} plans. Same features. Instant delivery after payment.',
 		statusTitle: '{game} Status | {brand}',
 		statusDescription:
-			'Live status for {brand} after {game} or {antiCheat} patches. Check before you spawn in.',
+			'Live status for {brand} after {game} or {antiCheat} patches. Check before you queue.',
 		previewTitle: '{game} Preview | {brand}',
 		previewDescription:
 			'Quick preview of {brand} — ESP, aimbot, radar, and updates after {game} patches.',
@@ -451,7 +451,7 @@ export function validateBrandPayload(body) {
 	const copyDefaults = {
 		tagline: 'Undetected {primaryKeyword} -- ESP, aimbot, and radar for PC',
 		summary:
-			'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
+			'{brand} is an undetected {game} cheat teamage for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
 		heroLede: 'Hacks and cheats available -- 0% detection.',
 		blogLabel: '{game} Intel',
 		ctaBuy: 'Buy now',
@@ -597,7 +597,7 @@ export function renderBrandTs(data) {
 		storeDescription: 'Monthly and lifetime {game} plans. Same features. Instant delivery after payment.',
 		statusTitle: '{game} Status | {brand}',
 		statusDescription:
-			'Live status for {brand} after {game} or {antiCheat} patches. Check before you spawn in.',
+			'Live status for {brand} after {game} or {antiCheat} patches. Check before you queue.',
 		previewTitle: '{game} Preview | {brand}',
 		previewDescription:
 			'Quick preview of {brand} — ESP, aimbot, radar, and updates after {game} patches.',
@@ -616,7 +616,7 @@ export function renderBrandTs(data) {
 	const copyDefaults = {
 		tagline: 'Undetected {primaryKeyword} — ESP, aimbot, and radar for PC',
 		summary:
-			'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
+			'{brand} is an undetected {game} cheat teamage for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
 		heroLede: 'Hacks and cheats available — 0% detection.',
 		blogLabel: '{game} Intel',
 		ctaBuy: 'Buy now',

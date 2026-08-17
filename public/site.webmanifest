@@ -1,11 +1,11 @@
 {
-  "name": "The Isle Hacks",
-  "short_name": "Isle Hacks",
-  "description": "Undetected the isle hacks — ESP, aimbot, and radar for PC",
+  "name": "LoL Cheats",
+  "short_name": "LoL Cheats",
+  "description": "Undetected lol cheats — ESP, aimbot, and radar for PC",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#080b08",
-  "theme_color": "#080b08",
+  "background_color": "#0a0a12",
+  "theme_color": "#0a0a12",
   "icons": [
     {
       "src": "/favicon.png",

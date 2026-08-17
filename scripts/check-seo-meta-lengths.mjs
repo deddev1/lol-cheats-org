@@ -42,10 +42,10 @@ function desc(input) {
 }
 
 const seoBlock = src.slice(src.indexOf('seo: {'), src.indexOf('\n\tcopy: {'));
-const pairs = [...seoBlock.matchAll(/(\w+):\s*\n?\s*'((?:\\'|[^'])*)'/g)];
+const duos = [...seoBlock.matchAll(/(\w+):\s*\n?\s*'((?:\\'|[^'])*)'/g)];
 
 let bad = 0;
-for (const [, key, raw] of pairs) {
+for (const [, key, raw] of duos) {
 	if (key === 'as') continue;
 	const value = raw.replace(/\\'/g, "'");
 	if (key.endsWith('Title')) {

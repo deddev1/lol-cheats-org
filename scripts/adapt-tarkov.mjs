@@ -239,12 +239,12 @@ async function renameWarzoneTs() {
 }
 
 async function renameScripts() {
-	const pairs = [
+	const duos = [
 		['fetch-warzone-images.mjs', 'fetch-tarkov-images.mjs'],
 		['warzone-hack-overlays.mjs', 'tarkov-hack-overlays.mjs'],
 		['fix-warzone-copy.mjs', 'fix-tarkov-copy.mjs'],
 	];
-	for (const [from, to] of pairs) {
+	for (const [from, to] of duos) {
 		try {
 			await rename(path.join(ROOT, 'scripts', from), path.join(ROOT, 'scripts', to));
 			console.log(`Renamed script: ${from} → ${to}`);

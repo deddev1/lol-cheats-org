@@ -6,39 +6,39 @@ export const LOCALES = [
 ];
 
 export const PAGE_IDS = [
-	'home', 'isle-esp', 'isle-aimbot', 'features', 'pricing', 'setup',
-	'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'eac',
+	'home', 'lol-esp', 'lol-aimbot', 'features', 'pricing', 'setup',
+	'updates', 'faq', 'support', 'undetected', 'wallhack', 'radar', 'vanguard',
 	'cheats-2026', 'hacks', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats',
 	'aimbot-hack', 'esp-hack', 'unlock-all', 'privacy', 'refund', 'terms',
 ];
 
-/** Hero image per page — simple the isle hacks keyword filenames. */
+/** Hero image per page — simple lol cheats keyword filenames. */
 export const HERO_IMAGES = {
-	home: '/images/isle-hacks-esp.webp',
-	'isle-esp': '/images/isle-hacks-radar.webp',
-	'isle-aimbot': '/images/isle-hacks-aimbot.webp',
-	features: '/images/isle-hacks-aimbot-view.webp',
-	pricing: '/images/isle-hacks-session.webp',
-	setup: '/images/isle-hacks-radar.webp',
-	updates: '/images/isle-hacks-esp.webp',
-	faq: '/images/isle-hacks-aimbot-view.webp',
-	support: '/images/isle-hacks-session.webp',
-	undetected: '/images/isle-hacks-wallhack.webp',
-	wallhack: '/images/isle-hacks-wallhack.webp',
-	radar: '/images/isle-hacks-radar.webp',
-	eac: '/images/isle-hacks-aimbot.webp',
-	'cheats-2026': '/images/isle-hacks-esp.webp',
-	hacks: '/images/isle-hacks-session.webp',
-	'cheat-download': '/images/isle-hacks-session.webp',
-	'mod-menu': '/images/isle-hacks-radar.webp',
-	'soft-aim': '/images/isle-hacks-aimbot-view.webp',
-	'best-cheats': '/images/isle-hacks-esp.webp',
-	'aimbot-hack': '/images/isle-hacks-aimbot-view.webp',
-	'esp-hack': '/images/isle-hacks-wallhack.webp',
-	'unlock-all': '/images/isle-hacks-radar.webp',
-	privacy: '/images/isle-hacks-aimbot.webp',
-	refund: '/images/isle-hacks-session.webp',
-	terms: '/images/isle-hacks-aimbot-view.webp',
+	home: '/images/lol-cheats-esp.webp',
+	'lol-esp': '/images/lol-cheats-radar.webp',
+	'lol-aimbot': '/images/lol-cheats-aimbot.webp',
+	features: '/images/lol-cheats-aimbot-view.webp',
+	pricing: '/images/lol-cheats-match.webp',
+	setup: '/images/lol-cheats-radar.webp',
+	updates: '/images/lol-cheats-esp.webp',
+	faq: '/images/lol-cheats-aimbot-view.webp',
+	support: '/images/lol-cheats-match.webp',
+	undetected: '/images/lol-cheats-wallhack.webp',
+	wallhack: '/images/lol-cheats-wallhack.webp',
+	radar: '/images/lol-cheats-radar.webp',
+	vanguard: '/images/lol-cheats-aimbot.webp',
+	'cheats-2026': '/images/lol-cheats-esp.webp',
+	hacks: '/images/lol-cheats-match.webp',
+	'cheat-download': '/images/lol-cheats-match.webp',
+	'mod-menu': '/images/lol-cheats-radar.webp',
+	'soft-aim': '/images/lol-cheats-aimbot-view.webp',
+	'best-cheats': '/images/lol-cheats-esp.webp',
+	'aimbot-hack': '/images/lol-cheats-aimbot-view.webp',
+	'esp-hack': '/images/lol-cheats-wallhack.webp',
+	'unlock-all': '/images/lol-cheats-radar.webp',
+	privacy: '/images/lol-cheats-aimbot.webp',
+	refund: '/images/lol-cheats-match.webp',
+	terms: '/images/lol-cheats-aimbot-view.webp',
 };
 
 export const TS_HEADER = `import type { LocaleCode } from './locales';
@@ -66,11 +66,11 @@ export type LocaleUi = {
 \tcommon: { buyNow: string; readGuide: string; language: string; officialLanguageNote: string; relatedPages: string };
 \tfooter: { explore: string; help: string; tagline: string };
 \timages: {
-\t\thero: string; espWallhack: string; aimbotCombat: string; packFight: string; dinoEsp: string;
-\t\theaderArt: string; hacksPackage: string; ambushFight: string; battleRoyale: string; survivalIsland: string;
+\t\thero: string; espWallhack: string; aimbotCombat: string; teamFight: string; champEsp: string;
+\t\theaderArt: string; cheatsPackage: string; teamfight: string; battleRoyale: string; summonersRift: string;
 \t};
 };
-export type PageId = 'home' | 'isle-esp' | 'isle-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'eac' | 'cheats-2026' | 'hacks' | 'cheat-download' | 'mod-menu' | 'soft-aim' | 'best-cheats' | 'aimbot-hack' | 'esp-hack' | 'unlock-all' | 'privacy' | 'refund' | 'terms';
+export type PageId = 'home' | 'lol-esp' | 'lol-aimbot' | 'features' | 'pricing' | 'setup' | 'updates' | 'faq' | 'support' | 'undetected' | 'wallhack' | 'radar' | 'vanguard' | 'cheats-2026' | 'hacks' | 'cheat-download' | 'mod-menu' | 'soft-aim' | 'best-cheats' | 'aimbot-hack' | 'esp-hack' | 'unlock-all' | 'privacy' | 'refund' | 'terms';
 `;
 
 /** Clamp meta strings to SEO limits without ugly ellipsis. */
@@ -101,7 +101,7 @@ export function stripZadeyoFromMeta(text) {
 		.replace(/\s*Zadeyo delivery\.?/gi, ' instant digital delivery.')
 		.replace(/\s*and Zadeyo delivery\.?/gi, ' and instant digital delivery.')
 		.replace(/\|\s*Instant Zadeyo Delivery/g, '| Instant Digital Delivery')
-		.replace(/Buy on Zadeyo/g, 'Buy The Isle Hacks')
+		.replace(/Buy on Zadeyo/g, 'Buy League of Legends Hacks')
 		.replace(/\s{2,}/g, ' ')
 		.trim();
 }
@@ -124,11 +124,11 @@ export function section(h2, ...args) {
 /** Authoritative external citation helpers (open in new tab). */
 export const EXT = {
 	activision:
-		'<a href="https://store.steampowered.com/app/376210/The_Isle/" target="_blank" rel="noopener noreferrer">The Isle</a>',
-	isle:
-		'<a href="https://store.steampowered.com/app/376210/The_Isle/" target="_blank" rel="noopener noreferrer">The Isle</a>',
+		'<a href="https://www.leagueoflegends.com/" target="_blank" rel="noopener noreferrer">League of Legends</a>',
+	lol:
+		'<a href="https://www.leagueoflegends.com/" target="_blank" rel="noopener noreferrer">League of Legends</a>',
 	status:
-		'<a href="https://store.steampowered.com/app/376210/The_Isle/" target="_blank" rel="noopener noreferrer">The Isle on Steam</a>',
-	eac:
-		'<a href="https://www.easy.ac/" target="_blank" rel="noopener noreferrer">Easy Anti-Cheat</a>',
+		'<a href="https://www.leagueoflegends.com/" target="_blank" rel="noopener noreferrer">League of Legends on Riot Client</a>',
+	vanguard:
+		'<a href="https://www.riotgames.com/en/anti-cheat" target="_blank" rel="noopener noreferrer">Vanguard</a>',
 };

@@ -3,7 +3,7 @@
   "remote.autoForwardPortsSource": "hybrid",
   "remote.portsAttributes": {
     "5173": {
-      "label": "The Isle Hacks",
+      "label": "League of Legends Hacks",
       "onAutoForward": "openBrowser",
       "protocol": "http"
     }

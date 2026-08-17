@@ -43,7 +43,7 @@ const seoDefaults = {
 	storeDescription: 'Monthly and lifetime {game} plans. Same features. Instant delivery after payment.',
 	statusTitle: '{game} Status | {brand}',
 	statusDescription:
-		'Live status for {brand} after {game} or {antiCheat} patches. Check before you spawn in.',
+		'Live status for {brand} after {game} or {antiCheat} patches. Check before you queue.',
 	previewTitle: '{game} Preview | {brand}',
 	previewDescription:
 		'Quick preview of {brand} -- ESP, aimbot, radar, and updates after {game} patches.',
@@ -63,7 +63,7 @@ const seoDefaults = {
 const copyDefaults = {
 	tagline: 'Undetected {primaryKeyword} -- ESP, aimbot, and radar for PC',
 	summary:
-		'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
+		'{brand} is an undetected {game} cheat teamage for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
 	heroLede: 'Hacks and cheats available -- 0% detection.',
 	blogLabel: '{game} Intel',
 	ctaBuy: 'Buy now',
@@ -176,7 +176,7 @@ const product: Field[] = [
 	{
 		name: 'game',
 		label: 'Game',
-		tip: 'What: The game this template instance is for. | Why: Fills {game} in titles, FAQs, Status copy, and SEO titles like "The Isle Features | Brand". | Example: Fortnite, Apex Legends, Marathon',
+		tip: 'What: The game this template instance is for. | Why: Fills {game} in titles, FAQs, Status copy, and SEO titles like "League of Legends Features | Brand". | Example: Fortnite, Apex Legends, Marathon',
 		value: brand.game,
 		required: true,
 		maxlength: 80,
@@ -184,7 +184,7 @@ const product: Field[] = [
 	{
 		name: 'antiCheat',
 		label: 'Anti-cheat',
-		tip: 'What: The game anti-cheat system name. | Why: Status / FAQ text mentions rebuilds after this anti-cheat patches. Use {antiCheat} token. | Example: Easy Anti-Cheat, Easy Anti-Cheat, Easy Anti-Cheat',
+		tip: 'What: The game anti-cheat system name. | Why: Status / FAQ text mentions rebuilds after this anti-cheat patches. Use {antiCheat} token. | Example: Vanguard, Vanguard, Vanguard',
 		value: brand.antiCheat,
 		required: true,
 		maxlength: 80,
@@ -319,7 +319,7 @@ const seoFields: Field[] = [
 	{
 		name: 'statusDescription',
 		label: 'Status description',
-		tip: 'What: Meta description for Status. | Why: Mention {antiCheat} and patch checks. | Example: Live status for Marathon Hacks after Marathon or Easy Anti-Cheat patches...',
+		tip: 'What: Meta description for Status. | Why: Mention {antiCheat} and patch checks. | Example: Live status for Marathon Hacks after Marathon or Vanguard patches...',
 		value: seo.statusDescription,
 		textarea: true,
 		rows: 2,
@@ -475,7 +475,7 @@ const copyFields: Field[] = [
 	{
 		name: 'summary',
 		label: 'Summary',
-		tip: 'What: One paragraph about the product. | Why: About-style copy and structured data context. | Example: Marathon Hacks is an undetected Marathon cheat package...',
+		tip: 'What: One paragraph about the product. | Why: About-style copy and structured data context. | Example: Marathon Hacks is an undetected Marathon cheat teamage...',
 		value: copy.summary,
 		textarea: true,
 		rows: 3,
@@ -495,7 +495,7 @@ const copyFields: Field[] = [
 	{
 		name: 'blogLabel',
 		label: 'Blog / intel label',
-		tip: 'What: Nav label for blog or intel section. | Why: Shown in navigation when blog is enabled. | Example: Marathon Intel, Isle Intel',
+		tip: 'What: Nav label for blog or intel section. | Why: Shown in navigation when blog is enabled. | Example: Marathon Intel, LoL Intel',
 		value: copy.blogLabel,
 		required: true,
 		maxlength: 80,
@@ -769,13 +769,13 @@ const seoAuditRows = [
 	{ page: 'Features', path: '/features/', fields: 'featuresTitle / Description + intro', status: 'Live · permanent' },
 	{ page: 'Store', path: '/pricing/', fields: 'storeTitle / Description + intro', status: 'Live · permanent' },
 	{ page: 'Status', path: '/updates/', fields: 'statusTitle / Description + intro', status: 'Live · permanent' },
-	{ page: 'Preview', path: '/isle-hacks/', fields: 'previewTitle / Description + intro', status: 'Live · permanent' },
+	{ page: 'Preview', path: '/lol-hacks/', fields: 'previewTitle / Description + intro', status: 'Live · permanent' },
 	{ page: 'Setup', path: '/setup/', fields: 'setupTitle / Description + intro', status: 'Live · permanent' },
 	{ page: 'Support', path: '/support/', fields: 'supportTitle / Description + intro', status: 'Live · permanent' },
 	{ page: 'FAQ index', path: '/faq/', fields: 'faqTitle / Description + intro', status: 'Live · permanent' },
 	{ page: 'Reviews index', path: '/reviews/', fields: 'reviewsTitle / Description + intro', status: 'Live · permanent' },
 	{ page: 'Blog index', path: '/blog/', fields: 'blogTitle / blogDescription', status: 'Live · EN permanent' },
-	{ page: 'Keyword landings', path: '/isle-esp/ …', fields: 'content.generated.ts', status: 'Manual file' },
+	{ page: 'Keyword landings', path: '/lol-esp/ …', fields: 'content.generated.ts', status: 'Manual file' },
 	{ page: 'FAQ answers', path: '/faq/[slug]/', fields: 'site.ts faqs', status: 'Manual file' },
 	{ page: 'Review posts', path: '/reviews/[slug]/', fields: 'site.ts reviews', status: 'Manual file' },
 ] as const;
@@ -946,7 +946,7 @@ const sections = [
 												[
 													{
 														id: 'accent',
-														name: 'themeaccent',
+														name: 'themvanguardcent',
 														label: 'Accent',
 														tip: 'What: Main brand color. | Why: CTAs, focus, highlights. | Example: #ff4655',
 														value: theme.accent,
@@ -1515,7 +1515,7 @@ const sections = [
 					storeDescription: 'Monthly and lifetime {game} plans. Same features. Instant delivery after payment.',
 					statusTitle: '{game} Status | {brand}',
 					statusDescription:
-						'Live status for {brand} after {game} or {antiCheat} patches. Check before you spawn in.',
+						'Live status for {brand} after {game} or {antiCheat} patches. Check before you queue.',
 					previewTitle: '{game} Preview | {brand}',
 					previewDescription:
 						'Quick preview of {brand} -- ESP, aimbot, radar, and updates after {game} patches.',
@@ -1535,7 +1535,7 @@ const sections = [
 				const copyTemplates = {
 					tagline: 'Undetected {primaryKeyword} -- ESP, aimbot, and radar for PC',
 					summary:
-						'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
+						'{brand} is an undetected {game} cheat teamage for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
 					heroLede: 'Hacks and cheats available -- 0% detection.',
 					blogLabel: '{game} Intel',
 					ctaBuy: 'Buy now',
@@ -1707,7 +1707,7 @@ const sections = [
 					setText('sitemap-preview-robots', 'Sitemap: ' + origin + '/sitemap.xml');
 					setText('identity-domain-code', origin + '/sitemap.xml');
 
-					root.querySelectorAll('[data-sitemap-abs-for]').foreach((el) => {
+					root.querySelectorAll('[data-sitemap-abs-for]').forEach((el) => {
 						const name = el.getAttribute('data-sitemap-abs-for');
 						const path = val(name) || '/images/…';
 						const clean = path.startsWith('/') ? path : '/' + path;
@@ -1753,7 +1753,7 @@ const sections = [
 							features: '/features/',
 							store: '/pricing/',
 							status: '/updates/',
-							preview: '/isle-hacks/',
+							preview: '/lol-hacks/',
 							setup: '/setup/',
 							support: '/support/',
 							faq: '/faq/',
@@ -1781,9 +1781,9 @@ const sections = [
 					if (heroLede) heroLede.textContent = fillTokens(val('heroLede')) || 'Hero lede';
 				}
 
-				root.querySelectorAll('.studio__serp-tab').foreach((tab) => {
+				root.querySelectorAll('.studio__serp-tab').forEach((tab) => {
 					tab.addEventListener('click', () => {
-						root.querySelectorAll('.studio__serp-tab').foreach((t) => t.classList.remove('is-active'));
+						root.querySelectorAll('.studio__serp-tab').forEach((t) => t.classList.remove('is-active'));
 						tab.classList.add('is-active');
 						activeSerp = tab.getAttribute('data-serp') || 'home';
 						updateSerp();
@@ -2030,7 +2030,7 @@ const sections = [
 				function applySitePreview(t) {
 					const map = themeCssMap(t);
 					const root = document.documentElement;
-					Object.entries(map).foreach(([k, v]) => root.style.setProperty(k, v));
+					Object.entries(map).forEach(([k, v]) => root.style.setProperty(k, v));
 
 					let tag = document.getElementById('brand-theme-vars');
 					if (!tag) {
@@ -2082,7 +2082,7 @@ const sections = [
 					updateThemePreview();
 				}
 
-				['accent', 'soft', 'deep', 'hover', 'bg', 'panel'].foreach((id) => {
+				['accent', 'soft', 'deep', 'hover', 'bg', 'panel'].forEach((id) => {
 					const fallback =
 						id === 'accent'
 							? '#c026d3'
@@ -2102,7 +2102,7 @@ const sections = [
 					if (accent) setColorVal('accent', accent);
 					if (bg) setColorVal('bg', bg);
 					fillDerivedTones();
-					document.querySelectorAll('.studio__theme-preset').foreach((el) => el.classList.remove('is-active'));
+					document.querySelectorAll('.studio__theme-preset').forEach((el) => el.classList.remove('is-active'));
 					btn.classList.add('is-active');
 				});
 
@@ -2112,7 +2112,7 @@ const sections = [
 					if (e.target.matches('input, textarea')) lastFocus = e.target;
 				});
 
-				root.querySelectorAll('.studio__chip').foreach((chip) => {
+				root.querySelectorAll('.studio__chip').forEach((chip) => {
 					chip.addEventListener('click', () => {
 						const el = lastFocus || document.activeElement;
 						if (!el || !el.matches('input, textarea')) return;
@@ -2148,11 +2148,11 @@ const sections = [
 					if (!confirm('Reset all SEO titles/descriptions and page intros to templates? Custom SEO will be overwritten.')) {
 						return;
 					}
-					Object.entries(seoTemplates).foreach(([key, tpl]) => {
+					Object.entries(seoTemplates).forEach(([key, tpl]) => {
 						const el = form.elements.namedItem(key);
 						if (el && 'value' in el) el.value = tpl;
 					});
-					Object.entries(copyTemplates).foreach(([key, tpl]) => {
+					Object.entries(copyTemplates).forEach(([key, tpl]) => {
 						const el = form.elements.namedItem(key);
 						if (el && 'value' in el) el.value = tpl;
 					});
@@ -2176,7 +2176,7 @@ const sections = [
 						reviewsImageTitle: '{brand} reviews',
 						reviewsImageCaption: 'What buyers say about {primaryKeyword}',
 					};
-					Object.entries(defaults).foreach(([key, tpl]) => {
+					Object.entries(defaults).forEach(([key, tpl]) => {
 						const el = form.elements.namedItem(key);
 						if (el && 'value' in el) el.value = tpl;
 					});
@@ -2189,7 +2189,7 @@ const sections = [
 						'{primaryKeyword} in a fight',
 					];
 					const capTpls = [
-						'See players with {primaryKeyword}',
+						'See champions with {primaryKeyword}',
 						'See through walls with {primaryKeyword}',
 						'Aimbot in {primaryKeyword}',
 						'Aimbot bone view in {primaryKeyword}',
@@ -2355,7 +2355,7 @@ const sections = [
 						logoRasterHeight: Number(fd.get('logoRasterHeight')),
 						defaultOgImage: fd.get('defaultOgImage'),
 						heroImage: fd.get('heroImage'),
-						themeaccent: fd.get('themeaccent'),
+						themvanguardcent: fd.get('themvanguardcent'),
 						themeBg: fd.get('themeBg'),
 						themeSoft: fd.get('themeSoft'),
 						themeDeep: fd.get('themeDeep'),
@@ -2407,7 +2407,7 @@ const sections = [
 								if (el && 'value' in el) el.value = String(value);
 							};
 							// Hydrate from what was actually written (truthful permanence)
-							Object.keys(brand).foreach((k) => {
+							Object.keys(brand).forEach((k) => {
 								if (k === 'keywords' || k === 'platforms' || k === 'sitemapImages' || k === 'tokenRequired') {
 									return;
 								}

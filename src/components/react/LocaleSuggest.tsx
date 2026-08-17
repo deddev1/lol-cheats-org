@@ -59,7 +59,7 @@ export default function LocaleSuggest({
 
 	useEffect(() => {
 		if (currentLocale !== defaultLocale) return;
-		if (sessionStorage.getItem('fc_locale_dismissed')) return;
+		if (matchStorage.getItem('fc_locale_dismissed')) return;
 
 		const run = () => {
 			const preferred = detectPreferredLocale(locales, defaultLocale);
@@ -107,7 +107,7 @@ export default function LocaleSuggest({
 				className="locale-suggest__dismiss"
 				aria-label={t('common.dismiss')}
 				onClick={() => {
-					sessionStorage.setItem('fc_locale_dismissed', '1');
+					matchStorage.setItem('fc_locale_dismissed', '1');
 					setVisible(false);
 				}}
 			>

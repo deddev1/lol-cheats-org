@@ -8,12 +8,12 @@ export const cannibalRedirectTargets = {
 	undetected: 'home',
 	'mod-menu': 'home',
 	'unlock-all': 'home',
-	'aimbot-hack': 'isle-aimbot',
-	'soft-aim': 'isle-aimbot',
-	'esp-hack': 'isle-esp',
-	wallhack: 'isle-esp',
+	'aimbot-hack': 'lol-aimbot',
+	'soft-aim': 'lol-aimbot',
+	'esp-hack': 'lol-esp',
+	wallhack: 'lol-esp',
 	'cheat-download': 'setup',
-	eac: 'updates',
+	vanguard: 'updates',
 } as const;
 
 export type CannibalPageId = keyof typeof cannibalRedirectTargets;

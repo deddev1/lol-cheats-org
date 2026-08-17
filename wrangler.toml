@@ -1,15 +1,15 @@
-# CI Workers Builds project name (repo: the-isle-hacks-.org → Worker: the-isle-hacks--org)
-name = "theislehacks"
+# CI Workers Builds project name (repo: lol-cheats-.org → Worker: lol-cheats--org)
+name = "lolcheats"
 compatibility_date = "2026-01-01"
 main = "src/worker.ts"
 
 # Attach apex + www to this Worker on deploy (Cloudflare creates proxied DNS when the zone is on the account).
 [[routes]]
-pattern = "theislehacks.org"
+pattern = "lolcheats.org"
 custom_domain = true
 
 [[routes]]
-pattern = "www.theislehacks.org"
+pattern = "www.lolcheats.org"
 custom_domain = true
 
 # Local/CLI deploy: Wrangler runs this before upload. Workers Builds also uses postinstall.

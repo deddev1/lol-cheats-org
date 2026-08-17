@@ -19,9 +19,9 @@ function HomeAboutInner() {
 					{t('home.aboutP2Before')}{' '}
 					<a href="/">{t('home.aboutPillar')}</a>
 					{t('home.aboutP2Mid')}
-					<a href="/isle-esp/">{t('home.aboutEsp')}</a>
+					<a href="/lol-esp/">{t('home.aboutEsp')}</a>
 					{t('home.aboutP2Mid')}
-					<a href="/isle-aimbot/">{t('home.aboutAimbot')}</a>
+					<a href="/lol-aimbot/">{t('home.aboutAimbot')}</a>
 					{t('home.aboutP2Or')}
 					<a href="/updates/">{t('home.aboutUndetected')}</a>
 					{t('home.aboutP2After')}

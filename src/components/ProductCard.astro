@@ -1,5 +1,5 @@
 ---
-import { isleImages } from '../data/isle';
+import { lolImages } from '../data/lol';
 import { getUi } from '../data/i18n';
 import { defaultLocale, type LocaleCode } from '../data/i18n/locales';
 import { productInfo, siteConfig } from '../data/site';
@@ -20,12 +20,12 @@ const productAlts = [
 	ui.images.espWallhack,
 	ui.images.aimbotCombat,
 	ui.images.headerArt,
-	ui.images.dinoEsp,
-	ui.images.packFight,
-	ui.images.hacksPackage,
+	ui.images.champEsp,
+	ui.images.teamFight,
+	ui.images.cheatsPackage,
 ] as const;
 
-const mainImage = isleImages.product[0];
+const mainImage = lolImages.product[0];
 const mainAlt = productAlts[0] ?? mainImage.alt;
 const monthlyPlan = productInfo.plans.find((plan) => plan.id === 'monthly') ?? productInfo.plans[0];
 ---

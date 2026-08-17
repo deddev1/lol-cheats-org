@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import { getUi } from '../data/i18n';
 import { getLocalizedPath, resolvePageContextFromPath, type PageId } from '../data/i18n/routing';
-import { isleImages } from '../data/isle';
+import { lolImages } from '../data/lol';
 import {
 	heroPreloadSrc,
 	heroSizes,
@@ -54,9 +54,9 @@ const {
 	heading,
 	intro,
 	eyebrow,
-	heroImage = isleImages.hero,
+	heroImage = lolImages.hero,
 	heroAlt,
-	gallery = isleImages.product.slice(0, 3),
+	gallery = lolImages.product.slice(0, 3),
 	galleryTitle,
 	ctaPrimary,
 	ctaSecondary,
@@ -74,7 +74,7 @@ const t = getT(locale);
 const resolvedHeroAlt =
 	(heroAlt && heroAlt.trim()) ||
 	t('images.hero') ||
-	`${siteConfig.name} — The Isle ESP and aimbot`;
+	`${siteConfig.name} — League of Legends ESP and aimbot`;
 const resolvedGalleryTitle = galleryTitle ?? t('common.inGameLook');
 
 function resolvePageId(path: string): PageId | undefined {
@@ -102,9 +102,9 @@ const breadcrumbs = [
 ];
 
 const useHomeHero =
-	heroImage === isleImages.hero ||
+	heroImage === lolImages.hero ||
 	heroImage === siteConfig.defaultOgImage ||
-	heroImage.includes('isle-hacks-hero');
+	heroImage.includes('lol-cheats-hero');
 ---
 
 <Layout

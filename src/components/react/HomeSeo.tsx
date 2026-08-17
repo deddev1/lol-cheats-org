@@ -17,9 +17,9 @@ function HomeSeoInner({ faqs }: Props) {
 			hintKey: 'homeSeo.catFeaturesHint',
 			links: [
 				{ href: '/features/', labelKey: 'homeSeo.linkAllFeatures' },
-				{ href: '/isle-esp/', labelKey: 'homeSeo.linkEsp' },
-				{ href: '/isle-aimbot/', labelKey: 'homeSeo.linkAimbot' },
-				{ href: '/isle-radar-hack/', labelKey: 'homeSeo.linkRadar' },
+				{ href: '/lol-esp/', labelKey: 'homeSeo.linkEsp' },
+				{ href: '/lol-aimbot/', labelKey: 'homeSeo.linkAimbot' },
+				{ href: '/lol-radar-hack/', labelKey: 'homeSeo.linkRadar' },
 			],
 		},
 		{
@@ -38,7 +38,7 @@ function HomeSeoInner({ faqs }: Props) {
 			links: [
 				{ href: '/pricing/', labelKey: 'homeSeo.linkPlans' },
 				{ href: '/reviews/', labelKey: 'homeSeo.linkReviews' },
-				{ href: '/', labelKey: 'homeSeo.linkThe IsleCheats' },
+				{ href: '/', labelKey: 'homeSeo.linkLeague of LegendsCheats' },
 				{ href: '/features/', labelKey: 'homeSeo.linkAllFeatures' },
 			],
 		},

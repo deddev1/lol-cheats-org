@@ -16,15 +16,15 @@ export type GuideCta = {
 export const externalUrls = {
 	steam: brand.gameUrl,
 	steamNews: 'https://store.steampowered.com/app/376210/news/',
-	officialSite: 'https://www.survivetheisle.com/',
-	wiki: 'https://isle.fandom.com/wiki/The_Isle',
+	officialSite: 'https://www.survivethelol.com/',
+	wiki: 'https://lol.fandom.com/wiki/The_LoL',
 	steamCommunity: 'https://steamcommunity.com/app/376210',
 } as const;
 
 /** Authoritative third-party guides — cite official game sources for readers and search engines. */
 export const externalResources: ExternalResource[] = [
 	{
-		label: 'The Isle on Steam',
+		label: 'League of Legends on Riot Client',
 		href: externalUrls.steam,
 		note: 'Official store page, system requirements, and player reviews.',
 	},
@@ -34,14 +34,14 @@ export const externalResources: ExternalResource[] = [
 		note: 'Read official update posts before you change your loadout.',
 	},
 	{
-		label: 'Official The Isle website',
+		label: 'Official League of Legends website',
 		href: externalUrls.officialSite,
 		note: 'Game overview from Afterthought LLC.',
 	},
 	{
-		label: 'The Isle Wiki (Fandom)',
+		label: 'League of Legends Wiki (Fandom)',
 		href: externalUrls.wiki,
-		note: 'Dinosaur stats, maps, and survival mechanics.',
+		note: 'Champion stats, maps, and survival mechanics.',
 	},
 	{
 		label: 'Steam Community hub',
@@ -52,9 +52,9 @@ export const externalResources: ExternalResource[] = [
 
 /** Compact above-the-fold guide links for blogs and page banners. */
 export const featuredGuidePills: GuideCta[] = [
-	{ label: 'The Isle on Steam', href: externalUrls.steam },
+	{ label: 'League of Legends on Riot Client', href: externalUrls.steam },
 	{ label: 'Official patch notes', href: externalUrls.steamNews },
-	{ label: 'The Isle Wiki', href: externalUrls.wiki },
+	{ label: 'League of Legends Wiki', href: externalUrls.wiki },
 ];
 
 /**
@@ -64,25 +64,25 @@ export const featuredGuidePills: GuideCta[] = [
 export const externalSecondaryByPageId: Partial<Record<PageId, GuideCta>> = {
 	features: { label: 'Official patch notes', href: externalUrls.steamNews },
 	updates: { label: 'Steam patch notes', href: externalUrls.steamNews },
-	hacks: { label: 'The Isle Wiki', href: externalUrls.wiki },
-	'isle-esp': { label: 'The Isle Wiki', href: externalUrls.wiki },
-	'isle-aimbot': { label: 'The Isle Wiki', href: externalUrls.wiki },
-	radar: { label: 'The Isle Wiki', href: externalUrls.wiki },
+	hacks: { label: 'League of Legends Wiki', href: externalUrls.wiki },
+	'lol-esp': { label: 'League of Legends Wiki', href: externalUrls.wiki },
+	'lol-aimbot': { label: 'League of Legends Wiki', href: externalUrls.wiki },
+	radar: { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	setup: { label: 'Official game site', href: externalUrls.officialSite },
 	support: { label: 'Steam Community', href: externalUrls.steamCommunity },
-	faq: { label: 'The Isle Wiki', href: externalUrls.wiki },
+	faq: { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	undetected: { label: 'Steam patch notes', href: externalUrls.steamNews },
-	wallhack: { label: 'The Isle Wiki', href: externalUrls.wiki },
-	eac: { label: 'Steam patch notes', href: externalUrls.steamNews },
-	'cheats-2026': { label: 'The Isle on Steam', href: externalUrls.steam },
+	wallhack: { label: 'League of Legends Wiki', href: externalUrls.wiki },
+	vanguard: { label: 'Steam patch notes', href: externalUrls.steamNews },
+	'cheats-2026': { label: 'League of Legends on Riot Client', href: externalUrls.steam },
 	'cheat-download': { label: 'Official game site', href: externalUrls.officialSite },
-	'mod-menu': { label: 'The Isle Wiki', href: externalUrls.wiki },
-	'soft-aim': { label: 'The Isle Wiki', href: externalUrls.wiki },
+	'mod-menu': { label: 'League of Legends Wiki', href: externalUrls.wiki },
+	'soft-aim': { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	'best-cheats': { label: 'Steam Community', href: externalUrls.steamCommunity },
-	'aimbot-hack': { label: 'The Isle Wiki', href: externalUrls.wiki },
-	'esp-hack': { label: 'The Isle Wiki', href: externalUrls.wiki },
+	'aimbot-hack': { label: 'League of Legends Wiki', href: externalUrls.wiki },
+	'esp-hack': { label: 'League of Legends Wiki', href: externalUrls.wiki },
 	'unlock-all': { label: 'Official game site', href: externalUrls.officialSite },
-	pricing: { label: 'The Isle on Steam', href: externalUrls.steam },
+	pricing: { label: 'League of Legends on Riot Client', href: externalUrls.steam },
 };
 
 export function getExternalSecondaryCta(pageId: PageId): GuideCta | undefined {

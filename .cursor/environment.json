@@ -1,10 +1,10 @@
 {
-  "name": "The Isle Hacks",
+  "name": "League of Legends Hacks",
   "install": "npm ci && npm run build",
   "start": "npm run localhost",
   "ports": [
     {
-      "name": "The Isle Hacks site",
+      "name": "League of Legends Hacks site",
       "port": 5173
     }
   ],

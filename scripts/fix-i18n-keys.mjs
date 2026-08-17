@@ -8,34 +8,34 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SRC = path.resolve(ROOT, '..', 'amansand');
 
 const UI_REPLACEMENTS = [
-	['The Isle Hacks', 'The Isle Hacks'],
-	['the isle hacks', 'the isle hacks'],
-	['The Isle Hacks', 'The Isle Hacks'],
-	['The Isle', 'The Isle'],
-	['The Isle', 'The Isle'],
-	['Call of Duty', 'The Isle'],
-	['The Isle PC', 'The Isle PC'],
-	['for The Isle', 'for The Isle'],
-	['The Isle ', 'The Isle '],
-	['isle ', 'isle '],
-	['Easy Anti-Cheat maintenance', 'Easy Anti-Cheat maintenance'],
-	['Easy Anti-Cheat', 'Easy Anti-Cheat'],
-	['Easy Anti-Cheat', 'Easy Anti-Cheat'],
-	['operatorEsp', 'dinoEsp'],
-	['extractFight', 'ambushFight'],
-	['alMazrah', 'survivalIsland'],
-	['players', 'players'],
+	['League of Legends Hacks', 'League of Legends Hacks'],
+	['lol cheats', 'lol cheats'],
+	['League of Legends Hacks', 'League of Legends Hacks'],
+	['League of Legends', 'League of Legends'],
+	['League of Legends', 'League of Legends'],
+	['Call of Duty', 'League of Legends'],
+	['League of Legends PC', 'League of Legends PC'],
+	['for League of Legends', 'for League of Legends'],
+	['League of Legends ', 'League of Legends '],
+	['lol ', 'lol '],
+	['Vanguard maintenance', 'Vanguard maintenance'],
+	['Vanguard', 'Vanguard'],
+	['Vanguard', 'Vanguard'],
+	['operatorEsp', 'champEsp'],
+	['extractFight', 'teamfight'],
+	['alMazrah', 'summonersRift'],
+	['champions', 'champions'],
 	['operator', 'player'],
-	['players', 'Players'],
+	['champions', 'Players'],
 	['Operator', 'Player'],
 	['Al Mazrah', 'Verdansk'],
 	['Verdansk', 'Verdansk'],
-	['growth run', 'growth run'],
+	['ARAM game', 'ARAM game'],
 	['extract', 'extract'],
-	['theislehacks.org', 'theislehacks.org'],
-	['Trucos The Isle', 'Trucos The Isle'],
-	['Triches The Isle', 'Triches The Isle'],
-	['Cheats The Isle', 'Cheats The Isle'],
+	['lolcheats.org', 'lolcheats.org'],
+	['Trucos League of Legends', 'Trucos League of Legends'],
+	['Triches League of Legends', 'Triches League of Legends'],
+	['Cheats League of Legends', 'Cheats League of Legends'],
 ];
 
 function apply(content) {
@@ -52,18 +52,18 @@ for (const file of ['ui-strings-part1.mjs', 'ui-strings-part2.mjs']) {
 	console.log('Fixed', file);
 }
 
-// Fix pages-en eac key
+// Fix pages-en vanguard key
 let pagesEn = await readFile(path.join(ROOT, 'scripts/i18n-data/pages-en.mjs'), 'utf8');
-pagesEn = pagesEn.replace(/\teac: \{/, "\t'eac': {");
-pagesEn = pagesEn.replace(/The Isle The Isle/g, 'The Isle');
-pagesEn = pagesEn.replace(/for The Isle The Isle/g, 'for The Isle');
+pagesEn = pagesEn.replace(/\tvanguard: \{/, "\t'vanguard': {");
+pagesEn = pagesEn.replace(/League of Legends League of Legends/g, 'League of Legends');
+pagesEn = pagesEn.replace(/for League of Legends League of Legends/g, 'for League of Legends');
 await writeFile(path.join(ROOT, 'scripts/i18n-data/pages-en.mjs'), pagesEn);
 
 // Fix pages-i18n
 let pagesI18n = await readFile(path.join(ROOT, 'scripts/i18n-data/pages-i18n.mjs'), 'utf8');
 pagesI18n = apply(pagesI18n);
-pagesI18n = pagesI18n.replace(/'eac'/g, "'eac'");
-pagesI18n = pagesI18n.replace(/eac:/g, "'eac':");
+pagesI18n = pagesI18n.replace(/'vanguard'/g, "'vanguard'");
+pagesI18n = pagesI18n.replace(/vanguard:/g, "'vanguard':");
 await writeFile(path.join(ROOT, 'scripts/i18n-data/pages-i18n.mjs'), pagesI18n);
 
 // Fix generate-i18n pages count

@@ -1,5 +1,5 @@
 ---
-import { isleImages } from '../data/isle';
+import { lolImages } from '../data/lol';
 import { getUi } from '../data/i18n';
 import { getGalleryUi } from '../data/i18n/gallery-ui';
 import { defaultLocale, type LocaleCode } from '../data/i18n/locales';
@@ -14,14 +14,14 @@ const ui = getUi(locale);
 const gallery = getGalleryUi(locale);
 
 const galleryAlts = [
-	ui.images.hacksPackage,
+	ui.images.cheatsPackage,
 	ui.images.espWallhack,
 	ui.images.aimbotCombat,
 	ui.images.headerArt,
-	ui.images.packFight,
+	ui.images.teamFight,
 ] as const;
 
-const galleryImages = isleImages.gallery.slice(0, 4).map((image, index) => ({
+const galleryImages = lolImages.gallery.slice(0, 4).map((image, index) => ({
 	src: image.src,
 	alt: galleryAlts[index] ?? image.alt,
 }));

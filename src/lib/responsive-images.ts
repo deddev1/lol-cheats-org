@@ -41,14 +41,14 @@ export function contentSrcSet(baseSrc: string): string | undefined {
  * Homepage / banner hero — wide banner (~3.15:1); LCP src is the 1024w WebP variant.
  */
 export const heroResponsive: ResponsiveWidth[] = [
-	{ src: '/images/isle-hacks-hero-640w.webp', width: 640 },
-	{ src: '/images/isle-hacks-hero-1024w.webp', width: 1024 },
+	{ src: '/images/lol-cheats-hero-640w.webp', width: 640 },
+	{ src: '/images/lol-cheats-hero-1024w.webp', width: 1024 },
 ];
 
 export const heroDesktopResponsive: ResponsiveWidth[] = heroResponsive;
 
 /** Default LCP src — mid ladder WebP. */
-export const heroSrc = '/images/isle-hacks-hero-1024w.webp';
+export const heroSrc = '/images/lol-cheats-hero-1024w.webp';
 export const heroSrcSet = buildSrcSet(heroResponsive);
 export const heroSizes = '100vw';
 
@@ -65,7 +65,7 @@ export const contentWidths = [480, 960] as const;
 
 /** Canonical screenshot path — responsive variants use -480w / -960w suffixes. */
 export function screenshotSrc(n: number): string {
-	return `/images/isle-screenshot-${String(n).padStart(2, '0')}.webp`;
+	return `/images/lol-screenshot-${String(n).padStart(2, '0')}.webp`;
 }
 
 export const galleryFeaturedSizes = '(max-width: 560px) 100vw, (max-width: 900px) 90vw, 640px';

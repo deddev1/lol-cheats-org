@@ -1,6 +1,6 @@
 /**
- * SVG overlay generators for the isle hacks marketing images.
- * Composited on top of IGN The Isle gameplay screenshots.
+ * SVG overlay generators for lol cheats marketing images.
+ * Composited on top of IGN League of Legends gameplay screenshots.
  */
 
 const PURPLE = '#c084fc';
@@ -154,7 +154,7 @@ export function buildOverlaySvg(width, height, preset) {
 			body += espBox(width * 0.42, height * 0.28, width * 0.14, height * 0.38, 'Gulag · 12m', RED, snap);
 			body += aimbotOverlay(width, height);
 			break;
-		case 'growth run':
+		case 'ARAM game':
 			body += espBox(width * 0.25, height * 0.3, width * 0.1, height * 0.26, 'Squad · 44m', RED, snap);
 			body += espBox(width * 0.58, height * 0.35, width * 0.09, height * 0.22, 'Squad · 71m', RED, snap);
 			body += radarOverlay(width, height);
@@ -162,7 +162,7 @@ export function buildOverlaySvg(width, height, preset) {
 		case 'loot':
 			body += espBox(width * 0.3, height * 0.45, width * 0.07, height * 0.09, 'Loadout · 28m', GREEN);
 			body += espBox(width * 0.55, height * 0.38, width * 0.06, height * 0.08, 'Contract · 55m', GREEN);
-			body += espBox(width * 0.68, height * 0.52, width * 0.06, height * 0.08, 'growth timer · 103m', '#fbbf24');
+			body += espBox(width * 0.68, height * 0.52, width * 0.06, height * 0.08, 'respawn timer · 103m', '#fbbf24');
 			body += espBox(width * 0.44, height * 0.22, width * 0.09, height * 0.24, 'Operator · 88m', RED, snap);
 			break;
 		case 'map':

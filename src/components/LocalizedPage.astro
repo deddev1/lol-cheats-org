@@ -5,7 +5,7 @@ import { getLocalizedPath, localizeInternalHref } from '../data/i18n/routing';
 import type { LocaleCode } from '../data/i18n/locales';
 import { productInfo, seoFaqs, siteConfig } from '../data/site';
 import { absoluteFaqUrl, getFaqPath } from '../data/faq';
-import { isleImages } from '../data/isle';
+import { lolImages } from '../data/lol';
 import { simplePageCopy } from '../data/i18n/simple-pages';
 import { getT } from '../i18n/server';
 import { getPageCrawlImage } from '../data/page-images';
@@ -49,7 +49,7 @@ const introEditByPage: Partial<Record<PageId, string>> = {
 const introEdit = locale === 'en' ? introEditByPage[pageId] : undefined;
 const gallery = [
 	{ src: crawl.src, alt: page.imageAlt || crawl.caption },
-	...isleImages.product.slice(0, 2).map((img) => ({
+	...lolImages.product.slice(0, 2).map((img) => ({
 		src: img.src,
 		alt: img.alt,
 	})),
@@ -92,8 +92,8 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 	pricing: ui.nav.pricing,
 	updates: ui.nav.updates,
 	hacks: locale === 'en' ? t('nav.preview') : ui.nav.hacks,
-	'isle-esp': ui.nav.esp,
-	'isle-aimbot': ui.nav.aimbot,
+	'lol-esp': ui.nav.esp,
+	'lol-aimbot': ui.nav.aimbot,
 	radar: 'Radar',
 	setup: ui.nav.setup,
 	faq: ui.nav.faq,

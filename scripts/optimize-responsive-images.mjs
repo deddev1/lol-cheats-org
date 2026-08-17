@@ -12,18 +12,18 @@ const CONTENT_WIDTHS = [480, 960];
 
 const SKIP_PATTERNS = [
 	/-\d+w\.webp$/i,
-	/isle-hacks-logo/i,
+	/lol-cheats-logo/i,
 	/favicon/i,
 ];
 
 async function optimizeHero() {
-	const source = path.join(imagesDir, 'isle-esp-player-tags.webp');
+	const source = path.join(imagesDir, 'lol-esp-player-tags.webp');
 	const meta = await sharp(source).metadata();
 	const results = [];
 
 	for (const width of HERO_WIDTHS) {
 		if (meta.width && width > meta.width) continue;
-		const file = `isle-esp-player-tags-${width}w.webp`;
+		const file = `lol-esp-player-tags-${width}w.webp`;
 		const dest = path.join(imagesDir, file);
 		const quality = width <= 480 ? 56 : width <= 640 ? 70 : 78;
 		const buffer = await sharp(source)
@@ -44,7 +44,7 @@ async function optimizeContentImages() {
 		(file) =>
 			file.endsWith('.webp') &&
 			!SKIP_PATTERNS.some((pattern) => pattern.test(file)) &&
-			file !== 'isle-esp-player-tags.webp',
+			file !== 'lol-esp-player-tags.webp',
 	);
 
 	const results = [];

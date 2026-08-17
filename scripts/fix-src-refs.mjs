@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Final pass: fix remaining The Isle references in src/. */
+/** Final pass: fix remaining League of Legends references in src/. */
 import { readFile, writeFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -8,30 +8,30 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 's
 const REMOVE_PAGE_IDS = ['hacks', 'cheat-download', 'mod-menu', 'soft-aim', 'best-cheats', 'aimbot-hack', 'esp-hack', 'unlock-all'];
 
 const REPLACEMENTS = [
-	['isleImages', 'isleImages'],
-	["from '../data/isle'", "from '../data/isle'"],
-	["from './isle'", "from './isle'"],
-	['/undetected-isle-hacks/', '/undetected-isle-hacks/'],
-	['/isle-wallhack/', '/isle-wallhack/'],
-	['/isle-radar-hack/', '/isle-radar-hack/'],
-	['/eac-bypass/', '/eac-bypass/'],
-	['/isle-hacks-2026/', '/isle-hacks-2026/'],
-	['/isle-aimbot/', '/isle-aimbot/'],
-	['/isle-esp/', '/isle-esp/'],
-	['/the-isle-hacks/', '/isle-esp/'],
-	['The Isle Hacks', 'The Isle Hacks'],
-	['the isle hacks', 'the isle hacks'],
-	['isle wallhack', 'The Isle wallhack'],
-	['isle radar', 'The Isle radar'],
-	['Isle Aimbot', 'The Isle Aimbot'],
-	['Isle ESP', 'The Isle ESP'],
-	['The Isle', 'The Isle'],
-	['Easy Anti-Cheat', 'Easy Anti-Cheat'],
-	['eac', 'eac'],
-	['theislehacks.org', 'theislehacks.org'],
-	['operatorEsp', 'dinoEsp'],
-	['extractFight', 'ambushFight'],
-	['alMazrah', 'survivalIsland'],
+	['lolImages', 'lolImages'],
+	["from '../data/lol'", "from '../data/lol'"],
+	["from './lol'", "from './lol'"],
+	['/undetected-lol-cheats/', '/undetected-lol-cheats/'],
+	['/lol-wallhack/', '/lol-wallhack/'],
+	['/lol-radar-hack/', '/lol-radar-hack/'],
+	['/vanguard-bypass/', '/vanguard-bypass/'],
+	['/lol-cheats-2026/', '/lol-cheats-2026/'],
+	['/lol-aimbot/', '/lol-aimbot/'],
+	['/lol-esp/', '/lol-esp/'],
+	['/lol-cheats/', '/lol-esp/'],
+	['League of Legends Hacks', 'League of Legends Hacks'],
+	['lol cheats', 'lol cheats'],
+	['lol wallhack', 'League of Legends wallhack'],
+	['lol radar', 'League of Legends radar'],
+	['LoL Aimbot', 'League of Legends Aimbot'],
+	['LoL ESP', 'League of Legends ESP'],
+	['League of Legends', 'League of Legends'],
+	['Vanguard', 'Vanguard'],
+	['vanguard', 'vanguard'],
+	['lolcheats.org', 'lolcheats.org'],
+	['operatorEsp', 'champEsp'],
+	['extractFight', 'teamfight'],
+	['alMazrah', 'summonersRift'],
 ];
 
 async function walk(dir, files = []) {

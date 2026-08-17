@@ -4,11 +4,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'Correo al soporte',
 		readTerms: 'Leer términos',
 		readPrivacy: 'Leer privacidad',
-		introTopic: 'para theislehacks.org y licencias de The Isle.',
-		descFor: 'para The Isle Hacks — ESP wallhack, Aimbot',
+		introTopic: 'para lolcheats.org y licencias de League of Legends.',
+		descFor: 'parLeague of Legends Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Información que recopilamos', 'Cómo usamos los datos', 'Tus derechos'],
-			sec1p2: 'Los datos de pago se procesan en el checkout de Zadeyo — no se almacenan en theislehacks.org.',
+			sec1p2: 'Los datos de pago se procesan en el checkout de Zadeyo — no se almacenan en lolcheats.org.',
 			sec2p1: 'Respuestas de soporte, resolución de pedidos y cumplimiento legal cuando sea necesario.',
 		},
 		refund: {
@@ -16,7 +16,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['Aceptación de términos', 'Aviso de riesgos', 'Cambios de política'],
-			sec2p2: 'Usar cheats puede violar los términos del equipo de The Isle — asumes todo riesgo de ban.',
+			sec2p2: 'Usar cheats puede violar los términos del equipo de League of Legends — asumes todo riesgo de ban.',
 		},
 		sec1p1: 'Correo de contacto, referencias de pedido Zadeyo y datos básicos de seguridad del sitio.',
 		emailLabel: 'Correo:',
@@ -25,11 +25,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'Contacter le support',
 		readTerms: 'Lire les conditions',
 		readPrivacy: 'Lire la confidentialité',
-		introTopic: 'pour theislehacks.org et les licences The Isle.',
-		descFor: 'pour The Isle Hacks — ESP wallhack, Aimbot',
+		introTopic: 'pour lolcheats.org et les licences League of Legends.',
+		descFor: 'pour League of Legends Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informations collectées', 'Utilisation des données', 'Vos droits'],
-			sec1p2: 'Les détails de paiement sont traités par le checkout Zadeyo — non stockés sur theislehacks.org.',
+			sec1p2: 'Les détails de paiement sont traités par le checkout Zadeyo — non stockés sur lolcheats.org.',
 			sec2p1: 'Réponses du support, résolution des commandes et conformité légale si requis.',
 		},
 		refund: {
@@ -37,7 +37,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['Acceptation des conditions', 'Avertissement sur les risques', 'Modifications'],
-			sec2p2: 'Utiliser des cheats peut enfreindre les conditions de l\'équipe The Isle — vous assumez tout risque de bannissement.',
+			sec2p2: 'Utiliser des cheats peut enfreindre les conditions de l\'équipe League of Legends — vous assumez tout risque de bannissement.',
 		},
 		sec1p1: 'E-mail de contact, références de commande Zadeyo et données de sécurité de base du site.',
 		emailLabel: 'E-mail :',
@@ -46,11 +46,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'Support per E-Mail',
 		readTerms: 'Nutzungsbedingungen',
 		readPrivacy: 'Datenschutz lesen',
-		introTopic: 'für theislehacks.org und The Isle-Lizenzen.',
-		descFor: 'für The Isle Hacks — ESP wallhack, Aimbot',
+		introTopic: 'für lolcheats.org und League of Legends-Lizenzen.',
+		descFor: 'für League of Legends Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Erhobene Daten', 'Datennutzung', 'Ihre Rechte'],
-			sec1p2: 'Zahlungsdaten werden über Zadeyo-Checkout verarbeitet — nicht auf theislehacks.org gespeichert.',
+			sec1p2: 'Zahlungsdaten werden über Zadeyo-Checkout verarbeitet — nicht auf lolcheats.org gespeichert.',
 			sec2p1: 'Support-Antworten, Auftragsabwicklung und rechtliche Compliance bei Bedarf.',
 		},
 		refund: {
@@ -58,7 +58,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['Annahme der Bedingungen', 'Risikohinweis', 'Richtlinienänderungen'],
-			sec2p2: 'Cheats können gegen die Nutzungsbedingungen des The Isle Teams verstoßen — Sie tragen das volle Ban-Risiko.',
+			sec2p2: 'Cheats können gegen die Nutzungsbedingungen des League of Legends Teams verstoßen — Sie tragen das volle Ban-Risiko.',
 		},
 		sec1p1: 'Kontakt-E-Mail, Zadeyo-Bestellreferenzen und grundlegende Sicherheitsdaten der Website.',
 		emailLabel: 'E-Mail:',
@@ -67,11 +67,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'E-mail ao suporte',
 		readTerms: 'Ler termos',
 		readPrivacy: 'Ler privacidade',
-		introTopic: 'para theislehacks.org e licenças The Isle.',
-		descFor: 'para The Isle Hacks — ESP wallhack, Aimbot',
+		introTopic: 'para lolcheats.org e licenças League of Legends.',
+		descFor: 'parLeague of Legends Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informações que coletamos', 'Como usamos os dados', 'Seus direitos'],
-			sec1p2: 'Detalhes de pagamento são processados pelo checkout Zadeyo — não armazenados em theislehacks.org.',
+			sec1p2: 'Detalhes de pagamento são processados pelo checkout Zadeyo — não armazenados em lolcheats.org.',
 			sec2p1: 'Respostas de suporte, resolução de pedidos e conformidade legal quando necessário.',
 		},
 		refund: {
@@ -79,7 +79,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['Aceitação dos termos', 'Aviso de risco', 'Alterações de política'],
-			sec2p2: 'Usar cheats pode violar os termos da equipe The Isle — você assume todo risco de ban.',
+			sec2p2: 'Usar cheats pode violar os termos da equipe League of Legends — você assume todo risco de ban.',
 		},
 		sec1p1: 'E-mail de contato, referências de pedido Zadeyo e dados básicos de segurança do site.',
 		emailLabel: 'E-mail:',
@@ -88,11 +88,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'Email al supporto',
 		readTerms: 'Leggi i termini',
 		readPrivacy: 'Leggi la privacy',
-		introTopic: 'per theislehacks.org e licenze The Isle.',
-		descFor: 'per The Isle Hacks — ESP wallhack, Aimbot',
+		introTopic: 'per lolcheats.org e licenze League of Legends.',
+		descFor: 'per League of Legends Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informazioni raccolte', 'Uso dei dati', 'I tuoi diritti'],
-			sec1p2: 'I dati di pagamento sono elaborati dal checkout Zadeyo — non memorizzati su theislehacks.org.',
+			sec1p2: 'I dati di pagamento sono elaborati dal checkout Zadeyo — non memorizzati su lolcheats.org.',
 			sec2p1: 'Risposte di supporto, risoluzione ordini e conformità legale quando richiesto.',
 		},
 		refund: {
@@ -100,7 +100,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['Accettazione dei termini', 'Avviso sui rischi', 'Modifiche alla policy'],
-			sec2p2: 'Usare cheat può violare i termini del team The Isle — assumi tutto il rischio di ban.',
+			sec2p2: 'Usare cheat può violare i termini del team League of Legends — assumi tutto il rischio di ban.',
 		},
 		sec1p1: 'Email di contatto, riferimenti ordine Zadeyo e dati di sicurezza di base del sito.',
 		emailLabel: 'Email:',
@@ -109,11 +109,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'E-mail support',
 		readTerms: 'Voorwaarden lezen',
 		readPrivacy: 'Privacy lezen',
-		introTopic: 'voor theislehacks.org en The Isle-licenties.',
-		descFor: 'voor The Isle Hacks — ESP wallhack, Aimbot',
+		introTopic: 'voor lolcheats.org en League of Legends-licenties.',
+		descFor: 'voor League of Legends Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informatie die we verzamelen', 'Hoe we gegevens gebruiken', 'Uw rechten'],
-			sec1p2: 'Betalingsgegevens worden verwerkt via Zadeyo checkout — niet opgeslagen op theislehacks.org.',
+			sec1p2: 'Betalingsgegevens worden verwerkt via Zadeyo checkout — niet opgeslagen op lolcheats.org.',
 			sec2p1: 'Supportreacties, orderafhandeling en wettelijke naleving indien vereist.',
 		},
 		refund: {
@@ -121,7 +121,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['Acceptatie van voorwaarden', 'Risicowaarschuwing', 'Beleidswijzigingen'],
-			sec2p2: 'Cheats gebruiken kan in strijd zijn met de voorwaarden van het The Isle team — u neemt alle ban-risico\'s op u.',
+			sec2p2: 'Cheats gebruiken kan in strijd zijn met de voorwaarden van het Riot Games — u neemt alle ban-risico\'s op u.',
 		},
 		sec1p1: 'Contact-e-mail, Zadeyo-orderreferenties en basisbeveiligingsgegevens van de site.',
 		emailLabel: 'E-mail:',
@@ -130,11 +130,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'E-mail do supportu',
 		readTerms: 'Przeczytaj warunki',
 		readPrivacy: 'Przeczytaj politykę prywatności',
-		introTopic: 'dla theislehacks.org i licencji The Isle.',
-		descFor: 'dla The Isle Hacks — ESP wallhack, Aimbot',
+		introTopic: 'dla lolcheats.org i licencji League of Legends.',
+		descFor: 'dlLeague of Legends Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informacje, które zbieramy', 'Jak wykorzystujemy dane', 'Twoje prawa'],
-			sec1p2: 'Dane płatności są przetwarzane przez checkout Zadeyo — nie przechowywane na theislehacks.org.',
+			sec1p2: 'Dane płatności są przetwarzane przez checkout Zadeyo — nie przechowywane na lolcheats.org.',
 			sec2p1: 'Odpowiedzi wsparcia, rozwiązywanie zamówień i zgodność prawna w razie potrzeby.',
 		},
 		refund: {
@@ -142,7 +142,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['Akceptacja warunków', 'Ostrzeżenie o ryzyku', 'Zmiany polityki'],
-			sec2p2: 'Korzystanie z cheatów może naruszać warunki zespołu The Isle — bierzesz na siebie ryzyko bana.',
+			sec2p2: 'Korzystanie z cheatów może naruszać warunki zespołu League of Legends — bierzesz na siebie ryzyko bana.',
 		},
 		sec1p1: 'E-mail kontaktowy, referencje zamówień Zadeyo i podstawowe dane bezpieczeństwa witryny.',
 		emailLabel: 'E-mail:',
@@ -151,11 +151,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'Написать в поддержку',
 		readTerms: 'Читать условия',
 		readPrivacy: 'Читать политику конфиденциальности',
-		introTopic: 'для theislehacks.org и лицензий The Isle.',
-		descFor: 'для The Isle Hacks — ESP wallhack, Aimbot',
+		introTopic: 'для lolcheats.org и лицензий League of Legends.',
+		descFor: 'для League of Legends Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Информация, которую мы собираем', 'Как мы используем данные', 'Ваши права'],
-			sec1p2: 'Платёжные данные обрабатываются через checkout Zadeyo — не хранятся на theislehacks.org.',
+			sec1p2: 'Платёжные данные обрабатываются через checkout Zadeyo — не хранятся на lolcheats.org.',
 			sec2p1: 'Ответы поддержки, решение заказов и соблюдение законодательства при необходимости.',
 		},
 		refund: {
@@ -163,7 +163,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['Принятие условий', 'Предупреждение о рисках', 'Изменения политики'],
-			sec2p2: 'Использование читов может нарушать условия команды The Isle — вы принимаете на себя риск бана.',
+			sec2p2: 'Использование читов может нарушать условия команды League of Legends — вы принимаете на себя риск бана.',
 		},
 		sec1p1: 'Контактный email, ссылки на заказы Zadeyo и базовые данные безопасности сайта.',
 		emailLabel: 'Email:',
@@ -172,11 +172,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'Destek e-postası',
 		readTerms: 'Şartları oku',
 		readPrivacy: 'Gizliliği oku',
-		introTopic: 'theislehacks.org ve The Isle lisansları için.',
-		descFor: 'The Isle Hacks — ESP wallhack, Aimbot için',
+		introTopic: 'lolcheats.org ve League of Legends lisansları için.',
+		descFor: 'League of Legends Hacks — ESP wallhack, Aimbot için',
 		privacy: {
 			h2: ['Topladığımız bilgiler', 'Verileri nasıl kullanıyoruz', 'Haklarınız'],
-			sec1p2: 'Ödeme bilgileri Zadeyo checkout ile işlenir — theislehacks.org\'da saklanmaz.',
+			sec1p2: 'Ödeme bilgileri Zadeyo checkout ile işlenir — lolcheats.org\'da saklanmaz.',
 			sec2p1: 'Destek yanıtları, sipariş çözümü ve gerektiğinde yasal uyum.',
 		},
 		refund: {
@@ -184,7 +184,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['Şartların kabulü', 'Risk uyarısı', 'Politika değişiklikleri'],
-			sec2p2: 'Hile kullanmak The Isle ekibi şartlarını ihlal edebilir — tüm ban riskini üstlenirsiniz.',
+			sec2p2: 'Hile kullanmak League of Legends ekibi şartlarını ihlal edebilir — tüm ban riskini üstlenirsiniz.',
 		},
 		sec1p1: 'İletişim e-postası, Zadeyo sipariş referansları ve temel site güvenlik verileri.',
 		emailLabel: 'E-posta:',
@@ -193,11 +193,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'مراسلة الدعم',
 		readTerms: 'اقرأ الشروط',
 		readPrivacy: 'اقرأ الخصوصية',
-		introTopic: 'لـ theislehacks.org وتراخيص The Isle.',
-		descFor: 'لـ The Isle Hacks — ESP wallhack, Aimbot',
+		introTopic: 'لـ lolcheats.org وتراخيص League of Legends.',
+		descFor: 'لـ League of Legends Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['المعلومات التي نجمعها', 'كيف نستخدم البيانات', 'حقوقك'],
-			sec1p2: 'تُعالَج تفاصيل الدفع عبر checkout Zadeyo — ولا تُخزَّن على theislehacks.org.',
+			sec1p2: 'تُعالَج تفاصيل الدفع عبر checkout Zadeyo — ولا تُخزَّن على lolcheats.org.',
 			sec2p1: 'ردود الدعم وحل الطلبات والامتثال القانوني عند الحاجة.',
 		},
 		refund: {
@@ -205,7 +205,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['قبول الشروط', 'إخلاء المسؤولية عن المخاطر', 'تغييرات السياسة'],
-			sec2p2: 'استخدام الغش قد ينتهك شروط فريق The Isle — أنت تتحمل كل مخاطر الحظر.',
+			sec2p2: 'استخدام الغش قد ينتهك شروط فريق League of Legends — أنت تتحمل كل مخاطر الحظر.',
 		},
 		sec1p1: 'بريد الاتصال ومراجع طلبات Zadeyo وبيانات أمان الموقع الأساسية.',
 		emailLabel: 'البريد:',
@@ -214,11 +214,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'サポートにメール',
 		readTerms: '利用規約を読む',
 		readPrivacy: 'プライバシーを読む',
-		introTopic: 'theislehacks.orgおよびThe Isleライセンス向け。',
-		descFor: 'The Isle Hacks — ESP wallhack、Aimbot向け',
+		introTopic: 'lolcheats.orgおよびLeague of Legendsライセンス向け。',
+		descFor: 'League of Legends Hacks — ESP wallhack、Aimbot向け',
 		privacy: {
 			h2: ['収集する情報', 'データの利用方法', 'あなたの権利'],
-			sec1p2: '支払い情報はZadeyo checkoutで処理され、theislehacks.orgには保存されません。',
+			sec1p2: '支払い情報はZadeyo checkoutで処理され、lolcheats.orgには保存されません。',
 			sec2p1: 'サポート対応、注文処理、必要時の法的遵守。',
 		},
 		refund: {
@@ -226,7 +226,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['規約への同意', 'リスク免責', 'ポリシー変更'],
-			sec2p2: 'チートの使用はThe Isleチームの利用規約に違反する可能性があり、BANリスクはすべて自己負担です。',
+			sec2p2: 'チートの使用はLeague of Legendsチームの利用規約に違反する可能性があり、BANリスクはすべて自己負担です。',
 		},
 		sec1p1: '連絡メール、Zadeyo注文参照、基本的なサイトセキュリティデータ。',
 		emailLabel: 'メール:',
@@ -235,11 +235,11 @@ export const LEGAL_I18N = {
 		emailSupport: '지원 이메일',
 		readTerms: '이용 약관 읽기',
 		readPrivacy: '개인정보 읽기',
-		introTopic: 'theislehacks.org 및 The Isle 라이선스용.',
-		descFor: 'The Isle Hacks — ESP wallhack, Aimbot용',
+		introTopic: 'lolcheats.org 및 League of Legends 라이선스용.',
+		descFor: 'League of Legends Hacks — ESP wallhack, Aimbot용',
 		privacy: {
 			h2: ['수집하는 정보', '데이터 사용 방법', '귀하의 권리'],
-			sec1p2: '결제 정보는 Zadeyo checkout에서 처리되며 theislehacks.org에 저장되지 않습니다.',
+			sec1p2: '결제 정보는 Zadeyo checkout에서 처리되며 lolcheats.org에 저장되지 않습니다.',
 			sec2p1: '지원 응답, 주문 해결 및 필요 시 법적 준수.',
 		},
 		refund: {
@@ -247,7 +247,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['약관 동의', '위험 고지', '정책 변경'],
-			sec2p2: '치트 사용은 The Isle 팀 약관 위반일 수 있으며 모든 밴 위험은 본인 부담입니다.',
+			sec2p2: '치트 사용은 League of Legends 팀 약관 위반일 수 있으며 모든 밴 위험은 본인 부담입니다.',
 		},
 		sec1p1: '연락 이메일, Zadeyo 주문 참조 및 기본 사이트 보안 데이터.',
 		emailLabel: '이메일:',
@@ -256,11 +256,11 @@ export const LEGAL_I18N = {
 		emailSupport: '邮件支持',
 		readTerms: '阅读使用条款',
 		readPrivacy: '阅读隐私政策',
-		introTopic: '适用于 theislehacks.org 和 The Isle 许可证。',
-		descFor: 'The Isle Hacks — ESP wallhack、Aimbot',
+		introTopic: '适用于 lolcheats.org 和 League of Legends 许可证。',
+		descFor: 'League of Legends Hacks — ESP wallhack、Aimbot',
 		privacy: {
 			h2: ['我们收集的信息', '数据使用方式', '您的权利'],
-			sec1p2: '支付详情由 Zadeyo checkout 处理 — 不存储在 theislehacks.org。',
+			sec1p2: '支付详情由 Zadeyo checkout 处理 — 不存储在 lolcheats.org。',
 			sec2p1: '支持回复、订单处理及必要时的法律合规。',
 		},
 		refund: {
@@ -268,7 +268,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['接受条款', '风险免责声明', '政策变更'],
-			sec2p2: '使用作弊可能违反 The Isle 团队条款 — 您承担所有封禁风险。',
+			sec2p2: '使用作弊可能违反 League of Legends 团队条款 — 您承担所有封禁风险。',
 		},
 		sec1p1: '联系邮箱、Zadeyo 订单参考及基本网站安全数据。',
 		emailLabel: '邮箱:',
@@ -277,11 +277,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'सहायता ईमेल',
 		readTerms: 'शर्तें पढ़ें',
 		readPrivacy: 'गोपनीयता पढ़ें',
-		introTopic: 'theislehacks.org और The Isle लाइसेंस के लिए।',
-		descFor: 'The Isle Hacks — ESP wallhack, Aimbot के लिए',
+		introTopic: 'lolcheats.org और League of Legends लाइसेंस के लिए।',
+		descFor: 'League of Legends Hacks — ESP wallhack, Aimbot के लिए',
 		privacy: {
 			h2: ['हम जो जानकारी एकत्र करते हैं', 'हम डेटा का उपयोग कैसे करते हैं', 'आपके अधिकार'],
-			sec1p2: 'भुगतान विवरण Zadeyo checkout द्वारा संसाधित — theislehacks.org पर संग्रहीत नहीं।',
+			sec1p2: 'भुगतान विवरण Zadeyo checkout द्वारा संसाधित — lolcheats.org पर संग्रहीत नहीं।',
 			sec2p1: 'सहायता प्रतिक्रिया, ऑर्डर समाधान और आवश्यकता पर कानूनी अनुपालन।',
 		},
 		refund: {
@@ -289,7 +289,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['शर्तों की स्वीकृति', 'जोखिम अस्वीकरण', 'नीति परिवर्तन'],
-			sec2p2: 'cheat का उपयोग The Isle टीम की शर्तों का उल्लंघन हो सकता है — आप सभी ban जोखिम स्वीकार करते हैं।',
+			sec2p2: 'cheat का उपयोग League of Legends टीम की शर्तों का उल्लंघन हो सकता है — आप सभी ban जोखिम स्वीकार करते हैं।',
 		},
 		sec1p1: 'संपर्क ईमेल, Zadeyo ऑर्डर संदर्भ और बुनियादी साइट सुरक्षा डेटा।',
 		emailLabel: 'ईमेल:',
@@ -298,11 +298,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'Email dukungan',
 		readTerms: 'Baca syarat',
 		readPrivacy: 'Baca privasi',
-		introTopic: 'untuk theislehacks.org dan lisensi The Isle.',
-		descFor: 'untuk The Isle Hacks — ESP wallhack, Aimbot',
+		introTopic: 'untuk lolcheats.org dan lisensi League of Legends.',
+		descFor: 'untuk League of Legends Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informasi yang kami kumpulkan', 'Cara kami menggunakan data', 'Hak Anda'],
-			sec1p2: 'Detail pembayaran diproses oleh checkout Zadeyo — tidak disimpan di theislehacks.org.',
+			sec1p2: 'Detail pembayaran diproses oleh checkout Zadeyo — tidak disimpan di lolcheats.org.',
 			sec2p1: 'Respons dukungan, penyelesaian pesanan, dan kepatuhan hukum jika diperlukan.',
 		},
 		refund: {
@@ -310,7 +310,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['Penerimaan syarat', 'Penyangkalan risiko', 'Perubahan kebijakan'],
-			sec2p2: 'Menggunakan cheat dapat melanggar ketentuan tim The Isle — Anda menanggung semua risiko ban.',
+			sec2p2: 'Menggunakan cheat dapat melanggar ketentuan tim League of Legends — Anda menanggung semua risiko ban.',
 		},
 		sec1p1: 'Email kontak, referensi pesanan Zadeyo, dan data keamanan situs dasar.',
 		emailLabel: 'Email:',
@@ -319,11 +319,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'อีเมลฝ่ายสนับสนุน',
 		readTerms: 'อ่านข้อกำหนด',
 		readPrivacy: 'อ่านนโยบายความเป็นส่วนตัว',
-		introTopic: 'สำหรับ theislehacks.org และใบอนุญาต The Isle',
-		descFor: 'สำหรับ The Isle Hacks — ESP wallhack, Aimbot',
+		introTopic: 'สำหรับ lolcheats.org และใบอนุญาต League of Legends',
+		descFor: 'สำหรับ League of Legends Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['ข้อมูลที่เราเก็บ', 'การใช้ข้อมูล', 'สิทธิของคุณ'],
-			sec1p2: 'รายละเอียดการชำระเงินประมวลผลผ่าน checkout Zadeyo — ไม่เก็บบน theislehacks.org',
+			sec1p2: 'รายละเอียดการชำระเงินประมวลผลผ่าน checkout Zadeyo — ไม่เก็บบน lolcheats.org',
 			sec2p1: 'การตอบกลับฝ่ายสนับสนุน การแก้ไขคำสั่งซื้อ และการปฏิบัติตามกฎหมายเมื่อจำเป็น',
 		},
 		refund: {
@@ -331,7 +331,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['การยอมรับข้อกำหนด', 'ข้อจำกัดความรับผิดชอบด้านความเสี่ยง', 'การเปลี่ยนแปลงนโยบาย'],
-			sec2p2: 'การใช้ cheat อาจละเมิดข้อกำหนดของทีม The Isle — คุณรับความเสี่ยง ban ทั้งหมด',
+			sec2p2: 'การใช้ cheat อาจละเมิดข้อกำหนดของทีม League of Legends — คุณรับความเสี่ยง ban ทั้งหมด',
 		},
 		sec1p1: 'อีเมลติดต่อ อ้างอิงคำสั่งซื้อ Zadeyo และข้อมูลความปลอดภัยพื้นฐานของเว็บไซต์',
 		emailLabel: 'อีเมล:',
@@ -340,11 +340,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'Email hỗ trợ',
 		readTerms: 'Đọc điều khoản',
 		readPrivacy: 'Đọc quyền riêng tư',
-		introTopic: 'cho theislehacks.org và giấy phép The Isle.',
-		descFor: 'cho The Isle Hacks — ESP wallhack, Aimbot',
+		introTopic: 'cho lolcheats.org và giấy phép League of Legends.',
+		descFor: 'cho League of Legends Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Thông tin chúng tôi thu thập', 'Cách chúng tôi sử dụng dữ liệu', 'Quyền của bạn'],
-			sec1p2: 'Chi tiết thanh toán được xử lý qua checkout Zadeyo — không lưu trên theislehacks.org.',
+			sec1p2: 'Chi tiết thanh toán được xử lý qua checkout Zadeyo — không lưu trên lolcheats.org.',
 			sec2p1: 'Phản hồi hỗ trợ, giải quyết đơn hàng và tuân thủ pháp lý khi cần.',
 		},
 		refund: {
@@ -352,7 +352,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['Chấp nhận điều khoản', 'Tuyên bố miễn trừ rủi ro', 'Thay đổi chính sách'],
-			sec2p2: 'Dùng cheat có thể vi phạm điều khoản của đội The Isle — bạn chịu mọi rủi ro ban.',
+			sec2p2: 'Dùng cheat có thể vi phạm điều khoản của đội League of Legends — bạn chịu mọi rủi ro ban.',
 		},
 		sec1p1: 'Email liên hệ, tham chiếu đơn hàng Zadeyo và dữ liệu bảo mật cơ bản của trang.',
 		emailLabel: 'Email:',
@@ -361,11 +361,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'Написати в підтримку',
 		readTerms: 'Читати умови',
 		readPrivacy: 'Читати конфіденційність',
-		introTopic: 'для theislehacks.org та ліцензій The Isle.',
-		descFor: 'для The Isle Hacks — ESP wallhack, Aimbot',
+		introTopic: 'для lolcheats.org та ліцензій League of Legends.',
+		descFor: 'для League of Legends Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Інформація, яку ми збираємо', 'Як ми використовуємо дані', 'Ваші права'],
-			sec1p2: 'Платіжні дані обробляються через checkout Zadeyo — не зберігаються на theislehacks.org.',
+			sec1p2: 'Платіжні дані обробляються через checkout Zadeyo — не зберігаються на lolcheats.org.',
 			sec2p1: 'Відповіді підтримки, вирішення замовлень та правова відповідність за потреби.',
 		},
 		refund: {
@@ -373,7 +373,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['Прийняття умов', 'Попередження про ризики', 'Зміни політики'],
-			sec2p2: 'Використання читів може порушувати умови команди The Isle — ви приймаєте на себе ризик бану.',
+			sec2p2: 'Використання читів може порушувати умови команди League of Legends — ви приймаєте на себе ризик бану.',
 		},
 		sec1p1: 'Контактний email, посилання на замовлення Zadeyo та базові дані безпеки сайту.',
 		emailLabel: 'Email:',
@@ -382,11 +382,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'E-mail podpoře',
 		readTerms: 'Přečíst podmínky',
 		readPrivacy: 'Přečíst soukromí',
-		introTopic: 'pro theislehacks.org a licence The Isle.',
-		descFor: 'pro The Isle Hacks — ESP wallhack, Aimbot',
+		introTopic: 'pro lolcheats.org a licence League of Legends.',
+		descFor: 'pro League of Legends Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informace, které shromažďujeme', 'Jak používáme data', 'Vaše práva'],
-			sec1p2: 'Platební údaje zpracovává checkout Zadeyo — neukládají se na theislehacks.org.',
+			sec1p2: 'Platební údaje zpracovává checkout Zadeyo — neukládají se na lolcheats.org.',
 			sec2p1: 'Odpovědi podpory, vyřizování objednávek a právní soulad v případě potřeby.',
 		},
 		refund: {
@@ -394,7 +394,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['Přijetí podmínek', 'Upozornění na rizika', 'Změny zásad'],
-			sec2p2: 'Používání cheatů může porušovat podmínky týmu The Isle — nesete veškeré riziko bana.',
+			sec2p2: 'Používání cheatů může porušovat podmínky týmu League of Legends — nesete veškeré riziko bana.',
 		},
 		sec1p1: 'Kontaktní e-mail, reference objednávek Zadeyo a základní bezpečnostní data webu.',
 		emailLabel: 'E-mail:',
@@ -403,11 +403,11 @@ export const LEGAL_I18N = {
 		emailSupport: 'Email suport',
 		readTerms: 'Citește termenii',
 		readPrivacy: 'Citește confidențialitatea',
-		introTopic: 'pentru theislehacks.org și licențe The Isle.',
-		descFor: 'pentru The Isle Hacks — ESP wallhack, Aimbot',
+		introTopic: 'pentru lolcheats.org și licențe League of Legends.',
+		descFor: 'pentru League of Legends Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Informații pe care le colectăm', 'Cum folosim datele', 'Drepturile tale'],
-			sec1p2: 'Detaliile de plată sunt procesate prin checkout Zadeyo — nu sunt stocate pe theislehacks.org.',
+			sec1p2: 'Detaliile de plată sunt procesate prin checkout Zadeyo — nu sunt stocate pe lolcheats.org.',
 			sec2p1: 'Răspunsuri suport, rezolvarea comenzilor și conformitate legală când este necesar.',
 		},
 		refund: {
@@ -415,7 +415,7 @@ export const LEGAL_I18N = {
 		},
 		terms: {
 			h2: ['Acceptarea termenilor', 'Declinare responsabilitate', 'Modificări de politică'],
-			sec2p2: 'Folosirea cheat-urilor poate încălca termenii echipei The Isle — îți asumi tot riscul de ban.',
+			sec2p2: 'Folosirea cheat-urilor poate încălca termenii echipei League of Legends — îți asumi tot riscul de ban.',
 		},
 		sec1p1: 'Email de contact, referințe comenzi Zadeyo și date de securitate de bază ale site-ului.',
 		emailLabel: 'Email:',
@@ -424,19 +424,19 @@ export const LEGAL_I18N = {
 		emailSupport: 'E-posta support',
 		readTerms: 'Läs villkor',
 		readPrivacy: 'Läs integritet',
-		introTopic: 'för theislehacks.org och The Isle-licenser.',
-		descFor: 'för The Isle Hacks — ESP wallhack, Aimbot',
+		introTopic: 'för lolcheats.org och League of Legends-licenser.',
+		descFor: 'för League of Legends Hacks — ESP wallhack, Aimbot',
 		privacy: {
 			h2: ['Information vi samlar in', 'Hur vi använder data', 'Dina rättigheter'],
-			sec1p2: 'Betalningsuppgifter behandlas via Zadeyo checkout — lagras inte på theislehacks.org.',
-			sec2p1: 'Supportssvar, orderlösning och juridisk efterlevnad vid behov.',
+			sec1p2: 'Betalningsuppgifter behandlas via Zadeyo checkout — lagras inte på lolcheats.org.',
+			sec2p1: 'Supportssvar, orderlösning och juridisk lolerlevnad vid behov.',
 		},
 		refund: {
 			h2: ['Digital leverans', 'Återbetalningsgodkännande', 'Hur du begär'],
 		},
 		terms: {
 			h2: ['Godkännande av villkor', 'Riskvarning', 'Policyändringar'],
-			sec2p2: 'Att använda cheats kan bryta mot The Isle team terms — du tar all ban-risk.',
+			sec2p2: 'Att använda cheats kan bryta mot Riot Games terms — du tar all ban-risk.',
 		},
 		sec1p1: 'Kontakt-e-post, Zadeyo-orderreferenser och grundläggande säkerhetsdata för webbplatsen.',
 		emailLabel: 'E-post:',
