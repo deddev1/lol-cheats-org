@@ -23,6 +23,7 @@
 		"fetch:hero": "node scripts/fetch-lol-hero.mjs",
 		"fetch:steam-hero": "node scripts/fetch-steam-hero.mjs",
 		"fetch:screenshots": "node scripts/import-lol-screenshots.mjs",
+		"import:cheat-screenshots": "node scripts/import-lol-cheat-screenshots.mjs",
 		"generate:brand": "node scripts/generate-brand-assets.mjs",
 		"preview": "astro preview --host 0.0.0.0 --port 3000",
 		"preview:4321": "astro preview --host 0.0.0.0 --port 4321",

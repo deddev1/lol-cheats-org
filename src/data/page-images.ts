@@ -1,49 +1,15 @@
 import { siteConfig } from './site';
 import { pageIds, type PageId } from './i18n/routing';
+import { crawlImagePool, pageHeroImageById, siteImageMeta, siteImages } from './site-images';
 import { pageSitemapImageLabels } from './brand-sitemap';
 
-const shot = (n: number) => `/images/lol-screenshot-${String(n).padStart(2, '0')}.webp`;
-
 /** Rotating product screenshots for FAQ / review detail URLs. */
-export const crawlPhotoPool = [
-	shot(2),
-	shot(3),
-	shot(4),
-	shot(5),
-	shot(6),
-	shot(7),
-] as const;
+export const crawlPhotoPool = crawlImagePool;
 
-/**
- * One primary crawl/OG photo per product page.
- * Prefer compressed WebP screenshots so Google can fetch them quickly.
- */
+/** One primary crawl/OG photo per product page. */
 export const pageImageSrcById: Record<PageId, string> = {
-	home: '/images/lol-cheats-hero-1024w.webp',
-	'lol-esp': shot(2),
-	'lol-aimbot': shot(4),
-	features: shot(5),
-	pricing: shot(7),
-	setup: shot(2),
-	updates: shot(1),
-	faq: shot(5),
-	support: shot(7),
-	undetected: shot(3),
-	wallhack: shot(3),
-	radar: shot(6),
-	vanguard: shot(4),
-	'cheats-2026': shot(1),
-	cheats: shot(7),
-	'cheat-download': shot(7),
-	'mod-menu': shot(6),
-	'soft-aim': shot(5),
-	'best-cheats': shot(1),
-	'aimbot-cheat': shot(5),
-	'esp-cheat': shot(3),
-	'unlock-all': shot(6),
-	privacy: shot(4),
-	refund: shot(7),
-	terms: shot(5),
+	...pageHeroImageById,
+	home: siteConfig.heroImage,
 };
 
 for (const pageId of pageIds) {
@@ -100,4 +66,6 @@ export function crawlPhotoMeta(
 }
 
 /** Default large social / SERP image when a page has no specific asset. */
-export const defaultCrawlImageSrc = pageImageSrcById.home;
+export const defaultCrawlImageSrc = siteImages.evadeEspWallhack;
+
+export { siteImages, siteImageMeta };

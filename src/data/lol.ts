@@ -1,49 +1,44 @@
 import { siteConfig } from './site';
-
-/** Simple crawl URLs — one screenshot per asset slot. */
-export const lolScreenshot = (n: number) =>
-	`/images/lol-screenshot-${String(n).padStart(2, '0')}.webp`;
+import { crawlImagePool, siteImageMeta, siteImages } from './site-images';
 
 /** Screenshots used across product pages. */
 export const lolImages = {
-	hero: lolScreenshot(1),
-	espWallhack: lolScreenshot(3),
-	aimbotCombat: lolScreenshot(4),
-	aimbotSkeleton: lolScreenshot(5),
-	champEsp: lolScreenshot(6),
-	cheatsCombat: lolScreenshot(7),
+	hero: siteConfig.heroImage,
+	espWallhack: siteImages.evadeEspWallhack,
+	aimbotCombat: siteImages.scriptTeamfight,
+	aimbotSkeleton: siteImages.scriptTeamfight,
+	champEsp: siteImages.evadeEspWallhack,
+	cheatsCombat: siteImages.scriptTeamfight,
 	logo: siteConfig.logo,
-	/** @deprecated Blog / legacy aliases — each maps to one screenshot URL */
-	cover: lolScreenshot(7),
-	buildPlanner: lolScreenshot(6),
-	teamFight: lolScreenshot(5),
-	cheatsPackage: lolScreenshot(6),
-	headerArt: lolScreenshot(5),
-	rankedCombat: lolScreenshot(7),
-	extractFight: lolScreenshot(4),
-	teamfight: lolScreenshot(4),
-	aramCombat: lolScreenshot(3),
-	aramMode: lolScreenshot(2),
-	summonersRift: lolScreenshot(2),
-	matchMap: lolScreenshot(2),
+	cover: siteImages.scriptTeamfight,
+	buildPlanner: siteImages.hexEvadeMenu,
+	teamFight: siteImages.scriptTeamfight,
+	cheatsPackage: siteImages.hexEvadeMenu,
+	headerArt: siteImages.modMenuEvade,
+	rankedCombat: siteImages.scriptTeamfight,
+	extractFight: siteImages.scriptTeamfight,
+	teamfight: siteImages.scriptTeamfight,
+	aramCombat: siteImages.evadeEspWallhack,
+	aramMode: siteImages.evadeEspWallhack,
+	summonersRift: siteImages.evadeEspWallhack,
+	matchMap: siteImages.evadeEspWallhack,
 	product: [
-		{ src: lolScreenshot(2), alt: 'League of Legends gameplay screenshot 2' },
-		{ src: lolScreenshot(3), alt: 'League of Legends gameplay screenshot 3' },
-		{ src: lolScreenshot(4), alt: 'League of Legends gameplay screenshot 4' },
-		{ src: lolScreenshot(6), alt: 'League of Legends gameplay screenshot 6' },
-		{ src: lolScreenshot(7), alt: 'League of Legends gameplay screenshot 7' },
-		{ src: lolScreenshot(8), alt: 'League of Legends gameplay screenshot 8' },
+		{ src: siteImages.evadeEspWallhack, alt: siteImageMeta.evadeEspWallhack.alt },
+		{ src: siteImages.modMenuEvade, alt: siteImageMeta.modMenuEvade.alt },
+		{ src: siteImages.scriptTeamfight, alt: siteImageMeta.scriptTeamfight.alt },
+		{ src: siteImages.hexEvadeMenu, alt: siteImageMeta.hexEvadeMenu.alt },
 	],
 	gallery: [
-		{ src: lolScreenshot(2), alt: 'League of Legends gameplay screenshot 2', featured: true },
-		{ src: lolScreenshot(3), alt: 'League of Legends gameplay screenshot 3' },
-		{ src: lolScreenshot(4), alt: 'League of Legends gameplay screenshot 4' },
-		{ src: lolScreenshot(9), alt: 'League of Legends gameplay screenshot 9' },
-		{ src: lolScreenshot(10), alt: 'League of Legends gameplay screenshot 10' },
+		{ src: siteImages.evadeEspWallhack, alt: siteImageMeta.evadeEspWallhack.alt, featured: true },
+		{ src: siteImages.modMenuEvade, alt: siteImageMeta.modMenuEvade.alt },
+		{ src: siteImages.scriptTeamfight, alt: siteImageMeta.scriptTeamfight.alt },
+		{ src: siteImages.hexEvadeMenu, alt: siteImageMeta.hexEvadeMenu.alt },
 	],
-	sitemap: Array.from({ length: 15 }, (_, i) => ({
-		src: lolScreenshot(i + 1),
-		title: `League of Legends gameplay screenshot ${i + 1}`,
-		caption: `League of Legends champion survival screenshot ${i + 1}`,
+	sitemap: (Object.keys(siteImageMeta) as Array<keyof typeof siteImageMeta>).map((key) => ({
+		src: siteImages[key],
+		title: siteImageMeta[key].title,
+		caption: siteImageMeta[key].caption,
 	})),
 } as const;
+
+export { siteImages, crawlImagePool as lolScreenshotPool };

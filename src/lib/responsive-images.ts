@@ -63,9 +63,11 @@ export const heroHeight = 576;
 /** Responsive widths for below-fold content images. */
 export const contentWidths = [480, 960] as const;
 
+import { crawlImagePool } from '../data/site-images';
+
 /** Canonical screenshot path — responsive variants use -480w / -960w suffixes. */
-export function screenshotSrc(n: number): string {
-	return `/images/lol-screenshot-${String(n).padStart(2, '0')}.webp`;
+export function screenshotSrc(index: number): string {
+	return crawlImagePool[(index - 1) % crawlImagePool.length];
 }
 
 export const galleryFeaturedSizes = '(max-width: 560px) 100vw, (max-width: 900px) 90vw, 640px';
