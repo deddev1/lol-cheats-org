@@ -120,7 +120,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 								"League of Legends rewards map awareness. LoL Cheats combines ESP wallhack for enemy champions and wards, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on match, ARAM game, and ranked servers.",
 								"Official seasons, patches, and anti-cheat updates come from <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a> and <a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a>. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on the <a href=\"/updates/\">Updates page</a>.",
 								"Licenses ship digitally after payment confirmation. Monthly ($35) and lifetime ($150) plans include Vanguard maintenance rebuilds when anti-cheat or game patches require updates.",
-								"Start with the <a href=\"/lol-cheats/\">LoL Cheats pillar</a>, <a href=\"/lol-esp/\">ESP guide</a>, <a href=\"/lol-aimbot/\">Aimbot controls</a>, and <a href=\"/lol-cheats/\">undetected status</a> pages if you are comparing tools before checkout.",
+								"Start with the <a href=\"/\">LoL Cheats pillar</a>, <a href=\"/lol-esp/\">ESP guide</a>, <a href=\"/lol-aimbot/\">Aimbot controls</a>, and <a href=\"/\">undetected status</a> pages if you are comparing tools before checkout.",
 							],
 						},
 						{
@@ -181,7 +181,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"ESP alone wins information wars; Aimbot covers the gank. Review <a href=\"/lol-aimbot/\">Aimbot controls</a> if you want one license for visibility and assist.",
 								"Compare monthly ($35) and lifetime ($150) on <a href=\"/pricing/\">Pricing</a>, then keep <a href=\"/support/\">Support</a> ready if activation needs a human reply.",
-								"Still researching? The <a href=\"/lol-cheats/\">LoL Cheats pillar</a> and <a href=\"/lol-cheats/\">2026 buyer guide</a> summarize the full stack.",
+								"Still researching? The <a href=\"/\">LoL Cheats pillar</a> and <a href=\"/\">2026 buyer guide</a> summarize the full stack.",
 							],
 						},
 					],
@@ -263,7 +263,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"2D radar overlay with directional threat cues, configurable range for rotations and late-match objectives, plus Aimbot smoothness, FOV, bone priority, hotkeys, and per-champion profiles.",
 								"All tools share in-client toggles so you can adjust ESP, radar, and Aimbot during live League of Legends matches. See <a href=\"/lol-radar-cheat/\">radar</a> and <a href=\"/lol-aimbot/\">Aimbot</a> for settings walkthroughs.",
-								"Prefer a menu-first workflow? The <a href=\"/lol-cheats/\">mod menu page</a> explains mid-match toggles without alt-tabbing.",
+								"Prefer a menu-first workflow? The <a href=\"/\">mod menu page</a> explains mid-match toggles without alt-tabbing.",
 							],
 						},
 						{
@@ -271,7 +271,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Monthly ($35) and lifetime ($150) licenses with instant digital delivery. Vanguard maintenance rebuilds publish on the <a href=\"/updates/\">Updates page</a> after anti-cheat or game patches.",
 								"Monitor <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends on Riot Client</a> on patch days, then confirm rebuild notes before you queue. Setup and billing help lives on <a href=\"/support/\">Support</a> and support@lolcheats.org.",
-								"Next step: compare plans on <a href=\"/pricing/\">Pricing</a> or read <a href=\"/lol-cheats/\">how undetected maintenance works</a>.",
+								"Next step: compare plans on <a href=\"/pricing/\">Pricing</a> or read <a href=\"/\">how undetected maintenance works</a>.",
 							],
 						},
 					],
@@ -309,7 +309,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Review the <a href=\"/refund-policy/\">Refund Policy</a> before purchase. For billing or delivery issues, contact Support with your order details.",
 								"Prices are listed in USD. Availability is worldwide for Windows 10 and 11 PCs.",
-								"Still comparing tools? Read <a href=\"/lol-cheats/\">lol cheats</a>, <a href=\"/lol-cheats/\">undetected status</a>, and <a href=\"/faq/\">FAQ</a> before you checkout.",
+								"Still comparing tools? Read <a href=\"/\">lol cheats</a>, <a href=\"/\">undetected status</a>, and <a href=\"/faq/\">FAQ</a> before you checkout.",
 							],
 						},
 					],
@@ -338,7 +338,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Activate ESP wallhack and Aimbot profiles",
 							paragraphs: [
 								"Follow the delivery instructions in your license email. Load default ESP wallhack categories for enemy champions, minions, and wards — then tune radar range and Aimbot smoothness to your playstyle.",
-								"Use in-client hotkeys to toggle ESP, radar, and Aimbot mid-match. Details for Vanguard module live on <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">Aimbot</a>, and <a href=\"/lol-cheats/\">mod menu</a>.",
+								"Use in-client hotkeys to toggle ESP, radar, and Aimbot mid-match. Details for Vanguard module live on <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">Aimbot</a>, and <a href=\"/\">mod menu</a>.",
 								"Prefer a soft tracking feel? Start with the <a href=\"/lol-aimbot/\">soft aim</a> recommendations before raising aggressiveness.",
 							],
 						},
@@ -346,7 +346,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "After League of Legends or Vanguard patches",
 							paragraphs: [
 								"When Riot Games ships a major League of Legends update or Vanguard patch, revisit Updates before queueing. Download maintenance rebuilds when posted.",
-								"Official anti-cheat background: <a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a>. Our practical workflow is documented on the <a href=\"/updates/\">Vanguard bypass page</a> and <a href=\"/lol-cheats/\">undetected guide</a>.",
+								"Official anti-cheat background: <a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a>. Our practical workflow is documented on the <a href=\"/updates/\">Vanguard bypass page</a> and <a href=\"/\">undetected guide</a>.",
 								"Contact <a href=\"/support/\">Support</a> with your order ID if activation fails after a patch — include Windows version and error details for faster replies.",
 							],
 						},
@@ -377,7 +377,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Entries note Vanguard compatibility status, rebuilt ESP wallhack overlays, radar range fixes, Aimbot tuning after champions balance changes, and digital delivery of new builds to active licenses.",
 								"Lifetime and monthly subscribers receive rebuild access during active license terms. See <a href=\"/pricing/\">Pricing</a> if you need to renew.",
-								"For context on why rebuilds happen, read the <a href=\"/updates/\">Vanguard bypass guide</a> and <a href=\"/lol-cheats/\">undetected lol cheats</a> explainer.",
+								"For context on why rebuilds happen, read the <a href=\"/updates/\">Vanguard bypass guide</a> and <a href=\"/\">undetected lol cheats</a> explainer.",
 							],
 						},
 						{
@@ -414,7 +414,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Are LoL Cheats undetected in 2026?",
 							paragraphs: [
 								"LoL Cheats is maintained with rebuilds after Vanguard and game patches. Check the <a href=\"/updates/\">Updates page</a> for current status — no cheat can guarantee permanent undetected operation.",
-								"Read <a href=\"/lol-cheats/\">undetected lol cheats</a> and the <a href=\"/updates/\">Vanguard guide</a> for the maintenance workflow.",
+								"Read <a href=\"/\">undetected lol cheats</a> and the <a href=\"/updates/\">Vanguard guide</a> for the maintenance workflow.",
 								"Responsible settings and reading maintenance notes before queueing are essential.",
 							],
 						},
@@ -499,7 +499,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Combine maintenance with conservative in-game settings. Read the <a href=\"/faq/\">FAQ</a> and Updates log regularly — undetected status is not a one-time promise.",
 								"Lifetime and monthly plans include rebuild access during active terms — see <a href=\"/pricing/\">Pricing</a>.",
-								"New buyers should also read <a href=\"/lol-cheats/\">lol cheats 2026</a> and complete <a href=\"/setup/\">Setup</a> after delivery.",
+								"New buyers should also read <a href=\"/\">lol cheats 2026</a> and complete <a href=\"/setup/\">Setup</a> after delivery.",
 							],
 						},
 					],
@@ -536,7 +536,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Undetected wallhack maintenance",
 							paragraphs: [
 								"ESP wallhack modules rebuild after Vanguard patches. Follow the <a href=\"/updates/\">Updates page</a> and complete checkout for instant license delivery on Windows PC.",
-								"Learn the full maintenance story on <a href=\"/lol-cheats/\">undetected lol cheats</a> and <a href=\"/updates/\">Vanguard bypass</a>.",
+								"Learn the full maintenance story on <a href=\"/\">undetected lol cheats</a> and <a href=\"/updates/\">Vanguard bypass</a>.",
 								"Ready to buy? Compare <a href=\"/pricing/\">Pricing</a> or continue to the <a href=\"/lol-esp/\">ESP cheat</a> landing for alternate search wording.",
 							],
 						},
@@ -566,7 +566,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Configurable radar range",
 							paragraphs: [
 								"Adjust radar range for early rotations versus tight objective zones. Directional cues highlight flanks during building clears and flank pushes across match and ARAM game.",
-								"Toggle radar alongside ESP and Aimbot with in-client hotkeys during live matches — see the <a href=\"/lol-cheats/\">mod menu</a> page.",
+								"Toggle radar alongside ESP and Aimbot with in-client hotkeys during live matches — see the <a href=\"/\">mod menu</a> page.",
 								"Combat follow-up lives on <a href=\"/lol-aimbot/\">Aimbot</a> when you convert radar info into a fight.",
 							],
 						},
@@ -575,7 +575,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Radar cheat modules receive Vanguard maintenance rebuilds with the full LoL Cheats package. Monthly and lifetime licenses include digital delivery — see <a href=\"/pricing/\">Pricing</a>.",
 								"Check <a href=\"/updates/\">Updates</a> after major League of Legends patches before relying on previous radar configs.",
-								"New to the stack? Start at <a href=\"/features/\">Features</a> or <a href=\"/lol-cheats/\">undetected status</a>.",
+								"New to the stack? Start at <a href=\"/features/\">Features</a> or <a href=\"/\">undetected status</a>.",
 							],
 						},
 					],
@@ -605,7 +605,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"The team tests ESP overlays, radar signatures, and Aimbot profiles against the new build, publishes status on <a href=\"/updates/\">Updates</a>, and ships rebuilt packages to active licenses.",
 								"Confirm Riot Games service health on <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends on Riot Client</a> if the launcher or matchmaking fails during the same window.",
-								"Avoid queueing on old builds after major patch days until maintenance notes confirm a new release. Related reading: <a href=\"/lol-cheats/\">undetected lol cheats</a>.",
+								"Avoid queueing on old builds after major patch days until maintenance notes confirm a new release. Related reading: <a href=\"/\">undetected lol cheats</a>.",
 							],
 						},
 						{
@@ -642,15 +642,15 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Full feature stack for 2026 buyers",
 							paragraphs: [
 								"Player ESP wallhack, ward markers, 2D radar overlays, Aimbot profiles, in-client toggles, and post-patch rebuilds — one license instead of stacking separate tools.",
-								"Deep links: <a href=\"/lol-cheats/\">LoL Cheats pillar</a>, <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">Aimbot</a>, <a href=\"/lol-esp/\">wallhack</a>, <a href=\"/lol-radar-cheat/\">radar</a>, <a href=\"/lol-cheats/\">undetected</a>.",
+								"Deep links: <a href=\"/\">LoL Cheats pillar</a>, <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">Aimbot</a>, <a href=\"/lol-esp/\">wallhack</a>, <a href=\"/lol-radar-cheat/\">radar</a>, <a href=\"/\">undetected</a>.",
 								"Instant digital delivery after checkout confirmation worldwide.",
 							],
 						},
 						{
 							h2: "Before you buy in 2026",
 							paragraphs: [
-								"Read the <a href=\"/lol-cheats/\">lol cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.",
-								"Also compare the <a href=\"/lol-cheats/\">lol cheats</a> checklist, <a href=\"/blog/lol-cheats-2026-whats-new/\">2026 blog guide</a>, and <a href=\"/faq/\">FAQ</a>.",
+								"Read the <a href=\"/\">lol cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.",
+								"Also compare the <a href=\"/\">lol cheats</a> checklist, <a href=\"/blog/lol-cheats-2026-whats-new/\">2026 blog guide</a>, and <a href=\"/faq/\">FAQ</a>.",
 								"Support is available at support@lolcheats.org via the <a href=\"/support/\">Support page</a>.",
 							],
 						},
@@ -679,7 +679,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 						{
 							h2: "How this LoL Cheats pillar fits nearby pages",
 							paragraphs: [
-								"Use this pillar for the core product overview. For year-specific buying notes, see the <a href=\"/lol-cheats/\">lol cheats 2026</a> and <a href=\"/lol-cheats/\">lol cheats</a> pages cover buyer comparisons in cheats wording.",
+								"Use this pillar for the core product overview. For year-specific buying notes, see the <a href=\"/\">lol cheats 2026</a> and <a href=\"/\">lol cheats</a> pages cover buyer comparisons in cheats wording.",
 								"Deep-dive modules: <a href=\"/lol-esp/\">LoL ESP</a>, <a href=\"/lol-aimbot/\">LoL Aimbot</a>, <a href=\"/lol-esp/\">wallhack</a>, <a href=\"/lol-radar-cheat/\">radar cheat</a>, and <a href=\"/lol-aimbot/\">soft aim</a>.",
 								"Blog guides expand Vanguard keyword: <a href=\"/blog/lol-cheats-complete-guide-2026/\">cheats complete guide</a>, <a href=\"/blog/lol-cheats-buyers-guide/\">cheats buyers guide</a>, and <a href=\"/blog/undetected-lol-cheats-vanguard/\">undetected Vanguard notes</a>.",
 							],
@@ -689,14 +689,14 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Standalone cheats often cover only wallhack or only aim assist. LoL Cheats maps the full survival loop: read enemy teams, track baron buffs and wards, spot flanks on radar, and tune Aimbot per champions.",
 								"Compare the <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">Aimbot</a>, and <a href=\"/features/\">Features</a> pages — or review <a href=\"/pricing/\">Pricing</a> for monthly and lifetime licenses.",
-								"Related landings: <a href=\"/setup/\">cheat download</a>, <a href=\"/lol-cheats/\">mod menu</a>, <a href=\"/lol-aimbot/\">aimbot</a>, <a href=\"/lol-esp/\">ESP</a>.",
+								"Related landings: <a href=\"/setup/\">cheat download</a>, <a href=\"/\">mod menu</a>, <a href=\"/lol-aimbot/\">aimbot</a>, <a href=\"/lol-esp/\">ESP</a>.",
 							],
 						},
 						{
 							h2: "Undetected lol cheats with Vanguard maintenance",
 							paragraphs: [
 								"Undetected lol cheats require rebuilds after Vanguard and major League of Legends patches. Check Updates before queueing — maintenance notes confirm when a new build is live. No package can promise permanent undetected status.",
-								"See <a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a> for anti-cheat background and our <a href=\"/updates/\">Vanguard bypass guide</a> for the practical workflow. Pair with <a href=\"/lol-cheats/\">undetected lol cheats</a> for status language buyers expect.",
+								"See <a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a> for anti-cheat background and our <a href=\"/updates/\">Vanguard bypass guide</a> for the practical workflow. Pair with <a href=\"/\">undetected lol cheats</a> for status language buyers expect.",
 								"Digital delivery runs after checkout for Windows 10 and 11 PCs worldwide. After purchase, follow <a href=\"/setup/\">Setup</a> and keep <a href=\"/support/\">Support</a> ready with your order ID.",
 							],
 						},
@@ -735,7 +735,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Follow Setup to activate ESP wallhack and Aimbot on Windows 10 or 11. When League of Legends or Vanguard patches ship, check the <a href=\"/updates/\">Updates page</a> for maintenance rebuilds.",
 								"Contact <a href=\"/support/\">Support</a> with your order ID if delivery or activation fails within 24 hours of purchase.",
-								"Also read <a href=\"/lol-cheats/\">undetected status</a> so you know what “download ready” means after a patch.",
+								"Also read <a href=\"/\">undetected status</a> so you know what “download ready” means after a patch.",
 							],
 						},
 					],
@@ -840,8 +840,8 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Best lol cheats feature checklist",
 							paragraphs: [
 								"Look for player ESP wallhack, ward markers, 2D radar overlays, Aimbot profiles, hotkey toggles, and documented maintenance after League of Legends patches.",
-								"Review <a href=\"/features/\">Features</a>, <a href=\"/lol-cheats/\">undetected status</a>, and <a href=\"/lol-cheats/\">lol cheats 2026</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
-								"Module pages worth opening: <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">Aimbot</a>, <a href=\"/lol-cheats/\">cheats</a>.",
+								"Review <a href=\"/features/\">Features</a>, <a href=\"/\">undetected status</a>, and <a href=\"/\">lol cheats 2026</a> before checkout — monthly ($35) and lifetime ($150) plans available.",
+								"Module pages worth opening: <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">Aimbot</a>, <a href=\"/\">cheats</a>.",
 							],
 						},
 						{
@@ -925,7 +925,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"ESP cheat modules rebuild after Vanguard and League of Legends patches. Check the <a href=\"/updates/\">Updates page</a> before queueing — pair ESP cheat awareness with <a href=\"/lol-radar-cheat/\">radar cheat</a> for flank reads.",
 								"Licenses deliver digitally after checkout on Windows PC — see <a href=\"/pricing/\">Pricing</a>.",
-								"Install steps: <a href=\"/setup/\">Setup</a>. Status questions: <a href=\"/lol-cheats/\">undetected guide</a>.",
+								"Install steps: <a href=\"/setup/\">Setup</a>. Status questions: <a href=\"/\">undetected guide</a>.",
 							],
 						},
 					],
@@ -955,7 +955,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"ESP wallhack helps you spot enemy teams, baron buffs, and low-health targets during live matches. Radar cheat adds flank awareness; Aimbot covers combat assist with smoothness and hotkey controls.",
 								"For loadout planning during a match, wards and ward markers speed map rotations — see the <a href=\"/lol-esp/\">ESP</a> and <a href=\"/features/\">Features</a> pages for the full tool list.",
-								"Related: <a href=\"/lol-cheats/\">lol cheats</a> and <a href=\"/lol-cheats/\">lol cheats</a>.",
+								"Related: <a href=\"/\">lol cheats</a> and <a href=\"/\">lol cheats</a>.",
 							],
 						},
 						{
@@ -1066,7 +1066,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Risk and anti-cheat disclaimer",
 							paragraphs: [
 								"Using cheats in League of Legends may violate Riot Games terms and result in account penalties. LoL Cheats provides maintenance but does not guarantee undetected status or account safety.",
-								"You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href=\"/lol-cheats/\">undetected status</a>.",
+								"You assume all risk. We are not liable for bans, data loss, or damages arising from product use. See also <a href=\"/\">undetected status</a>.",
 							],
 						},
 						{

@@ -46,7 +46,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Staying ahead after every League of Legends update",
 				paragraphs: [
 					"Patch days are when most players lose account progress — not because the game broke, but because they never updated their habits. After you read the notes, spend ten minutes on our <a href=\"/updates/\">status page</a> if you use overlays, then adjust your main champion and macro plan before you queue.",
-					"If you rely on information tools, confirm the stack on <a href=\"/lol-cheats/\">LoL Cheats</a> still matches the current client. Pair patch reading with the <a href=\"/faq/\">FAQ</a> when something in the notes is unclear — guessing costs more time than one careful read.",
+					"If you rely on information tools, confirm the stack on <a href=\"/\">LoL Cheats</a> still matches the current client. Pair patch reading with the <a href=\"/faq/\">FAQ</a> when something in the notes is unclear — guessing costs more time than one careful read.",
 				],
 			}
 		],
@@ -145,7 +145,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Turn tier knowledge into match wins",
 				paragraphs: [
 					"A tier list only helps when you start with the right plan. Match your pick to your map, jungle route, and whether you solo or duo. Competitive players often pair champion choice with <a href=\"/lol-radar-cheat/\">radar</a> reads so flanks do not erase a good start.",
-					"If you want the full cheat-side stack that supports aggressive picks, start at <a href=\"/lol-cheats/\">LoL Cheats</a> and compare plans on <a href=\"/pricing/\">Pricing</a> before you commit to a main champion for the season.",
+					"If you want the full cheat-side stack that supports aggressive picks, start at <a href=\"/\">LoL Cheats</a> and compare plans on <a href=\"/pricing/\">Pricing</a> before you commit to a main champion for the season.",
 				],
 			}
 		],
@@ -243,7 +243,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Competitive habits that pair with LoL Cheats tools",
 				paragraphs: [
 					"High-level players win on information timing: who rotates first, who holds lane, who trades with items. That is the same loop <a href=\"/features/\">ESP, radar, and soft aim</a> support when tuned conservatively.",
-					"If you study competitive meta, also read <a href=\"/lol-cheats/\">LoL Cheats</a> and <a href=\"/setup/\">Setup</a> so your overlay stack stays readable instead of noisy during real fights.",
+					"If you study competitive meta, also read <a href=\"/\">LoL Cheats</a> and <a href=\"/setup/\">Setup</a> so your overlay stack stays readable instead of noisy during real fights.",
 				],
 			}
 		],
@@ -292,7 +292,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Route discipline plus ward awareness",
 				paragraphs: [
 					"Routes fail when players farm like tourists. Mark your ninety-second plan, stick to cover ladders, and use <a href=\"/lol-esp/\">ward ESP filters</a> only to confirm what your route already predicted — not to replace map knowledge.",
-					"Strong routes feed into ARAM games and competitive spawns. Link this guide with <a href=\"/lol-cheats/\">LoL Cheats</a> if you want radar for objective zones after your kit is online.",
+					"Strong routes feed into ARAM games and competitive spawns. Link this guide with <a href=\"/\">LoL Cheats</a> if you want radar for objective zones after your kit is online.",
 				],
 			}
 		],
@@ -425,13 +425,13 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "ESP, soft aim, and radar — what each tool is for",
 				paragraphs: [
 					"ESP answers “who is near me and what is worth warding?” Soft aim answers “can I finish the fight once I choose it?” Radar answers “is someone flanking while I heal?” Used together, they cover information and combat. Used badly, they create noisy overlays and obvious aim corrections.",
-					"Deep dives live on <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">aimbot</a>, <a href=\"/lol-wallhack/\">wallhack</a>, and <a href=\"/lol-radar-cheat/\">radar</a>. Read those before you buy if you only need one job done well.",
+					"Deep dives live on <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">aimbot</a>, <a href=\"/lol-esp/\">wallhack</a>, and <a href=\"/lol-radar-cheat/\">radar</a>. Read those before you buy if you only need one job done well.",
 				],
 			},
 			{
 				h2: "Vanguard, “undetected,” and honest expectations",
 				paragraphs: [
-					"<a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a> protects League of Legends. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href=\"/undetected-lol-cheats/\">undetected lol cheats</a> and <a href=\"/vanguard-bypass/\">Vanguard maintenance</a>.",
+					"<a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a> protects League of Legends. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href=\"/\">undetected lol cheats</a> and <a href=\"/updates/\">Vanguard maintenance</a>.",
 					"Before every patch-day queue up, read <a href=\"/updates/\">Updates</a>. If status is quiet, wait. Responsible settings matter as much as the binary itself.",
 				],
 			},
@@ -446,7 +446,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Your next steps after reading this guide",
 				paragraphs: [
 					"If the stack fits your play style, compare monthly and lifetime on <a href=\"/pricing/\">Pricing</a>, then follow <a href=\"/setup/\">Setup</a> line by line. Keep <a href=\"/updates/\">Updates</a> bookmarked for patch weeks.",
-					"For deeper category pages, read <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">aimbot</a>, and <a href=\"/undetected-lol-cheats/\">undetected notes</a>. Questions before checkout go to <a href=\"/faq/\">FAQ</a> and <a href=\"/support/\">Support</a>.",
+					"For deeper category pages, read <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">aimbot</a>, and <a href=\"/\">undetected notes</a>. Questions before checkout go to <a href=\"/faq/\">FAQ</a> and <a href=\"/support/\">Support</a>.",
 				],
 			}
 		],
@@ -495,7 +495,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Final checklist before checkout",
 				paragraphs: [
 					"Confirm dated status, ward ESP, radar, soft aim profiles, Windows support, and a written refund policy. If any item is missing, pause — cheap weekly subs add up when rebuilds are slow.",
-					"When the checklist passes, open <a href=\"/lol-cheats/\">LoL Cheats</a>, compare <a href=\"/pricing/\">Pricing</a>, and read <a href=\"/blog/lol-cheats-complete-guide-2026/\">the 2026 complete guide</a> for feature context.",
+					"When the checklist passes, open <a href=\"/\">LoL Cheats</a>, compare <a href=\"/pricing/\">Pricing</a>, and read <a href=\"/blog/lol-cheats-complete-guide-2026/\">the 2026 complete guide</a> for feature context.",
 				],
 			}
 		],
@@ -522,7 +522,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Why 2026 buyers care more about status pages",
 				paragraphs: [
-					"Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href=\"/updates/\">Updates</a> log and the <a href=\"/undetected-lol-cheats/\">undetected explainer</a> instead of empty guarantees.",
+					"Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href=\"/updates/\">Updates</a> log and the <a href=\"/\">undetected explainer</a> instead of empty guarantees.",
 					"<a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a> and League of Legends client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.",
 				],
 			},
@@ -544,7 +544,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "What to watch for the rest of 2026",
 				paragraphs: [
 					"Expect more frequent client and anti-cheat touchpoints, not fewer. Shops that survive will keep publishing rebuild notes and tightening overlay readability.",
-					"Follow <a href=\"/updates/\">Updates</a>, review <a href=\"/features/\">Features</a> after each major push, and treat <a href=\"/undetected-lol-cheats/\">undetected</a> as a maintenance process — not a permanent badge.",
+					"Follow <a href=\"/updates/\">Updates</a>, review <a href=\"/features/\">Features</a> after each major push, and treat <a href=\"/\">undetected</a> as a maintenance process — not a permanent badge.",
 				],
 			}
 		],
@@ -572,7 +572,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Start softer than you think you need",
 				paragraphs: [
 					"Begin with a smaller FOV and higher smoothness so the assist helps tracking instead of snapping. Play five matches on Summoners Rift or high-traffic zones and only then widen FOV. If friends watching a demo say it looks robotic, you went too far.",
-					"Full control docs live on <a href=\"/lol-aimbot/\">LoL Aimbot</a> and <a href=\"/lol-soft-aim/\">soft aim</a>.",
+					"Full control docs live on <a href=\"/lol-aimbot/\">LoL Aimbot</a> and <a href=\"/lol-aimbot/\">soft aim</a>.",
 				],
 			},
 			{
@@ -620,7 +620,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "What ESP shows during a real match",
 				paragraphs: [
 					"Player ESP outlines enemy champions and minions through walls and terrain, often with distance. Ward ESP highlights wards or high-value objectives. Objective cues help you avoid bush camping surprises. That information gap is why people search for LoL ESP in the first place.",
-					"Read the dedicated pages for <a href=\"/lol-esp/\">ESP</a> and <a href=\"/lol-wallhack/\">wallhack</a> if you want category-level detail.",
+					"Read the dedicated pages for <a href=\"/lol-esp/\">ESP</a> and <a href=\"/lol-esp/\">wallhack</a> if you want category-level detail.",
 				],
 			},
 			{
@@ -633,14 +633,14 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Maintenance and responsible use",
 				paragraphs: [
-					"ESP modules rebuild after Vanguard patches like everything else. Check <a href=\"/updates/\">Updates</a> and the <a href=\"/undetected-lol-cheats/\">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”",
+					"ESP modules rebuild after Vanguard patches like everything else. Check <a href=\"/updates/\">Updates</a> and the <a href=\"/\">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”",
 				],
 			},
 			{
 				h2: "ESP in real League of Legends matches — practical takeaways",
 				paragraphs: [
 					"Use player ESP when rotating, ward ESP when routing, and objective cues when holding river or jungle. Switch profiles instead of leaving every box on — clutter kills reaction time.",
-					"For the maintained stack behind this guide, see <a href=\"/lol-cheats/\">LoL Cheats</a>, <a href=\"/lol-radar-cheat/\">radar</a>, and <a href=\"/pricing/\">Pricing</a>. Patch-day rules live on <a href=\"/updates/\">Updates</a>.",
+					"For the maintained stack behind this guide, see <a href=\"/\">LoL Cheats</a>, <a href=\"/lol-radar-cheat/\">radar</a>, and <a href=\"/pricing/\">Pricing</a>. Patch-day rules live on <a href=\"/updates/\">Updates</a>.",
 				],
 			}
 		],
@@ -667,7 +667,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "What undetected can honestly mean",
 				paragraphs: [
-					"Vanguard is documented at <a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a>. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. LoL Cheats does that on <a href=\"/updates/\">Updates</a> and explains the workflow on <a href=\"/vanguard-bypass/\">Vanguard maintenance</a>.",
+					"Vanguard is documented at <a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a>. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. LoL Cheats does that on <a href=\"/updates/\">Updates</a> and explains the workflow on <a href=\"/updates/\">Vanguard maintenance</a>.",
 					"If a seller says “100% undetected forever,” treat it as advertising. Your risk also depends on how obviously you play.",
 				],
 			},
@@ -681,14 +681,14 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Where to go next",
 				paragraphs: [
-					"Read <a href=\"/undetected-lol-cheats/\">undetected lol cheats</a>, the <a href=\"/blog/lol-cheats-complete-guide-2026/\">2026 complete guide</a>, and <a href=\"/pricing/\">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.",
+					"Read <a href=\"/\">undetected lol cheats</a>, the <a href=\"/blog/lol-cheats-complete-guide-2026/\">2026 complete guide</a>, and <a href=\"/pricing/\">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.",
 				],
 			},
 			{
 				h2: "Responsible undetected habits for League of Legends",
 				paragraphs: [
 					"Undetected means maintained today — not immune forever. Read public notes, wait for rebuilds, and avoid rage settings that draw reports even on clean builds.",
-					"Use <a href=\"/updates/\">Updates</a>, <a href=\"/vanguard-bypass/\">Vanguard maintenance</a>, and <a href=\"/setup/\">Setup</a> as your patch-week routine. Compare the full stack on <a href=\"/lol-cheats/\">LoL Cheats</a> when you are ready to buy.",
+					"Use <a href=\"/updates/\">Updates</a>, <a href=\"/updates/\">Vanguard maintenance</a>, and <a href=\"/setup/\">Setup</a> as your patch-week routine. Compare the full stack on <a href=\"/\">LoL Cheats</a> when you are ready to buy.",
 				],
 			}
 		],
@@ -730,7 +730,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "How to decide without brand loyalty",
 				paragraphs: [
 					"Write down must-haves: dated status, ward ESP, radar, soft aim profiles, Windows PC support. Open each seller’s status channel and feature list side by side. If a shop fails the status test, price does not matter.",
-					"Then return to <a href=\"/\">lol cheats</a> and <a href=\"/undetected-lol-cheats/\">undetected notes</a> if that checklist matches what we ship.",
+					"Then return to <a href=\"/\">lol cheats</a> and <a href=\"/\">undetected notes</a> if that checklist matches what we ship.",
 				],
 			},
 			{
@@ -835,7 +835,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Detection talk without fairy tales",
 				paragraphs: [
 					"Smaller user bases generate fewer public ban screenshots — that is not proof of safety. Larger brands generate more noise even when maintenance is solid. Judge sellers by patch communication speed and whether you can find a dated status note.",
-					"LoL Cheats documents maintenance on <a href=\"/vanguard-bypass/\">Vanguard workflow</a> and <a href=\"/undetected-lol-cheats/\">undetected notes</a>.",
+					"LoL Cheats documents maintenance on <a href=\"/updates/\">Vanguard workflow</a> and <a href=\"/\">undetected notes</a>.",
 				],
 			},
 			{
@@ -848,8 +848,8 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Pick the stack that matches how you play",
 				paragraphs: [
-					"Casual outline-only champions may tolerate minimal ESP. Players who rotate, ward, and hold objectives usually need radar and filters in one menu — that is the full-stack case for <a href=\"/lol-cheats/\">LoL Cheats</a>.",
-					"Compare <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-radar-cheat/\">radar</a>, and <a href=\"/pricing/\">Pricing</a> on paper first. Then read <a href=\"/undetected-lol-cheats/\">undetected notes</a> on whichever path you choose.",
+					"Casual outline-only champions may tolerate minimal ESP. Players who rotate, ward, and hold objectives usually need radar and filters in one menu — that is the full-stack case for <a href=\"/\">LoL Cheats</a>.",
+					"Compare <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-radar-cheat/\">radar</a>, and <a href=\"/pricing/\">Pricing</a> on paper first. Then read <a href=\"/\">undetected notes</a> on whichever path you choose.",
 				],
 			}
 		],

@@ -676,10 +676,11 @@ export const localizedSlugs: Record<PageId, Record<LocaleCode, string>> = {
 export const pageIds = Object.keys(englishPaths) as PageId[];
 
 export function getLocalizedPath(pageId: PageId, locale: LocaleCode): string {
+	const resolvedId = getCannibalTargetId(pageId) as PageId;
 	if (locale === defaultLocale) {
-		return englishPaths[pageId];
+		return englishPaths[resolvedId];
 	}
-	const slug = localizedSlugs[pageId][locale];
+	const slug = localizedSlugs[resolvedId][locale];
 	return slug ? `/${locale}/${slug}/` : `/${locale}/`;
 }
 
