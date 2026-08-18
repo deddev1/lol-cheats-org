@@ -72,26 +72,36 @@ export const brand = {
 	 * Aim ~50–60 chars titles, ~140–160 chars descriptions.
 	 */
 	seo: {
-		homeTitle: 'LoL Cheats | Undetected Aimbot, ESP & Wallhack 2026',
-		homeDescription: 'LoL cheats for League of Legends on PC with aimbot, ESP and wallhack features. Explore gameplay features, pricing, setup information and the latest updates.',
+		homeTitle: 'LoL Cheats 2026 | Undetected ESP, Aimbot & Wallhack',
+		homeDescription:
+			'LoL cheats for League of Legends on Windows PC with aimbot, ESP, and wallhack. Compare features, pricing, setup steps, and Vanguard update notes before you buy.',
 		featuresTitle: '{game} Features | {brand}',
-		featuresDescription: 'Everything in one {game} license for Windows PC — ESP, soft aim, radar, macro tools, and patch updates after {antiCheat}. See what is included.',
-		storeTitle: '{game} Store | {brand}',
-		storeDescription: 'Monthly and lifetime {game} plans for Windows PC. Same ESP, aimbot, and radar features on both. Instant delivery after payment checkout.',
-		statusTitle: '{game} Status | {brand}',
-		statusDescription: 'Live undetected status for {brand} after {game} or {antiCheat} patches. Check here before you queue on Windows PC today.',
+		featuresDescription:
+			'Full LoL Cheats feature list for Windows PC: ESP boxes, soft aim, radar, and toggle controls. Review everything included before you buy a monthly or lifetime license.',
+		storeTitle: '{game} Pricing | {brand}',
+		storeDescription:
+			'LoL Cheats pricing: $35 per month or $150 lifetime for ESP, soft aim, and radar on Windows PC. Same features on both plans with instant digital delivery after checkout.',
+		statusTitle: '{game} Updates | {brand}',
+		statusDescription:
+			'LoL Cheats update log with Vanguard rebuild notes for ESP, soft aim, and radar on Windows PC. Check maintenance status here before queueing after League of Legends patches.',
 		previewTitle: 'LoL Cheats | Undetected ESP & Aimbot',
-		previewDescription: 'Buy undetected lol cheats for League of Legends on Windows PC. ESP, soft aim, radar, and Vanguard patch updates in one license with instant delivery.',
+		previewDescription:
+			'Undetected LoL Cheats for League of Legends on Windows PC with ESP, soft aim, and radar in one license. Instant digital delivery and Vanguard maintenance after major patches.',
 		setupTitle: '{game} Setup | {brand}',
-		setupDescription: 'Install and launch {brand} on Windows PC after checkout. Short setup steps so you can queue faster. Follow each step in order before your first match.',
+		setupDescription:
+			'Set up LoL Cheats on Windows PC after purchase. Activate ESP boxes, soft aim profiles, and radar, then confirm Vanguard status on Updates before your first queue.',
 		supportTitle: '{game} Support | {brand}',
-		supportDescription: 'Get help with {brand} on Windows PC. Email {email} with your order ID for setup, delivery, or billing help after you buy.',
+		supportDescription:
+			'Contact LoL Cheats support for license delivery, ESP setup, soft aim profiles, and billing on Windows PC. Email with your order ID so replies can start faster.',
 		faqTitle: '{game} FAQ | {brand}',
-		faqDescription: 'Short answers about {brand} for League of Legends — delivery, setup, {antiCheat} updates, refunds, and Windows PC system notes before you buy.',
+		faqDescription:
+			'LoL Cheats FAQ covers ESP, soft aim, radar, Vanguard maintenance, pricing, and delivery on Windows PC. Clear answers about licenses, setup, and updates before you buy.',
 		reviewsTitle: '{brand} Reviews | Buyer Feedback',
-		reviewsDescription: 'Buyer reviews for {brand} — ESP, soft aim, radar, and patch updates for League of Legends on Windows PC. Real feedback from license holders.',
+		reviewsDescription:
+			'Buyer reviews for LoL Cheats on Windows PC — ESP, soft aim, radar, and Vanguard update feedback from real license holders after ranked and ARAM matches.',
 		blogTitle: '{game} Intel | {brand}',
-		blogDescription: 'Guides and notes for {game} — macro tips, ESP, aimbot, gank routes, and {antiCheat} update coverage for Windows PC champions.',
+		blogDescription:
+			'LoL Intel guides for League of Legends on Windows PC — macro tips, ESP, aimbot settings, jungle routes, and Vanguard update coverage for competitive players.',
 	},
 
 	/** On-page marketing copy (tokens allowed) */
@@ -177,10 +187,19 @@ export function seoTitle(topic: string): string {
 	return title.length <= 60 ? title : `${topic} | ${brand.name}`;
 }
 
-/** Keep descriptions short; tokens allowed. */
+/** Keep descriptions at 140–160 chars with complete sentences. */
 export function seoDescription(template: string): string {
 	const text = fillBrandTokens(template).trim();
-	return text.length <= 160 ? text : `${text.slice(0, 157).trim()}…`;
+	if (text.length >= 140 && text.length <= 160) return text;
+	if (text.length > 160) {
+		const trimmed = text.slice(0, 160);
+		const lastPeriod = trimmed.lastIndexOf('.');
+		if (lastPeriod >= 130) return trimmed.slice(0, lastPeriod + 1);
+		const lastSpace = trimmed.lastIndexOf(' ');
+		const cut = lastSpace > 130 ? trimmed.slice(0, lastSpace) : trimmed;
+		return cut.endsWith('.') ? cut : `${cut}.`;
+	}
+	return text;
 }
 
 /** Resolved EN home meta from brand.seo (title clamp lives in site-core.seoPageTitle). */

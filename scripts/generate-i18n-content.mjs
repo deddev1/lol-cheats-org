@@ -11,6 +11,7 @@ import { LOCALES, TS_HEADER } from './i18n-data/constants.mjs';
 import { allUiStrings } from './i18n-data/ui-strings.mjs';
 import { englishPagesFinal } from './i18n-data/pages-en.mjs';
 import { buildPagesForLocale } from './i18n-data/pages-i18n.mjs';
+import { sanitizeDeep } from './i18n-data/text-sanitize.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -80,7 +81,7 @@ function buildI18nContent() {
 			}
 		}
 
-		content[locale] = { ui, pages };
+		content[locale] = { ui: sanitizeDeep(ui, locale), pages: sanitizeDeep(pages, locale) };
 	}
 
 	return content;

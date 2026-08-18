@@ -2,6 +2,7 @@
 import PageLayout from '../layouts/PageLayout.astro';
 import { getPageContent, getUi, type PageId } from '../data/i18n';
 import { getLocalizedPath, localizeInternalHref } from '../data/i18n/routing';
+import { getCannibalTargetId, isCannibalPageId } from '../data/seo-cannibal-map';
 import type { LocaleCode } from '../data/i18n/locales';
 import { productInfo, seoFaqs, siteConfig } from '../data/site';
 import { absoluteFaqUrl, getFaqPath } from '../data/faq';
@@ -17,6 +18,8 @@ interface Props {
 }
 
 const { locale, pageId } = Astro.props;
+const canonicalPageId = getCannibalTargetId(pageId) as PageId;
+const isRedirectStub = isCannibalPageId(pageId);
 const page = getPageContent(locale, pageId);
 const ui = getUi(locale);
 const t = getT(locale);
@@ -108,7 +111,7 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 <PageLayout
 	title={simple?.title ?? page.title}
 	description={simple?.description ?? page.description}
-	canonicalPath={getLocalizedPath(pageId, locale)}
+	canonicalPath={getLocalizedPath(canonicalPageId, locale)}
 	heading={heading}
 	intro={intro}
 	introEdit={introEdit}
@@ -119,6 +122,7 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 	galleryTitle={galleryTitle}
 	locale={locale}
 	pageId={pageId}
+	showHreflang={!isRedirectStub}
 	extraGraph={extraGraph}
 	showExternalResources={!['privacy', 'refund', 'terms'].includes(pageId)}
 	ctaPrimary={{ href: ctaPrimaryHref, label: ctaPrimaryLabel, edit: supportPageIds.includes(pageId as (typeof supportPageIds)[number]) ? undefined : 'ctaBuy' }}

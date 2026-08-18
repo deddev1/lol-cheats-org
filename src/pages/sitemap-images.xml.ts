@@ -10,12 +10,12 @@ export const prerender = true;
  * and Google never sees duplicate <loc> rows (a common crawl warning).
  */
 const PREFERRED_HOSTS = [
-	englishPaths.home,
-	englishPaths['lol-esp'],
-	englishPaths['lol-aimbot'],
 	englishPaths.features,
 	englishPaths.pricing,
 	englishPaths.updates,
+	englishPaths.home,
+	englishPaths['lol-esp'],
+	englishPaths['lol-aimbot'],
 	englishPaths.setup,
 	englishPaths.faq,
 	englishPaths.support,

@@ -48,8 +48,8 @@ const SHOTS = [
 const REMOVE_PREFIXES = [
 	'lol-screenshot-',
 	'lol-extract-fight',
-	'lol-growth-run-combat',
-	'lol-growth-run-mode',
+	'lol-aram-combat',
+	'lol-aram-mode',
 	'lol-verdansk-map',
 	'lol-wallhack-skeleton',
 	'hero-banner',

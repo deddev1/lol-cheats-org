@@ -80,7 +80,7 @@ export function modMenuOverlay(w, h) {
 	const rows = [
 		['ESP Wallhack', true],
 		['Player Boxes', true],
-		['Carcass ESP', true],
+		['Ward ESP', true],
 		['2D Radar', true],
 		['Soft Aimbot', true],
 		['Bone Priority', false],

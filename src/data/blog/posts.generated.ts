@@ -15,38 +15,38 @@ export const blogPosts: BlogPostDefinition[] = [
 		title: "How to Read League of Legends Patch Notes",
 		metaDescription: "Learn how League of Legends patch notes change champion builds, gold economy, and maps. What to do after Vanguard and major updates in 2026.",
 		h1: "How to Read League of Legends Patch Notes",
-		intro: "When Riot Games drops a patch, most champions skim the headline and queue up anyway. That is how you walk into Summoners Rift with the wrong ammo and a gun that just lost its damage output. Here is a calmer way to read League of Legends patch notes so your next match still makes sense.",
+		intro: "When Riot Games drops a patch, most players skim the headline and queue anyway. That is how you walk into Summoners Rift with the wrong build and a champion that just lost its damage output. Here is a calmer way to read League of Legends patch notes so your next match still makes sense.",
 		keywords: ["the lol patch notes","lol updates","vanguard patch"],
 		imageAlt: "Player reviewing League of Legends patch notes before a match",
 		sections: [
 			{
 				h2: "What actually matters in League of Legends patch?",
 				paragraphs: [
-					"Official notes live on <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a>. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how fed carries gank? Does this change what wards are worth ganking? Does this change which nest or map I should play tonight?",
-					"Champion stat tables, rank tiers, baron spawn rates, and champions unlocks move the real economy. A small attack timing tweak on an off-meta picks look boring in a video title, but it quietly reshapes mid-range fights in lane brushes and Gateway. Cosmetic lines and UI polish almost never decide whether you survive high-traffic zones.",
+					"Official notes live on <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a>. Treat that page as the source of truth — Discord rumors and streamer hot takes come second. Ask three plain questions for every bullet: Does this change how fed carries gank? Does this change what wards are worth contesting? Does this change which lane or map you should play tonight?",
+					"Champion stat tables, rank tiers, baron spawn rates, and champion unlocks move the real economy. A small attack-speed tweak on an off-meta pick looks boring in a video title, but it quietly reshapes mid-range fights in lane bushes. Cosmetic lines and UI polish almost never decide whether you survive teamfights.",
 					"If you also run third-party tools, separate game balance from anti-cheat maintenance. After a <a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a> or client update, check our <a href=\"/updates/\">LoL Cheats status page</a> before you blame your own aim.",
 				],
 			},
 			{
 				h2: "Buffs, nerfs, and removed items — a simple framework",
 				paragraphs: [
-					"When an item is removed from match wards pools, delete it from your mental shopping list the same day. Heavy nerfs demote a champions from “default kit” to “situational.” Light nerfs are fine if you already shoot cleaner than most lobbies. Buffs deserve a short test block — ten focused matches — before you rebuild your entire account progress around them.",
-					"Growth stats and bite damage changes usually matter more than a single gun’s attack timing number. If a popular round loses penetration against fed carries, your Summoners Rift push into team ganks suddenly needs a different mag. Pair this reading habit with our <a href=\"/blog/lol-champion-tier-list/\">League of Legends champion tier list</a> so you are not chasing streamer builds that ignore your budget.",
+					"When an item is removed from shop pools, delete it from your mental shopping list the same day. Heavy nerfs demote a champion from “default pick” to “situational.” Light nerfs are fine if you already trade cleaner than most lobbies. Buffs deserve a short test block — ten focused matches — before you rebuild your entire account progress around them.",
+					"Ability damage and cooldown changes usually matter more than a single stat number. If a popular build loses burst against fed carries, your Summoners Rift push into teamfights suddenly needs a different combo. Pair this reading habit with our <a href=\"/blog/lol-champion-tier-list/\">League of Legends champion tier list</a> so you are not chasing streamer builds that ignore your gold budget.",
 				],
 			},
 			{
 				h2: "How patches reshuffle loadouts and map plans",
 				paragraphs: [
-					"When mid-tier carnivores feel strong, prioritize optics and stats that win 40–70 meter peeks. When health regeneration get tighter, play more conservatively near objectives and river and avoid ego third-champions. When a map POI shifts — new locked rooms, moved spawns, apex spawn changes — rewrite your first three minutes on that map before you farm it for growth goals.",
-					"Keep in-game cosmetics chatter out of patch-day focus. Skin talk is fun; kill speed and nest camping patterns are what get you killed. For aggressive early-game timing after a meta shift, see our <a href=\"/blog/lol-aram-aggressive-strategies/\">macro strategies</a>.",
-					"On big mornings, confirm <a href=\"https://www.leagueoflegends.com//\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends on Riot Client</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your account progress “buy list,” play five intentional matches, and only then lock a new main kit.",
+					"When meta mid-lane picks feel strong, prioritize items and stats that win short to mid-range trades. When health regen gets tighter, play more conservatively near objectives and river and avoid ego third-party fights. When an objective shifts — new jungle camps, moved spawns, baron timing changes — rewrite your first three minutes on that map before you farm it for ranked goals.",
+					"Keep in-game cosmetics chatter out of patch-day focus. Skin talk is fun; kill speed and bush camping patterns are what get you killed. For aggressive early-game timing after a meta shift, see our <a href=\"/blog/lol-aram-aggressive-strategies/\">macro strategies</a>.",
+					"On big mornings, confirm <a href=\"https://www.leagueoflegends.com//\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends on Riot Client</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your account progress “buy list,” play five intentional matches, and only then lock a new main champion.",
 				],
 			},
 			{
 				h2: "Staying ahead after every League of Legends update",
 				paragraphs: [
-					"Patch days are when most champions lose account progress — not because the game broke, but because they never updated their habits. After you read the notes, spend ten minutes on our <a href=\"/updates/\">status page</a> if you use overlays, then adjust your main champions and nest plan before you queue.",
-					"If you rely on information tools, confirm the stack on <a href=\"/lol-cheats/\">LoL Cheats</a> still matches the current client. Pair patch reading with the <a href=\"/faq/\">FAQ</a> when something in the notes is unclear — guessing costs more time than one careful read.",
+					"Patch days are when most players lose account progress — not because the game broke, but because they never updated their habits. After you read the notes, spend ten minutes on our <a href=\"/updates/\">status page</a> if you use overlays, then adjust your main champion and macro plan before you queue.",
+					"If you rely on information tools, confirm the stack on <a href=\"/\">LoL Cheats</a> still matches the current client. Pair patch reading with the <a href=\"/faq/\">FAQ</a> when something in the notes is unclear — guessing costs more time than one careful read.",
 				],
 			}
 		],
@@ -63,7 +63,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "lol-skin-leaks-guide",
-		title: "League of Legends Cosmetics & Skin Previews: What Is Worth Buying",
+		title: "LoL Cosmetics Guide: What Skins Are Worth Buying",
 		metaDescription: "Sensible advice on League of Legends cosmetics and skin previews — what to buy on the in-game shop, what to skip, and how looks affect match readability.",
 		h1: "League of Legends Cosmetics Buying Guide",
 		intro: "Leaks make every patch cycle feel like a fashion drop. Before you dump gold into another loud outfit, decide whether the skin helps you play League of Legends — or just looks cool in a screenshot.",
@@ -73,14 +73,14 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Why most impulse cosmetic buys feel bad after a week",
 				paragraphs: [
-					"Shop rotations and official skins come from <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a>. Leaks are entertainment, not a shopping list. Many champions spend hard-earned in-game currency the night before a patch cycle, then realize they still need health regeneration, ammo, and a backup kit.",
+					"Shop rotations and official skins come from <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a>. Leaks are entertainment, not a shopping list. Many champions spend hard-earned in-game currency the night before a patch cycle, then realize they still need health regen, ammo, and a backup kit.",
 					"Controversial but useful: most cosmetics do not raise your survival rate. Some loud patterns even make you easier to spot in bushes in lane brushes or near river objectives. Pros often prefer quieter silhouettes so enemy outlines stay readable in chaotic peeks.",
 				],
 			},
 			{
 				h2: "A simple worth-it checklist for League of Legends cosmetics",
 				paragraphs: [
-					"Buy if you will still wear it in ninety days and it stays readable in night matches. Pause if it overlaps three outfits you already own. Skip FOMO bundles teamed with fillers you will never equip. Always keep a rouble floor for ammo and healing before fashion.",
+					"Buy if you will still wear it in ninety days and it stays readable in night matches. Pause if it overlaps three outfits you already own. Skip FOMO bundles teamed with fillers you will never equip. Always keep a gold reserve for mana and healing before fashion.",
 					"Do the math on bundles. Paying extra for two fillers you hate is worse than waiting for a single piece on the in-game shop. If a leak only hypes one jacket, wait for confirmation instead of panic-buying a full set.",
 				],
 			},
@@ -94,7 +94,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Cosmetics vs survival tools — keep the budget split clear",
 				paragraphs: [
-					"Skins are fun, but they do not replace map reads, nest timing, or a stable kit. If you play for information advantage, budget for <a href=\"/lol-esp/\">ESP</a> and <a href=\"/features/\">features</a> before you chase another cosmetic drop.",
+					"Skins are fun, but they do not replace map reads, wave timing, or a stable loadout. If you play for information advantage, budget for <a href=\"/lol-esp/\">ESP</a> and <a href=\"/features/\">features</a> before you chase another cosmetic drop.",
 					"When a patch cycle shifts visibility or lighting, revisit your settings in our <a href=\"/blog/lol-pro-settings-guide/\">pro settings guide</a> before you blame a skin for a lost fight.",
 				],
 			}
@@ -112,40 +112,40 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "lol-champion-tier-list",
-		title: "League of Legends Champion Tier List: Best Champions for Ranked",
-		metaDescription: "A practical League of Legends champion tier list for laner and jungler matches — carnivores, ambush builds, skillshot champions, ammo, and when each gun actually wins fights.",
+		title: "LoL Champion Tier List: Best Picks for Ranked 2026",
+		metaDescription: "A practical League of Legends champion tier list for laner and jungler matches — assassins, mages, marksmen, items, and when each pick actually wins fights.",
 		h1: "League of Legends Champion Tier List for 2026",
-		intro: "Creator tier lists love flashy guns. League of Legends rewards expected value: damage output, attack timing you can control, and a kit you can rebuild after you die. Here is how to rank champions for real matches — not highlight reels.",
+		intro: "Creator tier lists love flashy picks. League of Legends rewards expected value: damage output, attack speed you can control, and a kit you can rebuild after you die. Here is how to rank champions for real matches — not highlight reels.",
 		keywords: ["lol tier list","best lol champions","lol meta"],
 		imageAlt: "League of Legends champions laid out for a champions comparison for a champion build comparison",
 		sections: [
 			{
 				h2: "How should you define S-tier in League of Legends?",
 				paragraphs: [
-					"S-tier means the best expected value across a hundred player encounters on maps like Summoners Rift, Woods, and Gateway — not the gun that looks strongest in a controlled offline range. Mid-range rifles win many of the fights that actually decide matches: forty to seventy meters through doorways, parking lots, and tree lines.",
-					"Shotguns still own tight interiors. Skillshots still punish long peeks on Shoreline and Lighthouse. Everything between those extremes is usually assault-rifle country, which is why a well-built M4A1 or similar 5.56 platform stays relevant patch cycle after patch cycle when ammo and mods are available.",
+					"S-tier means the best expected value across a hundred player encounters on Summoners Rift and Howling Abyss — not the champion that looks strongest in practice tool. Mid-range mages and marksmen win many of the fights that actually decide matches: short to mid-range trades through lane gaps and river brushes.",
+					"Assassins still own tight teamfights. Skillshots still punish long peeks on Summoners Rift. Everything between those extremes is usually marksman and mage territory, which is why a well-built ADC or battle mage stays relevant patch after patch when items are available.",
 					"Always re-check live values after patches on <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a>. The hierarchy logic stays useful even when numbers nudge.",
 				],
 			},
 			{
 				h2: "Ammo, kill speed, and peek discipline matter more than brand names",
 				paragraphs: [
-					"Time-to-kill in League of Legends is really time-to-pen. A soft gun with the right rounds beats a loud meta rifle feeding trash ammo into class-five armor. Learn which rounds you can afford this patch cycle, then pick a platform that controls attack timing at your skill level.",
-					"First-shot accuracy decides many peeks. A clean cadence — peek, fire a short burst, jiggle back, re-peek — beats standing still for ego sprays. Pair this mid-range plan with wards discipline from our <a href=\"/blog/lol-loot-routes-guide/\">gank routes guide</a> so you actually spawn with the ammo you planned to use.",
+					"Time-to-kill in League of Legends is really time-to-burst. A soft build with the right items beats a loud meta pick feeding the wrong build path. Learn which items you can afford this patch, then pick a champion that controls attack speed at your skill level.",
+					"First-hit accuracy decides many trades. A clean cadence — trade, step back, re-engage — beats standing still for ego combos. Pair this mid-range plan with ward discipline from our <a href=\"/blog/lol-loot-routes-guide/\">jungle routes guide</a> so you actually start with the items you planned to use.",
 				],
 			},
 			{
 				h2: "Loadout pairings and common mistakes",
 				paragraphs: [
-					"A durable kit is usually a reliable mid-tier carnivore, a ambush build in teamfight zones or high-traffic zones, enough health regeneration, and an growth tier you can replace after deaths. In ARAM games, that same spine supports the aggression patterns in our <a href=\"/blog/lol-aram-aggressive-strategies/\">macro strategies article</a>.",
-					"Common mistakes: full-spraying from eighty meters, re-peeking the same pixel, swapping to an SMG at forty meters out of habit, and never practicing controlled bursts offline. If you also use aim-assist tooling, lock aim smoothing and fundamentals first, then review <a href=\"/lol-aimbot/\">LoL Aimbot settings</a>.",
+					"A durable loadout is usually a reliable meta pick, an assassin build for teamfight zones, enough health regen, and an item tier you can replace after deaths. In ARAM games, that same spine supports the aggression patterns in our <a href=\"/blog/lol-aram-aggressive-strategies/\">macro strategies article</a>.",
+					"Common mistakes: full-comboing from max range, re-engaging the same angle, swapping to a melee at range out of habit, and never practicing controlled trades in practice tool. If you also use aim-assist tooling, lock aim smoothing and fundamentals first, then review <a href=\"/lol-aimbot/\">LoL Aimbot settings</a>.",
 				],
 			},
 			{
 				h2: "Turn tier knowledge into match wins",
 				paragraphs: [
-					"A tier list only helps when you spawn with the right plan. Match your pick to your map, nest route, and whether you solo or trio. Competitive champions often pair champions choice with <a href=\"/lol-radar-cheat/\">radar</a> reads so flanks do not erase a good spawn.",
-					"If you want the full cheat-side stack that supports aggressive picks, start at <a href=\"/lol-cheats/\">LoL Cheats</a> and compare plans on <a href=\"/pricing/\">Pricing</a> before you commit to a main champions for the wipe.",
+					"A tier list only helps when you start with the right plan. Match your pick to your map, jungle route, and whether you solo or duo. Competitive players often pair champion choice with <a href=\"/lol-radar-cheat/\">radar</a> reads so flanks do not erase a good start.",
+					"If you want the full cheat-side stack that supports aggressive picks, start at <a href=\"/\">LoL Cheats</a> and compare plans on <a href=\"/pricing/\">Pricing</a> before you commit to a main champion for the season.",
 				],
 			}
 		],
@@ -162,38 +162,38 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "lol-aram-aggressive-strategies",
-		title: "League of Legends ARAM Game Strategies That Actually Clear Wards",
+		title: "LoL ARAM Strategies That Actually Clear Wards",
 		metaDescription: "Five aggressive but smart League of Legends macro strategies — timings, objectives, third-champions, and how to leave matches with gold instead of low gold.",
 		h1: "League of Legends ARAM Game Strategies",
-		intro: "Passive early-game champions wait behind a bush while two player teams erase each other, then spray into the mess and die. Strong ARAM games manufacture a short advantage, grab what matters, and nest before the match ends collapses on you.",
+		intro: "Passive early-game players wait behind a bush while two teams erase each other, then dive into the mess and die. Strong ARAM games manufacture a short advantage, grab what matters, and recall before the fight collapses on you.",
 		keywords: ["lol ARAM game","the lol early-game","lol objectives"],
-		imageAlt: "early-game player moving toward a nest with wards in League of Legends",
+		imageAlt: "Early-game player moving toward an objective with wards in League of Legends",
 		sections: [
 			{
 				h2: "Why so many ARAM games feel soft",
 				paragraphs: [
-					"early-game builds are random, timers are limited, and player enemy minions can turn on you. Waiting forever for a “perfect” third-party often means you arrive late to a patched lobby with nothing left. Information tools like <a href=\"/lol-esp/\">LoL ESP</a> can help you see fights early — but you still need an exit plan.",
-					"Decide your nest route before you swing. Take a clear damage window, grab low-health targets, then leave. The usual third-party clock in hot POIs is only a few seconds long once gunfire starts.",
+					"Early-game builds are random, timers are limited, and enemy minions can turn on you. Waiting forever for a “perfect” third-party often means you arrive late to a patched lobby with nothing left. Information tools like <a href=\"/lol-esp/\">LoL ESP</a> can help you see fights early — but you still need an exit plan.",
+					"Decide your rotation route before you swing. Take a clear damage window, grab low-health targets, then leave. The usual third-party clock in hot objectives is only a few seconds long once abilities start flying.",
 				],
 			},
 			{
 				h2: "Five aggressive habits that still work",
 				paragraphs: [
-					"Pre-aim common corners on Summoners Rift high-traffic zones and Gateway tech stores so you clear angles in under a second. Enter rooms with an exit path, not a panic turn. Fake one side of a doorway, then finish from the safer angle when their stamina is low.",
-					"Stay close to hard cover while you move — never more than a short sprint from a wall or vehicle. Pressure late rotates near objectives and river when champions are silhouetted and greedy. Mode rules evolve with <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a> patch cycles; the geometry of first-shot advantage does not.",
+					"Pre-aim common corners on Summoners Rift teamfight zones and shop areas so you clear angles in under a second. Enter fights with an exit path, not a panic turn. Fake one side of a bush, then finish from the safer angle when their mana is low.",
+					"Stay close to hard cover while you move — never more than a short dash from a wall or minion wave. Pressure late rotates near objectives and river when champions are silhouetted and greedy. Mode rules evolve with <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a> patches; the geometry of first-hit advantage does not.",
 				],
 			},
 			{
-				h2: "Warmup checklist before you spawn as a early-game",
+				h2: "Warmup checklist before you start as an early-game",
 				paragraphs: [
-					"Know your map’s main objectives, bring a simple med plan, and pick two POIs with cover ladders instead of open fields. Pair this article with <a href=\"/blog/lol-loot-routes-guide/\">gank routes</a>, <a href=\"/blog/lol-champion-tier-list/\">champion tiers</a>, and <a href=\"/blog/lol-warmup-maps-ranked/\">warmup routines</a>.",
-					"Try one match where you force early contact only when you have armor and a usable gun — then track whether you extracted before the third-party window closed.",
+					"Know your map’s main objectives, bring a simple heal plan, and pick two lanes with cover instead of open fields. Pair this article with <a href=\"/blog/lol-loot-routes-guide/\">jungle routes</a>, <a href=\"/blog/lol-champion-tier-list/\">champion tiers</a>, and <a href=\"/blog/lol-warmup-maps-ranked/\">warmup routines</a>.",
+					"Try one match where you force early contact only when you have items and a usable champion — then track whether you recalled before the third-party window closed.",
 				],
 			},
 			{
-				h2: "Growth runs and information tools work together",
+				h2: "ARAM games and information tools work together",
 				paragraphs: [
-					"Juvenile timing is about seconds. Seeing a fight early — through sound, map knowledge, or <a href=\"/lol-esp/\">ESP</a> — lets you third-party with a plan instead of sprinting into a crossfire.",
+					"Early-game timing is about seconds. Seeing a fight early — through sound, map knowledge, or <a href=\"/lol-esp/\">ESP</a> — lets you third-party with a plan instead of sprinting into a crossfire.",
 					"After a strong ARAM game, protect the kit with conservative settings from our <a href=\"/lol-aimbot/\">aimbot guide</a> and check <a href=\"/updates/\">Updates</a> before long matches on patch weeks.",
 				],
 			}
@@ -221,15 +221,15 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Watch ranked server VODs like a coach, not a fan",
 				paragraphs: [
-					"Start with schedules and film from <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a> official updates or trusted creators, then tag habits instead of memorizing a single POI name. Note the landing plan, first heal, first rotate, first voluntary fight, and the key late-match decision.",
+					"Start with schedules and film from <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a> official updates or trusted creators, then tag habits instead of memorizing a single objective name. Note the landing plan, first heal, first rotate, first voluntary fight, and the key late-match decision.",
 					"Five clear timestamps beat a full passive watch. You are stealing decision patterns, not cosplaying someone else’s spawn.",
 				],
 			},
 			{
-				h2: "Spawn EV and loadout patterns that keep showing up",
+				h2: "Lane priority and loadout patterns that keep showing up",
 				paragraphs: [
-					"Score every spawn on contest rate, wards quality in the first few minutes, nest safety, exit paths, and split potential with teammates. Edge spawns with clean exits often beat “sexy” mid-map landmarks that look good on stream and then get third-partyed.",
-					"Expect a reliable mid-tier carnivore, a ambush build, mobility or stamina management, and enough health regeneration. High-tier wards is taken when free, not forced — matching the mindset in our <a href=\"/blog/lol-champion-tier-list/\">champion tier list</a>.",
+					"Score every spawn on contest rate, ward quality in the first few minutes, lane safety, exit paths, and split potential with teammates. Edge spawns with clean exits often beat “sexy” mid-map landmarks that look good on stream and then get third-partied.",
+					"Expect a reliable meta pick, an assassin build, mobility or mana management, and enough health regen. High-tier wards are taken when free, not forced — matching the mindset in our <a href=\"/blog/lol-champion-tier-list/\">champion tier list</a>.",
 				],
 			},
 			{
@@ -242,8 +242,8 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Competitive habits that pair with LoL Cheats tools",
 				paragraphs: [
-					"High-level champions win on information timing: who rotates first, who holds nest, who peeks with armor. That is the same loop <a href=\"/features/\">ESP, radar, and soft aim</a> support when tuned conservatively.",
-					"If you study competitive meta, also read <a href=\"/lol-cheats/\">LoL Cheats</a> and <a href=\"/setup/\">Setup</a> so your overlay stack stays readable instead of noisy during real fights.",
+					"High-level players win on information timing: who rotates first, who holds lane, who trades with items. That is the same loop <a href=\"/features/\">ESP, radar, and soft aim</a> support when tuned conservatively.",
+					"If you study competitive meta, also read <a href=\"/\">LoL Cheats</a> and <a href=\"/setup/\">Setup</a> so your overlay stack stays readable instead of noisy during real fights.",
 				],
 			}
 		],
@@ -255,44 +255,44 @@ export const blogPosts: BlogPostDefinition[] = [
 		imageKey: "summonersRiftMap",
 		published: "2026-07-18",
 		updated: "2026-08-17",
-		category: "Loot Routes",
+		category: "Jungle Routes",
 		featured: true,
 		translations: {
 		en: {
 		slug: "lol-loot-routes-guide",
-		title: "League of Legends Loot Routes That Leave Spawn Ready to Fight",
-		metaDescription: "High-percentage League of Legends gank routes for Summoners Rift, Woods, and Gateway — how to leave spawn with guns, armor, and health regeneration that win mid-match fights.",
-		h1: "League of Legends Loot Routes Guide",
-		intro: "Winning in League of Legends starts before the first gunfight. Random wardsing gets you killed with a pistol and no health regeneration. These route habits consistently convert a queue upto a kit you can actually fight with.",
-		keywords: ["lol loot routes","lol spawn guide","LoL ESP"],
-		imageAlt: "Loot route planning across League of Legends map",
+		title: "LoL Jungle Routes: Leave Base Ready to Fight",
+		metaDescription: "High-percentage League of Legends jungle routes for Summoners Rift and ARAM — how to leave base with items, boots, and health regen that win mid-match fights.",
+		h1: "League of Legends Jungle Routes Guide",
+		intro: "Winning in League of Legends starts before the first teamfight. Random warding gets you killed with starter items and no health regen. These route habits consistently convert a queue up to a loadout you can actually fight with.",
+		keywords: ["lol jungle routes","lol spawn guide","LoL ESP"],
+		imageAlt: "Jungle route planning across League of Legends map",
 		sections: [
 			{
 				h2: "Why early inventory is the real bottleneck",
 				paragraphs: [
-					"Many early match deaths happen because champions wards like tourists. Strong champions treat the first ninety seconds like a shopping list: usable gun, enough ammo, basic armor, and a heal. Drop spot matters less than sequence — a mediocre POI with discipline beats a stacked landmark with panic wardsing.",
-					"Secure a primary growth stage and health regeneration before ganking kills. Early ego chases are how hot-spawn champions stay broke.",
+					"Many early match deaths happen because players farm like tourists. Strong players treat the first ninety seconds like a shopping list: usable item build, enough mana, basic boots, and a heal. Camp order matters less than sequence — a mediocre route with discipline beats a stacked landmark with panic warding.",
+					"Secure a primary early level and health regen before chasing kills. Early ego chases are how hot-start players stay broke.",
 				],
 			},
 			{
 				h2: "Three route archetypes that keep printing gear",
 				paragraphs: [
-					"Contested edge POI: land outer wards, snake inward, leave before late third parties. Uncontested chain: sacrifice early fights for a fuller kit by minute three. Mid-map surge: vacuum piles ninety to one hundred fifty seconds after hot spawns empty out.",
-					"Timing targets help: first gun quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually gun, ammo, armor, health regeneration, then flex wards. POI names shift with <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a> patch cycles — keep the geometry, not just the landmark brand.",
+					"Contested edge camps: clear outer wards, snake inward, leave before late third parties. Uncontested chain: sacrifice early fights for a fuller build by minute three. Mid-map surge: vacuum camps ninety to one hundred fifty seconds after hot starts empty out.",
+					"Timing targets help: first core item quickly, clear a cluster, grab heals, then upgrade or leave. Slot priority is usually core item, boots, defensive item, health regen, then flex wards. Camp names shift with <a href=\"https://www.leagueoflegends.com/\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends</a> patches — keep the geometry, not just the landmark brand.",
 				],
 			},
 			{
 				h2: "Convert a strong queue upto a win",
 				paragraphs: [
-					"Pair these routes with <a href=\"/blog/lol-aram-aggressive-strategies/\">lane aggression</a> and <a href=\"/blog/lol-champion-tier-list/\">champion tiers</a>. Leave spawn with item advantage so mid-match becomes a skill check instead of a desperate growth panic.",
+					"Pair these routes with <a href=\"/blog/lol-aram-aggressive-strategies/\">lane aggression</a> and <a href=\"/blog/lol-champion-tier-list/\">champion tiers</a>. Leave base with item advantage so mid-match becomes a skill check instead of a desperate gold deficit.",
 					"If you practice with ward markers, read <a href=\"/lol-esp/\">LoL ESP</a> for category toggles — then still run the timer so your habits stay sharp without overlays.",
 				],
 			},
 			{
 				h2: "Route discipline plus ward awareness",
 				paragraphs: [
-					"Routes fail when champions ward like tourists. Mark your ninety-second plan, stick to cover ladders, and use <a href=\"/lol-esp/\">ward ESP filters</a> only to confirm what your route already predicted — not to replace map knowledge.",
-					"Strong routes feed into ARAM games and competitive spawns. Link this guide with <a href=\"/lol-cheats/\">LoL Cheats</a> if you want radar for objective zones after your kit is online.",
+					"Routes fail when players farm like tourists. Mark your ninety-second plan, stick to cover ladders, and use <a href=\"/lol-esp/\">ward ESP filters</a> only to confirm what your route already predicted — not to replace map knowledge.",
+					"Strong routes feed into ARAM games and competitive spawns. Link this guide with <a href=\"/\">LoL Cheats</a> if you want radar for objective zones after your kit is online.",
 				],
 			}
 		],
@@ -309,7 +309,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "lol-pro-settings-guide",
-		title: "League of Legends Pro Settings That Actually Help You See Enemies",
+		title: "LoL Pro Settings That Help You See Enemies",
 		metaDescription: "Practical League of Legends settings used by strong champions — visibility, audio cues, aim smoothing, and what to copy vs ignore from pro configs.",
 		h1: "League of Legends Pro Settings Guide",
 		intro: "Copying a champion’s entire config will not make you one. But a few League of Legends settings reliably improve visibility, audio reads, and aim consistency. Here is what is worth stealing.",
@@ -319,7 +319,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Visibility and performance before fancy numbers",
 				paragraphs: [
-					"If your frame rate collapses in Summoners Rift river zones or Gateway interiors, no aim smoothing tip will save you. Prioritize a stable FPS and readable shadows over maximum eye candy. Many strong champions lower clutter so player silhouettes pop sooner in tree lines and warehouse lighting.",
+					"If your frame rate collapses in Summoners Rift river zones or teamfight zones, no aim smoothing tip will save you. Prioritize a stable FPS and readable shadows over maximum eye candy. Many strong players lower clutter so enemy silhouettes pop sooner in lane bushes and teamfight lighting.",
 					"Test changes in practice tool or a quiet early-game before locking them for serious matches. Your eyes adapt in a few matches — give settings that long before declaring them useless.",
 				],
 			},
@@ -333,7 +333,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Audio cues that win objectives",
 				paragraphs: [
-					"Footsteps, ability cooldowns, and nest calls often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between a AI minion shuffle and a player push.",
+					"Footsteps, ability cooldowns, and ping calls often matter more than a tiny graphics slider. Use headphones, keep voice chat from drowning game audio, and learn the sound difference between a minion shuffle and a player push.",
 					"Settings are leverage, not a cheat code. Pair them with map knowledge from our <a href=\"/blog/lol-loot-routes-guide/\">gank routes</a> article so you know where those sounds are coming from.",
 				],
 			},
@@ -358,7 +358,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		translations: {
 		en: {
 		slug: "lol-warmup-maps-ranked",
-		title: "League of Legends Warmup Routine Before Serious Ranked Matchs",
+		title: "LoL Warmup Routine Before Ranked Matches",
 		metaDescription: "A short League of Legends warmup routine before matches — aim, peeks, audio focus, and what to practice offline so your first fight is not your warmup.",
 		h1: "League of Legends Warmup Routine",
 		intro: "Queuing cold into high-traffic zones or high-traffic zones is how you donate a kit. A short League of Legends warmup — even ten to fifteen minutes — makes your first real fight feel like your third.",
@@ -375,14 +375,14 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "A simple 15-minute routine that scales",
 				paragraphs: [
-					"Minutes 1–5: tracking and short bursts on a practice tool with AI minions. Minutes 6–10: combo practice on common angles — jiggle, counter-strafe, pre-aim hitbox height. Minutes 11–15: one focused early-game or practice tool block where you only work one habit, like holding a nest or clearing dense cover.",
-					"Keep the routine identical for a week so improvements are measurable. Rotate maps later — Summoners Rift one day, Woods the next — after the habit sticks.",
+					"Minutes 1–5: tracking and short combos on practice tool with minions. Minutes 6–10: combo practice on common angles — jiggle, counter-strafe, pre-aim hitbox height. Minutes 11–15: one focused ARAM or practice tool block where you only work one habit, like holding a lane or clearing dense cover.",
+					"Keep the routine identical for a week so improvements are measurable. Rotate maps later — Summoners Rift one day, Howling Abyss the next — after the habit sticks.",
 				],
 			},
 			{
 				h2: "What to do right before you ready up",
 				paragraphs: [
-					"Check account progress, health regeneration, and lane plans, confirm your map objectives, and skim <a href=\"/updates/\">cheat status</a> if you use overlays after a patch. Pair warmup with <a href=\"/blog/lol-pro-settings-guide/\">settings</a> and <a href=\"/blog/lol-champion-tier-list/\">champion tiers</a> so you are not reinventing the kit every night.",
+					"Check account progress, health regen, and lane plans, confirm your map objectives, and skim <a href=\"/updates/\">cheat status</a> if you use overlays after a patch. Pair warmup with <a href=\"/blog/lol-pro-settings-guide/\">settings</a> and <a href=\"/blog/lol-champion-tier-list/\">champion tiers</a> so you are not reinventing the loadout every night.",
 					"If the first two player deaths feel mechanical, stop stacking kits and repeat five minutes of combo practice. Ego queueing while tilted is not a strategy.",
 				],
 			},
@@ -410,7 +410,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		title: "LoL Cheats 2026: Complete Undetected Guide",
 		metaDescription: "A clear 2026 guide to lol cheats — what ESP, soft aim, and radar actually do in League of Legends, how Vanguard maintenance works, and how to buy safely.",
 		h1: "LoL Cheats Guide for 2026",
-		intro: "People search “lol cheats” for a simple reason: League of Legends is information-heavy, punishing, and full of nest campers. This guide explains what modern undetected packages actually include, how Vanguard maintenance works, and how to decide whether a tool fits your play style.",
+		intro: "People search “lol cheats” for a simple reason: League of Legends is information-heavy, punishing, and full of bush campers. This guide explains what modern undetected packages actually include, how Vanguard maintenance works, and how to decide whether a tool fits your play style.",
 		keywords: ["lol cheats","undetected cheats","LoL ESP"],
 		imageAlt: "Overview of LoL Cheats ESP soft aim and radar tools for 2026",
 		sections: [
@@ -424,14 +424,14 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "ESP, soft aim, and radar — what each tool is for",
 				paragraphs: [
-					"ESP answers “who is near me and what is worth wardsing?” Soft aim answers “can I finish the fight once I choose it?” Radar answers “is someone flanking while I heal?” Used together, they cover information and combat. Used badly, they create noisy overlays and obvious aim corrections.",
-					"Deep dives live on <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">aimbot</a>, <a href=\"/lol-wallhack/\">wallhack</a>, and <a href=\"/lol-radar-cheat/\">radar</a>. Read those before you buy if you only need one job done well.",
+					"ESP answers “who is near me and what is worth warding?” Soft aim answers “can I finish the fight once I choose it?” Radar answers “is someone flanking while I heal?” Used together, they cover information and combat. Used badly, they create noisy overlays and obvious aim corrections.",
+					"Deep dives live on <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">aimbot</a>, <a href=\"/lol-esp/\">wallhack</a>, and <a href=\"/lol-radar-cheat/\">radar</a>. Read those before you buy if you only need one job done well.",
 				],
 			},
 			{
 				h2: "Vanguard, “undetected,” and honest expectations",
 				paragraphs: [
-					"<a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a> protects League of Legends. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href=\"/undetected-lol-cheats/\">undetected lol cheats</a> and <a href=\"/vanguard-bypass/\">Vanguard maintenance</a>.",
+					"<a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a> protects League of Legends. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href=\"/\">undetected lol cheats</a> and <a href=\"/updates/\">Vanguard maintenance</a>.",
 					"Before every patch-day queue up, read <a href=\"/updates/\">Updates</a>. If status is quiet, wait. Responsible settings matter as much as the binary itself.",
 				],
 			},
@@ -446,7 +446,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Your next steps after reading this guide",
 				paragraphs: [
 					"If the stack fits your play style, compare monthly and lifetime on <a href=\"/pricing/\">Pricing</a>, then follow <a href=\"/setup/\">Setup</a> line by line. Keep <a href=\"/updates/\">Updates</a> bookmarked for patch weeks.",
-					"For deeper category pages, read <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">aimbot</a>, and <a href=\"/undetected-lol-cheats/\">undetected notes</a>. Questions before checkout go to <a href=\"/faq/\">FAQ</a> and <a href=\"/support/\">Support</a>.",
+					"For deeper category pages, read <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-aimbot/\">aimbot</a>, and <a href=\"/\">undetected notes</a>. Questions before checkout go to <a href=\"/faq/\">FAQ</a> and <a href=\"/support/\">Support</a>.",
 				],
 			}
 		],
@@ -464,7 +464,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "lol-cheats-buyers-guide",
 		title: "League of Legends Cheats Buyers Guide",
-		metaDescription: "What to check before you buy lol cheats — status pages, ESP features, soft aim, refunds, pricing, and red flags in 2026.",
+		metaDescription: "What to check before you buy LoL Cheats on Windows PC — status pages, ESP features, soft aim, refunds, pricing, and red flags that signal weak maintenance.",
 		h1: "LoL Cheats Buyers Guide",
 		intro: "Buying lol cheats is noisy. Every storefront promises “undetected,” instant delivery, and god mode. This buyers guide slows you down with a practical checklist so you spend money on maintenance and clarity — not banners.",
 		keywords: ["buy lol cheats","lol cheats guide","lol pricing"],
@@ -480,7 +480,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Feature checklist that matches real League of Legends matches",
 				paragraphs: [
-					"For League of Legends, useful features usually mean player ESP with distance, ward filters, nest awareness, radar for flanks, and soft aim you can tone down. “Unlock all” marketing and other-game leftovers are red flags that the page was cloned from another game.",
+					"For League of Legends, useful features usually mean player ESP with distance, ward filters, objective awareness, radar for flanks, and soft aim you can tone down. “Unlock all” marketing and other-game leftovers are red flags that the page was cloned from another game.",
 					"Compare the stack on <a href=\"/features/\">Features</a>, <a href=\"/lol-esp/\">ESP</a>, and <a href=\"/lol-aimbot/\">Aimbot</a>. If radar matters to how you hold objectives, confirm it exists before checkout.",
 				],
 			},
@@ -495,7 +495,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Final checklist before checkout",
 				paragraphs: [
 					"Confirm dated status, ward ESP, radar, soft aim profiles, Windows support, and a written refund policy. If any item is missing, pause — cheap weekly subs add up when rebuilds are slow.",
-					"When the checklist passes, open <a href=\"/lol-cheats/\">LoL Cheats</a>, compare <a href=\"/pricing/\">Pricing</a>, and read <a href=\"/blog/lol-cheats-complete-guide-2026/\">the 2026 complete guide</a> for feature context.",
+					"When the checklist passes, open <a href=\"/\">LoL Cheats</a>, compare <a href=\"/pricing/\">Pricing</a>, and read <a href=\"/blog/lol-cheats-complete-guide-2026/\">the 2026 complete guide</a> for feature context.",
 				],
 			}
 		],
@@ -515,14 +515,14 @@ export const blogPosts: BlogPostDefinition[] = [
 		title: "LoL Cheats 2026: What Changed This Year",
 		metaDescription: "What changed for lol cheats in 2026 — patch cycle cadence, Vanguard maintenance habits, ESP focus, and how LoL Cheats adapted for League of Legends.",
 		h1: "LoL Cheats Updates in 2026",
-		intro: "2026 did not invent cheating in League of Legends — it raised the bar for maintenance. Wipes, Vanguard pushes, and map updates punish stale builds. Here is what changed in how serious LoL Cheats packages need to operate.",
+		intro: "2026 did not invent cheating in League of Legends — it raised the bar for maintenance. Season resets, Vanguard pushes, and map updates punish stale builds. Here is what changed in how serious LoL Cheats packages need to operate.",
 		keywords: ["lol cheats 2026","vanguard updates","cheat status"],
 		imageAlt: "2026 updates for LoL Cheats on League of Legends",
 		sections: [
 			{
 				h2: "Why 2026 buyers care more about status pages",
 				paragraphs: [
-					"Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href=\"/updates/\">Updates</a> log and the <a href=\"/undetected-lol-cheats/\">undetected explainer</a> instead of empty guarantees.",
+					"Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href=\"/updates/\">Updates</a> log and the <a href=\"/\">undetected explainer</a> instead of empty guarantees.",
 					"<a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a> and League of Legends client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.",
 				],
 			},
@@ -544,7 +544,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "What to watch for the rest of 2026",
 				paragraphs: [
 					"Expect more frequent client and anti-cheat touchpoints, not fewer. Shops that survive will keep publishing rebuild notes and tightening overlay readability.",
-					"Follow <a href=\"/updates/\">Updates</a>, review <a href=\"/features/\">Features</a> after each major push, and treat <a href=\"/undetected-lol-cheats/\">undetected</a> as a maintenance process — not a permanent badge.",
+					"Follow <a href=\"/updates/\">Updates</a>, review <a href=\"/features/\">Features</a> after each major push, and treat <a href=\"/\">undetected</a> as a maintenance process — not a permanent badge.",
 				],
 			}
 		],
@@ -572,14 +572,14 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Start softer than you think you need",
 				paragraphs: [
 					"Begin with a smaller FOV and higher smoothness so the assist helps tracking instead of snapping. Play five matches on Summoners Rift or high-traffic zones and only then widen FOV. If friends watching a demo say it looks robotic, you went too far.",
-					"Full control docs live on <a href=\"/lol-aimbot/\">LoL Aimbot</a> and <a href=\"/lol-soft-aim/\">soft aim</a>.",
+					"Full control docs live on <a href=\"/lol-aimbot/\">LoL Aimbot</a> and <a href=\"/lol-aimbot/\">soft aim</a>.",
 				],
 			},
 			{
 				h2: "Per-champion profiles beat one global slider",
 				paragraphs: [
-					"carnivores, ambush builds, and skillshot champions want different assist. Save separate profiles so high-traffic zones sprays and long forest ambushes do not share the same magnet. Bone priority should favor what you can actually hit under stress — usually upper chest to head transitions, not miracles.",
-					"Hotkeys matter mid-match. You need to disable assist when you are wardsing friendlies or holding a suspicious angle where obvious corrections would look wrong.",
+					"Assassins, mages, and marksmen want different assist. Save separate profiles so teamfight combos and long-range jungle picks do not share the same magnet. Bone priority should favor what you can actually hit under stress — usually body to head transitions, not miracles.",
+					"Hotkeys matter mid-match. You need to disable assist when you are warding or holding a suspicious angle where obvious corrections would look wrong.",
 				],
 			},
 			{
@@ -591,7 +591,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Build a profile set you can trust in objectives",
 				paragraphs: [
-					"Save carnivore, ambush, and skillshot profiles separately. Test each on <a href=\"/blog/lol-warmup-maps-ranked/\">warmup maps</a> before you take a fed champion into high-traffic zones.",
+					"Save assassin, mage, and marksman profiles separately. Test each on <a href=\"/blog/lol-warmup-maps-ranked/\">warmup maps</a> before you take a fed champion into teamfight zones.",
 					"Combine tuned aim with <a href=\"/lol-esp/\">ESP</a> and <a href=\"/lol-radar-cheat/\">radar</a> so you only assist fights you chose on purpose. After patches, confirm <a href=\"/updates/\">Updates</a> before you tweak FOV on an old build.",
 				],
 			}
@@ -619,8 +619,8 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "What ESP shows during a real match",
 				paragraphs: [
-					"Player ESP outlines enemy champions and minions through walls and terrain, often with distance. Carcass ESP highlights wards or high-value items. Nest cues help you avoid camping surprises. That information gap is why people search for LoL ESP in the first place.",
-					"Read the dedicated pages for <a href=\"/lol-esp/\">ESP</a> and <a href=\"/lol-wallhack/\">wallhack</a> if you want category-level detail.",
+					"Player ESP outlines enemy champions and minions through walls and terrain, often with distance. Ward ESP highlights wards or high-value objectives. Objective cues help you avoid bush camping surprises. That information gap is why people search for LoL ESP in the first place.",
+					"Read the dedicated pages for <a href=\"/lol-esp/\">ESP</a> and <a href=\"/lol-esp/\">wallhack</a> if you want category-level detail.",
 				],
 			},
 			{
@@ -633,14 +633,14 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Maintenance and responsible use",
 				paragraphs: [
-					"ESP modules rebuild after Vanguard patches like everything else. Check <a href=\"/updates/\">Updates</a> and the <a href=\"/undetected-lol-cheats/\">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”",
+					"ESP modules rebuild after Vanguard patches like everything else. Check <a href=\"/updates/\">Updates</a> and the <a href=\"/\">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”",
 				],
 			},
 			{
 				h2: "ESP in real League of Legends matches — practical takeaways",
 				paragraphs: [
-					"Use player ESP when rotating, ward ESP when routing, and objective cues when holding water or cliffs. Switch profiles instead of leaving every box on — clutter kills reaction time.",
-					"For the maintained stack behind this guide, see <a href=\"/lol-cheats/\">LoL Cheats</a>, <a href=\"/lol-radar-cheat/\">radar</a>, and <a href=\"/pricing/\">Pricing</a>. Patch-day rules live on <a href=\"/updates/\">Updates</a>.",
+					"Use player ESP when rotating, ward ESP when routing, and objective cues when holding river or jungle. Switch profiles instead of leaving every box on — clutter kills reaction time.",
+					"For the maintained stack behind this guide, see <a href=\"/\">LoL Cheats</a>, <a href=\"/lol-radar-cheat/\">radar</a>, and <a href=\"/pricing/\">Pricing</a>. Patch-day rules live on <a href=\"/updates/\">Updates</a>.",
 				],
 			}
 		],
@@ -667,28 +667,28 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "What undetected can honestly mean",
 				paragraphs: [
-					"Vanguard is documented at <a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a>. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. LoL Cheats does that on <a href=\"/updates/\">Updates</a> and explains the workflow on <a href=\"/vanguard-bypass/\">Vanguard maintenance</a>.",
+					"Vanguard is documented at <a href=\"https://www.riotgames.com/en/anti-cheat\" target=\"_blank\" rel=\"noopener noreferrer\">Vanguard</a>. It evolves. Vendors who care publish rebuild notes when ESP, radar, or aim modules need work. LoL Cheats does that on <a href=\"/updates/\">Updates</a> and explains the workflow on <a href=\"/updates/\">Vanguard maintenance</a>.",
 					"If a seller says “100% undetected forever,” treat it as advertising. Your risk also depends on how obviously you play.",
 				],
 			},
 			{
 				h2: "Patch-day habits that reduce pain",
 				paragraphs: [
-					"After League of Legends or Vanguard update, wait for a status note before queueing. Confirm Steam services on <a href=\"https://www.leagueoflegends.com//\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends on Riot Client</a> if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.",
+					"After League of Legends or Vanguard update, wait for a status note before queueing. Confirm Riot Client services on <a href=\"https://www.leagueoflegends.com//\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends on Riot Client</a> if the launcher itself is failing. Do not run yesterday’s build into today’s anti-cheat and call it bad luck.",
 					"Keep soft aim conservative and avoid highlight-reel rage settings that attract reports even when the binary is clean.",
 				],
 			},
 			{
 				h2: "Where to go next",
 				paragraphs: [
-					"Read <a href=\"/undetected-lol-cheats/\">undetected lol cheats</a>, the <a href=\"/blog/lol-cheats-complete-guide-2026/\">2026 complete guide</a>, and <a href=\"/pricing/\">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.",
+					"Read <a href=\"/\">undetected lol cheats</a>, the <a href=\"/blog/lol-cheats-complete-guide-2026/\">2026 complete guide</a>, and <a href=\"/pricing/\">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.",
 				],
 			},
 			{
 				h2: "Responsible undetected habits for League of Legends",
 				paragraphs: [
 					"Undetected means maintained today — not immune forever. Read public notes, wait for rebuilds, and avoid rage settings that draw reports even on clean builds.",
-					"Use <a href=\"/updates/\">Updates</a>, <a href=\"/vanguard-bypass/\">EAC maintenance</a>, and <a href=\"/setup/\">Setup</a> as your patch-week routine. Compare the full stack on <a href=\"/lol-cheats/\">LoL Cheats</a> when you are ready to buy.",
+					"Use <a href=\"/updates/\">Updates</a>, <a href=\"/updates/\">Vanguard maintenance</a>, and <a href=\"/setup/\">Setup</a> as your patch-week routine. Compare the full stack on <a href=\"/\">LoL Cheats</a> when you are ready to buy.",
 				],
 			}
 		],
@@ -706,7 +706,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "lol-cheats-vs-cheatvault-comparison",
 		title: "LoL Cheats vs Typical Budget LoL Cheat Shops",
-		metaDescription: "How LoL Cheats compares to typical budget lol cheat shops — ESP depth, radar, status pages, pricing, and what “cheap” usually skips.",
+		metaDescription: "How LoL Cheats compares to typical budget lol cheat shops on Windows PC — ESP depth, radar, status pages, pricing, and what cheap sellers usually skip.",
 		h1: "LoL Cheats vs Budget Shops",
 		intro: "Budget League of Legends stores often look identical: neon banners, “undetected” badges, and a low weekly price. LoL Cheats costs more than the cheapest tier on purpose. Here is what you usually trade when you chase the lowest sticker.",
 		keywords: ["lol cheats comparison","budget lol cheats","esp radar"],
@@ -730,7 +730,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "How to decide without brand loyalty",
 				paragraphs: [
 					"Write down must-haves: dated status, ward ESP, radar, soft aim profiles, Windows PC support. Open each seller’s status channel and feature list side by side. If a shop fails the status test, price does not matter.",
-					"Then return to <a href=\"/\">lol cheats</a> and <a href=\"/undetected-lol-cheats/\">undetected notes</a> if that checklist matches what we ship.",
+					"Then return to <a href=\"/\">lol cheats</a> and <a href=\"/\">undetected notes</a> if that checklist matches what we ship.",
 				],
 			},
 			{
@@ -755,7 +755,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		en: {
 		slug: "elitefn-vs-lol-cheats-two-week-test",
 		title: "I Tested Another League of Legends Cheat for 2 Weeks First",
-		metaDescription: "A two-week test of another budget lol cheat before switching to LoL Cheats — ESP feel, soft aim, patch downtime, and support differences.",
+		metaDescription: "A two-week test of another budget lol cheat before switching to LoL Cheats on Windows PC — ESP feel, soft aim, patch downtime, and support differences.",
 		h1: "Two-Week LoL Cheat Comparison Test",
 		intro: "My Discord kept recommending a popular budget lol cheat shop. I gave it fourteen days on the same PC and ranked servers, then moved to LoL Cheats. This is what actually differed — without the usual affiliate script.",
 		keywords: ["lol cheats review","cheat comparison","soft aim test"],
@@ -764,14 +764,14 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Week one — setup and first impressions",
 				paragraphs: [
-					"Delivery was fine: license in email, loader as admin, overlays disabled. Menu learning took a couple evenings. Player ESP was readable. Carcass ESP felt secondary. I ran several nights with information tools only and no aim assist so I could judge visibility on its own.",
+					"Delivery was fine: license in email, loader as admin, overlays disabled. Menu learning took a couple evenings. Player ESP was readable. Ward ESP felt secondary. I ran several nights with information tools only and no aim assist so I could judge visibility on its own.",
 					"LoL Cheats later felt similar on install time, but filters for wards and objectives were easier to toggle independently during gank routes.",
 				],
 			},
 			{
 				h2: "Soft aim and the mid-match feel",
 				paragraphs: [
-					"Conservative FOV soft aim helped SMG and AR tracking. Sniping needed manual profile swaps that slowed me down. When I pushed smoothness too low, corrections looked obvious in review clips. Tuning toward smoother tracking fixed kills and reduced the robotic look.",
+					"Conservative FOV soft aim helped melee and ADC tracking. Long-range skillshots needed manual profile swaps that slowed me down. When I pushed smoothness too low, corrections looked obvious in review clips. Tuning toward smoother tracking fixed kills and reduced the robotic look.",
 					"On LoL Cheats I relied more on per-champion profiles so high-traffic zones and long peeks did not share one magnet. Details are in the <a href=\"/lol-aimbot/\">aimbot guide</a>.",
 				],
 			},
@@ -835,7 +835,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Detection talk without fairy tales",
 				paragraphs: [
 					"Smaller user bases generate fewer public ban screenshots — that is not proof of safety. Larger brands generate more noise even when maintenance is solid. Judge sellers by patch communication speed and whether you can find a dated status note.",
-					"LoL Cheats documents maintenance on <a href=\"/vanguard-bypass/\">Vanguard workflow</a> and <a href=\"/undetected-lol-cheats/\">undetected notes</a>.",
+					"LoL Cheats documents maintenance on <a href=\"/updates/\">Vanguard workflow</a> and <a href=\"/\">undetected notes</a>.",
 				],
 			},
 			{
@@ -848,8 +848,8 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Pick the stack that matches how you play",
 				paragraphs: [
-					"Casual outline-only champions may tolerate minimal ESP. Players who rotate, ward, and hold objectives usually need radar and filters in one menu — that is the full-stack case for <a href=\"/lol-cheats/\">LoL Cheats</a>.",
-					"Compare <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-radar-cheat/\">radar</a>, and <a href=\"/pricing/\">Pricing</a> on paper first. Then read <a href=\"/undetected-lol-cheats/\">undetected notes</a> on whichever path you choose.",
+					"Casual outline-only champions may tolerate minimal ESP. Players who rotate, ward, and hold objectives usually need radar and filters in one menu — that is the full-stack case for <a href=\"/\">LoL Cheats</a>.",
+					"Compare <a href=\"/lol-esp/\">ESP</a>, <a href=\"/lol-radar-cheat/\">radar</a>, and <a href=\"/pricing/\">Pricing</a> on paper first. Then read <a href=\"/\">undetected notes</a> on whichever path you choose.",
 				],
 			}
 		],

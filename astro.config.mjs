@@ -12,6 +12,10 @@ export default defineConfig({
 	trailingSlash: 'always',
 	compressHTML: true,
 	devToolbar: { enabled: false },
+	prefetch: {
+		prefetchAll: true,
+		defaultStrategy: 'hover',
+	},
 	server: {
 		host: true,
 		port: 4321,
@@ -39,7 +43,14 @@ export default defineConfig({
 			target: 'es2022',
 			rollupOptions: {
 				output: {
-					manualChunks: undefined,
+					manualChunks(id) {
+						if (id.includes('node_modules/react-dom') || id.includes('node_modules/react/')) {
+							return 'react-vendor';
+						}
+						if (id.includes('i18next') || id.includes('react-i18next')) {
+							return 'i18n-vendor';
+						}
+					},
 				},
 			},
 		},
