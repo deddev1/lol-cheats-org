@@ -24,7 +24,7 @@ export const uiStrings = {
 	},
 	es: {
 		nav: { home: 'Inicio', cheats: 'Cheats', aimbot: 'Aimbot', esp: 'ESP', features: 'Funciones', pricing: 'Precios', setup: 'Instalación', updates: 'Actualizaciones', faq: 'FAQ', buyNow: 'Comprar' },
-		hero: { accent: 'Trucos League of Legends indetectables', accentShort: 'LoL Cheats', subtitle: 'ESP wallhack, radar cheat y Aimbot para League of Legends en PC Windows — mantenimiento Vanguard incluido.', subtitleShort: 'ESP, radar y Aimbot para League of Legends PC', buyNow: 'Comprar ahora', seeFeatures: 'Ver funciones' },
+		hero: { accent: 'Trucos League of Legends indetectables', accentShort: 'LoL Cheats', subtitle: 'Trucos indetectables para League of Legends en PC: visión ESP, radar 2D y asistencia de puntería, con actualizaciones tras parches de Vanguard.', subtitleShort: 'ESP, radar y puntería para LoL en PC', buyNow: 'Comprar ahora', seeFeatures: 'Ver funciones' },
 		trust: { status: 'En línea', statusNote: 'El paquete LoL Cheats está activo para League of Legends en PC Windows.', statusShort: 'Activo', delivery: 'Entrega digital instantánea', platform: 'Windows 10 y 11', antiCheat: 'Mantenimiento Vanguard incluido', antiCheatShort: 'Vanguard incluido' },
 		product: { title: 'LoL Cheats', addToCart: 'Añadir al carrito', monthly: 'Mensual', lifetime: 'De por vida', available: 'Disponible ahora', gameBadge: 'League of Legends', platformBadge: 'PC Windows', statusBadge: 'Paquete indetectable' },
 		reviews: { title: 'Lo que dicen los jugadores', subtitle: 'Comentarios recientes de compradores de LoL Cheats', outOf: 'de 5', countLabel: 'reseñas' },
@@ -45,7 +45,7 @@ export const uiStrings = {
 	},
 	fr: {
 		nav: { home: 'Accueil', cheats: 'Cheats', aimbot: 'Aimbot', esp: 'ESP', features: 'Fonctions', pricing: 'Tarifs', setup: 'Installation', updates: 'Mises à jour', faq: 'FAQ', buyNow: 'Acheter' },
-		hero: { accent: 'Triches League of Legends indétectables', accentShort: 'LoL Cheats', subtitle: 'ESP wallhack, radar cheat et Aimbot pour League of Legends sur PC Windows — maintenance Vanguard incluse.', subtitleShort: 'ESP, radar et Aimbot pour League of Legends PC', buyNow: 'Acheter', seeFeatures: 'Voir les fonctions' },
+		hero: { accent: 'Triches League of Legends indétectables', accentShort: 'LoL Cheats', subtitle: 'Triches indétectables pour League of Legends sur PC : vision ESP, radar 2D et assistance de visée, avec mises à jour après les patchs Vanguard.', subtitleShort: 'ESP, radar et visée pour LoL sur PC', buyNow: 'Acheter', seeFeatures: 'Voir les fonctions' },
 		trust: { status: 'En ligne', statusNote: 'Le team LoL Cheats est actif pour League of Legends sur PC Windows.', statusShort: 'Actif', delivery: 'Livraison numérique instantanée', platform: 'Windows 10 et 11', antiCheat: 'Maintenance Vanguard incluse', antiCheatShort: 'Vanguard inclus' },
 		product: { title: 'LoL Cheats', addToCart: 'Ajouter au panier', monthly: 'Mensuel', lifetime: 'À vie', available: 'Disponible', gameBadge: 'League of Legends', platformBadge: 'PC Windows', statusBadge: 'Pack indétectable' },
 		reviews: { title: 'Ce que disent les joueurs', subtitle: 'Avis récents des acheteurs LoL Cheats', outOf: 'sur 5', countLabel: 'avis' },

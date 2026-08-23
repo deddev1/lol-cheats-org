@@ -71,8 +71,11 @@ function buildI18nContent() {
 			if (['privacy', 'refund', 'terms'].includes(pageId) && p.sections.length !== 3) {
 				throw new Error(`Legal page ${pageId} must have 3 sections for ${locale}`);
 			}
-			if (!['home', 'privacy', 'refund', 'terms'].includes(pageId) && p.sections.length < 3) {
+			if (!['home', 'privacy', 'refund', 'terms', 'support'].includes(pageId) && p.sections.length < 3) {
 				throw new Error(`Page ${pageId} needs 3+ sections for ${locale}, got ${p.sections.length}`);
+			}
+			if (pageId === 'support' && p.sections.length < 2) {
+				throw new Error(`Support needs 2+ sections for ${locale}, got ${p.sections.length}`);
 			}
 			for (const sec of p.sections) {
 				if (sec.paragraphs.length < 2) {
