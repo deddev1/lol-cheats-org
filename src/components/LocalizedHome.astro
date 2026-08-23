@@ -14,12 +14,14 @@ import type { LocaleCode } from '../data/i18n/locales';
 import { homeFaqs, homeSeo, productInfo, siteConfig, customerReviewStats } from '../data/site';
 import { heroPreloadSrc, heroSizes, heroSrcSet } from '../lib/responsive-images';
 import { defaultCrawlImageSrc } from '../data/page-images';
+import { getNavPaths } from '../data/i18n/localized-nav-paths';
 
 interface Props {
 	locale: LocaleCode;
 }
 
 const { locale } = Astro.props;
+const navPaths = getNavPaths(locale);
 const { ui } = getLocaleContent(locale);
 const home = getPageContent(locale, 'home');
 const enHome = homeSeo();
@@ -101,7 +103,7 @@ const extraGraph: Record<string, unknown>[] = [
 	locale={locale}
 	pageId="home"
 	breadcrumbs={[{ label: ui.nav.home }]}
-	extraGraph={locale === 'en' ? extraGraph : extraGraph.filter((n) => n['@type'] !== 'FAQPage')}
+	extraGraph={extraGraph}
 	lcpImage={heroPreloadSrc}
 	lcpImageSrcSet={heroSrcSet}
 	lcpImageSizes={heroSizes}
@@ -111,32 +113,11 @@ const extraGraph: Record<string, unknown>[] = [
 		<Hero locale={locale} />
 		<HomeReviews locale={locale} />
 		<div class="home__seo">
-			{
-				locale === 'en' ? (
-					<>
-						<HomeAboutApp client:visible locale={locale} />
-						<HomeSeo locale={locale} />
-						<div class="shell">
-							<ExternalResources locale={locale} omitHrefs={[externalUrls.wiki]} />
-						</div>
-					</>
-				) : (
-					<div class="shell home__prose">
-						<h2>{home.h1}</h2>
-						<p>{home.intro}</p>
-						{
-							home.sections.map((section) => (
-								<div>
-									<h3>{section.h2}</h3>
-									{section.paragraphs.map((p) => (
-										<p set:html={p} />
-									))}
-								</div>
-							))
-						}
-					</div>
-				)
-			}
+			<HomeAboutApp client:visible locale={locale} paths={navPaths} />
+			<HomeSeo locale={locale} navPaths={navPaths} />
+			<div class="shell">
+				<ExternalResources locale={locale} omitHrefs={[externalUrls.wiki]} />
+			</div>
 		</div>
 		<SiteFooter locale={locale} />
 	</main>

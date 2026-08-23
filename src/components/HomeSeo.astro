@@ -3,12 +3,15 @@ import HomeSeoApp from './react/HomeSeo';
 import { homeFaqs, siteConfig } from '../data/site';
 import { getFaqPath } from '../data/faq';
 import { defaultLocale, type LocaleCode } from '../data/i18n/locales';
+import { getNavPaths } from '../data/i18n/localized-nav-paths';
 
 interface Props {
 	locale?: LocaleCode;
+	navPaths?: ReturnType<typeof getNavPaths>;
 }
 
 const locale = Astro.props.locale ?? defaultLocale;
+const navPaths = Astro.props.navPaths ?? getNavPaths(locale);
 const faqs = homeFaqs.map((item) => ({
 	slug: item.slug,
 	question: item.question,
@@ -17,7 +20,13 @@ const faqs = homeFaqs.map((item) => ({
 }));
 ---
 
-<HomeSeoApp client:visible locale={locale} checkoutUrl={siteConfig.checkoutUrl} faqs={faqs} />
+<HomeSeoApp
+	client:visible
+	locale={locale}
+	checkoutUrl={siteConfig.checkoutUrl}
+	faqs={faqs}
+	navPaths={navPaths}
+/>
 
 <style is:global>
 	.home-seo {
@@ -78,127 +87,105 @@ const faqs = homeFaqs.map((item) => ({
 	}
 
 	.home-seo__cat:hover {
-		border-color: color-mix(in srgb, var(--magenta) 28%, var(--line));
+		border-color: color-mix(in srgb, var(--magenta) 35%, var(--line));
 	}
 
 	.home-seo__cat-head {
-		padding: 0.9rem 1rem 0.75rem;
+		padding: 0.85rem 0.95rem 0.65rem;
 		border-bottom: 1px solid var(--line-soft);
-		background: color-mix(in srgb, var(--bg-elevated) 80%, transparent);
 	}
 
 	.home-seo__cat-head h3 {
 		margin: 0;
-		font-family: var(--font-display);
-		font-size: 0.95rem;
-		font-weight: 800;
-		letter-spacing: -0.02em;
+		font-size: 0.9rem;
+		font-weight: 700;
 		color: var(--ink);
 	}
 
 	.home-seo__cat-head p {
 		margin: 0.25rem 0 0;
 		font-size: 0.75rem;
-		line-height: 1.35;
 		color: var(--ink-faint);
 	}
 
 	.home-seo__cat ul {
 		margin: 0;
-		padding: 0.25rem 0;
+		padding: 0.35rem 0;
 		list-style: none;
-		display: grid;
 		flex: 1;
 	}
 
-	.home-seo__cat a {
+	.home-seo__cat li a {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		gap: 0.75rem;
-		min-height: var(--touch-min, 2.75rem);
-		padding: 0.7rem 1rem;
-		font-size: 0.875rem;
-		font-weight: 500;
+		gap: 0.5rem;
+		padding: 0.55rem 0.95rem;
 		color: var(--ink-muted);
-		transition:
-			background 0.15s ease,
-			color 0.15s ease;
+		font-size: 0.8125rem;
+		font-weight: 600;
+		text-decoration: none;
+		transition: color 0.15s ease, background 0.15s ease;
+	}
+
+	.home-seo__cat li a:hover {
+		color: var(--magenta-soft);
+		background: color-mix(in srgb, var(--magenta) 6%, transparent);
 	}
 
 	.home-seo__cat-arrow {
+		display: block;
 		width: 0.35rem;
 		height: 0.35rem;
-		flex-shrink: 0;
+		border-top: 1.5px solid currentColor;
 		border-right: 1.5px solid currentColor;
-		border-bottom: 1.5px solid currentColor;
-		transform: rotate(-45deg);
-		opacity: 0;
-		transition:
-			opacity 0.15s ease,
-			transform 0.15s ease;
-	}
-
-	.home-seo__cat a:hover {
-		background: color-mix(in srgb, var(--magenta) 8%, transparent);
-		color: var(--magenta-soft);
-	}
-
-	.home-seo__cat a:hover .home-seo__cat-arrow {
-		opacity: 0.9;
-		transform: rotate(-45deg) translate(1px, 1px);
+		transform: rotate(45deg);
+		opacity: 0.5;
+		flex-shrink: 0;
 	}
 
 	.home-seo__faq {
-		margin-top: 2.25rem;
-		padding: clamp(1.35rem, 3vw, 1.85rem);
-		border: 1px solid var(--line);
-		border-radius: var(--radius-lg, 1rem);
-		background:
-			radial-gradient(ellipse 70% 80% at 100% 0%, color-mix(in srgb, var(--magenta) 10%, transparent), transparent 50%),
-			var(--bg-panel);
+		margin-top: 2rem;
+		padding-top: 2rem;
+		border-top: 1px solid var(--line-soft);
 	}
 
 	.home-seo__faq-head {
 		display: flex;
+		flex-wrap: wrap;
 		align-items: flex-start;
 		justify-content: space-between;
-		gap: 1rem;
-		margin-bottom: 1.15rem;
-		padding-bottom: 1.05rem;
-		border-bottom: 1px solid var(--line-soft);
-	}
-
-	.home-seo__faq-head h3 {
-		margin: 0.15rem 0 0;
-		font-family: var(--font-display);
-		font-size: clamp(1.05rem, 1.8vw, 1.2rem);
-		font-weight: 700;
-		letter-spacing: -0.02em;
-		line-height: 1.25;
-		color: var(--ink);
+		gap: 1rem 1.5rem;
+		margin-bottom: 1rem;
 	}
 
 	.home-seo__faq-lede {
-		margin: 0.45rem 0 0;
-		max-width: 36rem;
-		font-size: 0.875rem;
-		line-height: 1.5;
+		margin: 0.35rem 0 0;
+		max-width: 32rem;
+		font-size: 0.9rem;
 		color: var(--ink-muted);
 	}
 
 	.home-seo__faq-link {
-		flex-shrink: 0;
-		margin-top: 0.35rem;
-		font-size: 0.875rem;
+		display: inline-flex;
+		align-items: center;
+		min-height: var(--touch-min, 2.75rem);
+		padding: 0.45rem 0.85rem;
+		border: 1px solid var(--line);
+		border-radius: var(--radius-pill);
+		background: var(--bg-elevated);
+		color: var(--ink-muted);
+		font-size: 0.8125rem;
 		font-weight: 600;
-		color: var(--magenta-soft);
 		text-decoration: none;
-		white-space: nowrap;
+		transition:
+			color 0.15s ease,
+			border-color 0.15s ease;
 	}
 
 	.home-seo__faq-link:hover {
-		color: var(--ink);
+		color: var(--magenta-soft);
+		border-color: color-mix(in srgb, var(--magenta) 35%, var(--line));
 	}
 
 	.home-seo__faq-list {
@@ -207,16 +194,10 @@ const faqs = homeFaqs.map((item) => ({
 	}
 
 	.home-seo__item {
-		margin: 0;
 		border: 1px solid var(--line);
-		border-radius: var(--radius-md, 0.75rem);
-		background: color-mix(in srgb, var(--bg) 55%, var(--bg-elevated));
+		border-radius: var(--radius-md);
+		background: var(--bg-panel);
 		overflow: hidden;
-	}
-
-	.home-seo__item[open],
-	.home-seo__item:hover {
-		border-color: color-mix(in srgb, var(--magenta) 28%, var(--line));
 	}
 
 	.home-seo__item summary {
@@ -224,76 +205,47 @@ const faqs = homeFaqs.map((item) => ({
 		align-items: center;
 		justify-content: space-between;
 		gap: 1rem;
+		padding: 0.85rem 1rem;
 		cursor: pointer;
-		list-style: none;
-		padding: 0.95rem 1.05rem;
-		font-size: 0.9375rem;
 		font-weight: 600;
-		line-height: 1.35;
 		color: var(--ink);
+		list-style: none;
 	}
 
 	.home-seo__item summary::-webkit-details-marker {
 		display: none;
 	}
 
-	.home-seo__item[open] summary {
-		border-bottom: 1px solid var(--line-soft);
-		color: var(--magenta-soft);
-	}
-
 	.home-seo__chev {
-		position: relative;
-		width: 1.05rem;
-		height: 1.05rem;
-		flex-shrink: 0;
-		border-radius: 999px;
-		border: 1px solid var(--line-strong);
-	}
-
-	.home-seo__chev::before,
-	.home-seo__chev::after {
-		content: '';
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		background: var(--magenta-soft);
-		border-radius: 999px;
-	}
-
-	.home-seo__chev::before {
+		display: block;
 		width: 0.45rem;
-		height: 1.5px;
-		transform: translate(-50%, -50%);
-	}
-
-	.home-seo__chev::after {
-		width: 1.5px;
 		height: 0.45rem;
-		transform: translate(-50%, -50%);
+		border-right: 1.5px solid var(--ink-muted);
+		border-bottom: 1.5px solid var(--ink-muted);
+		transform: rotate(45deg);
+		transition: transform 0.2s ease;
+		flex-shrink: 0;
 	}
 
-	.home-seo__item[open] .home-seo__chev::after {
-		opacity: 0;
+	.home-seo__item[open] .home-seo__chev {
+		transform: rotate(-135deg);
 	}
 
 	.home-seo__item-body {
-		display: grid;
-		gap: 0.65rem;
-		padding: 0.85rem 1.05rem 1.05rem;
+		padding: 0 1rem 1rem;
+		color: var(--ink-muted);
+		font-size: 0.9rem;
+		line-height: 1.55;
 	}
 
 	.home-seo__item-body p {
-		margin: 0;
-		font-size: 0.875rem;
-		line-height: 1.6;
-		color: var(--ink-muted);
+		margin: 0 0 0.65rem;
 	}
 
 	.home-seo__item-link {
-		font-size: 0.8rem;
-		font-weight: 600;
 		color: var(--magenta-soft);
+		font-weight: 600;
+		font-size: 0.8125rem;
 		text-decoration: none;
 	}
 
@@ -305,35 +257,11 @@ const faqs = homeFaqs.map((item) => ({
 		.home-seo__cats {
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
-
-		.home-seo__faq-head {
-			flex-direction: column;
-			align-items: flex-start;
-			gap: 0.75rem;
-		}
-
-		.home-seo__faq-link {
-			margin-top: 0;
-			min-height: var(--touch-min, 2.75rem);
-			display: inline-flex;
-			align-items: center;
-		}
 	}
 
-	@media (max-width: 480px) {
+	@media (max-width: 520px) {
 		.home-seo__cats {
 			grid-template-columns: 1fr;
-			gap: 0.75rem;
-		}
-
-		.home-seo__faq {
-			padding: 1.1rem 1rem 1.15rem;
-			margin-top: 1.75rem;
-		}
-
-		.home-seo__item summary {
-			min-height: var(--touch-min, 2.75rem);
-			padding: 0.85rem 1rem;
 		}
 	}
 </style>

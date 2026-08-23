@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
+import type { NavPaths } from '../../data/i18n/localized-nav-paths';
 
 type FaqItem = { slug: string; question: string; answer: string; href: string };
 
@@ -7,9 +8,10 @@ type Props = {
 	locale: string;
 	checkoutUrl: string;
 	faqs: FaqItem[];
+	navPaths: NavPaths;
 };
 
-function HomeSeoInner({ checkoutUrl, faqs }: Props) {
+function HomeSeoInner({ checkoutUrl, faqs, navPaths }: Props) {
 	const { t } = useTranslation();
 
 	const categories = [
@@ -17,20 +19,20 @@ function HomeSeoInner({ checkoutUrl, faqs }: Props) {
 			titleKey: 'homeSeo.catFeatures',
 			hintKey: 'homeSeo.catFeaturesHint',
 			links: [
-				{ href: '/features/', labelKey: 'homeSeo.linkAllFeatures' },
-				{ href: '/lol-esp/', labelKey: 'homeSeo.linkEsp' },
-				{ href: '/lol-aimbot/', labelKey: 'homeSeo.linkAimbot' },
-				{ href: '/lol-radar-cheat/', labelKey: 'homeSeo.linkRadar' },
+				{ href: navPaths.features, labelKey: 'homeSeo.linkAllFeatures' },
+				{ href: navPaths.lolEsp, labelKey: 'homeSeo.linkEsp' },
+				{ href: navPaths.lolAimbot, labelKey: 'homeSeo.linkAimbot' },
+				{ href: navPaths.radar, labelKey: 'homeSeo.linkRadar' },
 			],
 		},
 		{
 			titleKey: 'homeSeo.catStatus',
 			hintKey: 'homeSeo.catStatusHint',
 			links: [
-				{ href: '/updates/', labelKey: 'homeSeo.linkLiveStatus' },
-				{ href: '/', labelKey: 'homeSeo.linkUndetected' },
-				{ href: '/setup/', labelKey: 'homeSeo.linkSetup' },
-				{ href: '/faq/', labelKey: 'homeSeo.linkFaq' },
+				{ href: navPaths.updates, labelKey: 'homeSeo.linkLiveStatus' },
+				{ href: navPaths.home, labelKey: 'homeSeo.linkUndetected' },
+				{ href: navPaths.setup, labelKey: 'homeSeo.linkSetup' },
+				{ href: navPaths.faq, labelKey: 'homeSeo.linkFaq' },
 			],
 		},
 		{
@@ -38,19 +40,19 @@ function HomeSeoInner({ checkoutUrl, faqs }: Props) {
 			hintKey: 'homeSeo.catStoreHint',
 			links: [
 				{ href: checkoutUrl, labelKey: 'homeSeo.linkPlans', external: true },
-				{ href: '/reviews/', labelKey: 'homeSeo.linkReviews' },
-				{ href: '/', labelKey: 'homeSeo.linkLeague of LegendsCheats' },
-				{ href: '/features/', labelKey: 'homeSeo.linkAllFeatures' },
+				{ href: navPaths.reviews, labelKey: 'homeSeo.linkReviews' },
+				{ href: navPaths.home, labelKey: 'homeSeo.linkLoLCheats' },
+				{ href: navPaths.features, labelKey: 'homeSeo.linkAllFeatures' },
 			],
 		},
 		{
 			titleKey: 'homeSeo.catHelp',
 			hintKey: 'homeSeo.catHelpHint',
 			links: [
-				{ href: '/support/', labelKey: 'homeSeo.linkSupport' },
-				{ href: '/setup/', labelKey: 'homeSeo.linkSetupGuide' },
-				{ href: '/blog/', labelKey: 'homeSeo.linkBlog' },
-				{ href: '/refund-policy/', labelKey: 'homeSeo.linkRefunds' },
+				{ href: navPaths.support, labelKey: 'homeSeo.linkSupport' },
+				{ href: navPaths.setup, labelKey: 'homeSeo.linkSetupGuide' },
+				{ href: navPaths.blog, labelKey: 'homeSeo.linkBlog' },
+				{ href: navPaths.refund, labelKey: 'homeSeo.linkRefunds' },
 			],
 		},
 	];
@@ -96,7 +98,7 @@ function HomeSeoInner({ checkoutUrl, faqs }: Props) {
 						<h3 id="home-faq-title">{t('homeSeo.faqTitle')}</h3>
 						<p className="home-seo__faq-lede">{t('homeSeo.faqLede')}</p>
 					</div>
-					<a className="home-seo__faq-link" href="/faq/">
+					<a className="home-seo__faq-link" href={navPaths.faq}>
 						{t('homeSeo.allAnswers')}
 					</a>
 				</header>

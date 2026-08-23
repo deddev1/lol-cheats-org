@@ -1265,24 +1265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "Funciones",
+							h2: "ESP y wallhack",
 							paragraphs: [
-								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. ESP, soft aim, controles de radar.",
-								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Aimbot y soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "Explorar temas relacionados",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">Guía ESP y wallhack</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot y soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">Overlay radar 2D</a>",
+								"<a href=\"/setup/\">Guía de instalación</a>",
+								"<a href=\"/updates/\">Estado en vivo</a>",
+								"<a href=\"/blog/\">Blog LoL Intel</a>",
+							],
+						},
+						{
+							h2: "Actualizaciones y soporte",
 							paragraphs: [
 								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "entrega digital instantánea",
-							paragraphs: [
-								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
-								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -1300,24 +1342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "Precios",
+							h2: "Qué incluye",
 							paragraphs: [
-								"LoL Cheats ofrece ESP wallhack, radar cheat y LoL Aimbot indetectables para League of Legends en Windows PC. licencias de $35 mensuales o $150 de por vida.",
-								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "indetectables",
+							h2: "Planes",
 							paragraphs: [
-								"Consulta la página Updates antes de jugar tras parches de Vanguard. Ningún cheat garantiza estado indetectable permanente.",
-								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "entrega digital instantánea",
+							h2: "Antes de comprar",
 							paragraphs: [
-								"Licencias con entrega digital instantánea vía secure checkout. Planes $35/mes y $150 de por vida incluyen mantenimiento Vanguard.",
-								"Contacta support@lolcheats.org para solicitudes legales o de soporte.",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -2208,24 +2265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "Fonctions",
+							h2: "ESP et wallhack",
 							paragraphs: [
-								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. ESP, soft aim, contrôles radar.",
-								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Aimbot et soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "Explorer les sujets liés",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">Guide ESP et wallhack</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot et soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">Overlay radar 2D</a>",
+								"<a href=\"/setup/\">Guide d'installation</a>",
+								"<a href=\"/updates/\">Statut en direct</a>",
+								"<a href=\"/blog/\">Blog LoL Intel</a>",
+							],
+						},
+						{
+							h2: "Mises à jour et support",
 							paragraphs: [
 								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "livraison numérique instantanée",
-							paragraphs: [
-								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
-								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -2243,24 +2342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "Tarifs",
+							h2: "Ce que vous obtenez",
 							paragraphs: [
-								"LoL Cheats combine ESP wallhack, radar cheat et LoL Aimbot indétectables pour League of Legends sur PC Windows. licences à $35/mois ou $150 à vie.",
-								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "indétectables",
+							h2: "Forfaits",
 							paragraphs: [
-								"Consultez Updates après les patchs Vanguard. Aucune triche ne garantit un statut indétectable permanent.",
-								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "livraison numérique instantanée",
+							h2: "Avant d'acheter",
 							paragraphs: [
-								"Licences avec livraison numérique instantanée via secure checkout. Forfaits 35 $/mois et 150 $ à vie incluent la maintenance Vanguard.",
-								"Contactez support@lolcheats.org pour le support ou les demandes légales.",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -3151,24 +3265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "Features",
+							h2: "ESP & Wallhack",
 							paragraphs: [
-								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. ESP, Soft Aim, Radar-Steuerung.",
-								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot & Soft Aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "Verwandte Themen",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & Wallhack Guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & Soft Aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D Radar Overlay</a>",
+								"<a href=\"/setup/\">Setup-Anleitung</a>",
+								"<a href=\"/updates/\">Live-Status</a>",
+								"<a href=\"/blog/\">LoL Intel Blog</a>",
+							],
+						},
+						{
+							h2: "Updates & Support",
 							paragraphs: [
 								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "sofortige digitale Lieferung",
-							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
-								"support@lolcheats.org für Support und rechtliche Anfragen.",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -3186,24 +3342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "Preise",
+							h2: "Was Sie erhalten",
 							paragraphs: [
-								"LoL Cheats bündelt ESP wallhack, radar cheat und LoL Aimbot als undetected Paket für League of Legends auf Windows PC. $35 monatliche oder $150 Lifetime-Lizenzen.",
-								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Pläne",
 							paragraphs: [
-								"Updates-Seite nach Vanguard-Patches prüfen. Kein Cheat garantiert dauerhaft undetected Status.",
-								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "sofortige digitale Lieferung",
+							h2: "Vor dem Kauf",
 							paragraphs: [
-								"Lizenzen mit sofortige digitale Lieferung übersecure checkout. $35/Monat und $150 Lifetime inkl. Vanguard-Wartung.",
-								"support@lolcheats.org für Support und rechtliche Anfragen.",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -4094,24 +4265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "Recursos",
+							h2: "ESP e wallhack",
 							paragraphs: [
-								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. ESP, soft aim, controles de radar.",
-								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Aimbot e soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "Explorar tópicos relacionados",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "Atualizações e suporte",
 							paragraphs: [
 								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "entrega digital instantânea",
-							paragraphs: [
-								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
-								"Contacte support@lolcheats.org para suporte ou questões legais.",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -4129,24 +4342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "Preços",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats reúne ESP wallhack, radar cheat e LoL Aimbot indetectáveis para League of Legends no PC Windows. licenças de $35 mensais ou $150 vitalícias.",
-								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "indetectáveis",
+							h2: "Plans",
 							paragraphs: [
-								"Verifique Updates após patches Vanguard. Nenhum cheat garante status indetectável permanente.",
-								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "entrega digital instantânea",
+							h2: "Before you buy",
 							paragraphs: [
-								"Licenças com entrega digital instantânea via secure checkout. Planos $35/mês e $150 vitalício incluem manutenção Vanguard.",
-								"Contacte support@lolcheats.org para suporte ou questões legais.",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -5037,24 +5265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "Funzioni",
+							h2: "ESP e wallhack",
 							paragraphs: [
-								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. ESP, soft aim, controlli radar.",
-								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Aimbot e soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "Esplora argomenti correlati",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "Aggiornamenti e supporto",
 							paragraphs: [
 								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "consegna digitale istantanea",
-							paragraphs: [
-								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
-								"Contatta support@lolcheats.org per supporto o richieste legali.",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -5072,24 +5342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "Prezzi",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats unisce ESP wallhack, radar cheat e LoL Aimbot indetectable per League of Legends su PC Windows. licenze $35 mensili o $150 lifetime.",
-								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "indetectable",
+							h2: "Plans",
 							paragraphs: [
-								"Controlla Updates dopo patch Vanguard. Nessun cheat garantisce stato indetectable permanente.",
-								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "consegna digitale istantanea",
+							h2: "Before you buy",
 							paragraphs: [
-								"Licenze con consegna digitale istantanea via secure checkout. Piani $35/mese e $150 a vita includono manutenzione Vanguard.",
-								"Contatta support@lolcheats.org per supporto o richieste legali.",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -5980,24 +6265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "Functies",
+							h2: "ESP & wallhack",
 							paragraphs: [
-								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. ESP, soft aim, radar bediening.",
-								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot & soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "Gerelateerde onderwerpen",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "Updates & support",
 							paragraphs: [
 								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "directe digitale levering",
-							paragraphs: [
-								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
-								"support@lolcheats.org voor support en juridische vragen.",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -6015,24 +6342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "Prijzen",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats bundelt ESP wallhack, radar cheat en LoL Aimbot als undetected pakket voor League of Legends op Windows PC. $35 maandelijkse of $150 lifetime licenties.",
-								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Plans",
 							paragraphs: [
-								"Check Updates na Vanguard-patches. Geen cheat garandeert permanent undetected status.",
-								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "directe digitale levering",
+							h2: "Before you buy",
 							paragraphs: [
-								"Licenties met directe digitale levering. $35/maand en $150 lifetime incl. Vanguard-onderhoud.",
-								"support@lolcheats.org voor support en juridische vragen.",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -6923,24 +7265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "Funkcje",
+							h2: "ESP i wallhack",
 							paragraphs: [
-								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. ESP, soft aim, sterowanie radar.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot i soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "Powiązane tematy",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "Aktualizacje i wsparcie",
 							paragraphs: [
 								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "natychmiastowa dostawa cyfrowa",
-							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
-								"support@lolcheats.org w sprawach wsparcia i prawnych.",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -6958,24 +7342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "Cennik",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats łączy ESP wallhack, radar cheat i LoL Aimbot jako pakiet undetected dla League of Legends na PC Windows. licencje $35 miesięcznie lub $150 lifetime.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Plans",
 							paragraphs: [
-								"Sprawdź Updates po patchach Vanguard. Żaden cheat nie gwarantuje permanentnego undetected statusu.",
-								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "natychmiastowa dostawa cyfrowa",
+							h2: "Before you buy",
 							paragraphs: [
-								"Licencje z natychmiastowa dostawa cyfrowa przez secure checkout. Plany $35/mies. i $150 lifetime z konserwacją Vanguard.",
-								"support@lolcheats.org w sprawach wsparcia i prawnych.",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -7866,24 +8265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "Функции",
+							h2: "ESP и wallhack",
 							paragraphs: [
-								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. ESP, soft aim, управление radar.",
-								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot и soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "Связанные темы",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "Обновления и поддержка",
 							paragraphs: [
 								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "мгновенная цифровая доставка",
-							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
-								"support@lolcheats.org для поддержки и юридических вопросов.",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -7901,24 +8342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "Цены",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats объединяет ESP wallhack, radar cheat и LoL Aimbot в undetected пакете для League of Legends на Windows PC. лицензии $35 в месяц или $150 lifetime.",
-								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Plans",
 							paragraphs: [
-								"Проверяйте Updates после патчей Vanguard. Ни один чит не гарантирует постоянный undetected статус.",
-								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "мгновенная цифровая доставка",
+							h2: "Before you buy",
 							paragraphs: [
-								"Лицензии с мгновенная цифровая доставка через secure checkout. Тарифы $35/мес и $150 навсегда включают обслуживание Vanguard.",
-								"support@lolcheats.org для поддержки и юридических вопросов.",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -8809,24 +9265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "Özellikler",
+							h2: "ESP ve wallhack",
 							paragraphs: [
-								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. ESP, soft aim, radar kontrolleri.",
-								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot ve soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "İlgili konular",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "Güncellemeler ve destek",
 							paragraphs: [
 								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "anında dijital teslimat",
-							paragraphs: [
-								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
-								"Destek ve yasal sorular için support@lolcheats.org.",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -8844,24 +9342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "Fiyatlar",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats, League of Legends için Windows PC üzerinde ESP wallhack, radar cheat ve LoL Aimbot undetected paket sunar. aylık $35 veya lifetime $150 lisanslar.",
-								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Plans",
 							paragraphs: [
-								"Vanguard yamalarından sonra Updates sayfasını kontrol edin. Hiçbir hile kalıcı undetected garantisi vermez.",
-								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "anında dijital teslimat",
+							h2: "Before you buy",
 							paragraphs: [
-								"secure checkout. ile anında dijital teslimat. $35/ay ve $150 ömür boyu planları Vanguard bakımı içerir.",
-								"Destek ve yasal sorular için support@lolcheats.org.",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -9752,24 +10265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "الميزات",
+							h2: "ESP وWallhack",
 							paragraphs: [
-								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. ESP وsoft aim وضوابط radar.",
-								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "Aimbot وSoft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "مواضيع ذات صلة",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "التحديثات والدعم",
 							paragraphs: [
 								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "تسليم رقمي فوري",
-							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
-								"support@lolcheats.org للدعم والطلبات القانونية.",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -9787,24 +10342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "الأسعار",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats يجمع ESP wallhack وradar cheat وLoL Aimbot غير مكتشف لـ League of Legends على Windows PC. تراخيص $35 شهرياً أو $150 lifetime.",
-								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "غير مكتشف",
+							h2: "Plans",
 							paragraphs: [
-								"راجع Updates بعد تص patches Vanguard. لا يضمن أي غش حالة undetected دائمة.",
-								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "تسليم رقمي فوري",
+							h2: "Before you buy",
 							paragraphs: [
-								"تراخيص مع تسليم رقمي فوري عبر secure checkout. خطط 35$/شهر و150$ مدى الحياة تشمل صيانة Vanguard.",
-								"support@lolcheats.org للدعم والطلبات القانونية.",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -10695,24 +11265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "機能",
+							h2: "ESP・Wallhack",
 							paragraphs: [
-								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。ESP、soft aim、radarコントロール.",
-								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot・Soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "関連トピック",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "アップデートとサポート",
 							paragraphs: [
 								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "即時デジタル配信",
-							paragraphs: [
-								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
-								"サポート・法務: support@lolcheats.org",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -10730,24 +11342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "料金",
+							h2: "What you get",
 							paragraphs: [
-								"LoL CheatsはLeague of Legends向けWindows PC用ESP wallhack、radar cheat、LoL Aimbotのundetectedパッケージです。月額$35またはlifetime $150ライセンス.",
-								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Plans",
 							paragraphs: [
-								"Vanguardパッチ後はUpdatesページを確認。永久undetectedは保証されません。",
-								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "即時デジタル配信",
+							h2: "Before you buy",
 							paragraphs: [
-								"secure checkout.で即時デジタル配信。$35/月と$150永久プランにVanguardメンテナンス含む。",
-								"サポート・法務: support@lolcheats.org",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -11638,24 +12265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "기능",
+							h2: "ESP 및 wallhack",
 							paragraphs: [
-								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. ESP, soft aim, radar 컨트롤.",
-								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot 및 soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "관련 주제",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "업데이트 및 지원",
 							paragraphs: [
 								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "즉시 디지털 배송",
-							paragraphs: [
-								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
-								"지원 및 법무: support@lolcheats.org",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -11673,24 +12342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "가격",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats는 League of Legends Windows PC용 ESP wallhack, radar cheat, LoL Aimbot undetected 패키지입니다. 월 $35 또는 lifetime $150 라이선스.",
-								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Plans",
 							paragraphs: [
-								"Vanguard 패치 후 Updates 페이지 확인. 영구 undetected 보장 없음.",
-								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "즉시 디지털 배송",
+							h2: "Before you buy",
 							paragraphs: [
-								"secure checkout.으로 즉시 디지털 배송. $35/월 및 $150 평생 요금제에 Vanguard 유지보수 포함.",
-								"지원 및 법무: support@lolcheats.org",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -12581,24 +13265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "功能",
+							h2: "ESP与Wallhack",
 							paragraphs: [
-								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。ESP、soft aim、radar控制.",
-								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot与Soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "相关主题",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "更新与支持",
 							paragraphs: [
 								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "即时数字交付",
-							paragraphs: [
-								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
-								"支持与法务：support@lolcheats.org",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -12616,24 +13342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "价格",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats为League of LegendsWindows PC提供ESP wallhack、radar cheat和LoL Aimbotundetected套餐。月付$35或lifetime $150许可证.",
-								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Plans",
 							paragraphs: [
-								"Vanguard补丁后请查看Updates页面。无任何作弊保证永久undetected。",
-								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "即时数字交付",
+							h2: "Before you buy",
 							paragraphs: [
-								"通过secure checkout.即时数字交付。$35/月和$150终身含Vanguard维护。",
-								"支持与法务：support@lolcheats.org",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -13524,24 +14265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "फ़ीचर्स",
+							h2: "ESP और wallhack",
 							paragraphs: [
-								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। ESP, soft aim, radar controls.",
-								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot और soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "संबंधित विषय",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "अपडेट और सहायता",
 							paragraphs: [
 								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "तुरंत डिजिटल डिलीवरी",
-							paragraphs: [
-								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
-								"सहायता: support@lolcheats.org",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -13559,24 +14342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "कीमत",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats League of Legends के लिए Windows PC पर ESP wallhack, radar cheat और LoL Aimbot undetected पैकेज देता है। $35 monthly या $150 lifetime licenses.",
-								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Plans",
 							paragraphs: [
-								"Vanguard पैच के बाद Updates पेज देखें। कोई भी cheat permanent undetected गारंटी नहीं देता।",
-								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "तुरंत डिजिटल डिलीवरी",
+							h2: "Before you buy",
 							paragraphs: [
-								"secure checkout. से तुरंत डिजिटल डिलीवरी। $35/माह और $150 लाइफ़टाइम में Vanguard maintenance शामिल।",
-								"सहायता: support@lolcheats.org",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -14467,24 +15265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "Fitur",
+							h2: "ESP & wallhack",
 							paragraphs: [
-								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. ESP, soft aim, kontrol radar.",
-								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot & soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "Topik terkait",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "Pembaruan & dukungan",
 							paragraphs: [
 								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "pengiriman digital instan",
-							paragraphs: [
-								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
-								"support@lolcheats.org untuk dukungan dan legal.",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -14502,24 +15342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "Harga",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats menyediakan ESP wallhack, radar cheat, dan LoL Aimbot undetected untuk League of Legends di PC Windows. lisensi $35 bulanan atau $150 lifetime.",
-								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Plans",
 							paragraphs: [
-								"Periksa Updates setelah patch Vanguard. Tidak ada cheat yang menjamin undetected permanen.",
-								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "pengiriman digital instan",
+							h2: "Before you buy",
 							paragraphs: [
-								"pengiriman digital instan via secure checkout. Paket $35/bulan dan $150 seumur hidup termasuk pemeliharaan Vanguard.",
-								"support@lolcheats.org untuk dukungan dan legal.",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -15410,24 +16265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "ฟีเจอร์",
+							h2: "ESP และ wallhack",
 							paragraphs: [
-								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC ESP, soft aim, การควบคุม radar.",
-								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot และ soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "หัวข้อที่เกี่ยวข้อง",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "อัปเดตและการสนับสนุน",
 							paragraphs: [
 								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "จัดส่งดิจิทัลทันที",
-							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
-								"support@lolcheats.org สำหรับการสนับสนุน",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -15445,24 +16342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "ราคา",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats รวม ESP wallhack, radar cheat และ LoL Aimbot แบบ undetected สำหรับ League of Legends บน Windows PC ใบอนุญาต $35 รายเดือนหรือ $150 lifetime.",
-								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Plans",
 							paragraphs: [
-								"ตรวจ Updates หลังแพตช์ Vanguard ไม่มี cheat รับประกัน undetected ถาวร",
-								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "จัดส่งดิจิทัลทันที",
+							h2: "Before you buy",
 							paragraphs: [
-								"จัดส่งดิจิทัลทันที ผ่าน secure checkout แพ็ก $35/เดือน และ $150 ตลอดชีพ รวมการดูแล Vanguard",
-								"support@lolcheats.org สำหรับการสนับสนุน",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -16353,24 +17265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "Tính năng",
+							h2: "ESP & wallhack",
 							paragraphs: [
-								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. ESP, soft aim, điều khiển radar.",
-								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot & soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "Chủ đề liên quan",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "Cập nhật & hỗ trợ",
 							paragraphs: [
 								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "giao hàng kỹ thuật số tức thì",
-							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
-								"support@lolcheats.org cho hỗ trợ và pháp lý.",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -16388,24 +17342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "Giá",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats cung cấp ESP wallhack, radar cheat và LoL Aimbot undetected cho League of Legends trên PC Windows. giấy phép $35 hàng tháng hoặc $150 lifetime.",
-								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Plans",
 							paragraphs: [
-								"Kiểm tra Updates sau bản vá Vanguard. Không cheat nào đảm bảo undetected vĩnh viễn.",
-								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "giao hàng kỹ thuật số tức thì",
+							h2: "Before you buy",
 							paragraphs: [
-								"giao hàng kỹ thuật số tức thì qua secure checkout. Gói $35/tháng và $150 trọn đời gồm bảo trì Vanguard.",
-								"support@lolcheats.org cho hỗ trợ và pháp lý.",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -17296,24 +18265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "Функції",
+							h2: "ESP і wallhack",
 							paragraphs: [
-								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. ESP, soft aim, керування radar.",
-								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot і soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "Пов'язані теми",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "Оновлення та підтримка",
 							paragraphs: [
 								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "миттєва цифрова доставка",
-							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
-								"support@lolcheats.org для підтримки та правових питань.",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -17331,24 +18342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "Ціни",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats об'єднує ESP wallhack, radar cheat і LoL Aimbot у undetected пакеті для League of Legends на Windows PC. ліцензії $35 на місяць або $150 lifetime.",
-								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Plans",
 							paragraphs: [
-								"Перевіряйте Updates після патчів Vanguard. Жоден чит не гарантує постійний undetected статус.",
-								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "миттєва цифрова доставка",
+							h2: "Before you buy",
 							paragraphs: [
-								"Ліцензії з миттєва цифрова доставка через secure checkout. Тарифи $35/міс і $150 назавжди включають обслуговування Vanguard.",
-								"support@lolcheats.org для підтримки та правових питань.",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -18239,24 +19265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "Funkce",
+							h2: "ESP a wallhack",
 							paragraphs: [
-								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. ESP, soft aim, ovládání radar.",
-								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot a soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "Související témata",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "Aktualizace a podpora",
 							paragraphs: [
 								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "okamžité digitální doručení",
-							paragraphs: [
-								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
-								"support@lolcheats.org pro podporu a právní dotazy.",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -18274,24 +19342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "Ceny",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats spojuje ESP wallhack, radar cheat a LoL Aimbot jako undetected balíček pro League of Legends na Windows PC. licence $35 měsíčně nebo $150 lifetime.",
-								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Plans",
 							paragraphs: [
-								"Po patchích Vanguard zkontrolujte Updates. Žádný cheat negarantuje trvalý undetected stav.",
-								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "okamžité digitální doručení",
+							h2: "Before you buy",
 							paragraphs: [
-								"Licence s okamžité digitální doručení přes secure checkout. Plány $35/měs. a $150 lifetime včetně údržby Vanguard.",
-								"support@lolcheats.org pro podporu a právní dotazy.",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -19182,24 +20265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "Funcții",
+							h2: "ESP și wallhack",
 							paragraphs: [
-								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. ESP, soft aim, controale radar.",
-								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot și soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "Subiecte conexe",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "Actualizări și suport",
 							paragraphs: [
 								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "livrare digitală instantă",
-							paragraphs: [
-								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
-								"support@lolcheats.org pentru suport și legal.",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -19217,24 +20342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "Prețuri",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats combină ESP wallhack, radar cheat și LoL Aimbot undetected pentru League of Legends pe PC Windows. licențe $35 lunar sau $150 lifetime.",
-								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Plans",
 							paragraphs: [
-								"Verificați Updates după patch-uri Vanguard. Niciun cheat nu garantează undetected permanent.",
-								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "livrare digitală instantă",
+							h2: "Before you buy",
 							paragraphs: [
-								"Licențe cu livrare digitală instantă via secure checkout. Planuri $35/lună și $150 pe viață includ mentenanță Vanguard.",
-								"support@lolcheats.org pentru suport și legal.",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],
@@ -20125,24 +21265,66 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/pricing/",
 					sections: [
 						{
-							h2: "Funktioner",
+							h2: "ESP & wallhack",
 							paragraphs: [
-								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. ESP, soft aim, radar-kontroller.",
-								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"See enemy champions, minions, bosses, and wards through walls with distance readouts.",
+								"Use filters so the overlay stays clear in teamfight zones, high-traffic zones, and ARAM chaos.",
+							],
+							list: [
+								"Player boxes & distance",
+								"Ward and tower markers",
+								"Boss and early-game filters",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Aimbot & soft aim",
+							paragraphs: [
+								"Aim help you can tune to feel natural.",
+								"Set FOV, smoothness, and bone priority per champions before you queue.",
+							],
+							list: [
+								"Smooth aim strength",
+								"FOV and bone priority",
+								"Hotkeys mid-match",
+							],
+						},
+						{
+							h2: "Radar",
+							paragraphs: [
+								"A simple 2D radar for threats outside your view.",
+								"Spot flanks near objectives and river without filling the whole screen.",
+							],
+							list: [
+								"Nearby enemy cues",
+								"Adjustable range",
+								"Works in laners & junglers",
+							],
+						},
+						{
+							h2: "Relaterade ämnen",
+							paragraphs: [
+								"Most League of Legends cheat sites cover ESP, aimbot, radar, setup, and status on separate pages. Use these guides next:",
+								"Browse internal guides before checkout.",
+							],
+							list: [
+								"<a href=\"/lol-esp/\">ESP & wallhack guide</a>",
+								"<a href=\"/lol-aimbot/\">Aimbot & soft aim</a>",
+								"<a href=\"/lol-radar-cheat/\">2D radar overlay</a>",
+								"<a href=\"/setup/\">Setup guide</a>",
+								"<a href=\"/updates/\">Live status</a>",
+								"<a href=\"/blog/\">LoL Intel blog</a>",
+							],
+						},
+						{
+							h2: "Uppdateringar & support",
 							paragraphs: [
 								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Check Status before you play after a patch day.",
 							],
-						},
-						{
-							h2: "omedelbar digital leverans",
-							paragraphs: [
-								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
-								"support@lolcheats.org för support och juridik.",
+							list: [
+								"Status on the Status page",
+								"Setup guide included",
+								"Email support with your order ID",
 							],
 						},
 					],
@@ -20160,24 +21342,39 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 					ctaSecondaryHref: "/setup/",
 					sections: [
 						{
-							h2: "Priser",
+							h2: "What you get",
 							paragraphs: [
-								"LoL Cheats kombinerar ESP wallhack, radar cheat och LoL Aimbot som undetected paket för League of Legends på Windows PC. $35 månatliga eller $150 lifetime-licenser.",
-								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Full teamage access for Windows 10 / 11.",
+								"Same ESP, soft aim, and radar on monthly and lifetime plans.",
+							],
+							list: [
+								"ESP, aimbot, and radar",
+								"Patch rebuilds while active",
+								"Digital delivery after checkout",
 							],
 						},
 						{
-							h2: "undetected",
+							h2: "Plans",
 							paragraphs: [
-								"Kontrollera Updates loler Vanguard-patchar. Ingen cheat garanterar permanent undetected status.",
-								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
+								"Pick monthly to try first, or lifetime for one payment.",
+								"Both plans unlock the same features after checkout.",
+							],
+							list: [
+								"Monthly — 30 days",
+								"Lifetime — one-time",
+								"Instant license by email",
 							],
 						},
 						{
-							h2: "omedelbar digital leverans",
+							h2: "Before you buy",
 							paragraphs: [
-								"Licenser med omedelbar digital leverans. $35/mån och $150 lifetime inkl. Vanguard-underhåll.",
-								"support@lolcheats.org för support och juridik.",
+								"Read the refund policy if you need it. Contact support with your order ID for help.",
+								"Keep your order email handy when you contact support.",
+							],
+							list: [
+								"<a href=\"/refund-policy/\">Refund policy</a>",
+								"<a href=\"/faq/\">FAQ</a>",
+								"<a href=\"/support/\">Support</a>",
 							],
 						},
 					],

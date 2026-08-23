@@ -18,7 +18,7 @@ interface Props {
 
 const locale = Astro.props.locale ?? defaultLocale;
 const t = getT(locale);
-const useBrandHero = locale === 'en';
+const useBrandHero = true;
 const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo.plans[0];
 
 const title = useBrandHero ? t('hero.title') : t('hero.accent');

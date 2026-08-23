@@ -3,6 +3,7 @@ import { phrases } from './phrases.mjs';
 import { PAGE_IMAGE_ALTS } from './image-alts.mjs';
 import { FOCUS_I18N } from './focus-i18n.mjs';
 import { LEGAL_I18N } from './legal-i18n.mjs';
+import { applyNavPageOverrides } from './nav-pages-i18n.mjs';
 
 /** Page-specific translated meta for home across locales. */
 const PAGE_META_HOME = {
@@ -347,5 +348,5 @@ export function buildPagesForLocale(locale) {
 	for (const kind of ['privacy', 'refund', 'terms']) {
 		pages[kind] = buildLegal(locale, kind, kind);
 	}
-	return pages;
+	return applyNavPageOverrides(locale, pages);
 }

@@ -768,6 +768,11 @@ export type PageContext = {
 	pageId?: PageId;
 	isBlogIndex?: boolean;
 	blogSlug?: string;
+	/** English-only /reviews/ index or detail — language switch stays on same path. */
+	isReviews?: boolean;
+	reviewSlug?: string;
+	/** English-only /faq/{slug}/ detail — language switch maps to localized FAQ index. */
+	faqSlug?: string;
 };
 
 function normalizePathname(pathname: string): string {
@@ -799,6 +804,17 @@ export function resolvePageContextFromPath(pathname: string): PageContext {
 		return { locale, pageId: 'home' };
 	}
 
+	if (rest[0] === 'reviews') {
+		if (rest.length === 1) {
+			return { locale, isReviews: true };
+		}
+		return { locale, isReviews: true, reviewSlug: rest[1] };
+	}
+
+	if (rest[0] === 'faq' && rest.length > 1) {
+		return { locale, faqSlug: rest[1] };
+	}
+
 	if (rest[0] === 'blog') {
 		if (rest.length === 1) {
 			return { locale, isBlogIndex: true };
@@ -815,6 +831,17 @@ export function resolvePageContextFromPath(pathname: string): PageContext {
 
 /** Target URL for the same page in another locale (non-blog pages). */
 export function getPageLocaleSwitchHref(context: PageContext, targetLocale: LocaleCode): string {
+	if (context.isReviews) {
+		if (context.reviewSlug) {
+			return `/reviews/${context.reviewSlug}/`;
+		}
+		return '/reviews/';
+	}
+
+	if (context.faqSlug) {
+		return getLocalizedPath('faq', targetLocale);
+	}
+
 	if (context.pageId) {
 		return getLocalizedPath(context.pageId, targetLocale);
 	}

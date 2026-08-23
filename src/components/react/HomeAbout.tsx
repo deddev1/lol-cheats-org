@@ -1,11 +1,13 @@
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
+import type { NavPaths } from '../../data/i18n/localized-nav-paths';
 
 type Props = {
 	locale: string;
+	paths: NavPaths;
 };
 
-function HomeAboutInner() {
+function HomeAboutInner({ paths }: { paths: NavPaths }) {
 	const { t } = useTranslation();
 
 	return (
@@ -17,13 +19,13 @@ function HomeAboutInner() {
 				<p>{t('home.aboutP1')}</p>
 				<p>
 					{t('home.aboutP2Before')}{' '}
-					<a href="/">{t('home.aboutPillar')}</a>
+					<a href={paths.home}>{t('home.aboutPillar')}</a>
 					{t('home.aboutP2Mid')}
-					<a href="/lol-esp/">{t('home.aboutEsp')}</a>
+					<a href={paths.lolEsp}>{t('home.aboutEsp')}</a>
 					{t('home.aboutP2Mid')}
-					<a href="/lol-aimbot/">{t('home.aboutAimbot')}</a>
+					<a href={paths.lolAimbot}>{t('home.aboutAimbot')}</a>
 					{t('home.aboutP2Or')}
-					<a href="/updates/">{t('home.aboutUndetected')}</a>
+					<a href={paths.updates}>{t('home.aboutUndetected')}</a>
 					{t('home.aboutP2After')}
 				</p>
 			</div>
@@ -34,7 +36,7 @@ function HomeAboutInner() {
 export default function HomeAboutApp(props: Props) {
 	return (
 		<I18nProvider locale={props.locale}>
-			<HomeAboutInner />
+			<HomeAboutInner paths={props.paths} />
 		</I18nProvider>
 	);
 }

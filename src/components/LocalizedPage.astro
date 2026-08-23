@@ -2,12 +2,12 @@
 import PageLayout from '../layouts/PageLayout.astro';
 import { getPageContent, getUi, type PageId } from '../data/i18n';
 import { getLocalizedPath, localizeInternalHref } from '../data/i18n/routing';
+import { getResolvedPageCopy } from '../data/i18n/resolved-page-copy';
 import { getCannibalTargetId, isCannibalPageId } from '../data/seo-cannibal-map';
 import type { LocaleCode } from '../data/i18n/locales';
 import { productInfo, seoFaqs, siteConfig } from '../data/site';
 import { absoluteFaqUrl, getFaqPath } from '../data/faq';
 import { lolImages } from '../data/lol';
-import { simplePageCopy } from '../data/i18n/simple-pages';
 import { getT } from '../i18n/server';
 import { getPageCrawlImage } from '../data/page-images';
 import { getExternalSecondaryCta } from '../data/external-resources';
@@ -24,7 +24,7 @@ const page = getPageContent(locale, pageId);
 const ui = getUi(locale);
 const t = getT(locale);
 const crawl = getPageCrawlImage(pageId);
-const simple = locale === 'en' ? simplePageCopy[pageId] : undefined;
+const resolved = getResolvedPageCopy(locale, pageId);
 
 function localizeParagraphHtml(html: string): string {
 	return html
@@ -32,13 +32,13 @@ function localizeParagraphHtml(html: string): string {
 		.replace(/href="(\/[^"]+)"/g, (_, path: string) => `href="${localizeInternalHref(path, locale)}"`);
 }
 
-const heading = simple?.h1 ?? page.h1;
-const intro = simple?.intro ?? page.intro;
-const sections = simple?.sections ?? page.sections;
-const ctaPrimaryLabel = simple?.ctaPrimary ?? page.ctaPrimary;
-const ctaSecondaryLabel = simple?.ctaSecondary ?? page.ctaSecondary;
-const ctaSecondaryPath = simple?.ctaSecondaryHref ?? page.ctaSecondaryHref;
-const galleryTitle = simple?.galleryTitle ?? page.galleryTitle ?? t('common.inGameLook');
+const heading = resolved.h1;
+const intro = resolved.intro;
+const sections = resolved.sections;
+const ctaPrimaryLabel = resolved.ctaPrimary;
+const ctaSecondaryLabel = resolved.ctaSecondary;
+const ctaSecondaryPath = resolved.ctaSecondaryHref;
+const galleryTitle = resolved.galleryTitle ?? t('common.inGameLook');
 
 const introEditByPage: Partial<Record<PageId, string>> = {
 	features: 'featuresIntro',
@@ -49,7 +49,7 @@ const introEditByPage: Partial<Record<PageId, string>> = {
 	support: 'supportIntro',
 	faq: 'faqIntro',
 };
-const introEdit = locale === 'en' ? introEditByPage[pageId] : undefined;
+const introEdit = introEditByPage[pageId];
 const gallery = [
 	{ src: crawl.src, alt: page.imageAlt || crawl.caption },
 	...lolImages.product.slice(0, 2).map((img) => ({
@@ -61,7 +61,7 @@ const gallery = [
 const pageUrl = new URL(getLocalizedPath(pageId, locale), siteConfig.url).href;
 
 const faqSchema =
-	pageId === 'faq' && locale === 'en'
+	pageId === 'faq'
 		? {
 				'@type': 'FAQPage',
 				'@id': `${pageUrl}#faq`,
@@ -82,13 +82,13 @@ const ctaSecondaryHref = ctaSecondaryPath
 		? siteConfig.checkoutUrl
 		: getLocalizedPath('features', locale);
 
-const externalSecondary = locale === 'en' ? getExternalSecondaryCta(pageId) : undefined;
+const externalSecondary = getExternalSecondaryCta(pageId);
 const resolvedSecondaryLabel = externalSecondary?.label ?? ctaSecondaryLabel;
 const resolvedSecondaryHref = externalSecondary?.href ?? ctaSecondaryHref;
 
 const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo.plans[0];
 const lifetime = productInfo.plans.find((p) => p.id === 'lifetime') ?? productInfo.plans[1];
-const showStorePlans = pageId === 'pricing' && locale === 'en';
+const showStorePlans = pageId === 'pricing';
 
 const supportPageIds = ['support', 'privacy', 'refund', 'terms'] as const;
 const ctaPrimaryHref = supportPageIds.includes(pageId as (typeof supportPageIds)[number])
@@ -99,7 +99,7 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 	features: ui.nav.features,
 	pricing: ui.nav.pricing,
 	updates: ui.nav.updates,
-	cheats: locale === 'en' ? t('nav.preview') : ui.nav.cheats,
+	cheats: t('nav.preview'),
 	'lol-esp': ui.nav.esp,
 	'lol-aimbot': ui.nav.aimbot,
 	radar: 'Radar',
@@ -109,8 +109,8 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 ---
 
 <PageLayout
-	title={simple?.title ?? page.title}
-	description={simple?.description ?? page.description}
+	title={resolved.title}
+	description={resolved.description}
 	canonicalPath={getLocalizedPath(canonicalPageId, locale)}
 	heading={heading}
 	intro={intro}
@@ -168,7 +168,7 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 	}
 
 	{
-		pageId === 'faq' && locale === 'en' && (
+		pageId === 'faq' && (
 			<section class="card-panel faq-index">
 				<h2>{t('common.allQuestions')}</h2>
 				<p>{t('common.openAnyQuestion')}</p>
