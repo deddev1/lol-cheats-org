@@ -135,6 +135,22 @@ const PATH_REDIRECTS = {
 	'/faq/can-i-get-a-refund/': '/faq/refund/',
 	'/faq/will-lol-cheats-get-me-banned': '/faq/ban-risk/',
 	'/faq/will-lol-cheats-get-me-banned/': '/faq/ban-risk/',
+	'/blog/patch-notes-buffs-nerfs-vaults': '/blog/patch-notes/',
+	'/blog/patch-notes-buffs-nerfs-vaults/': '/blog/patch-notes/',
+	'/blog/chapter-7-season-3-skin-leaks-vbucks': '/blog/skin-guide/',
+	'/blog/chapter-7-season-3-skin-leaks-vbucks/': '/blog/skin-guide/',
+	'/blog/hammer-ar-s-tier-data-analysis': '/blog/tier-list/',
+	'/blog/hammer-ar-s-tier-data-analysis/': '/blog/tier-list/',
+	'/blog/zero-build-meta-broken-aggressive-strategies': '/blog/aram-meta/',
+	'/blog/zero-build-meta-broken-aggressive-strategies/': '/blog/aram-meta/',
+	'/blog/fncs-meta-watch-community-event-drops': '/blog/competitive-meta/',
+	'/blog/fncs-meta-watch-community-event-drops/': '/blog/competitive-meta/',
+	'/blog/secret-loot-routes-full-gold': '/blog/jungle-routes/',
+	'/blog/secret-loot-routes-full-gold/': '/blog/jungle-routes/',
+	'/blog/bugha-settings-pro-setup': '/blog/pro-settings/',
+	'/blog/bugha-settings-pro-setup/': '/blog/pro-settings/',
+	'/blog/creative-warmup-maps-pros-use': '/blog/warmup/',
+	'/blog/creative-warmup-maps-pros-use/': '/blog/warmup/',
 };
 
 const SECURITY_HEADERS = {
