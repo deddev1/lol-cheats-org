@@ -11,7 +11,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "lol-patch-notes-guide",
+		slug: "patch-notes",
 		title: "How to Read League of Legends Patch Notes",
 		metaDescription: "Learn how League of Legends patch notes change champion builds, gold economy, and maps. What to do after Vanguard and major updates in 2026.",
 		h1: "How to Read League of Legends Patch Notes",
@@ -31,14 +31,14 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Buffs, nerfs, and removed items — a simple framework",
 				paragraphs: [
 					"When an item is removed from shop pools, delete it from your mental shopping list the same day. Heavy nerfs demote a champion from “default pick” to “situational.” Light nerfs are fine if you already trade cleaner than most lobbies. Buffs deserve a short test block — ten focused matches — before you rebuild your entire account progress around them.",
-					"Ability damage and cooldown changes usually matter more than a single stat number. If a popular build loses burst against fed carries, your Summoners Rift push into teamfights suddenly needs a different combo. Pair this reading habit with our <a href=\"/blog/lol-champion-tier-list/\">League of Legends champion tier list</a> so you are not chasing streamer builds that ignore your gold budget.",
+					"Ability damage and cooldown changes usually matter more than a single stat number. If a popular build loses burst against fed carries, your Summoners Rift push into teamfights suddenly needs a different combo. Pair this reading habit with our <a href=\"/blog/tier-list/\">League of Legends champion tier list</a> so you are not chasing streamer builds that ignore your gold budget.",
 				],
 			},
 			{
 				h2: "How patches reshuffle loadouts and map plans",
 				paragraphs: [
 					"When meta mid-lane picks feel strong, prioritize items and stats that win short to mid-range trades. When health regen gets tighter, play more conservatively near objectives and river and avoid ego third-party fights. When an objective shifts — new jungle camps, moved spawns, baron timing changes — rewrite your first three minutes on that map before you farm it for ranked goals.",
-					"Keep in-game cosmetics chatter out of patch-day focus. Skin talk is fun; kill speed and bush camping patterns are what get you killed. For aggressive early-game timing after a meta shift, see our <a href=\"/blog/lol-aram-aggressive-strategies/\">macro strategies</a>.",
+					"Keep in-game cosmetics chatter out of patch-day focus. Skin talk is fun; kill speed and bush camping patterns are what get you killed. For aggressive early-game timing after a meta shift, see our <a href=\"/blog/aram-meta/\">macro strategies</a>.",
 					"On big mornings, confirm <a href=\"https://www.leagueoflegends.com//\" target=\"_blank\" rel=\"noopener noreferrer\">League of Legends on Riot Client</a> looks healthy before you assume your client is broken. Then run a short checklist: note removed items, update your account progress “buy list,” play five intentional matches, and only then lock a new main champion.",
 				],
 			},
@@ -62,7 +62,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "lol-cheats-complete-guide-2026",
+		slug: "cheats-guide",
 		title: "LoL Cheats 2026: Complete Undetected Guide",
 		metaDescription: "A clear 2026 guide to lol cheats — what ESP, soft aim, and radar actually do in League of Legends, how Vanguard maintenance works, and how to buy safely.",
 		h1: "LoL Cheats Guide for 2026",
@@ -94,7 +94,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "How to buy and set up without wasting a night",
 				paragraphs: [
-					"Compare monthly and lifetime on <a href=\"/pricing/\">Pricing</a>, then follow <a href=\"/setup/\">Setup</a> after delivery. Keep your order ID ready for <a href=\"/support/\">Support</a>. If you are still shopping, the <a href=\"/blog/lol-cheats-buyers-guide/\">buyers guide</a> lists the checklist we wish every shopper used.",
+					"Compare monthly and lifetime on <a href=\"/pricing/\">Pricing</a>, then follow <a href=\"/setup/\">Setup</a> after delivery. Keep your order ID ready for <a href=\"/support/\">Support</a>. If you are still shopping, the <a href=\"/blog/buy-cheats/\">buyers guide</a> lists the checklist we wish every shopper used.",
 					"LoL Cheats is built for Windows PC laner and jungler play. It will not replace map knowledge — it amplifies the reads you already practice in matches.",
 				],
 			},
@@ -110,7 +110,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "lol-cheats-buyers-guide",
+		id: "buy-cheats",
 		imageKey: "cheatsPackage",
 		published: "2026-07-28",
 		updated: "2026-08-17",
@@ -118,7 +118,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "lol-cheats-buyers-guide",
+		slug: "buy-cheats",
 		title: "League of Legends Cheats Buyers Guide",
 		metaDescription: "What to check before you buy LoL Cheats on Windows PC — status pages, ESP features, soft aim, refunds, pricing, and red flags that signal weak maintenance.",
 		h1: "LoL Cheats Buyers Guide",
@@ -151,7 +151,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Final checklist before checkout",
 				paragraphs: [
 					"Confirm dated status, ward ESP, radar, soft aim profiles, Windows support, and a written refund policy. If any item is missing, pause — cheap weekly subs add up when rebuilds are slow.",
-					"When the checklist passes, open <a href=\"/lol-cheats/\">LoL Cheats</a>, compare <a href=\"/pricing/\">Pricing</a>, and read <a href=\"/blog/lol-cheats-complete-guide-2026/\">the 2026 complete guide</a> for feature context.",
+					"When the checklist passes, open <a href=\"/lol-cheats/\">LoL Cheats</a>, compare <a href=\"/pricing/\">Pricing</a>, and read <a href=\"/blog/cheats-guide/\">the 2026 complete guide</a> for feature context.",
 				],
 			}
 		],
@@ -159,7 +159,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "lol-cheats-2026-whats-new",
+		id: "cheats-2026",
 		imageKey: "hero",
 		published: "2026-07-26",
 		updated: "2026-08-17",
@@ -167,7 +167,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "lol-cheats-2026-whats-new",
+		slug: "cheats-2026",
 		title: "LoL Cheats 2026: What Changed This Year",
 		metaDescription: "What changed for lol cheats in 2026 — patch cycle cadence, Vanguard maintenance habits, ESP focus, and how LoL Cheats adapted for League of Legends.",
 		h1: "LoL Cheats Updates in 2026",
@@ -192,7 +192,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "What we recommend you do differently this year",
 				paragraphs: [
-					"Check status before patch-day queue ups. Keep soft aim conservative. Use ward ESP filters so your screen stays clean. Read the <a href=\"/blog/lol-cheats-complete-guide-2026/\">complete 2026 guide</a> if you are new to the category.",
+					"Check status before patch-day queue ups. Keep soft aim conservative. Use ward ESP filters so your screen stays clean. Read the <a href=\"/blog/cheats-guide/\">complete 2026 guide</a> if you are new to the category.",
 					"Pricing remains monthly and lifetime on <a href=\"/pricing/\">Pricing</a> with digital delivery after payment.",
 				],
 			},
@@ -208,7 +208,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "lol-aimbot-settings-guide",
+		id: "aimbot-settings",
 		imageKey: "aimbotCombat",
 		published: "2026-07-24",
 		updated: "2026-08-17",
@@ -216,7 +216,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "lol-aimbot-settings-guide",
+		slug: "aimbot-settings",
 		title: "LoL Aimbot Settings: Smooth FOV Without Looking Robotic",
 		metaDescription: "How to tune LoL Aimbot and soft aim settings — FOV, smoothness, bone priority, and per-champion profiles that feel natural in League of Legends matches.",
 		h1: "League of Legends Aimbot Settings Guide",
@@ -247,7 +247,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Build a profile set you can trust in objectives",
 				paragraphs: [
-					"Save assassin, mage, and marksman profiles separately. Test each on <a href=\"/blog/lol-warmup-maps-ranked/\">warmup maps</a> before you take a fed champion into teamfight zones.",
+					"Save assassin, mage, and marksman profiles separately. Test each on <a href=\"/blog/warmup/\">warmup maps</a> before you take a fed champion into teamfight zones.",
 					"Combine tuned aim with <a href=\"/lol-esp/\">ESP</a> and <a href=\"/lol-radar-cheat/\">radar</a> so you only assist fights you chose on purpose. After patches, confirm <a href=\"/updates/\">Updates</a> before you tweak FOV on an old build.",
 				],
 			}
@@ -256,7 +256,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "lol-esp-wallhack-explained",
+		id: "esp-wallhack",
 		imageKey: "espWallhack",
 		published: "2026-07-21",
 		updated: "2026-08-17",
@@ -264,7 +264,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "lol-esp-wallhack-explained",
+		slug: "esp-wallhack",
 		title: "LoL ESP and Wallhack Explained in Plain English",
 		metaDescription: "What lol ESP and wallhack actually show in League of Legends — champions, wards, distance, objectives — and how to keep overlays readable in matches.",
 		h1: "League of Legends ESP and Wallhack Guide",
@@ -304,7 +304,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		},
 	},
 	{
-		id: "undetected-lol-cheats-vanguard",
+		id: "undetected",
 		imageKey: "champEsp",
 		published: "2026-07-19",
 		updated: "2026-08-17",
@@ -312,7 +312,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: true,
 		translations: {
 		en: {
-		slug: "undetected-lol-cheats-vanguard",
+		slug: "undetected",
 		title: "Undetected LoL Cheats and Vanguard Reality",
 		metaDescription: "What “undetected lol cheats” really means under Vanguard — maintenance, patch days, risk, and how to read status before you queue League of Legends.",
 		h1: "Undetected LoL Cheats Explained",
@@ -337,7 +337,7 @@ export const blogPosts: BlogPostDefinition[] = [
 			{
 				h2: "Where to go next",
 				paragraphs: [
-					"Read <a href=\"/undetected-lol-cheats/\">undetected lol cheats</a>, the <a href=\"/blog/lol-cheats-complete-guide-2026/\">2026 complete guide</a>, and <a href=\"/pricing/\">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.",
+					"Read <a href=\"/undetected-lol-cheats/\">undetected lol cheats</a>, the <a href=\"/blog/cheats-guide/\">2026 complete guide</a>, and <a href=\"/pricing/\">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.",
 				],
 			},
 			{
@@ -360,7 +360,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "lol-cheats-vs-cheatvault-comparison",
+		slug: "vs-budget",
 		title: "LoL Cheats vs Typical Budget LoL Cheat Shops",
 		metaDescription: "How LoL Cheats compares to typical budget lol cheat shops on Windows PC — ESP depth, radar, status pages, pricing, and what cheap sellers usually skip.",
 		h1: "LoL Cheats vs Budget Shops",
@@ -379,7 +379,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Price versus what you touch every match",
 				paragraphs: [
 					"If you only want basic player boxes in casual matches, a cheaper shop might feel enough. If you hold objectives, run gank routes, and hate dying to unseen flanks, radar and clean filters pay for themselves quickly.",
-					"Our monthly and lifetime options are on <a href=\"/pricing/\">Pricing</a>. Read the <a href=\"/blog/lol-cheats-buyers-guide/\">buyers guide</a> before you compare three storefronts at once.",
+					"Our monthly and lifetime options are on <a href=\"/pricing/\">Pricing</a>. Read the <a href=\"/blog/buy-cheats/\">buyers guide</a> before you compare three storefronts at once.",
 				],
 			},
 			{
@@ -393,7 +393,7 @@ export const blogPosts: BlogPostDefinition[] = [
 				h2: "Side-by-side before you choose a shop",
 				paragraphs: [
 					"Open each seller’s status page, feature list, and support channel on the same screen. If one shop hides status in private Discord only, weigh that against a lower sticker price.",
-					"When the checklist favors a full stack, compare <a href=\"/features/\">Features</a> and <a href=\"/pricing/\">Pricing</a> here, then read <a href=\"/blog/lol-cheats-buyers-guide/\">the buyers guide</a> before checkout.",
+					"When the checklist favors a full stack, compare <a href=\"/features/\">Features</a> and <a href=\"/pricing/\">Pricing</a> here, then read <a href=\"/blog/buy-cheats/\">the buyers guide</a> before checkout.",
 				],
 			}
 		],
@@ -409,7 +409,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "elitefn-vs-lol-cheats-two-week-test",
+		slug: "cheat-review",
 		title: "I Tested Another League of Legends Cheat for 2 Weeks First",
 		metaDescription: "A two-week test of another budget lol cheat before switching to LoL Cheats on Windows PC — ESP feel, soft aim, patch downtime, and support differences.",
 		h1: "Two-Week LoL Cheat Comparison Test",
@@ -465,7 +465,7 @@ export const blogPosts: BlogPostDefinition[] = [
 		featured: false,
 		translations: {
 		en: {
-		slug: "lol-cheats-vs-ghostware-features-pricing",
+		slug: "vs-esp-only",
 		title: "Full-Stack LoL Cheats vs Minimal ESP Tools",
 		metaDescription: "Full-stack LoL Cheats versus minimal ESP-only League of Legends tools — feature depth, radar, soft aim, pricing, and who should buy which style.",
 		h1: "Full-Stack vs ESP-Only LoL Cheats",

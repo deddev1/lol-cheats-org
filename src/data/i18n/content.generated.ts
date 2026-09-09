@@ -650,7 +650,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							h2: "Before you buy in 2026",
 							paragraphs: [
 								"Read the <a href=\"/lol-cheats/\">lol cheats</a> pillar, Features, Pricing, Setup, and Updates pages. Check undetected status notes after every major patch — responsible use and maintenance awareness matter.",
-								"Also compare the <a href=\"/lol-cheats/\">lol cheats</a> checklist, <a href=\"/blog/lol-cheats-2026-whats-new/\">2026 blog guide</a>, and <a href=\"/faq/\">FAQ</a>.",
+								"Also compare the <a href=\"/lol-cheats/\">lol cheats</a> checklist, <a href=\"/blog/cheats-2026/\">2026 blog guide</a>, and <a href=\"/faq/\">FAQ</a>.",
 								"Support is available at support@lolcheats.org via the <a href=\"/support/\">Support page</a>.",
 							],
 						},
@@ -681,7 +681,7 @@ export const i18nContent: Record<LocaleCode, { ui: LocaleUi; pages: Record<PageI
 							paragraphs: [
 								"Use this pillar for the core product overview. For year-specific buying notes, see the <a href=\"/lol-cheats/\">lol cheats 2026</a> and <a href=\"/lol-cheats/\">lol cheats</a> pages cover buyer comparisons in cheats wording.",
 								"Deep-dive modules: <a href=\"/lol-esp/\">LoL ESP</a>, <a href=\"/lol-aimbot/\">LoL Aimbot</a>, <a href=\"/lol-esp/\">wallhack</a>, <a href=\"/lol-radar-cheat/\">radar cheat</a>, and <a href=\"/lol-aimbot/\">soft aim</a>.",
-								"Blog guides expand Vanguard keyword: <a href=\"/blog/lol-cheats-complete-guide-2026/\">cheats complete guide</a>, <a href=\"/blog/lol-cheats-buyers-guide/\">cheats buyers guide</a>, and <a href=\"/blog/undetected-lol-cheats-vanguard/\">undetected Vanguard notes</a>.",
+								"Blog guides expand Vanguard keyword: <a href=\"/blog/cheats-guide/\">cheats complete guide</a>, <a href=\"/blog/buy-cheats/\">cheats buyers guide</a>, and <a href=\"/blog/undetected/\">undetected Vanguard notes</a>.",
 							],
 						},
 						{

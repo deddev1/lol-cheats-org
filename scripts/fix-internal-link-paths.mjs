@@ -10,11 +10,11 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
 const REPLACEMENTS = [
-	['/faq/herbivore-and-carnivore-matches/', '/faq/ranked-and-normal-games/'],
+	['/faq/herbivore-and-carnivore-matches/', '/faq/ranked/'],
 	['/faq/how-to-contact-support/', '/support/'],
-	['/faq/what-is-an-lol-wallhack/', '/faq/esp-wallhack-radar-or-aimbot/'],
-	['/faq/does-lol-cheats-include-radar-cheat/', '/faq/esp-wallhack-radar-or-aimbot/'],
-	['/faq/vanguard-anti-cheat-and-lol-cheats/', '/faq/are-lol-cheats-undetected-in-2026/'],
+	['/faq/what-is-an-lol-wallhack/', '/faq/included/'],
+	['/faq/does-lol-cheats-include-radar-cheat/', '/faq/included/'],
+	['/faq/vanguard-anti-cheat-and-lol-cheats/', '/faq/undetected/'],
 	['/faq/buy-undetected-lol-cheats-windows-pc/', '/pricing/'],
 	['/undetected-lol-cheats/', '/'],
 	['/best-lol-cheats/', '/'],

@@ -92,7 +92,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		question: 'What is {brand}?',
 		answer:
 			'{brand} is an undetected {primaryKeyword} package for League of Legends on Windows PC. It includes ESP wallhack, 2D radar, and aimbot controls, with {antiCheat} maintenance and setup support.',
-		slug: 'what-are-lol-cheats',
+		slug: 'what-is',
 		seoTitle: 'What is {brand}? | FAQ',
 		seoDescription:
 			'LoL Cheats explained: undetected ESP, radar, and aimbot for League of Legends on Windows PC with Vanguard maintenance, digital delivery, and setup support.',
@@ -101,7 +101,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		question: 'Are {primaryKeyword} undetected in 2026?',
 		answer:
 			'{brand} is maintained for {game} with rebuilds after {antiCheat} and game patches. {antiCheat} monitors Windows PC clients — check the Status page before you queue. No cheat can guarantee permanent undetected status; maintenance and responsible use matter.',
-		slug: 'are-lol-cheats-undetected-in-2026',
+		slug: 'undetected',
 		seoTitle: 'Are {brand} Undetected in 2026? | FAQ',
 		seoDescription:
 			'How LoL Cheats stays maintained after Vanguard patches in 2026 — and why no cheat can promise permanent undetected status on Windows PC after updates.',
@@ -110,7 +110,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		question: 'Does this work in ranked and normal games?',
 		answer:
 			'Yes. ESP, radar, and aimbot are built for {game} match flow — reading enemy champions and minions, spotting wards, and staying aware near objectives and river.',
-		slug: 'ranked-and-normal-games',
+		slug: 'ranked',
 		seoTitle: 'Ranked and Normal Games Support | FAQ',
 		seoDescription:
 			'LoL Cheats works in ranked and normal games on Windows PC — ESP, radar, and aimbot built for Summoners Rift match flow, objectives, and river awareness.',
@@ -119,7 +119,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		question: 'What is included — ESP, wallhack, radar, or Aimbot?',
 		answer:
 			'{brand} bundles ESP wallhack (enemy champions, minions, and wards through walls with distance readouts), ward markers, 2D radar overlays for nearby threats outside your view, and configurable Aimbot in one license. See Features for the full list.',
-		slug: 'esp-wallhack-radar-or-aimbot',
+		slug: 'included',
 		seoTitle: 'What Is Included: ESP, Wallhack, Radar, Aimbot | FAQ',
 		seoDescription:
 			'One LoL Cheats license includes ESP wallhack, ward markers, 2D radar overlays, and configurable Aimbot for Windows PC — see Features for the full control list.',
@@ -128,7 +128,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		question: 'How are licenses delivered?',
 		answer:
 			'After payment is confirmed, {brand} license details are delivered digitally through checkout. Timing can vary by payment method and order review. For setup or billing help, use the Support page or email {email}.',
-		slug: 'how-are-licenses-delivered',
+		slug: 'delivery',
 		seoTitle: 'How Are {brand} Licenses Delivered? | FAQ',
 		seoDescription:
 			'LoL Cheats licenses are delivered digitally after payment confirmation on Windows PC. Timing varies by payment method, and support can help with order lookup.',
@@ -137,7 +137,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		question: 'Where do I check updates after League of Legends or {antiCheat} patch?',
 		answer:
 			'Maintenance notes are posted on the Status page when League of Legends or {antiCheat} update affects the package. That is the fastest place to confirm whether a new {brand} build is live.',
-		slug: 'where-to-check-updates',
+		slug: 'status',
 		seoTitle: 'Where to Check {game} / {antiCheat} Updates | FAQ',
 		seoDescription:
 			'Check the LoL Cheats Status page after League of Legends or Vanguard patches to confirm the latest ESP, radar, and Aimbot build before you queue.',
@@ -146,7 +146,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		question: 'How do I install {brand} on Windows PC?',
 		answer:
 			'After delivery, run the installer on Windows 10 or 11, activate your license, and load ESP, radar, and aimbot from the in-game menu. Step-by-step screenshots live on the <a href="/setup/">Setup</a> page.',
-		slug: 'how-to-install-lol-cheats',
+		slug: 'install',
 		seoTitle: 'How to Install {brand} on Windows PC | FAQ',
 		seoDescription:
 			'Install LoL Cheats on Windows 10 or 11 after purchase — activate your license, load ESP and aimbot, and confirm Status before your first queue.',
@@ -155,7 +155,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		question: 'Monthly or lifetime license — which plan should I pick?',
 		answer:
 			'Monthly fits short seasons or testing the full stack. Lifetime is one payment for the same ESP, radar, and aimbot features with ongoing {antiCheat} maintenance. Compare both on the <a href="/pricing/">Store</a> page.',
-		slug: 'monthly-vs-lifetime-license',
+		slug: 'plans',
 		seoTitle: 'Monthly vs Lifetime {brand} License | FAQ',
 		seoDescription:
 			'Compare LoL Cheats monthly and lifetime plans — same ESP, radar, and aimbot license with Vanguard maintenance on Windows PC.',
@@ -164,7 +164,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		question: 'Can I get a refund?',
 		answer:
 			'Refunds follow the policy on the <a href="/refund-policy/">Refund Policy</a> page. Email {email} with your order ID if delivery failed or the license never activated.',
-		slug: 'can-i-get-a-refund',
+		slug: 'refund',
 		seoTitle: 'Can I Get a Refund? | {brand} FAQ',
 		seoDescription:
 			'LoL Cheats refund rules for digital licenses on Windows PC — when refunds apply and how to contact support with your order ID.',
@@ -173,7 +173,7 @@ export const seoFaqs: readonly FaqItem[] = [
 		question: 'Will {brand} get my account banned?',
 		answer:
 			'Any third-party tool carries ban risk on {game}. {brand} is maintained after {antiCheat} patches, but no cheat can guarantee a ban-free account. Check <a href="/updates/">Status</a> before ranked games and use settings you can control.',
-		slug: 'will-lol-cheats-get-me-banned',
+		slug: 'ban-risk',
 		seoTitle: 'Ban Risk & Account Safety | {brand} FAQ',
 		seoDescription:
 			'Understand ban risk with LoL Cheats on Windows PC — Vanguard maintenance, Status checks, and why no cheat guarantees a safe account.',

@@ -13,29 +13,25 @@ export const faqHubClusters: FaqHubCluster[] = [
 		id: 'start',
 		title: 'Getting started',
 		description: 'What the package is, delivery, and first install on Windows PC.',
-		slugs: ['what-are-lol-cheats', 'how-are-licenses-delivered', 'how-to-install-lol-cheats'],
+		slugs: ['what-is', 'delivery', 'install'],
 	},
 	{
 		id: 'safety',
 		title: 'Undetected & Vanguard',
 		description: 'Status after patches, ban risk, and when to check before you queue.',
-		slugs: [
-			'are-lol-cheats-undetected-in-2026',
-			'where-to-check-updates',
-			'will-lol-cheats-get-me-banned',
-		],
+		slugs: ['undetected', 'status', 'ban-risk'],
 	},
 	{
 		id: 'features',
 		title: 'ESP, radar & aimbot',
 		description: 'What one license includes and where ranked / normal games fit.',
-		slugs: ['esp-wallhack-radar-or-aimbot', 'ranked-and-normal-games'],
+		slugs: ['included', 'ranked'],
 	},
 	{
 		id: 'billing',
 		title: 'Plans & refunds',
 		description: 'Monthly vs lifetime and refund rules before checkout.',
-		slugs: ['monthly-vs-lifetime-license', 'can-i-get-a-refund'],
+		slugs: ['plans', 'refund'],
 	},
 ];
 
