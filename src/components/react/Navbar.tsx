@@ -164,45 +164,54 @@ function NavbarInner({
 				</div>
 			</div>
 
-			{open ? (
-				<div className="site-panel" id="site-nav-panel">
-					<div className="shell site-panel__inner">
-						<nav className="site-panel__nav" aria-label={t('nav.mobileAria')}>
-							{navLinks.map((item) => (
-								<a
-									key={item.id}
-									href={item.href}
-									className={item.active ? 'is-active' : undefined}
-									onClick={() => setOpen(false)}
-								>
-									<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-										<path
-											d={icons[item.id]}
-											stroke="currentColor"
-											strokeWidth="1.6"
-											strokeLinecap="round"
-											strokeLinejoin="round"
-										/>
-									</svg>
-									<span>{item.label}</span>
-								</a>
-							))}
-						</nav>
-						<div className="site-panel__foot">
-							<div className="site-panel__lang">
-								<LanguageSwitcher
-									currentLocale={locale}
-									locales={locales}
-									hrefForLocale={hrefForLocale}
-								/>
-							</div>
-							<a href={checkoutUrl} className="site-panel__buy" rel="noopener noreferrer">
-								<span data-edit="ctaBuy">{t('cta.buy')}</span>
+			<div
+				className={`site-panel${open ? ' is-open' : ''}`}
+				id="site-nav-panel"
+				aria-hidden={!open}
+				{...(!open ? { inert: '' } : {})}
+			>
+				<div className="shell site-panel__inner">
+					<nav className="site-panel__nav" aria-label={t('nav.mobileAria')}>
+						{navLinks.map((item) => (
+							<a
+								key={item.id}
+								href={item.href}
+								className={item.active ? 'is-active' : undefined}
+								tabIndex={open ? undefined : -1}
+								onClick={() => setOpen(false)}
+							>
+								<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+									<path
+										d={icons[item.id]}
+										stroke="currentColor"
+										strokeWidth="1.6"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+									/>
+								</svg>
+								<span>{item.label}</span>
 							</a>
+						))}
+					</nav>
+					<div className="site-panel__foot">
+						<div className="site-panel__lang">
+							<LanguageSwitcher
+								currentLocale={locale}
+								locales={locales}
+								hrefForLocale={hrefForLocale}
+							/>
 						</div>
+						<a
+							href={checkoutUrl}
+							className="site-panel__buy"
+							rel="noopener noreferrer"
+							tabIndex={open ? undefined : -1}
+						>
+							<span data-edit="ctaBuy">{t('cta.buy')}</span>
+						</a>
 					</div>
 				</div>
-			) : null}
+			</div>
 		</header>
 	);
 }
