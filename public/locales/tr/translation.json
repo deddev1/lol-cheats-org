@@ -75,7 +75,8 @@
     "buyerReviews": "{{count}} alıcı yorumu",
     "averageAria": "{{count}} yorumdan {{rating}} ortalama",
     "outOfFiveAria": "5 üzerinden {{rating}}",
-    "readAll": "Tüm yorumları oku →"
+    "readAll": "Tüm yorumları oku →",
+    "verified": "Doğrulanmış alıcı"
   },
   "common": {
     "buyNow": "Satın al",

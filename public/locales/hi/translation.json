@@ -75,7 +75,8 @@
     "buyerReviews": "{{count}} खरीदार समीक्षाएँ",
     "averageAria": "{{count}} समीक्षाओं से {{rating}} औसत",
     "outOfFiveAria": "5 में से {{rating}}",
-    "readAll": "सभी समीक्षाएँ पढ़ें →"
+    "readAll": "सभी समीक्षाएँ पढ़ें →",
+    "verified": "सत्यापित खरीदार"
   },
   "common": {
     "buyNow": "अभी खरीदें",

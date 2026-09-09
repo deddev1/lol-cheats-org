@@ -75,7 +75,8 @@
     "buyerReviews": "{{count}} recenzii cumpărători",
     "averageAria": "{{rating}} medie din {{count}} recenzii",
     "outOfFiveAria": "{{rating}} din 5",
-    "readAll": "Citește toate recenziile →"
+    "readAll": "Citește toate recenziile →",
+    "verified": "Cumpărător verificat"
   },
   "common": {
     "buyNow": "Cumpără acum",

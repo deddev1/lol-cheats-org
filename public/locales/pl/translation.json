@@ -75,7 +75,8 @@
     "buyerReviews": "{{count}} opinii kupujących",
     "averageAria": "{{rating}} średnia z {{count}} opinii",
     "outOfFiveAria": "{{rating}} na 5",
-    "readAll": "Czytaj wszystkie opinie →"
+    "readAll": "Czytaj wszystkie opinie →",
+    "verified": "Zweryfikowany kupujący"
   },
   "common": {
     "buyNow": "Kup teraz",

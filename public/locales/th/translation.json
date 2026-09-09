@@ -75,7 +75,8 @@
     "buyerReviews": "รีวิวจากผู้ซื้อ {{count}} รายการ",
     "averageAria": "คะแนนเฉลี่ย {{rating}} จาก {{count}} รีวิว",
     "outOfFiveAria": "{{rating}} จาก 5",
-    "readAll": "อ่านรีวิวทั้งหมด →"
+    "readAll": "อ่านรีวิวทั้งหมด →",
+    "verified": "ผู้ซื้อที่ยืนยันแล้ว"
   },
   "common": {
     "buyNow": "ซื้อเลย",

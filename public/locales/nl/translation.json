@@ -75,7 +75,8 @@
     "buyerReviews": "{{count}} kopersreviews",
     "averageAria": "{{rating}} gemiddeld uit {{count}} reviews",
     "outOfFiveAria": "{{rating}} van 5",
-    "readAll": "Alle reviews lezen →"
+    "readAll": "Alle reviews lezen →",
+    "verified": "Geverifieerde koper"
   },
   "common": {
     "buyNow": "Nu kopen",

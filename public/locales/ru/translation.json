@@ -75,7 +75,8 @@
     "buyerReviews": "{{count}} отзывов покупателей",
     "averageAria": "{{rating}} в среднем из {{count}} отзывов",
     "outOfFiveAria": "{{rating}} из 5",
-    "readAll": "Читать все отзывы →"
+    "readAll": "Читать все отзывы →",
+    "verified": "Проверенный покупатель"
   },
   "common": {
     "buyNow": "Купить",

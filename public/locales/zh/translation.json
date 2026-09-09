@@ -75,7 +75,8 @@
     "buyerReviews": "{{count}} 条买家评价",
     "averageAria": "{{count}} 条评价平均 {{rating}}",
     "outOfFiveAria": "{{rating}} / 5",
-    "readAll": "阅读全部评价 →"
+    "readAll": "阅读全部评价 →",
+    "verified": "已验证买家"
   },
   "common": {
     "buyNow": "立即购买",

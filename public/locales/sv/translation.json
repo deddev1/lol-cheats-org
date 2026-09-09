@@ -75,7 +75,8 @@
     "buyerReviews": "{{count}} köparomdömen",
     "averageAria": "{{rating}} i snitt från {{count}} omdömen",
     "outOfFiveAria": "{{rating}} av 5",
-    "readAll": "Läs alla omdömen →"
+    "readAll": "Läs alla omdömen →",
+    "verified": "Verifierad köpare"
   },
   "common": {
     "buyNow": "Köp nu",

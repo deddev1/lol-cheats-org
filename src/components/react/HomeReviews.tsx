@@ -9,6 +9,7 @@ type Review = {
 	date: string;
 	rating: number;
 	href: string;
+	plan?: 'Monthly' | 'Lifetime';
 };
 
 type Props = {
@@ -21,13 +22,53 @@ type Props = {
 
 function formatDate(iso: string, locale: string) {
 	return new Date(`${iso}T12:00:00`).toLocaleDateString(locale === 'es' ? 'es-ES' : 'en-US', {
-		month: 'long',
+		month: 'short',
+		day: 'numeric',
 		year: 'numeric',
 	});
 }
 
 function initial(handle: string) {
 	return handle.replace(/^@/, '').charAt(0).toUpperCase();
+}
+
+function displayHandle(handle: string) {
+	return handle.startsWith('@') ? handle : `@${handle}`;
+}
+
+function StarRow({ rating, size = 'sm' }: { rating: number; size?: 'sm' | 'lg' }) {
+	const full = Math.floor(rating);
+	const partial = rating - full >= 0.25;
+	const empty = 5 - full - (partial ? 1 : 0);
+
+	return (
+		<span className={`reviews__stars reviews__stars--${size}`} aria-hidden="true">
+			{Array.from({ length: full }, (_, i) => (
+				<svg key={`f-${i}`} viewBox="0 0 20 20" fill="currentColor">
+					<path d="M10 2.5l2.2 5.1 5.5.5-4.2 3.7 1.3 5.4L10 14.4 5.2 17.2l1.3-5.4L2.3 8.1l5.5-.5L10 2.5z" />
+				</svg>
+			))}
+			{partial ? (
+				<svg viewBox="0 0 20 20" fill="currentColor" className="reviews__star-partial">
+					<defs>
+						<linearGradient id="star-partial-fill">
+							<stop offset="55%" stopColor="currentColor" />
+							<stop offset="55%" stopColor="transparent" />
+						</linearGradient>
+					</defs>
+					<path
+						d="M10 2.5l2.2 5.1 5.5.5-4.2 3.7 1.3 5.4L10 14.4 5.2 17.2l1.3-5.4L2.3 8.1l5.5-.5L10 2.5z"
+						fill="url(#star-partial-fill)"
+					/>
+				</svg>
+			) : null}
+			{Array.from({ length: empty }, (_, i) => (
+				<svg key={`e-${i}`} viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.2">
+					<path d="M10 2.5l2.2 5.1 5.5.5-4.2 3.7 1.3 5.4L10 14.4 5.2 17.2l1.3-5.4L2.3 8.1l5.5-.5L10 2.5z" />
+				</svg>
+			))}
+		</span>
+	);
 }
 
 function HomeReviewsInner({
@@ -54,13 +95,7 @@ function HomeReviewsInner({
 					>
 						<strong>{ratingLabel}</strong>
 						<div>
-							<span className="reviews__stars" aria-hidden="true">
-								{[0, 1, 2, 3, 4].map((i) => (
-									<svg key={i} viewBox="0 0 20 20" fill="currentColor">
-										<path d="M10 2.5l2.2 5.1 5.5.5-4.2 3.7 1.3 5.4L10 14.4 5.2 17.2l1.3-5.4L2.3 8.1l5.5-.5L10 2.5z" />
-									</svg>
-								))}
-							</span>
+							<StarRow rating={averageRating} size="lg" />
 							<p>{t('reviews.buyerReviews', { count: totalCount })}</p>
 						</div>
 					</div>
@@ -74,27 +109,28 @@ function HomeReviewsInner({
 							{reviews.map((review) => (
 								<li key={`${copy}-${review.slug}`}>
 									<article className="review-card">
+										<div className="review-card__top">
+											<StarRow rating={review.rating} />
+											{review.plan ? (
+												<span className="review-card__plan">{review.plan}</span>
+											) : null}
+										</div>
 										<p className="review-card__text">{review.short ?? review.text}</p>
 										<footer className="review-card__foot">
 											<span className="review-card__avatar" aria-hidden="true">
 												{initial(review.handle)}
 											</span>
-											<div>
+											<div className="review-card__meta">
 												{copy === 1 ? (
-													<span className="review-card__name">{review.handle}</span>
+													<span className="review-card__name">{displayHandle(review.handle)}</span>
 												) : (
 													<a className="review-card__name" href={review.href}>
-														{review.handle}
+														{displayHandle(review.handle)}
 													</a>
 												)}
+												<span className="review-card__verified">{t('reviews.verified')}</span>
 												<time dateTime={review.date}>{formatDate(review.date, locale)}</time>
 											</div>
-											<span
-												className="review-card__rating"
-												aria-label={t('reviews.outOfFiveAria', { rating: review.rating })}
-											>
-												{review.rating}/5
-											</span>
 										</footer>
 									</article>
 								</li>

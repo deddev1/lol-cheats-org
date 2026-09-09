@@ -230,6 +230,12 @@ const REVIEWS = {
 		ko: '5점 만점에 {{rating}}', zh: '{{rating}} / 5', hi: '5 में से {{rating}}', id: '{{rating}} dari 5', th: '{{rating}} จาก 5', vi: '{{rating}} trên 5',
 		uk: '{{rating}} з 5', cs: '{{rating}} z 5', ro: '{{rating}} din 5', sv: '{{rating}} av 5',
 	},
+	verified: {
+		en: 'Verified buyer', es: 'Comprador verificado', fr: 'Acheteur vérifié', de: 'Verifizierter Käufer', pt: 'Comprador verificado', it: 'Acquirente verificato',
+		nl: 'Geverifieerde koper', pl: 'Zweryfikowany kupujący', ru: 'Проверенный покупатель', tr: 'Doğrulanmış alıcı', ar: 'مشتري موثق', ja: '認証済み購入者',
+		ko: '인증된 구매자', zh: '已验证买家', hi: 'सत्यापित खरीदार', id: 'Pembeli terverifikasi', th: 'ผู้ซื้อที่ยืนยันแล้ว', vi: 'Người mua đã xác minh',
+		uk: 'Перевірений покупець', cs: 'Ověřený kupující', ro: 'Cumpărător verificat', sv: 'Verifierad köpare',
+	},
 	readAll: {
 		en: 'Read all reviews →', es: 'Ver todas las reseñas →', fr: 'Lire tous les avis →', de: 'Alle Bewertungen lesen →', pt: 'Ver todas as avaliações →', it: 'Leggi tutte le recensioni →',
 		nl: 'Alle reviews lezen →', pl: 'Czytaj wszystkie opinie →', ru: 'Читать все отзывы →', tr: 'Tüm yorumları oku →', ar: 'اقرأ جميع المراجعات →', ja: 'すべてのレビューを読む →',

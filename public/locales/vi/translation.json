@@ -75,7 +75,8 @@
     "buyerReviews": "{{count}} đánh giá từ người mua",
     "averageAria": "Trung bình {{rating}} từ {{count}} đánh giá",
     "outOfFiveAria": "{{rating}} trên 5",
-    "readAll": "Đọc tất cả đánh giá →"
+    "readAll": "Đọc tất cả đánh giá →",
+    "verified": "Người mua đã xác minh"
   },
   "common": {
     "buyNow": "Mua ngay",

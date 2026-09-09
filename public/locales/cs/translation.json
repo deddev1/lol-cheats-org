@@ -75,7 +75,8 @@
     "buyerReviews": "{{count}} recenzí kupujících",
     "averageAria": "Průměr {{rating}} z {{count}} recenzí",
     "outOfFiveAria": "{{rating}} z 5",
-    "readAll": "Přečíst všechny recenze →"
+    "readAll": "Přečíst všechny recenze →",
+    "verified": "Ověřený kupující"
   },
   "common": {
     "buyNow": "Koupit",

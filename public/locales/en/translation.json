@@ -75,7 +75,8 @@
     "buyerReviews": "{{count}} buyer reviews",
     "averageAria": "{{rating}} average from {{count}} reviews",
     "outOfFiveAria": "{{rating}} out of 5",
-    "readAll": "Read all reviews →"
+    "readAll": "Read all reviews →",
+    "verified": "Verified buyer"
   },
   "common": {
     "buyNow": "Buy LoL Cheats",

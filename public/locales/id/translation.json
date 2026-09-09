@@ -75,7 +75,8 @@
     "buyerReviews": "{{count}} ulasan pembeli",
     "averageAria": "Rata-rata {{rating}} dari {{count}} ulasan",
     "outOfFiveAria": "{{rating}} dari 5",
-    "readAll": "Baca semua ulasan →"
+    "readAll": "Baca semua ulasan →",
+    "verified": "Pembeli terverifikasi"
   },
   "common": {
     "buyNow": "Beli sekarang",

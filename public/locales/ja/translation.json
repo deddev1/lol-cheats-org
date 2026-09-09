@@ -75,7 +75,8 @@
     "buyerReviews": "{{count}}件の購入者レビュー",
     "averageAria": "{{count}}件のレビューで平均{{rating}}",
     "outOfFiveAria": "5点満点中{{rating}}",
-    "readAll": "すべてのレビューを読む →"
+    "readAll": "すべてのレビューを読む →",
+    "verified": "認証済み購入者"
   },
   "common": {
     "buyNow": "今すぐ購入",

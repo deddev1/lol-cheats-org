@@ -96,7 +96,9 @@ const extraGraph: Record<string, unknown>[] = [
 				<div class="reviews-index__summary" aria-label={`${customerReviewStats.averageRating} out of 5 average rating`}>
 					<p class="reviews-index__avg">{customerReviewStats.averageRating.toFixed(1)}</p>
 					<p class="reviews-index__avg-stars" aria-hidden="true">{stars(Math.round(customerReviewStats.averageRating))}</p>
-					<p class="reviews-index__count">{customerReviewStats.totalCount} reviews · out of 5</p>
+					<p class="reviews-index__count">
+						{customerReviewStats.totalCount} verified reviews · showing {customerReviews.length} recent
+					</p>
 				</div>
 			</header>
 
@@ -108,7 +110,8 @@ const extraGraph: Record<string, unknown>[] = [
 								<div class="reviews-index__who">
 									<span class="reviews-index__avatar" aria-hidden="true">{review.handle.charAt(0).toUpperCase()}</span>
 									<div>
-										<p class="reviews-index__handle">@{review.handle}</p>
+										<p class="reviews-index__handle">@{review.handle.replace(/^@/, '')}</p>
+										<p class="reviews-index__verified">Verified buyer</p>
 										<p class="reviews-index__date"><time datetime={review.date}>{formatDate(review.date)}</time></p>
 									</div>
 								</div>
@@ -116,7 +119,10 @@ const extraGraph: Record<string, unknown>[] = [
 									{stars(review.rating)}
 								</p>
 							</div>
-							{review.tag ? <p class="reviews-index__tag">{review.tag}</p> : null}
+							<div class="reviews-index__tags">
+								{review.tag ? <p class="reviews-index__tag">{review.tag}</p> : null}
+								{review.plan ? <p class="reviews-index__tag reviews-index__tag--plan">{review.plan}</p> : null}
+							</div>
 							<p class="reviews-index__text">{review.text}</p>
 							<a class="reviews-index__more" href={getReviewPath(review.slug)}>
 								Read full review
@@ -314,10 +320,32 @@ const extraGraph: Record<string, unknown>[] = [
 		overflow-wrap: anywhere;
 	}
 
+	.reviews-index__verified {
+		margin: 0.08rem 0 0;
+		font-size: 0.68rem;
+		font-weight: 600;
+		color: var(--ok);
+	}
+
 	.reviews-index__date {
 		margin: 0.1rem 0 0;
 		font-size: 0.72rem;
 		color: var(--ink-faint);
+	}
+
+	.reviews-index__tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.35rem;
+	}
+
+	.reviews-index__tag--plan {
+		color: var(--ink-faint);
+		border-color: var(--line);
+		background: var(--bg-elevated);
+		text-transform: none;
+		letter-spacing: 0;
+		font-weight: 600;
 	}
 
 	.reviews-index__stars {

@@ -75,7 +75,8 @@
     "buyerReviews": "구매자 리뷰 {{count}}개",
     "averageAria": "{{count}}개 리뷰 평균 {{rating}}",
     "outOfFiveAria": "5점 만점에 {{rating}}",
-    "readAll": "모든 리뷰 보기 →"
+    "readAll": "모든 리뷰 보기 →",
+    "verified": "인증된 구매자"
   },
   "common": {
     "buyNow": "지금 구매",

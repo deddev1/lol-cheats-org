@@ -75,7 +75,8 @@
     "buyerReviews": "{{count}} مراجعة من المشترين",
     "averageAria": "متوسط {{rating}} من {{count}} مراجعة",
     "outOfFiveAria": "{{rating}} من 5",
-    "readAll": "اقرأ جميع المراجعات →"
+    "readAll": "اقرأ جميع المراجعات →",
+    "verified": "مشتري موثق"
   },
   "common": {
     "buyNow": "اشترِ الآن",
