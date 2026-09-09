@@ -9,9 +9,10 @@ type Props = {
 	checkoutUrl: string;
 	faqs: FaqItem[];
 	navPaths: NavPaths;
+	embedded?: boolean;
 };
 
-function HomeSeoInner({ checkoutUrl, faqs, navPaths }: Props) {
+function HomeSeoInner({ checkoutUrl, faqs, navPaths, embedded = false }: Props) {
 	const { t } = useTranslation();
 
 	const categories = [
@@ -58,14 +59,19 @@ function HomeSeoInner({ checkoutUrl, faqs, navPaths }: Props) {
 	];
 
 	return (
-		<section className="home-seo shell" aria-labelledby="home-seo-title">
-			<header className="home-seo__head">
-				<div>
-					<p className="home-seo__eyebrow">{t('homeSeo.eyebrow')}</p>
-					<h2 id="home-seo-title">{t('homeSeo.title')}</h2>
-					<p className="home-seo__lede">{t('homeSeo.lede')}</p>
-				</div>
-			</header>
+		<section
+			className={embedded ? 'home-seo home-seo--embedded' : 'home-seo shell'}
+			aria-labelledby={embedded ? undefined : 'home-seo-title'}
+		>
+			{!embedded && (
+				<header className="home-seo__head">
+					<div>
+						<p className="home-seo__eyebrow">{t('homeSeo.eyebrow')}</p>
+						<h2 id="home-seo-title">{t('homeSeo.title')}</h2>
+						<p className="home-seo__lede">{t('homeSeo.lede')}</p>
+					</div>
+				</header>
+			)}
 
 			<div className="home-seo__cats">
 				{categories.map((cat) => (

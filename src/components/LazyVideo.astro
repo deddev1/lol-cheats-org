@@ -1,0 +1,123 @@
+---
+import { homePreviewVideo } from '../data/lol';
+
+interface Props {
+	alt: string;
+}
+
+const { alt } = Astro.props;
+const { src, poster } = homePreviewVideo;
+---
+
+<div class="lazy-video" data-lazy-video>
+	<button type="button" class="lazy-video__trigger" data-lazy-video-trigger aria-label={`Play video: ${alt}`}>
+		<img src={poster} alt={alt} width="480" height="405" loading="lazy" decoding="async" />
+		<span class="lazy-video__play" aria-hidden="true">
+			<svg viewBox="0 0 24 24" fill="currentColor">
+				<path d="M8 5.5v13l11-6.5-11-6.5z"></path>
+			</svg>
+		</span>
+	</button>
+	<video
+		class="lazy-video__player"
+		data-lazy-video-player
+		hidden
+		controls
+		playsinline
+		preload="metadata"
+		poster={poster}
+	>
+		<source src={src} type="video/mp4" />
+	</video>
+</div>
+
+<style is:global>
+	.lazy-video {
+		width: 100%;
+	}
+
+	.lazy-video__trigger {
+		position: relative;
+		display: block;
+		width: 100%;
+		padding: 0;
+		border: 1px solid var(--line);
+		border-radius: var(--radius-md, 0.75rem);
+		overflow: hidden;
+		background: var(--bg-panel);
+		cursor: pointer;
+		line-height: 0;
+		transition:
+			border-color 0.15s ease,
+			transform 0.15s ease;
+	}
+
+	.lazy-video__trigger:hover {
+		border-color: color-mix(in srgb, var(--magenta) 40%, var(--line));
+		transform: translateY(-2px);
+	}
+
+	.lazy-video__trigger img {
+		display: block;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 16 / 11;
+		object-fit: cover;
+	}
+
+	.lazy-video__play {
+		position: absolute;
+		inset: 0;
+		display: grid;
+		place-items: center;
+		background: color-mix(in srgb, #070d14 35%, transparent);
+		transition: background 0.15s ease;
+	}
+
+	.lazy-video__trigger:hover .lazy-video__play {
+		background: color-mix(in srgb, #070d14 25%, transparent);
+	}
+
+	.lazy-video__play svg {
+		width: 3.25rem;
+		height: 3.25rem;
+		padding: 0.85rem;
+		border-radius: 50%;
+		background: color-mix(in srgb, var(--magenta) 92%, #fff);
+		color: #070d14;
+		box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+	}
+
+	.lazy-video__player {
+		display: block;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 16 / 11;
+		object-fit: cover;
+		border: 1px solid var(--line);
+		border-radius: var(--radius-md, 0.75rem);
+		background: #000;
+	}
+</style>
+
+<script>
+	function initLazyVideos() {
+		document.querySelectorAll<HTMLElement>('[data-lazy-video]').forEach((root) => {
+			if (root.dataset.lazyVideoReady === 'true') return;
+			root.dataset.lazyVideoReady = 'true';
+
+			const trigger = root.querySelector<HTMLButtonElement>('[data-lazy-video-trigger]');
+			const player = root.querySelector<HTMLVideoElement>('[data-lazy-video-player]');
+			if (!trigger || !player) return;
+
+			trigger.addEventListener('click', () => {
+				trigger.hidden = true;
+				player.hidden = false;
+				void player.play();
+			});
+		});
+	}
+
+	initLazyVideos();
+	document.addEventListener('astro:page-load', initLazyVideos);
+</script>

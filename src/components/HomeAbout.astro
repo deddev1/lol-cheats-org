@@ -1,0 +1,29 @@
+---
+import LazyVideo from './LazyVideo.astro';
+import { getT } from '../i18n/server';
+import type { LocaleCode } from '../data/i18n/locales';
+import type { NavPaths } from '../data/i18n/localized-nav-paths';
+
+interface Props {
+	locale: LocaleCode;
+	paths: NavPaths;
+}
+
+const { locale, paths } = Astro.props;
+const t = getT(locale);
+---
+
+<div class="home-guides__intro">
+	<div class="home-guides__copy">
+		<h2 id="home-about-title" class="home-guides__kicker">{t('home.aboutTitle')}</h2>
+		<p>{t('home.aboutP1')}</p>
+		<p>
+			{t('home.aboutP2Before')}
+			<a href={paths.cheats}>{t('home.aboutPillar')}</a>,{' '}
+			<a href={paths.lolEsp}>{t('home.aboutEsp')}</a>,{' '}
+			<a href={paths.lolAimbot}>{t('home.aboutAimbot')}</a>, {t('home.aboutP2OrWord')}{' '}
+			<a href={paths.updates}>{t('home.aboutUndetected')}</a> {t('home.aboutP2After')}
+		</p>
+	</div>
+	<LazyVideo alt={t('home.aboutVideoAlt')} />
+</div>

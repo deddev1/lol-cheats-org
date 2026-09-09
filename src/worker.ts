@@ -118,7 +118,11 @@ export default {
 		const headers = new Headers(response.headers);
 		const contentType = headers.get('Content-Type') || '';
 		const isHtml = contentType.includes('text/html');
-		applySecurityHeaders(headers, { html: isHtml });
+
+		// Only attach CSP/COEP to HTML — static media keeps asset headers from _headers.
+		if (isHtml) {
+			applySecurityHeaders(headers, { html: true });
+		}
 
 		return new Response(response.body, {
 			status: response.status,

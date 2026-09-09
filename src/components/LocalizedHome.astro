@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar.astro';
 import Hero from '../components/Hero.astro';
 import HomeReviews from '../components/HomeReviews.astro';
 import HomeSeo from '../components/HomeSeo.astro';
-import HomeAboutApp from '../components/react/HomeAbout';
+import HomeAbout from '../components/HomeAbout.astro';
 import ExternalResources from '../components/ExternalResources.astro';
 import { externalUrls } from '../data/external-resources';
 import SiteFooter from '../components/SiteFooter.astro';
@@ -16,6 +16,7 @@ import { heroPreloadSrc, heroSizes, heroSrcSet } from '../lib/responsive-images'
 import { defaultCrawlImageSrc } from '../data/page-images';
 import { getNavPaths } from '../data/i18n/localized-nav-paths';
 import { resolveImageAlt } from '../lib/image-alt';
+import { getT } from '../i18n/server';
 
 interface Props {
 	locale: LocaleCode;
@@ -23,6 +24,7 @@ interface Props {
 
 const { locale } = Astro.props;
 const navPaths = getNavPaths(locale);
+const t = getT(locale);
 const { ui } = getLocaleContent(locale);
 const home = getPageContent(locale, 'home');
 const enHome = homeSeo();
@@ -110,13 +112,18 @@ const extraGraph: Record<string, unknown>[] = [
 	<main class="home">
 		<Hero locale={locale} />
 		<HomeReviews locale={locale} />
-		<div class="home__seo">
-			<HomeAboutApp client:visible locale={locale} paths={navPaths} />
-			<HomeSeo locale={locale} navPaths={navPaths} />
-			<div class="shell">
-				<ExternalResources locale={locale} omitHrefs={[externalUrls.wiki]} />
+		<section class="home-guides shell" aria-labelledby="home-guides-title">
+			<header class="home-guides__head">
+				<p class="home-guides__eyebrow">{t('homeSeo.eyebrow')}</p>
+				<h2 id="home-guides-title">{t('homeSeo.title')}</h2>
+				<p class="home-guides__lede">{t('homeSeo.lede')}</p>
+			</header>
+			<div class="home-guides__panel">
+				<HomeAbout locale={locale} paths={navPaths} />
+				<HomeSeo locale={locale} navPaths={navPaths} embedded />
 			</div>
-		</div>
+			<ExternalResources locale={locale} omitHrefs={[externalUrls.wiki]} />
+		</section>
 		<SiteFooter locale={locale} />
 	</main>
 </Layout>
@@ -127,111 +134,73 @@ const extraGraph: Record<string, unknown>[] = [
 		overflow-x: clip;
 	}
 
-	.home__seo {
+	.home-guides {
+		padding-block: clamp(2.5rem, 5vw, 3.5rem);
 		border-top: 1px solid var(--line);
 		background: var(--bg-section);
 		content-visibility: auto;
 		contain-intrinsic-size: 1px 900px;
 	}
 
-	.home__prose {
-		padding-block: var(--section-space);
-		color: var(--ink-muted);
-		line-height: 1.65;
-		font-size: 0.9375rem;
+	.home-guides__head {
+		margin-bottom: 1.25rem;
 	}
 
-	.home__prose--en {
-		padding-block: clamp(2rem, 4vw, 2.75rem) 0.5rem;
-		border-bottom: 1px solid var(--line-soft);
-	}
-
-	.home-about-split {
-		display: grid;
-		grid-template-columns: minmax(0, 1fr) minmax(220px, 380px);
-		gap: clamp(1.25rem, 3vw, 2.5rem);
-		align-items: center;
-	}
-
-	.home__prose-callout {
-		max-width: none;
-		padding-left: 1.1rem;
-		border-left: 3px solid var(--magenta);
-	}
-
-	.home__prose-kicker {
-		margin: 0 0 0.7rem;
-		font-family: var(--font-sans);
-		font-size: 0.8125rem;
-		font-weight: 700;
-		line-height: 1.35;
-		letter-spacing: 0.04em;
+	.home-guides__eyebrow {
+		margin: 0 0 0.35rem;
+		font-size: 0.75rem;
+		font-weight: 600;
+		letter-spacing: 0.08em;
 		text-transform: uppercase;
 		color: var(--magenta-soft);
 	}
 
-	.home__prose-callout p {
-		margin: 0 0 0.75rem;
-	}
-
-	.home__prose-callout p:last-child {
-		margin-bottom: 0;
-	}
-
-	.home__prose--en a {
-		color: var(--magenta-soft);
-		font-weight: 600;
-		text-decoration: none;
-	}
-
-	.home__prose--en a:hover {
-		color: var(--ink);
-	}
-
-	.home__prose h1,
-	.home__prose h2 {
-		margin: 0 0 0.75rem;
+	.home-guides__head h2 {
+		margin: 0;
 		font-family: var(--font-display);
-		font-size: 1.5rem;
-		letter-spacing: -0.03em;
+		font-size: clamp(1.15rem, 2.2vw, 1.45rem);
+		font-weight: 700;
+		letter-spacing: -0.02em;
 		color: var(--ink);
 	}
 
-	.home__prose h3 {
-		margin: 1.25rem 0 0.5rem;
-		font-size: 1rem;
-		color: var(--ink);
+	.home-guides__lede {
+		margin: 0.45rem 0 0;
+		max-width: 40rem;
+		font-size: 0.9rem;
+		color: var(--ink-muted);
+		line-height: 1.55;
 	}
 
-	@media (max-width: 860px) {
-		.home-about-split {
-			grid-template-columns: 1fr;
-		}
+	.home-guides__panel {
+		display: grid;
+		gap: 1.5rem;
+		padding: clamp(1.1rem, 2.5vw, 1.5rem);
+		border: 1px solid var(--line);
+		border-radius: var(--radius-lg, 1rem);
+		background:
+			radial-gradient(ellipse 80% 60% at 0% 0%, color-mix(in srgb, var(--magenta) 8%, transparent), transparent 55%),
+			var(--bg-panel);
 	}
 </style>
 
 <style is:global>
-	/* HomeAbout is React-rendered — scoped Astro styles do not reach it. */
-	.home__prose--en {
-		padding-block: clamp(2rem, 4vw, 2.75rem) 0.5rem;
+	.home-guides__intro {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) minmax(200px, 320px);
+		gap: clamp(1rem, 2.5vw, 1.75rem);
+		align-items: start;
+		padding-bottom: 1.25rem;
 		border-bottom: 1px solid var(--line-soft);
 	}
 
-	.home-about-split {
-		display: grid;
-		grid-template-columns: minmax(0, 1fr) minmax(220px, 380px);
-		gap: clamp(1.25rem, 3vw, 2.5rem);
-		align-items: center;
-	}
-
-	.home__prose-callout {
-		max-width: none;
-		padding-left: 1.1rem;
+	.home-guides__copy {
+		padding-left: 1rem;
 		border-left: 3px solid var(--magenta);
 	}
 
-	.home__prose-kicker {
-		margin: 0 0 0.7rem;
+	.home-guides__kicker {
+		margin: 0 0 0.65rem;
 		font-family: var(--font-sans);
 		font-size: 0.8125rem;
 		font-weight: 700;
@@ -241,104 +210,39 @@ const extraGraph: Record<string, unknown>[] = [
 		color: var(--magenta-soft);
 	}
 
-	.home__prose-callout p {
+	.home-guides__copy p {
 		margin: 0 0 0.75rem;
 		color: var(--ink-muted);
 		line-height: 1.65;
 		font-size: 0.9375rem;
 	}
 
-	.home__prose-callout p:last-child {
+	.home-guides__copy p:last-child {
 		margin-bottom: 0;
 	}
 
-	.home__prose--en a {
+	.home-guides__copy a {
 		color: var(--magenta-soft);
 		font-weight: 600;
 		text-decoration: none;
 	}
 
-	.home__prose--en a:hover {
+	.home-guides__copy a:hover {
 		color: var(--ink);
 	}
 
-	.lazy-video {
-		width: 100%;
-		max-width: 380px;
-		justify-self: end;
+	.home-seo--embedded {
+		padding-block: 0;
 	}
 
-	.lazy-video__trigger {
-		position: relative;
-		display: block;
-		width: 100%;
-		padding: 0;
-		border: 1px solid var(--line);
-		border-radius: var(--radius-md, 0.75rem);
-		overflow: hidden;
-		background: var(--bg-panel);
-		cursor: pointer;
-		line-height: 0;
-		transition:
-			border-color 0.15s ease,
-			transform 0.15s ease;
-	}
-
-	.lazy-video__trigger:hover {
-		border-color: color-mix(in srgb, var(--magenta) 40%, var(--line));
-		transform: translateY(-2px);
-	}
-
-	.lazy-video__trigger img {
-		display: block;
-		width: 100%;
-		height: auto;
-		aspect-ratio: 16 / 11;
-		object-fit: cover;
-	}
-
-	.lazy-video__play {
-		position: absolute;
-		inset: 0;
-		display: grid;
-		place-items: center;
-		background: color-mix(in srgb, #070d14 35%, transparent);
-		transition: background 0.15s ease;
-	}
-
-	.lazy-video__trigger:hover .lazy-video__play {
-		background: color-mix(in srgb, #070d14 25%, transparent);
-	}
-
-	.lazy-video__play svg {
-		width: 3.25rem;
-		height: 3.25rem;
-		padding: 0.85rem;
-		border-radius: 50%;
-		background: color-mix(in srgb, var(--magenta) 92%, #fff);
-		color: #070d14;
-		box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
-	}
-
-	.lazy-video__player {
-		display: block;
-		width: 100%;
-		height: auto;
-		aspect-ratio: 16 / 11;
-		object-fit: cover;
-		border: 1px solid var(--line);
-		border-radius: var(--radius-md, 0.75rem);
-		background: #000;
+	.home-seo--embedded .home-seo__faq {
+		margin-top: 1.5rem;
+		padding-top: 1.5rem;
 	}
 
 	@media (max-width: 860px) {
-		.home-about-split {
+		.home-guides__intro {
 			grid-template-columns: 1fr;
-		}
-
-		.lazy-video {
-			max-width: none;
-			justify-self: stretch;
 		}
 	}
 </style>

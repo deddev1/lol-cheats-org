@@ -8,10 +8,12 @@ import { getNavPaths } from '../data/i18n/localized-nav-paths';
 interface Props {
 	locale?: LocaleCode;
 	navPaths?: ReturnType<typeof getNavPaths>;
+	embedded?: boolean;
 }
 
 const locale = Astro.props.locale ?? defaultLocale;
 const navPaths = Astro.props.navPaths ?? getNavPaths(locale);
+const embedded = Astro.props.embedded ?? false;
 const faqs = homeFaqs.map((item) => ({
 	slug: item.slug,
 	question: item.question,
@@ -26,6 +28,7 @@ const faqs = homeFaqs.map((item) => ({
 	checkoutUrl={siteConfig.checkoutUrl}
 	faqs={faqs}
 	navPaths={navPaths}
+	embedded={embedded}
 />
 
 <style is:global>
@@ -34,6 +37,10 @@ const faqs = homeFaqs.map((item) => ({
 		color: var(--ink-muted);
 		font-size: 0.9375rem;
 		line-height: 1.55;
+	}
+
+	.home-seo--embedded {
+		padding-block: 0;
 	}
 
 	.home-seo__head {
