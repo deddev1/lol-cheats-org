@@ -1,8 +1,8 @@
 ---
 import type { LocaleCode } from '../data/i18n/locales';
 import { defaultLocale } from '../data/i18n/locales';
-import { brand } from '../data/brand';
 import { productInfo, siteConfig } from '../data/site';
+import ShimmerButton from './inspira/ShimmerButton.astro';
 import {
 	heroHeight,
 	heroSizes,
@@ -21,8 +21,8 @@ const t = getT(locale);
 const useBrandHero = true;
 const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo.plans[0];
 
-const title = useBrandHero ? t('hero.title') : t('hero.accent');
-const subtitle = t('hero.subtitle');
+const title = useBrandHero ? siteConfig.name : t('hero.accent');
+const subtitle = useBrandHero ? t('hero.subtitle') : t('hero.subtitleShort');
 const ctaBuy = useBrandHero ? t('cta.buy') : t('hero.buyNow');
 const priceFrom = t('hero.priceFrom');
 const priceLabel = priceFrom ? `${priceFrom} $${monthly.price}` : `$${monthly.price}`;
@@ -38,25 +38,17 @@ const chips = [
 
 <section class="hero" aria-label={title}>
 	<div class="hero__media">
-		<a
-			class="hero__game-link"
-			href={siteConfig.gameUrl}
-			target="_blank"
-			rel="noopener noreferrer"
-			aria-label={`${brand.game} on Riot Client`}
-		>
-			<img
-				src={heroSrc}
-				srcset={heroSrcSet}
-				sizes={heroSizes}
-				alt={imageAlt}
-				width={heroWidth}
-				height={heroHeight}
-				fetchpriority="high"
-				loading="eager"
-				decoding="async"
-			/>
-		</a>
+		<img
+			src={heroSrc}
+			srcset={heroSrcSet}
+			sizes={heroSizes}
+			alt={imageAlt}
+			width={heroWidth}
+			height={heroHeight}
+			fetchpriority="high"
+			loading="eager"
+			decoding="async"
+		/>
 	</div>
 	<div class="hero__veil" aria-hidden="true"></div>
 	<div class="shell hero__content">
@@ -68,8 +60,15 @@ const chips = [
 				{subtitle}
 			</p>
 			<div class="hero__actions">
-				<a class="hero__buy" href={siteConfig.checkoutUrl} rel="noopener noreferrer">
-					<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+				<ShimmerButton
+					class="hero__buy"
+					href={siteConfig.checkoutUrl}
+					rel="noopener noreferrer"
+					shimmerColor="#22d3ee"
+					background="rgba(9, 9, 11, 0.94)"
+					aria-label={`${ctaBuy} — ${priceLabel}`}
+				>
+					<svg class="hero__buy-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
 						<path
 							d="M4.5 6.5h2.1l1.2 9.2h9.4l1.8-6.6H8.1M9.2 19.2a.9.9 0 100-1.8.9.9 0 000 1.8zm7.4 0a.9.9 0 100-1.8.9.9 0 000 1.8z"
 							stroke="currentColor"
@@ -79,7 +78,7 @@ const chips = [
 					</svg>
 					<span class="hero__buy-label" data-edit={useBrandHero ? 'ctaBuy' : undefined}>{ctaBuy}</span>
 					<span class="hero__buy-price">{priceLabel}</span>
-				</a>
+				</ShimmerButton>
 			</div>
 			<ul class="hero__features">
 				{
@@ -164,16 +163,8 @@ const chips = [
 		z-index: 0;
 	}
 
-	.hero__game-link {
-		display: block;
-		width: 100%;
-		height: 100%;
-		pointer-events: auto;
-	}
-
 	.hero__media picture,
-	.hero__media img,
-	.hero__game-link {
+	.hero__media img {
 		display: block;
 		width: 100%;
 		height: 100%;
@@ -228,9 +219,9 @@ const chips = [
 	.hero__copy {
 		display: flex;
 		flex-direction: column;
-		align-items: stretch;
+		align-items: flex-start;
 		gap: var(--hero-stack);
-		width: min(100%, 28rem);
+		width: min(100%, 26rem);
 		max-width: 100%;
 		min-width: 0;
 		margin: 0;
@@ -240,24 +231,25 @@ const chips = [
 
 	.hero__brand {
 		margin: 0;
-		font-family: var(--font-sans);
-		font-size: clamp(2.1rem, 4.4vw, 3.25rem);
+		font-family: var(--font-display);
+		font-size: clamp(2.35rem, 4.8vw, 3.5rem);
 		font-weight: 700;
-		line-height: 1.12;
-		letter-spacing: -0.03em;
+		line-height: 1.06;
+		letter-spacing: -0.035em;
 		overflow-wrap: anywhere;
 		color: #fff;
 		width: 100%;
-		text-transform: uppercase;
+		text-wrap: balance;
 	}
 
 	.hero__lede {
 		margin: 0;
 		width: 100%;
-		max-width: none;
-		font-size: clamp(0.95rem, 1.5vw, 1.05rem);
-		line-height: 1.5;
-		color: color-mix(in srgb, #fff 74%, var(--ink-muted));
+		max-width: 34ch;
+		font-size: clamp(0.95rem, 1.45vw, 1.0625rem);
+		line-height: 1.55;
+		color: color-mix(in srgb, #fff 78%, var(--ink-muted));
+		text-wrap: pretty;
 	}
 
 	.hero__actions {
@@ -271,69 +263,47 @@ const chips = [
 
 	.hero__buy {
 		pointer-events: auto;
-		display: inline-flex;
-		align-items: center;
-		justify-content: flex-start;
 		gap: 0.55rem;
 		width: auto;
 		max-width: 100%;
 		min-height: 3rem;
 		padding: 0.55rem 0.55rem 0.55rem 1.05rem;
-		border-radius: 999px;
-		background: #fff;
-		color: #09090b;
 		font-size: 0.9375rem;
 		font-weight: 700;
 		letter-spacing: -0.015em;
-		box-shadow:
-			0 1px 0 color-mix(in srgb, #fff 70%, transparent) inset,
-			0 10px 28px rgba(0, 0, 0, 0.28);
-		transition:
-			transform 0.18s ease,
-			background 0.18s ease,
-			box-shadow 0.18s ease;
+		box-shadow: 0 10px 28px rgba(0, 0, 0, 0.32);
 	}
 
-	.hero__buy svg {
+	.hero__buy-icon {
 		width: 1.05rem;
 		height: 1.05rem;
 		flex-shrink: 0;
-		opacity: 0.85;
+		opacity: 0.9;
 	}
 
 	.hero__buy-label {
 		padding-right: 0.15rem;
+		white-space: nowrap;
 	}
 
 	.hero__buy-price {
 		display: inline-flex;
 		align-items: center;
 		min-height: 2rem;
-		margin-left: auto;
+		margin-left: 0.35rem;
 		padding: 0 0.85rem;
 		border-radius: 999px;
-		background: #09090b;
+		background: color-mix(in srgb, var(--magenta) 88%, #000);
 		color: #fff;
 		font-size: 0.8125rem;
 		font-weight: 700;
 		letter-spacing: -0.01em;
-	}
-
-	.hero__buy:hover {
-		background: #f4f4f5;
-		color: #09090b;
-		transform: translateY(-2px);
-		box-shadow:
-			0 1px 0 color-mix(in srgb, #fff 70%, transparent) inset,
-			0 14px 32px rgba(0, 0, 0, 0.34);
+		white-space: nowrap;
 	}
 
 	.hero__buy:hover .hero__buy-price {
-		background: var(--magenta);
-	}
-
-	.hero__buy:active {
-		transform: translateY(0);
+		background: var(--magenta-soft);
+		color: #09090b;
 	}
 
 	.hero__features {

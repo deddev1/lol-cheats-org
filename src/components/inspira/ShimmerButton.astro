@@ -1,0 +1,78 @@
+---
+/**
+ * Inspira UI Shimmer Button — ported from https://inspira-ui.com (Magic UI).
+ * Renders as `<a>` when `href` is set, otherwise `<button>`.
+ * Styles live in src/styles/global.css (`.shimmer-btn`).
+ */
+interface Props {
+	href?: string;
+	class?: string;
+	shimmerColor?: string;
+	shimmerSize?: string;
+	shimmerDuration?: string;
+	background?: string;
+	borderRadius?: string;
+	rel?: string;
+	target?: string;
+	'aria-label'?: string;
+}
+
+const {
+	href,
+	class: className = '',
+	shimmerColor = '#22d3ee',
+	shimmerSize = '0.05em',
+	shimmerDuration = '3s',
+	background = 'rgba(9, 9, 11, 0.94)',
+	borderRadius = '999px',
+	rel,
+	target,
+	'aria-label': ariaLabel,
+} = Astro.props;
+
+const style = {
+	'--spread': '90deg',
+	'--shimmer-color': shimmerColor,
+	'--radius': borderRadius,
+	'--speed': shimmerDuration,
+	'--cut': shimmerSize,
+	'--bg': background,
+};
+---
+
+{
+	href ? (
+		<a
+			class:list={['shimmer-btn', className]}
+			style={style}
+			href={href}
+			rel={rel}
+			target={target}
+			aria-label={ariaLabel}
+		>
+			<span class="shimmer-btn__fx" aria-hidden="true">
+				<span class="shimmer-btn__slide">
+					<span class="shimmer-btn__spin" />
+				</span>
+			</span>
+			<span class="shimmer-btn__content">
+				<slot />
+			</span>
+			<span class="shimmer-btn__sheen" aria-hidden="true" />
+			<span class="shimmer-btn__backdrop" aria-hidden="true" />
+		</a>
+	) : (
+		<button type="button" class:list={['shimmer-btn', className]} style={style} aria-label={ariaLabel}>
+			<span class="shimmer-btn__fx" aria-hidden="true">
+				<span class="shimmer-btn__slide">
+					<span class="shimmer-btn__spin" />
+				</span>
+			</span>
+			<span class="shimmer-btn__content">
+				<slot />
+			</span>
+			<span class="shimmer-btn__sheen" aria-hidden="true" />
+			<span class="shimmer-btn__backdrop" aria-hidden="true" />
+		</button>
+	)
+}

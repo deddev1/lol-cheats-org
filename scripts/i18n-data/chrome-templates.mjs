@@ -1184,7 +1184,7 @@ export function buildChrome(locale, ui) {
 		nav: pick(NAV, loc),
 		hero: {
 			...pick(HERO, loc),
-			title: loc === 'en' ? 'League of Legends Cheats' : ui.hero.accent,
+			title: loc === 'en' ? 'LoL Cheats' : ui.hero.accent,
 		},
 		cta: pick(CTA, loc),
 		product: pick(PRODUCT, loc),

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
+import ShimmerButton from './ShimmerButton';
 
 type Props = {
 	locale: string;
@@ -82,8 +83,8 @@ function HeroInner({
 	useBrandHero = true,
 }: Props) {
 	const { t } = useTranslation();
-	const title = useBrandHero ? t('hero.title') : t('hero.accent');
-	const subtitle = useBrandHero ? t('hero.subtitle') : t('hero.subtitle');
+	const title = useBrandHero ? siteName : t('hero.accent');
+	const subtitle = useBrandHero ? t('hero.subtitle') : t('hero.subtitleShort');
 	const ctaBuy = useBrandHero ? t('cta.buy') : t('hero.buyNow');
 	const priceFrom = t('hero.priceFrom');
 	const priceLabel = priceFrom ? `${priceFrom} $${monthlyPrice}` : `$${monthlyPrice}`;
@@ -92,25 +93,17 @@ function HeroInner({
 	return (
 		<section className="hero" aria-label={title}>
 			<div className="hero__media">
-				<a
-					className="hero__game-link"
-					href={gameUrl}
-					target="_blank"
-					rel="noopener noreferrer"
-					aria-label={`${gameName} on Riot Client`}
-				>
-					<img
-						src={heroSrc}
-						srcSet={heroSrcSet}
-						sizes={heroSizes}
-						alt={imageAlt}
-						width={heroWidth}
-						height={heroHeight}
-						fetchPriority="high"
-						loading="eager"
-						decoding="async"
-					/>
-				</a>
+				<img
+					src={heroSrc}
+					srcSet={heroSrcSet}
+					sizes={heroSizes}
+					alt={imageAlt}
+					width={heroWidth}
+					height={heroHeight}
+					fetchPriority="high"
+					loading="eager"
+					decoding="async"
+				/>
 			</div>
 			<div className="hero__veil" aria-hidden="true" />
 			<div className="shell hero__content">
@@ -122,8 +115,15 @@ function HeroInner({
 						{subtitle}
 					</p>
 					<div className="hero__actions">
-						<a className="hero__buy" href={checkoutUrl} rel="noopener noreferrer">
-							<svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+						<ShimmerButton
+							className="hero__buy"
+							href={checkoutUrl}
+							rel="noopener noreferrer"
+							shimmerColor="#22d3ee"
+							background="rgba(9, 9, 11, 0.94)"
+							aria-label={`${ctaBuy} — ${priceLabel}`}
+						>
+							<svg className="hero__buy-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
 								<path
 									d="M4.5 6.5h2.1l1.2 9.2h9.4l1.8-6.6H8.1M9.2 19.2a.9.9 0 100-1.8.9.9 0 000 1.8zm7.4 0a.9.9 0 100-1.8.9.9 0 000 1.8z"
 									stroke="currentColor"
@@ -136,7 +136,7 @@ function HeroInner({
 								{ctaBuy}
 							</span>
 							<span className="hero__buy-price">{priceLabel}</span>
-						</a>
+						</ShimmerButton>
 					</div>
 					<ul className="hero__features">
 						{chipKeys.map((chip) => (
