@@ -69,8 +69,8 @@ async function main() {
 		fail('Homepage LCP not using lol-cheats-hero-1024w.webp');
 	}
 
-	if (home.includes('syne-latin-wght-normal.woff2') && home.includes('rel="preload"')) {
-		fail('Syne display font is preloaded — competes with LCP on first paint');
+	if (home.includes('space-grotesk-latin-wght-normal.woff2') && home.includes('rel="preload"')) {
+		fail('Space Grotesk display font is preloaded — competes with LCP on first paint');
 	} else {
 		ok('Only critical body font preloaded in head');
 	}
