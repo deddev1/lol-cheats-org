@@ -14,6 +14,16 @@ export type BrandThemeInput = {
 	deep?: string;
 	hover?: string;
 	panel?: string;
+	nav?: string;
+	section?: string;
+	cardHover?: string;
+	line?: string;
+	ink?: string;
+	inkMuted?: string;
+	inkFaint?: string;
+	ok?: string;
+	warn?: string;
+	orange?: string;
 };
 
 export type BrandThemeResolved = {
@@ -25,6 +35,8 @@ export type BrandThemeResolved = {
 	bgPanel: string;
 	bgElevated: string;
 	bgHover: string;
+	bgNav: string;
+	bgSection: string;
 	line: string;
 	lineSoft: string;
 	lineStrong: string;
@@ -33,15 +45,17 @@ export type BrandThemeResolved = {
 	inkFaint: string;
 	ok: string;
 	warn: string;
+	accentOrange: string;
 	toneVoid: string;
 };
 
 export const themeDefaults: BrandThemeInput = {
-	accent: '#00A8D8',
-	bg: '#060A10',
+	accent: '#18B8C8',
+	bg: '#070D14',
 };
 
 export const themePresets: { id: string; label: string; accent: string; bg: string }[] = [
+	{ id: 'navy-teal', label: 'Navy Teal', accent: '#18B8C8', bg: '#070D14' },
 	{ id: 'hextech', label: 'Hextech Blue', accent: '#00A8D8', bg: '#060A10' },
 	{ id: 'magenta', label: 'Magenta', accent: '#c026d3', bg: '#08090a' },
 	{ id: 'valorant', label: 'Valorant', accent: '#ff4655', bg: '#0f1419' },
@@ -152,11 +166,13 @@ export function deriveBrandTheme(input: Partial<BrandThemeInput> = {}): BrandThe
 	const deep = normalizeHex(input.deep) ?? deepAuto;
 	const hover = normalizeHex(input.hover) ?? hoverAuto;
 	const bgPanel = normalizeHex(input.panel) ?? panelAuto;
-	const bgElevated = mixHex(bg, '#ffffff', 0.07);
-	const bgHover = mixHex(bg, '#ffffff', 0.1);
-	const lineSoft = mixHex(bg, '#ffffff', 0.08);
-	const line = mixHex(bg, '#ffffff', 0.12);
-	const lineStrong = mixHex(bg, '#ffffff', 0.18);
+	const bgSection = normalizeHex(input.section) ?? mixHex(bg, '#ffffff', 0.025);
+	const bgElevated = bgSection;
+	const bgHover = normalizeHex(input.cardHover) ?? mixHex(bgPanel, '#ffffff', 0.06);
+	const bgNav = normalizeHex(input.nav) ?? mixHex(bg, '#ffffff', 0.015);
+	const line = normalizeHex(input.line) ?? mixHex(bg, '#ffffff', 0.12);
+	const lineSoft = mixHex(line, bg, 0.45);
+	const lineStrong = mixHex(line, '#ffffff', 0.12);
 	const toneVoid = mixHex(bg, '#000000', 0.35);
 
 	return {
@@ -168,14 +184,17 @@ export function deriveBrandTheme(input: Partial<BrandThemeInput> = {}): BrandThe
 		bgPanel,
 		bgElevated,
 		bgHover,
+		bgNav,
+		bgSection,
 		line,
 		lineSoft,
 		lineStrong,
-		ink: '#f5f5f7',
-		inkMuted: '#a1a1aa',
-		inkFaint: '#8b8b93',
-		ok: '#34d399',
-		warn: '#f43f5e',
+		ink: normalizeHex(input.ink) ?? '#ffffff',
+		inkMuted: normalizeHex(input.inkMuted) ?? '#aab8c4',
+		inkFaint: normalizeHex(input.inkFaint) ?? '#6e7f8d',
+		ok: normalizeHex(input.ok) ?? '#35c99a',
+		warn: normalizeHex(input.warn) ?? '#c94b4b',
+		accentOrange: normalizeHex(input.orange) ?? '#f08a3c',
 		toneVoid,
 	};
 }
@@ -202,6 +221,16 @@ export const brandTheme: BrandThemeResolved = deriveBrandTheme({
 	deep: raw.theme?.deep,
 	hover: raw.theme?.hover,
 	panel: raw.theme?.panel,
+	nav: raw.theme?.nav,
+	section: raw.theme?.section,
+	cardHover: raw.theme?.cardHover,
+	line: raw.theme?.line,
+	ink: raw.theme?.ink,
+	inkMuted: raw.theme?.inkMuted,
+	inkFaint: raw.theme?.inkFaint,
+	ok: raw.theme?.ok,
+	warn: raw.theme?.warn,
+	orange: raw.theme?.orange,
 });
 
 /** Inline style for <html> — overrides @theme defaults site-wide. */
@@ -213,9 +242,10 @@ export function brandThemeInlineStyle(theme: BrandThemeResolved = brandTheme): s
 
 /** JS-friendly map for Brand Studio live preview + Layout injection. */
 export function brandThemeCssMap(theme: BrandThemeResolved = brandTheme): Record<string, string> {
-	const amber = mixHex(theme.accent, '#fbbf24', 0.45);
 	return {
 		'--bg': theme.bg,
+		'--bg-nav': theme.bgNav,
+		'--bg-section': theme.bgSection,
 		'--bg-panel': theme.bgPanel,
 		'--bg-elevated': theme.bgElevated,
 		'--bg-hover': theme.bgHover,
@@ -232,6 +262,7 @@ export function brandThemeCssMap(theme: BrandThemeResolved = brandTheme): Record
 		'--accent-hover': theme.accentHover,
 		'--ok': theme.ok,
 		'--warn': theme.warn,
+		'--accent-orange': theme.accentOrange,
 		'--tone-void': theme.toneVoid,
 		'--tone-night': theme.bg,
 		'--tone-body': theme.bg,
@@ -245,9 +276,8 @@ export function brandThemeCssMap(theme: BrandThemeResolved = brandTheme): Record
 		'--tone-text': theme.ink,
 		'--tone-text-muted': theme.inkMuted,
 		'--tone-text-faint': theme.inkFaint,
-		'--accent-orange': theme.accent,
-		'--accent-coral': theme.accent,
-		'--accent-amber': amber,
+		'--accent-coral': theme.accentOrange,
+		'--accent-amber': theme.accentOrange,
 		'--accent-magenta': theme.accent,
 		'--accent-violet': theme.accentDeep,
 		'--accent-indigo': theme.accent,
@@ -256,7 +286,7 @@ export function brandThemeCssMap(theme: BrandThemeResolved = brandTheme): Record
 		'--accent-emerald': theme.ok,
 		'--accent-rose': theme.warn,
 		'--g2a-black': theme.bg,
-		'--g2a-dark': theme.bg,
+		'--g2a-dark': theme.bgNav,
 		'--g2a-white': theme.bgPanel,
 		'--g2a-gray-50': theme.bgElevated,
 		'--g2a-gray-100': theme.bgHover,
@@ -264,7 +294,7 @@ export function brandThemeCssMap(theme: BrandThemeResolved = brandTheme): Record
 		'--g2a-gray-400': theme.inkFaint,
 		'--g2a-gray-600': theme.inkMuted,
 		'--g2a-gray-800': theme.ink,
-		'--g2a-orange': theme.accent,
+		'--g2a-orange': theme.accentOrange,
 		'--g2a-magenta': theme.accent,
 		'--g2a-blue': theme.accentSoft,
 		'--g2a-purple': theme.accentDeep,

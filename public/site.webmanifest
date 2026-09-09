@@ -4,8 +4,8 @@
   "description": "Undetected lol cheats — ESP, aimbot, and radar for PC",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#060A10",
-  "theme_color": "#060A10",
+  "background_color": "#070D14",
+  "theme_color": "#070D14",
   "icons": [
     {
       "src": "/favicon.png",

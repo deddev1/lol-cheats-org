@@ -5,26 +5,28 @@
 	--font-sans: "Inter Variable", "Inter", ui-sans-serif, system-ui, sans-serif;
 	--font-display: "Syne Variable", "Syne", ui-sans-serif, sans-serif;
 
-	/* Hextech blue canvas — LoL Cheats theme */
-	--bg: #060a10;
-	--bg-panel: #101a26;
-	--bg-elevated: #1b1b23;
-	--bg-hover: #23232a;
-	--line: #27272e;
-	--line-soft: #1e1e25;
-	--line-strong: #36363d;
-	--ink: #f5f5f7;
-	--ink-muted: #a1a1aa;
-	--ink-faint: #8b8b93;
+	/* Navy teal canvas — LoL Cheats theme */
+	--bg: #070d14;
+	--bg-nav: #09121b;
+	--bg-section: #0b1722;
+	--bg-panel: #101d28;
+	--bg-elevated: #0b1722;
+	--bg-hover: #142b35;
+	--line: #20333d;
+	--line-soft: #182830;
+	--line-strong: #2a4450;
+	--ink: #ffffff;
+	--ink-muted: #aab8c4;
+	--ink-faint: #6e7f8d;
 
-	/* Hextech blue accent */
-	--magenta: #00a8d8;
-	--magenta-soft: #22d3ee;
-	--magenta-deep: #080d14;
+	/* Cyan teal accent */
+	--magenta: #18b8c8;
+	--magenta-soft: #28d5df;
+	--magenta-deep: #087f91;
 	--accent: var(--magenta);
-	--accent-hover: #22d3ee;
-	--ok: #34d399;
-	--warn: #f43f5e;
+	--accent-hover: #28d5df;
+	--ok: #35c99a;
+	--warn: #c94b4b;
 
 	/* Legacy aliases */
 	--tone-void: #050505;
@@ -41,8 +43,8 @@
 	--tone-text-muted: var(--ink-muted);
 	--tone-text-faint: var(--ink-faint);
 
-	--accent-orange: #ff6b2c;
-	--accent-coral: #ff6b2c;
+	--accent-orange: #f08a3c;
+	--accent-coral: #f08a3c;
 	--accent-amber: #fbbf24;
 	--accent-magenta: var(--magenta);
 	--accent-violet: var(--magenta-deep);

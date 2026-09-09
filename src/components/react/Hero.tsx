@@ -119,8 +119,8 @@ function HeroInner({
 							className="hero__buy"
 							href={checkoutUrl}
 							rel="noopener noreferrer"
-							shimmerColor="#22d3ee"
-							background="rgba(9, 9, 11, 0.94)"
+							shimmerColor="#28d5df"
+							background="#18b8c8"
 							aria-label={`${ctaBuy} — ${priceLabel}`}
 						>
 							<svg className="hero__buy-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
