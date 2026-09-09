@@ -6,7 +6,7 @@
     "esp": "ESP",
     "features": "Funzioni",
     "pricing": "Prezzi",
-    "setup": "Setup",
+    "setup": "Installazione",
     "updates": "Aggiornamenti",
     "faq": "FAQ",
     "buyNow": "Acquista",
@@ -22,8 +22,8 @@
   "hero": {
     "accent": "Cheat League of Legends indetectable",
     "accentShort": "LoL Cheats",
-    "subtitle": "ESP wallhack, radar cheat e Aimbot per League of Legends su PC Windows — manutenzione Vanguard inclusa.",
-    "subtitleShort": "ESP, radar e Aimbot per League of Legends PC",
+    "subtitle": "Cheat League of Legends con ESP, soft aim e radar 2D per PC Windows — manutenzione Vanguard inclusa.",
+    "subtitleShort": "ESP, radar e soft aim per LoL su PC",
     "buyNow": "Acquista ora",
     "seeFeatures": "Vedi funzioni",
     "title": "Cheat League of Legends indetectable",
@@ -40,7 +40,7 @@
   },
   "trust": {
     "status": "Online",
-    "statusNote": "Il pacchetto LoL Cheats è attivo per League of Legends su PC Windows.",
+    "statusNote": "LoL Cheats attivo per League of Legends su PC Windows.",
     "statusShort": "Attivo",
     "delivery": "Consegna digitale istantanea",
     "platform": "Windows 10 e 11",
@@ -114,7 +114,7 @@
   "footer": {
     "explore": "Esplora",
     "help": "Aiuto e legale",
-    "tagline": "ESP, wallhack, radar e Aimbot indetectable per League of Legends."
+    "tagline": "Cheat indetectable per PC.\nESP, wallhack, radar e aimbot."
   },
   "home": {
     "aboutTitle": "Cheat League of Legends indetectable",
@@ -201,16 +201,16 @@
     "pillsLabel": "Guide ufficiali League of Legends"
   },
   "images": {
-    "hero": "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
-    "espWallhack": "Wallhack outlines showing enemy champions and minions through walls",
-    "aimbotCombat": "Soft aim assist overlay during League of Legends match",
-    "teamFight": "LoL Cheats combat overlay during a team fight",
-    "champEsp": "Player ESP boxes and distance readouts in League of Legends match",
-    "headerArt": "Aimbot view and bone priority controls for League of Legends",
-    "cheatsPackage": "2D radar threat overlay for League of Legends",
-    "teamfight": "Aimbot assist during League of Legends gank",
-    "battleRoyale": "LoL Cheats in-match overview for Windows PC",
-    "summonersRift": "ESP markers for wards and objectives in League of Legends"
+    "hero": "Hero LoL Cheats — overlay ESP e aimbot su League of Legends",
+    "espWallhack": "Contorni wallhack di campioni e minion nemici attraverso i muri",
+    "aimbotCombat": "Overlay soft aim durante una partita di League of Legends",
+    "teamFight": "Overlay LoL Cheats in un teamfight",
+    "champEsp": "Box ESP e distanza in partita League of Legends",
+    "headerArt": "Vista aimbot e priorità ossa per League of Legends",
+    "cheatsPackage": "Radar 2D minacce per League of Legends",
+    "teamfight": "Assistenza aimbot in un gank su League of Legends",
+    "battleRoyale": "Panoramica in match LoL Cheats per PC Windows",
+    "summonersRift": "Marcatori ESP per ward e obiettivi in League of Legends"
   },
   "blog": {
     "blogTitle": "Blog LoL Cheats | ESP, cheat e consigli meta",

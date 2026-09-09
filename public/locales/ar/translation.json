@@ -22,8 +22,8 @@
   "hero": {
     "accent": "غش League of Legends غير مكتشف",
     "accentShort": "LoL Cheats",
-    "subtitle": "ESP wallhack ورadar hack وAimbot لـ League of Legends على Windows PC — صيانة Vanguard مشمولة.",
-    "subtitleShort": "ESP ورadar وAimbot لـ League of Legends PC",
+    "subtitle": "غش League of Legends مع ESP وsoft aim وradar ثنائي الأبعاد لـ PC Windows — صيانة Vanguard مشمولة.",
+    "subtitleShort": "ESP ورadar وaimbot لـ LoL على PC",
     "buyNow": "اشترِ الآن",
     "seeFeatures": "عرض الميزات",
     "title": "غش League of Legends غير مكتشف",
@@ -40,7 +40,7 @@
   },
   "trust": {
     "status": "متصل",
-    "statusNote": "حزمة LoL Cheats نشطة لـ League of Legends على Windows PC.",
+    "statusNote": "LoL Cheats نشط لـ League of Legends على PC Windows.",
     "statusShort": "نشط",
     "delivery": "تسليم رقمي فوري",
     "platform": "Windows 10 و11",
@@ -114,7 +114,7 @@
   "footer": {
     "explore": "استكشف",
     "help": "المساعدة والقانون",
-    "tagline": "ESP وwallhack ورadar وAimbot غير مكتشف لـ League of Legends — الدفع عبر secure checkout."
+    "tagline": "غش غير مكتشف للPC.\nESP وwallhack ورadar وaimbot."
   },
   "home": {
     "aboutTitle": "غش League of Legends غير مكتشف",
@@ -201,16 +201,16 @@
     "pillsLabel": "أدلة League of Legends الرسمية"
   },
   "images": {
-    "hero": "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
-    "espWallhack": "Wallhack outlines showing enemy champions and minions through walls",
-    "aimbotCombat": "Soft aim assist overlay during League of Legends match",
-    "teamFight": "LoL Cheats combat overlay during a team fight",
-    "champEsp": "Player ESP boxes and distance readouts in League of Legends match",
-    "headerArt": "Aimbot view and bone priority controls for League of Legends",
-    "cheatsPackage": "2D radar threat overlay for League of Legends",
-    "teamfight": "Aimbot assist during League of Legends gank",
-    "battleRoyale": "LoL Cheats in-match overview for Windows PC",
-    "summonersRift": "ESP markers for wards and objectives in League of Legends"
+    "hero": "صورة LoL Cheats — overlay ESP وaimbot في League of Legends",
+    "espWallhack": "خطوط wallhack للأبطال والمinionات عبر الجدران",
+    "aimbotCombat": "overlay soft aim أثناء مباراة League of Legends",
+    "teamFight": "overlay LoL Cheats في معركة فريق",
+    "champEsp": "صناديق ESP ومسافة في مباراة League of Legends",
+    "headerArt": "عرض aimbot وأولوية العظام لـ League of Legends",
+    "cheatsPackage": "radar ثنائي الأبعاد للتهديدات في League of Legends",
+    "teamfight": "مساعدة aimbot في gank على League of Legends",
+    "battleRoyale": "نظرة داخل المباراة LoL Cheats لـ PC Windows",
+    "summonersRift": "علامات ESP للwards والأهداف في League of Legends"
   },
   "blog": {
     "blogTitle": "مدونة LoL Cheats | ESP وغش ونصائح meta",

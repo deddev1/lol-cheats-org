@@ -5,7 +5,7 @@
     "aimbot": "Aimbot",
     "esp": "ESP",
     "features": "Funkce",
-    "pricing": "Ceny",
+    "pricing": "Ceník",
     "setup": "Instalace",
     "updates": "Aktualizace",
     "faq": "FAQ",
@@ -22,8 +22,8 @@
   "hero": {
     "accent": "Undetected lol cheaty",
     "accentShort": "LoL Cheats",
-    "subtitle": "ESP wallhack, radar cheat a Aimbot pro League of Legends na Windows PC — údržba Vanguard v ceně.",
-    "subtitleShort": "ESP, radar a Aimbot pro League of Legends PC",
+    "subtitle": "Cheaty League of Legends s ESP, soft aim a 2D radarem pro Windows PC — údržba Vanguard v ceně.",
+    "subtitleShort": "LoL ESP, radar a aimbot pro PC",
     "buyNow": "Koupit",
     "seeFeatures": "Zobrazit funkce",
     "title": "Undetected lol cheaty",
@@ -40,7 +40,7 @@
   },
   "trust": {
     "status": "Online",
-    "statusNote": "Balíček LoL Cheats je aktivní pro League of Legends na Windows PC.",
+    "statusNote": "LoL Cheats je aktivní pro League of Legends na Windows PC.",
     "statusShort": "Aktivní",
     "delivery": "Okamžité digitální doručení",
     "platform": "Windows 10 a 11",
@@ -114,7 +114,7 @@
   "footer": {
     "explore": "Prozkoumat",
     "help": "Nápověda a právo",
-    "tagline": "Undetected ESP, wallhack, radar a Aimbot pro League of Legends — checkout přes secure checkout."
+    "tagline": "Undetected cheaty pro PC.\nESP, wallhack, radar a aimbot."
   },
   "home": {
     "aboutTitle": "Undetected cheaty pro League of Legends",
@@ -201,16 +201,16 @@
     "pillsLabel": "Oficiální průvodce League of Legends"
   },
   "images": {
-    "hero": "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
-    "espWallhack": "Wallhack outlines showing enemy champions and minions through walls",
-    "aimbotCombat": "Soft aim assist overlay during League of Legends match",
-    "teamFight": "LoL Cheats combat overlay during a team fight",
-    "champEsp": "Player ESP boxes and distance readouts in League of Legends match",
-    "headerArt": "Aimbot view and bone priority controls for League of Legends",
-    "cheatsPackage": "2D radar threat overlay for League of Legends",
-    "teamfight": "Aimbot assist during League of Legends gank",
-    "battleRoyale": "LoL Cheats in-match overview for Windows PC",
-    "summonersRift": "ESP markers for wards and objectives in League of Legends"
+    "hero": "Hero LoL Cheats — ESP a aimbot overlay v League of Legends",
+    "espWallhack": "Wallhack obrysy nepřátelských championů a minionů skrz zdi",
+    "aimbotCombat": "Soft aim overlay během zápasu League of Legends",
+    "teamFight": "LoL Cheats overlay v teamfightu",
+    "champEsp": "ESP boxy a vzdálenost v zápasu League of Legends",
+    "headerArt": "Pohled aimbot a priorita kostí pro League of Legends",
+    "cheatsPackage": "2D radar hrozeb pro League of Legends",
+    "teamfight": "Aimbot pomoc při ganku v League of Legends",
+    "battleRoyale": "Pohled v zápase LoL Cheats pro Windows PC",
+    "summonersRift": "ESP markery wardů a cílů v League of Legends"
   },
   "blog": {
     "blogTitle": "Blog LoL Cheats | ESP, cheaty a meta tipy",

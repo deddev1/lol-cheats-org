@@ -11,6 +11,7 @@ import { LOCALES } from './i18n-data/constants.mjs';
 import { allUiStrings } from './i18n-data/ui-strings.mjs';
 import { buildChrome } from './i18n-data/chrome-templates.mjs';
 import { sanitizeDeep } from './i18n-data/text-sanitize.mjs';
+import { getNativeUiOverlay } from './i18n-data/native-ui-translations.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -71,6 +72,7 @@ async function main() {
 		const chrome = buildChrome(locale, ui);
 		let merged = deepMerge(enBase, uiOverlay(locale, ui));
 		merged = deepMerge(merged, chrome);
+		merged = deepMerge(merged, getNativeUiOverlay(locale));
 		merged = sanitizeDeep(merged, locale);
 
 		// Fix legacy broken key if present in base

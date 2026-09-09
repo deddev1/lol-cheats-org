@@ -22,8 +22,8 @@
   "hero": {
     "accent": "Undetected League of Legends作弊",
     "accentShort": "LoL Cheats",
-    "subtitle": "适用于League of Legends Windows PC的ESP wallhack、radar cheat和Aimbot — 含Vanguard维护。",
-    "subtitleShort": "League of Legends PC版ESP、radar与Aimbot",
+    "subtitle": "League of Legends 外挂：ESP、软自瞄、2D 雷达，适用于 Windows PC — 含 Vanguard 维护。",
+    "subtitleShort": "LoL PC 版 ESP、雷达、自瞄",
     "buyNow": "立即购买",
     "seeFeatures": "查看功能",
     "title": "Undetected League of Legends作弊",
@@ -40,7 +40,7 @@
   },
   "trust": {
     "status": "在线",
-    "statusNote": "LoL Cheats套餐已在League of Legends Windows PC上线。",
+    "statusNote": "LoL Cheats 已在 League of Legends Windows PC 上线。",
     "statusShort": "运行中",
     "delivery": "即时数字交付",
     "platform": "Windows 10 和 11",
@@ -114,7 +114,7 @@
   "footer": {
     "explore": "探索",
     "help": "帮助与法律",
-    "tagline": "League of Legends undetected ESP、wallhack、radar与Aimbot — 通过secure checkout结账。"
+    "tagline": "PC 未检测外挂\nESP、wallhack、雷达、自瞄"
   },
   "home": {
     "aboutTitle": "League of Legends 未检测外挂",
@@ -201,16 +201,16 @@
     "pillsLabel": "League of Legends 官方指南"
   },
   "images": {
-    "hero": "LoL Cheats hero — ESP and aimbot overlay in League of Legends",
-    "espWallhack": "Wallhack outlines showing enemy champions and minions through walls",
-    "aimbotCombat": "Soft aim assist overlay during League of Legends match",
-    "teamFight": "LoL Cheats combat overlay during a team fight",
-    "champEsp": "Player ESP boxes and distance readouts in League of Legends match",
-    "headerArt": "Aimbot view and bone priority controls for League of Legends",
-    "cheatsPackage": "2D radar threat overlay for League of Legends",
-    "teamfight": "Aimbot assist during League of Legends gank",
-    "battleRoyale": "LoL Cheats in-match overview for Windows PC",
-    "summonersRift": "ESP markers for wards and objectives in League of Legends"
+    "hero": "LoL Cheats 主图 — League of Legends ESP 与自瞄覆盖层",
+    "espWallhack": "穿墙显示敌方英雄与小兵 wallhack 轮廓",
+    "aimbotCombat": "League of Legends 对局中的软自瞄覆盖层",
+    "teamFight": "LoL Cheats 团战覆盖层",
+    "champEsp": "League of Legends 对局 ESP 框与距离",
+    "headerArt": "League of Legends 自瞄视图与骨骼优先级",
+    "cheatsPackage": "League of Legends 2D 雷达威胁覆盖层",
+    "teamfight": "League of Legends 抓人时的自瞄辅助",
+    "battleRoyale": "LoL Cheats 局内视图 — Windows PC",
+    "summonersRift": "League of Legends 眼位与目标 ESP 标记"
   },
   "blog": {
     "blogTitle": "LoL Cheats 博客 | ESP、外挂与 meta 技巧",

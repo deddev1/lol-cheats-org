@@ -1,8 +1,8 @@
 /** Localized PAGE_META_TAILS.focus strings — one entry per pageKey per locale. */
 export const FOCUS_I18N = {
 	es: {
-		'lol-esp': 'cajas de jugador, marcadores de carcasa y overlays wallhack',
-		'lol-aimbot': 'soft aim, FOV y perfiles Aimbot por especie',
+		'lol-esp': 'cajas de jugador, marcadores de súbditos y overlays wallhack',
+		'lol-aimbot': 'soft aim, FOV y perfiles Aimbot por campeón',
 		features: 'ESP, soft aim, controles de radar',
 		pricing: 'licencias de $35 mensuales o $150 de por vida',
 		setup: 'activación en Windows PC y configuración del primer arranque',
@@ -20,12 +20,12 @@ export const FOCUS_I18N = {
 		'soft-aim': 'ajustes suaves de soft aim para Windows PC',
 		'best-cheats': 'qué comparar antes de comprar lol cheats',
 		'aimbot-cheat': 'asistencia undetected de cheat Aimbot para League of Legends',
-		'esp-cheat': 'cajas ESP cheat, pins de carcasa y distancia',
+		'esp-cheat': 'cajas ESP cheat, marcadores de wards y distancia',
 		'unlock-all': 'búsquedas unlock-all vs herramientas reales ESP y Aimbot',
 	},
 	fr: {
 		'lol-esp': 'boîtes joueur, marqueurs de warde et overlays wallhack',
-		'lol-aimbot': 'soft aim, FOV et profils Aimbot par espèce',
+		'lol-aimbot': 'soft aim, FOV et profils Aimbot par champion',
 		features: 'ESP, soft aim, contrôles radar',
 		pricing: 'licences à $35/mois ou $150 à vie',
 		setup: 'activation Windows PC et configuration au premier lancement',
@@ -47,8 +47,8 @@ export const FOCUS_I18N = {
 		'unlock-all': 'recherches unlock-all vs vrais outils ESP et Aimbot',
 	},
 	de: {
-		'lol-esp': 'Spielerboxen, Kadaver-Marker und Wallhack-Overlays',
-		'lol-aimbot': 'Soft Aim, FOV und Aimbot-Profile pro Spezies',
+		'lol-esp': 'Spielerboxen, Minion-Marker und Wallhack-Overlays',
+		'lol-aimbot': 'Soft Aim, FOV und Aimbot-Profile pro Champion',
 		features: 'ESP, Soft Aim, Radar-Steuerung',
 		pricing: '$35 monatliche oder $150 Lifetime-Lizenzen',
 		setup: 'Windows PC Aktivierung und Erststart-Setup',
@@ -56,7 +56,7 @@ export const FOCUS_I18N = {
 		faq: 'Fragen zu ESP, Soft Aim, Lieferung und Vanguard',
 		support: 'Bestellhilfe und Lizenz-Support-Kontakt',
 		undetected: 'Undetected-Wartung nach Vanguard Patches',
-		wallhack: 'Wallhack ESP für Spieler, Kadaver und Entfernung',
+		wallhack: 'Wallhack ESP für Champions, Wards und Entfernung',
 		radar: '2D-Radar-Hinweise für Flanken und Rotationen',
 		vanguard: 'wie Vanguard Updates für LoL Cheats gehandhabt werden',
 		'cheats-2026': '2026 lol cheats Checkliste vor dem Checkout',
@@ -66,7 +66,7 @@ export const FOCUS_I18N = {
 		'soft-aim': 'sanfte Soft-Aim-Einstellungen für Windows PC',
 		'best-cheats': 'was vor dem Kauf der lol cheats verglichen werden sollte',
 		'aimbot-cheat': 'undetected Aimbot-Cheat-Assist für League of Legends',
-		'esp-cheat': 'ESP-Cheat-Boxen, Kadaver-Pins und Entfernung',
+		'esp-cheat': 'ESP-Cheat-Boxen, Ward-Marker und Entfernung',
 		'unlock-all': 'unlock-all Suchen vs echte ESP- und Aimbot-Tools',
 	},
 	pt: {
@@ -231,7 +231,7 @@ export const FOCUS_I18N = {
 		'unlock-all': 'بحث unlock-all مقابل أدوات ESP وAimbot الحقيقية',
 	},
 	ja: {
-		'lol-esp': 'プレイヤーボックス、死体マーカー、wallhackオーバーレイ',
+		'lol-esp': 'プレイヤーボックス、ミニオンマーカー、wallhackオーバーレイ',
 		'lol-aimbot': 'soft aim、FOV、種別ごとのAimbotプロファイル',
 		features: 'ESP、soft aim、radarコントロール',
 		pricing: '月額$35またはlifetime $150ライセンス',
@@ -240,7 +240,7 @@ export const FOCUS_I18N = {
 		faq: 'ESP、soft aim、配信、Vanguardに関する質問',
 		support: '注文ヘルプとライセンスサポート連絡先',
 		undetected: 'Vanguardパッチ後のundetectedメンテナンス',
-		wallhack: 'プレイヤー、死体、距離向けwallhack ESP',
+		wallhack: 'チャンピオン、ワード、距離向けwallhack ESP',
 		radar: '側面攻撃とローテーション向け2D radarキュー',
 		vanguard: 'League of Legends cheats向けVanguard更新の対応方法',
 		'cheats-2026': 'checkout前の2026 lol cheatsチェックリスト',
@@ -250,7 +250,7 @@ export const FOCUS_I18N = {
 		'soft-aim': 'Windows PC向けスムーズなsoft aim設定',
 		'best-cheats': 'lol cheats購入前に比較すべき点',
 		'aimbot-cheat': 'League of Legends向けundetected Aimbot cheat assist',
-		'esp-cheat': 'ESP cheatボックス、死体pin、距離',
+		'esp-cheat': 'ESP cheatボックス、ワードpin、距離',
 		'unlock-all': 'unlock-all検索 vs 本物のESPとAimbotツール',
 	},
 	ko: {
@@ -461,7 +461,7 @@ export const FOCUS_I18N = {
 		'unlock-all': 'căutări unlock-all vs instrumente reale ESP și Aimbot',
 	},
 	sv: {
-		'lol-esp': 'spelarboxar, kadavermarkörer och wallhack-overlays',
+		'lol-esp': 'spelarboxar, minionmarkörer och wallhack-overlays',
 		'lol-aimbot': 'soft aim, FOV och Aimbot-profiler per art',
 		features: 'ESP, soft aim, radar-kontroller',
 		pricing: '$35 månatliga eller $150 lifetime-licenser',
@@ -470,7 +470,7 @@ export const FOCUS_I18N = {
 		faq: 'frågor om ESP, soft aim, leverans och Vanguard',
 		support: 'orderhjälp och licens support-kontakt',
 		undetected: 'undetected underhåll loler Vanguard patchar',
-		wallhack: 'wallhack ESP för spelare, kadaver och avstånd',
+		wallhack: 'wallhack ESP för champions, wards och avstånd',
 		radar: '2D radar-signaler för flanker och rotationer',
 		vanguard: 'hur Vanguard-uppdateringar hanteras för League of Legends cheats',
 		'cheats-2026': '2026 lol cheats checklist före checkout',
@@ -480,7 +480,7 @@ export const FOCUS_I18N = {
 		'soft-aim': 'mjuka soft aim-inställningar för Windows PC',
 		'best-cheats': 'vad du ska jämföra innan du köper lol cheats',
 		'aimbot-cheat': 'undetected Aimbot cheat assist för League of Legends',
-		'esp-cheat': 'ESP cheat-boxar, kadaver-pins och avstånd',
+		'esp-cheat': 'ESP cheat-boxar, ward-pins och avstånd',
 		'unlock-all': 'unlock-all-sökningar vs riktiga ESP- och Aimbot-verktyg',
 	},
 };
