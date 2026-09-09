@@ -112,16 +112,13 @@ const extraGraph: Record<string, unknown>[] = [
 	<main class="home">
 		<Hero locale={locale} />
 		<HomeReviews locale={locale} />
-		<section class="home-guides shell" aria-labelledby="home-guides-title">
-			<div class="home-guides__panel">
-				<header class="home-guides__head">
-					<p class="home-guides__eyebrow">{t('homeSeo.eyebrow')}</p>
-					<h2 id="home-guides-title">{t('homeSeo.title')}</h2>
-					<p class="home-guides__lede">{t('homeSeo.lede')}</p>
-				</header>
+		<section class="home-bottom" aria-label={t('homeSeo.title')}>
+			<div class="shell home-about-wrap">
 				<HomeAbout locale={locale} paths={navPaths} />
-				<HomeSeo locale={locale} navPaths={navPaths} embedded />
-				<ExternalResources locale={locale} omitHrefs={[externalUrls.wiki]} class="home-guides__external" />
+			</div>
+			<HomeSeo locale={locale} navPaths={navPaths} />
+			<div class="shell home-bottom__resources">
+				<ExternalResources locale={locale} omitHrefs={[externalUrls.wiki]} />
 			</div>
 		</section>
 	</main>
@@ -134,57 +131,20 @@ const extraGraph: Record<string, unknown>[] = [
 		overflow-x: clip;
 	}
 
-	.home-guides {
-		padding-block: clamp(2.5rem, 5vw, 3.5rem);
+	.home-bottom {
 		border-top: 1px solid var(--line);
 		background: var(--bg-section);
 		content-visibility: auto;
 		contain-intrinsic-size: 1px 900px;
 	}
 
-	.home-guides__head {
-		margin: 0;
-		padding-bottom: 1.15rem;
+	.home-about-wrap {
+		padding-block: clamp(2rem, 4vw, 2.75rem) clamp(1.25rem, 3vw, 1.75rem);
 		border-bottom: 1px solid var(--line-soft);
 	}
 
-	.home-guides__eyebrow {
-		margin: 0 0 0.35rem;
-		font-size: 0.75rem;
-		font-weight: 600;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		color: var(--magenta-soft);
-	}
-
-	.home-guides__head h2 {
-		margin: 0;
-		font-family: var(--font-display);
-		font-size: var(--heading-section);
-		font-weight: 700;
-		letter-spacing: -0.02em;
-		color: var(--ink);
-	}
-
-	.home-guides__lede {
-		margin: 0.45rem 0 0;
-		max-width: 40rem;
-		font-size: 0.9rem;
-		color: var(--ink-muted);
-		line-height: 1.55;
-	}
-
-	.home-guides__panel {
-		display: grid;
-		gap: 1.35rem;
-		width: 100%;
-		min-width: 0;
-		padding: clamp(1.15rem, 2.5vw, 1.65rem);
-		border: 1px solid var(--line);
-		border-radius: var(--radius-lg, 1rem);
-		background:
-			radial-gradient(ellipse 80% 60% at 0% 0%, color-mix(in srgb, var(--magenta) 8%, transparent), transparent 55%),
-			var(--bg-panel);
+	.home-bottom__resources {
+		padding-block: 0 clamp(2.5rem, 5vw, 3.5rem);
 	}
 </style>
 
@@ -196,8 +156,6 @@ const extraGraph: Record<string, unknown>[] = [
 		align-items: start;
 		width: 100%;
 		min-width: 0;
-		padding-bottom: 1.15rem;
-		border-bottom: 1px solid var(--line-soft);
 	}
 
 	.home-guides__copy {
@@ -234,34 +192,6 @@ const extraGraph: Record<string, unknown>[] = [
 
 	.home-guides__copy a:hover {
 		color: var(--ink);
-	}
-
-	.home-seo--embedded {
-		display: grid;
-		gap: 1.35rem;
-		width: 100%;
-		min-width: 0;
-		padding-block: 0;
-	}
-
-	.home-seo--embedded .home-seo__cats {
-		width: 100%;
-		min-width: 0;
-	}
-
-	.home-seo--embedded .home-seo__faq {
-		margin: 0;
-		padding-top: 1.15rem;
-		border-top: 1px solid var(--line-soft);
-	}
-
-	.home-guides__external {
-		margin-top: 0 !important;
-		padding-top: 1.15rem !important;
-		border: 0 !important;
-		border-radius: 0 !important;
-		background: transparent !important;
-		border-top: 1px solid var(--line-soft) !important;
 	}
 
 	@media (max-width: 860px) {
