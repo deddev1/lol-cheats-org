@@ -32,6 +32,9 @@ function buildSlugRedirects(map) {
 	for (const [oldSlug, newSlug] of Object.entries(FAQ_SLUG_RENAMES)) {
 		addPair(map, `/faq/${oldSlug}`, faqPath(newSlug));
 	}
+	for (const [legacyPath, newSlug] of Object.entries(LEGACY_BLOG_REDIRECTS)) {
+		addPair(map, legacyPath, blogPath(newSlug));
+	}
 }
 
 function rewriteTargets(map) {
