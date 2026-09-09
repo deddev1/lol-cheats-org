@@ -2,6 +2,7 @@
 import PageLayout from '../layouts/PageLayout.astro';
 import { getPageContent, getUi, type PageId } from '../data/i18n';
 import { getLocalizedPath, localizeInternalHref } from '../data/i18n/routing';
+import { getPageNavLabel } from '../data/i18n/page-headings';
 import { getResolvedPageCopy } from '../data/i18n/resolved-page-copy';
 import { getCannibalTargetId, isCannibalPageId } from '../data/seo-cannibal-map';
 import type { LocaleCode } from '../data/i18n/locales';
@@ -95,17 +96,20 @@ const ctaPrimaryHref = supportPageIds.includes(pageId as (typeof supportPageIds)
 	? `mailto:${siteConfig.supportEmail}`
 	: siteConfig.checkoutUrl;
 
-const eyebrowByPage: Partial<Record<PageId, string>> = {
-	features: ui.nav.features,
-	pricing: ui.nav.pricing,
-	updates: ui.nav.updates,
-	cheats: t('nav.preview'),
-	'lol-esp': ui.nav.esp,
-	'lol-aimbot': ui.nav.aimbot,
-	radar: 'Radar',
-	setup: ui.nav.setup,
-	faq: ui.nav.faq,
-};
+const navLabel = getPageNavLabel(pageId);
+const crumbLabel =
+	locale === 'en'
+		? navLabel?.crumb
+		: ({
+				features: ui.nav.features,
+				pricing: ui.nav.store,
+				updates: ui.nav.status,
+				cheats: t('nav.preview'),
+				'lol-esp': ui.nav.esp,
+				'lol-aimbot': ui.nav.aimbot,
+				setup: ui.nav.setup,
+				faq: ui.nav.faq,
+			}[pageId] as string | undefined);
 ---
 
 <PageLayout
@@ -113,9 +117,9 @@ const eyebrowByPage: Partial<Record<PageId, string>> = {
 	description={resolved.description}
 	canonicalPath={getLocalizedPath(canonicalPageId, locale)}
 	heading={heading}
+	crumbLabel={crumbLabel}
 	intro={intro}
 	introEdit={introEdit}
-	eyebrow={eyebrowByPage[pageId]}
 	heroImage={crawl.src}
 	heroAlt={page.imageAlt || crawl.caption}
 	gallery={gallery}

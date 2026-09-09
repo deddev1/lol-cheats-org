@@ -30,6 +30,8 @@ interface Props {
 	heading: string;
 	intro: string;
 	eyebrow?: string;
+	/** Breadcrumb current-page label — defaults to heading */
+	crumbLabel?: string;
 	heroImage?: string;
 	heroAlt?: string;
 	gallery?: ReadonlyArray<GalleryInput>;
@@ -54,6 +56,7 @@ const {
 	heading,
 	intro,
 	eyebrow,
+	crumbLabel: crumbLabelProp,
 	heroImage = lolImages.hero,
 	heroAlt,
 	gallery = lolImages.product.slice(0, 3),
@@ -85,7 +88,10 @@ function resolvePageId(path: string): PageId | undefined {
 const pageId = pageIdProp ?? resolvePageId(canonicalPath);
 const ui = getUi(locale);
 const homeHref = getLocalizedPath('home', locale);
-const resolvedEyebrow = eyebrow ?? ui.product.title;
+const crumbLabel = crumbLabelProp ?? heading;
+const resolvedEyebrow = eyebrow ?? siteConfig.name;
+const showEyebrow = resolvedEyebrow.trim().toLowerCase() !== heading.trim().toLowerCase();
+const showCrumbCurrent = crumbLabel.trim().toLowerCase() !== heading.trim().toLowerCase();
 
 const normalizedGallery = gallery
 	.map((item) => {
@@ -99,7 +105,7 @@ const normalizedGallery = gallery
 
 const breadcrumbs = [
 	{ label: ui.nav.home, href: homeHref },
-	{ label: heading },
+	{ label: crumbLabel },
 ];
 
 const useHomeHero =
@@ -164,10 +170,16 @@ const useHomeHero =
 				<div class="banner__content">
 					<nav class="banner__crumbs" aria-label={t('common.breadcrumb')}>
 						<a href={homeHref}>{ui.nav.home}</a>
-						<span aria-hidden="true">/</span>
-						<span aria-current="page">{heading}</span>
+						{
+							showCrumbCurrent && (
+								<>
+									<span aria-hidden="true">/</span>
+									<span aria-current="page">{crumbLabel}</span>
+								</>
+							)
+						}
 					</nav>
-					<p class="banner__eyebrow">{resolvedEyebrow}</p>
+					{showEyebrow && <p class="banner__eyebrow">{resolvedEyebrow}</p>}
 					<h1 class="banner__title">{heading}</h1>
 					<p class="banner__intro" data-edit={introEdit || undefined}>{intro}</p>
 					{

@@ -2,6 +2,7 @@ import type { LocaleCode } from './locales';
 import type { PageId, PageSection } from './content.generated';
 import { getPageContent } from './index';
 import { localizeInternalHref } from './routing';
+import { getPageNavLabel } from './page-headings';
 import { simplePageCopy, type SimplePageCopy, type SimpleSection } from './simple-pages';
 import { siteConfig } from '../site';
 
@@ -59,10 +60,11 @@ export function getResolvedPageCopy(locale: LocaleCode, pageId: PageId): SimpleP
 	const simple = simplePageCopy[pageId];
 
 	if (!simple) {
+		const navLabel = locale === 'en' ? getPageNavLabel(pageId) : undefined;
 		return {
 			title: page.title,
 			description: page.description,
-			h1: page.h1,
+			h1: navLabel?.h1 ?? page.h1,
 			intro: page.intro,
 			ctaPrimary: page.ctaPrimary,
 			ctaSecondary: page.ctaSecondary,
