@@ -64,7 +64,8 @@ const seoDefaults = {
 	reviewsDescription:
 		'Real buyer reviews for {brand} — ESP, soft aim, radar, and patch updates on Windows PC.',
 	blogTitle: '{game} Intel | {brand}',
-	blogDescription: 'Guides and notes for {game} — meta tips, ESP, aimbot, and {antiCheat} updates.',
+	blogDescription:
+		'Cheat guides for {game} on Windows PC — setup, ESP and aimbot settings, {antiCheat} status, and buyer notes.',
 } as const;
 
 type SeoShape = typeof seoDefaults;

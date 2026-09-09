@@ -105,13 +105,13 @@ export const brand = {
 			'Contact LoL Cheats support for license delivery, ESP setup, soft aim profiles, and billing on Windows PC. Email with your order ID so replies can start faster.',
 		faqTitle: '{game} FAQ | {brand}',
 		faqDescription:
-			'LoL Cheats FAQ covers ESP, soft aim, radar, Vanguard maintenance, pricing, and delivery on Windows PC. Clear answers about licenses, setup, and updates before you buy.',
+			'LoL Cheats FAQ — install, undetected status, ESP and aimbot in one license, monthly vs lifetime plans, refunds, and ban risk on Windows PC. Answers buyers search before checkout.',
 		reviewsTitle: '{brand} Reviews | Buyer Feedback',
 		reviewsDescription:
 			'Buyer reviews for LoL Cheats on Windows PC — ESP, soft aim, radar, and Vanguard update feedback from real license holders after ranked and ARAM matches.',
 		blogTitle: '{game} Intel | {brand}',
 		blogDescription:
-			'LoL Intel guides for League of Legends on Windows PC — macro tips, ESP, aimbot settings, jungle routes, and Vanguard update coverage for competitive players.',
+			'LoL cheat guides for Windows PC — install steps, ESP and aimbot settings, Vanguard status checks, and plan comparison before you buy.',
 	},
 
 	/** On-page marketing copy (tokens allowed) */

@@ -93,12 +93,12 @@ export const blogUi: Record<
 	}
 > = {
 	en: {
-		blogTitle: 'LoL Cheats Blog | Raid Guides',
+		blogTitle: 'LoL Cheat Guides | LoL Cheats',
 		blogDescription:
-			'League of Legends guides — macro tips, ESP, aimbot notes, gank routes, and Vanguard update coverage. English blog at lolcheats.org/blog/.',
-		blogH1: 'LoL Cheats Intel',
+			'LoL cheat guides for Windows PC — install, ESP and aimbot settings, Vanguard status, and buyer notes from LoL Cheats.',
+		blogH1: 'Cheat guides',
 		blogIntro:
-			'Short League of Legends guides for ranked and normal games. Pair these tips with LoL Cheats product pages when you need ESP, soft aim, or radar.',
+			'Install tips, ESP and aimbot settings, Vanguard updates, and buyer notes — only what matters for LoL Cheats on Windows PC.',
 		readMore: 'Read guide',
 		published: 'Published',
 		updated: 'Updated',

@@ -40,6 +40,18 @@ const NAV = {
 		ko: '리뷰', zh: '评价', hi: 'समीक्षाएँ', id: 'Ulasan', th: 'รีวิว', vi: 'Đánh giá',
 		uk: 'Відгуки', cs: 'Recenze', ro: 'Recenzii', sv: 'Omdömen',
 	},
+	blog: {
+		en: 'Guides', es: 'Guías', fr: 'Guides', de: 'Guides', pt: 'Guias', it: 'Guide',
+		nl: 'Guides', pl: 'Poradniki', ru: 'Гайды', tr: 'Rehberler', ar: 'أدلة', ja: 'ガイド',
+		ko: '가이드', zh: '指南', hi: 'गाइड', id: 'Panduan', th: 'คู่มือ', vi: 'Hướng dẫn',
+		uk: 'Гайди', cs: 'Průvodce', ro: 'Ghiduri', sv: 'Guider',
+	},
+	faq: {
+		en: 'FAQ', es: 'FAQ', fr: 'FAQ', de: 'FAQ', pt: 'FAQ', it: 'FAQ',
+		nl: 'FAQ', pl: 'FAQ', ru: 'FAQ', tr: 'SSS', ar: 'الأسئلة', ja: 'FAQ',
+		ko: 'FAQ', zh: '常见问题', hi: 'FAQ', id: 'FAQ', th: 'FAQ', vi: 'FAQ',
+		uk: 'FAQ', cs: 'FAQ', ro: 'FAQ', sv: 'FAQ',
+	},
 	primaryAria: {
 		en: 'Primary', es: 'Principal', fr: 'Principal', de: 'Primär', pt: 'Principal', it: 'Principale',
 		nl: 'Primair', pl: 'Główna', ru: 'Основная', tr: 'Birincil', ar: 'رئيسي', ja: 'メイン',

@@ -2,6 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from './Navbar.astro';
 import SiteFooter from './SiteFooter.astro';
+import BlogPostCard from './BlogPostCard.astro';
+import BlogQuickLinks from './BlogQuickLinks.astro';
 import { blogUi, type LocaleCode, defaultLocale } from '../data/i18n/locales';
 import {
 	absoluteBlogUrl,
@@ -16,10 +18,7 @@ import { seoDescription } from '../data/brand';
 import { getLocalizedPath } from '../data/i18n/routing';
 import { blogIndexTopicLinks } from '../data/internal-links';
 import RelatedPages from './RelatedPages.astro';
-import CategoryRow from './CategoryRow.astro';
-import ExternalResources from './ExternalResources.astro';
 import { getT } from '../i18n/server';
-import { resolveImageAlt } from '../lib/image-alt';
 
 interface Props {
 	locale: LocaleCode;
@@ -29,7 +28,17 @@ const { locale } = Astro.props;
 const ui = blogUi[locale];
 const t = getT(locale);
 const posts = getAllPostsForLocale(locale);
-const featured = getFeaturedPosts(locale, 3);
+const featured = getFeaturedPosts(locale, 2);
+const featuredIds = new Set(featured.map((p) => p.id));
+const rest = posts.filter((p) => !featuredIds.has(p.id));
+
+const categories = [...new Set(posts.map((p) => p.category))];
+const postsByCategory = categories.map((category) => ({
+	category,
+	slug: category.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+	items: rest.filter((p) => p.category === category),
+}));
+
 const canonicalPath = getBlogBasePath(locale);
 const canonicalURL = absoluteBlogUrl(locale);
 const hreflangAlternates = getBlogIndexHreflangAlternates(locale);
@@ -64,7 +73,7 @@ const articleListSchema = {
 	description={pageDescription}
 	canonicalPath={canonicalPath}
 	hreflangAlternates={hreflangAlternates}
-	keywords={['the lol blog', 'lol guides', 'lol cheats', 'lol intel']}
+	keywords={['lol cheats guide', 'lol esp setup', 'lol aimbot settings', 'vanguard updates']}
 	locale={locale}
 	ogImage={siteConfig.defaultOgImage}
 	ogImageAlt={ui.blogH1}
@@ -74,70 +83,63 @@ const articleListSchema = {
 	<Navbar locale={locale} />
 	<main class="blog">
 		<div class="shell blog__inner">
-		<header class="blog__hero">
-			<p class="blog__eyebrow" data-edit="blogLabel">{blogLabel}</p>
-			<h1>{ui.blogH1}</h1>
-			<p class="blog__intro">{ui.blogIntro}</p>
-		</header>
+			<header class="blog__hero">
+				<p class="blog__eyebrow" data-edit="blogLabel">{blogLabel}</p>
+				<h1>{ui.blogH1}</h1>
+				<p class="blog__intro">{ui.blogIntro}</p>
+				<BlogQuickLinks locale={locale} />
+			</header>
 
-		<CategoryRow locale={locale} />
-
-		<ExternalResources locale={locale} class="blog__external blog__external--top" />
-
-		{
-			featured.length > 0 && (
-				<section class="blog__featured" aria-label={t('common.featured')}>
-					{
-						featured.map((post, index) => (
-							<a class="blog__feature-card" href={post.canonicalPath}>
-								<img
-									src={post.imageSrc}
-									alt={resolveImageAlt(post.translation.imageAlt, post.translation.title)}
-									width="640"
-									height="360"
-									loading={index === 0 ? 'eager' : 'lazy'}
-									decoding="async"
-									fetchpriority={index === 0 ? 'high' : undefined}
-								/>
-								<div>
-									<span class="blog__cat">{post.category}</span>
-									<h2>{post.translation.title}</h2>
-									<p>{post.translation.intro}</p>
-									<span class="blog__more">{ui.readMore}</span>
-								</div>
-							</a>
-						))
-					}
-				</section>
-			)
-		}
-
-		<section class="blog__list" aria-label={ui.allPosts}>
 			{
-				posts.map((post) => (
-					<article class="blog__card">
-						<a href={post.canonicalPath}>
-							<img
-								src={post.imageSrc}
-								alt={resolveImageAlt(post.translation.imageAlt, post.translation.title)}
-								width="480"
-								height="270"
-								loading="lazy"
-								decoding="async"
-							/>
-							<span class="blog__cat">{post.category}</span>
-							<h2>{post.translation.title}</h2>
-							<p>{post.translation.intro}</p>
-							<span class="blog__meta">
-								{ui.updated} {post.updated}
-							</span>
-						</a>
-					</article>
-				))
+				featured.length > 0 && (
+					<section class="blog__featured" aria-label={t('common.featured')}>
+						<h2 class="blog__section-title">{t('common.featured')}</h2>
+						<div class="blog__featured-grid">
+							{featured.map((post, index) => (
+								<BlogPostCard
+									post={post}
+									readMore={ui.readMore}
+									updatedLabel={ui.updated}
+									variant="feature"
+									priority={index === 0}
+								/>
+							))}
+						</div>
+					</section>
+				)
 			}
-		</section>
 
-		<RelatedPages locale={locale} variant="topics" links={blogIndexTopicLinks} class="blog__topics" />
+			<nav class="blog__cats" aria-label="Guide categories">
+				{
+					categories.map((cat) => {
+						const slug = cat.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+						return (
+							<a href={`#cat-${slug}`} class="blog__cat-pill">
+								{cat}
+							</a>
+						);
+					})
+				}
+			</nav>
+
+			{
+				postsByCategory.map(({ category, slug, items }) =>
+					items.length > 0 ? (
+						<section class="blog__group" id={`cat-${slug}`} aria-labelledby={`blog-cat-${slug}`}>
+							<h2 class="blog__section-title" id={`blog-cat-${slug}`}>
+								{category}
+							</h2>
+							<div class="blog__grid">
+								{items.map((post) => (
+									<BlogPostCard post={post} readMore={ui.readMore} updatedLabel={ui.updated} />
+								))}
+							</div>
+						</section>
+					) : null,
+				)
+			}
+
+			<RelatedPages locale={locale} variant="topics" links={blogIndexTopicLinks} class="blog__topics" />
 		</div>
 	</main>
 	<SiteFooter locale={locale} />
@@ -150,132 +152,99 @@ const articleListSchema = {
 
 	.blog__inner {
 		display: grid;
-		gap: 0;
+		gap: 2rem;
 	}
+
 	.blog__hero {
-		margin-bottom: 2.5rem;
+		display: grid;
+		gap: 0.85rem;
+		padding: clamp(1.25rem, 3vw, 1.75rem);
+		border: 1px solid var(--line);
+		border-radius: var(--radius-lg, 1rem);
+		background:
+			radial-gradient(ellipse 75% 60% at 0% 0%, color-mix(in srgb, var(--magenta) 12%, transparent), transparent 55%),
+			var(--bg-panel);
 	}
+
 	.blog__eyebrow {
-		margin: 0 0 0.5rem;
+		margin: 0;
 		color: var(--magenta-soft);
 		font-weight: 700;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
 		font-size: 0.75rem;
 	}
+
 	.blog__hero h1 {
-		margin: 0 0 0.75rem;
-		font-size: clamp(2.2rem, 5vw, 3.4rem);
-		line-height: 1.05;
-	}
-	.blog__intro {
-		max-width: 42rem;
-		color: rgba(255, 255, 255, 0.72);
-		font-size: 1.05rem;
-	}
-	.blog__featured {
-		display: grid;
-		gap: 1.25rem;
-		margin-bottom: 2.5rem;
-	}
-	.blog__feature-card {
-		display: grid;
-		grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.2fr);
-		gap: 1.25rem;
-		padding: 1rem;
-		border: 1px solid var(--line);
-		border-radius: var(--radius-md, 0.75rem);
-		background: var(--bg-panel);
-		text-decoration: none;
-		color: inherit;
-	}
-	.blog__feature-card img {
-		width: 100%;
-		height: 100%;
-		max-height: 240px;
-		object-fit: cover;
-	}
-	.blog__feature-card h2 {
-		margin: 0.4rem 0 0.6rem;
-		font-size: 1.35rem;
-	}
-	.blog__list {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
-		gap: 1.25rem;
-	}
-	.blog__card a {
-		display: block;
-		height: 100%;
-		padding: 0.85rem;
-		border: 1px solid var(--line);
-		border-radius: var(--radius-md, 0.75rem);
-		background: var(--bg-panel);
-		text-decoration: none;
-		color: inherit;
-	}
-	.blog__card img {
-		width: 100%;
-		aspect-ratio: 16 / 9;
-		object-fit: cover;
-		margin-bottom: 0.75rem;
-	}
-	.blog__card h2 {
-		margin: 0.35rem 0 0.5rem;
-		font-size: 1.05rem;
-		line-height: 1.25;
-	}
-	.blog__card p,
-	.blog__feature-card p {
 		margin: 0;
-		color: rgba(255, 255, 255, 0.68);
-		font-size: 0.92rem;
+		font-size: clamp(2rem, 5vw, 3rem);
+		line-height: 1.05;
+		letter-spacing: -0.03em;
 	}
-	.blog__cat {
-		display: inline-block;
-		color: var(--magenta-soft);
-		font-size: 0.72rem;
-		font-weight: 700;
-		text-transform: uppercase;
-		letter-spacing: 0.06em;
+
+	.blog__intro {
+		margin: 0;
+		max-width: 40rem;
+		color: var(--ink-muted);
+		font-size: 1.02rem;
+		line-height: 1.6;
 	}
-	.blog__more,
-	.blog__meta {
-		display: inline-block;
-		margin-top: 0.75rem;
-		color: rgba(255, 255, 255, 0.55);
-		font-size: 0.8rem;
+
+	.blog__section-title {
+		margin: 0 0 1rem;
+		font-size: 1.05rem;
+		font-weight: 800;
+		letter-spacing: -0.02em;
+		color: var(--ink);
+	}
+
+	.blog__featured-grid {
+		display: grid;
+		gap: 1rem;
+	}
+
+	.blog__cats {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.45rem;
+	}
+
+	.blog__cat-pill {
+		display: inline-flex;
+		padding: 0.45rem 0.85rem;
+		border: 1px solid var(--line);
+		border-radius: 999px;
+		background: var(--bg-elevated);
+		color: var(--ink-muted);
+		font-size: 0.78rem;
 		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.blog__cat-pill:hover {
+		color: var(--magenta-soft);
+		border-color: color-mix(in srgb, var(--magenta) 35%, var(--line));
+	}
+
+	.blog__group {
+		display: grid;
+		gap: 0.5rem;
+		scroll-margin-top: calc(var(--header-h, 4rem) + 1rem);
+	}
+
+	.blog__grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+		gap: 1rem;
 	}
 
 	.blog__topics {
-		margin-top: 2.5rem;
+		margin-top: 0.5rem;
 	}
 
-	.blog__external--top {
-		margin-top: 1.5rem;
-	}
-	.blog__more {
-		color: var(--magenta-soft);
-	}
 	@media (max-width: 760px) {
-		.blog__feature-card {
+		.blog__grid {
 			grid-template-columns: 1fr;
-		}
-
-		.blog__list {
-			grid-template-columns: 1fr;
-			gap: 1rem;
-		}
-
-		.blog__card a {
-			padding: 0.75rem;
-		}
-	}
-
-	@media (max-width: 480px) {
-		.blog__feature-card h2 {
-			font-size: 1.2rem;
 		}
 	}
 </style>

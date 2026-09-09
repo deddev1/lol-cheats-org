@@ -17,7 +17,8 @@
     "primaryAria": "기본",
     "mobileAria": "모바일",
     "openMenu": "메뉴 열기",
-    "closeMenu": "메뉴 닫기"
+    "closeMenu": "메뉴 닫기",
+    "blog": "가이드"
   },
   "hero": {
     "accent": "Undetected League of Legends 치트",

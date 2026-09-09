@@ -165,6 +165,7 @@ export const blogIndexTopicLinks: InternalLinkTarget[] = [
 	TOPIC_LINKS.pricing,
 	TOPIC_LINKS.setup,
 	TOPIC_LINKS.status,
+	TOPIC_LINKS.faq,
 	TOPIC_LINKS.reviews,
 ];
 

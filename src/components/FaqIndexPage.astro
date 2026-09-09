@@ -1,0 +1,297 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from './Navbar.astro';
+import SiteFooter from './SiteFooter.astro';
+import RelatedPages from './RelatedPages.astro';
+import { clusterFaqs } from '../data/faq-hub';
+import { absoluteFaqUrl, faqBasePath, getFaqPath } from '../data/faq';
+import { productInfo, seoFaqs, siteConfig } from '../data/site';
+import { brandSeo, seoPageTitle } from '../data/site-core';
+import { seoDescription } from '../data/brand';
+import { getSelfHreflangAlternates } from '../data/i18n/routing';
+import { getPageCrawlImage } from '../data/page-images';
+import { resolveImageAlt } from '../lib/image-alt';
+
+const canonicalPath = faqBasePath;
+const canonicalURL = absoluteFaqUrl();
+const hreflangAlternates = getSelfHreflangAlternates(canonicalPath);
+const clusters = clusterFaqs(seoFaqs);
+const crawl = getPageCrawlImage('faq');
+
+const pageTitle = seoPageTitle(brandSeo.faqTitle);
+const pageDescription = seoDescription(brandSeo.faqDescription);
+
+const faqSchema = {
+	'@type': 'FAQPage',
+	'@id': `${canonicalURL}#faq`,
+	url: canonicalURL,
+	mainEntity: seoFaqs.map((item) => ({
+		'@type': 'Question',
+		name: item.question,
+		url: absoluteFaqUrl(item.slug),
+		acceptedAnswer: { '@type': 'Answer', text: item.answer.replace(/<[^>]+>/g, '') },
+	})),
+};
+
+const monthly = productInfo.plans.find((p) => p.id === 'monthly') ?? productInfo.plans[0];
+---
+
+<Layout
+	title={pageTitle}
+	description={pageDescription}
+	canonicalPath={canonicalPath}
+	hreflangAlternates={hreflangAlternates}
+	locale="en"
+	ogImage={crawl.src}
+	ogImageAlt={resolveImageAlt('FAQ — common questions before you buy')}
+	breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'FAQ' }]}
+	extraGraph={[faqSchema]}
+>
+	<Navbar />
+	<main class="faq-hub">
+		<div class="shell faq-hub__inner">
+			<header class="faq-hub__hero">
+				<p class="faq-hub__eyebrow">Before you buy</p>
+				<h1>FAQ</h1>
+				<p class="faq-hub__intro">
+					Short answers to what buyers search most — delivery, Vanguard status, ESP and aimbot in one license,
+					plans, and ban risk on Windows PC.
+				</p>
+				<div class="faq-hub__actions">
+					<a href={siteConfig.checkoutUrl} class="faq-hub__buy" rel="noopener noreferrer">
+						Get access — ${monthly.price}/mo
+					</a>
+					<a href="/setup/" class="faq-hub__link">Setup guide</a>
+					<a href="/updates/" class="faq-hub__link">Live status</a>
+					<a href="/blog/" class="faq-hub__link">Cheat guides</a>
+				</div>
+			</header>
+
+			<div class="faq-hub__clusters">
+				{
+					clusters.map((cluster) => (
+						<section class="faq-cluster" aria-labelledby={`faq-cluster-${cluster.id}`}>
+							<div class="faq-cluster__head">
+								<h2 id={`faq-cluster-${cluster.id}`}>{cluster.title}</h2>
+								<p>{cluster.description}</p>
+							</div>
+							<ul class="faq-cluster__list">
+								{cluster.items.map((item) => (
+									<li>
+										<a href={getFaqPath(item.slug)}>
+											<span class="faq-cluster__q">{item.question}</span>
+											<span class="faq-cluster__arrow" aria-hidden="true" />
+										</a>
+									</li>
+								))}
+							</ul>
+						</section>
+					))
+				}
+			</div>
+
+			<section class="faq-hub__cta card-panel">
+				<h2>Still deciding?</h2>
+				<p>
+					Compare plans on the <a href="/pricing/">Store</a>, read buyer notes on
+					<a href="/reviews/"> Reviews</a>, or email <a href={`mailto:${siteConfig.supportEmail}`}>{siteConfig.supportEmail}</a> with your order ID.
+				</p>
+			</section>
+
+			<RelatedPages locale="en" pageId="faq" variant="topics" class="faq-hub__topics" />
+		</div>
+	</main>
+	<SiteFooter locale="en" />
+</Layout>
+
+<style>
+	.faq-hub {
+		padding: clamp(2rem, 4vw, 3rem) 0 4rem;
+	}
+
+	.faq-hub__inner {
+		display: grid;
+		gap: 2rem;
+	}
+
+	.faq-hub__hero {
+		display: grid;
+		gap: 0.85rem;
+		padding: clamp(1.35rem, 3.5vw, 2rem);
+		border: 1px solid var(--line);
+		border-radius: var(--radius-lg, 1rem);
+		background:
+			radial-gradient(ellipse 70% 55% at 100% 0%, color-mix(in srgb, var(--magenta) 14%, transparent), transparent 60%),
+			var(--bg-panel);
+	}
+
+	.faq-hub__eyebrow {
+		margin: 0;
+		font-size: 0.72rem;
+		font-weight: 700;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		color: var(--magenta-soft);
+	}
+
+	.faq-hub__hero h1 {
+		margin: 0;
+		font-family: var(--font-display);
+		font-size: clamp(2rem, 5vw, 3rem);
+		line-height: 1.05;
+		letter-spacing: -0.03em;
+	}
+
+	.faq-hub__intro {
+		margin: 0;
+		max-width: 42rem;
+		color: var(--ink-muted);
+		font-size: 1.05rem;
+		line-height: 1.65;
+	}
+
+	.faq-hub__actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.6rem;
+		padding-top: 0.35rem;
+	}
+
+	.faq-hub__buy {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.75rem 1.25rem;
+		border-radius: 999px;
+		background: var(--magenta);
+		color: #070d14;
+		font-size: 0.9rem;
+		font-weight: 700;
+		text-decoration: none;
+	}
+
+	.faq-hub__buy:hover {
+		background: var(--magenta-soft);
+		color: #070d14;
+	}
+
+	.faq-hub__link {
+		display: inline-flex;
+		align-items: center;
+		padding: 0.75rem 1rem;
+		border: 1px solid var(--line);
+		border-radius: 999px;
+		background: var(--bg-elevated);
+		color: var(--ink);
+		font-size: 0.88rem;
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.faq-hub__link:hover {
+		border-color: color-mix(in srgb, var(--magenta) 35%, var(--line));
+		color: var(--magenta-soft);
+	}
+
+	.faq-hub__clusters {
+		display: grid;
+		gap: 1.25rem;
+	}
+
+	.faq-cluster {
+		padding: 1.15rem 1.2rem 1.2rem;
+		border: 1px solid var(--line);
+		border-radius: var(--radius-md, 0.75rem);
+		background: var(--bg-panel);
+	}
+
+	.faq-cluster__head h2 {
+		margin: 0 0 0.35rem;
+		font-size: 1.15rem;
+		font-weight: 800;
+		letter-spacing: -0.02em;
+	}
+
+	.faq-cluster__head p {
+		margin: 0 0 0.85rem;
+		color: var(--ink-muted);
+		font-size: 0.92rem;
+		line-height: 1.5;
+	}
+
+	.faq-cluster__list {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: grid;
+		gap: 0.45rem;
+	}
+
+	.faq-cluster__list a {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+		padding: 0.9rem 1rem;
+		border: 1px solid var(--line-soft);
+		border-radius: var(--radius-sm, 0.5rem);
+		background: color-mix(in srgb, var(--bg-elevated) 85%, transparent);
+		color: var(--ink);
+		font-size: 0.94rem;
+		font-weight: 600;
+		line-height: 1.35;
+		text-decoration: none;
+		transition:
+			border-color 0.15s ease,
+			transform 0.15s ease;
+	}
+
+	.faq-cluster__list a:hover {
+		border-color: color-mix(in srgb, var(--magenta) 35%, var(--line));
+		transform: translateY(-1px);
+		color: var(--magenta-soft);
+	}
+
+	.faq-cluster__arrow {
+		flex-shrink: 0;
+		width: 0.55rem;
+		height: 0.55rem;
+		border-right: 1.5px solid var(--magenta-soft);
+		border-bottom: 1.5px solid var(--magenta-soft);
+		transform: rotate(-45deg);
+		opacity: 0.75;
+	}
+
+	.faq-hub__cta h2 {
+		margin: 0 0 0.5rem;
+		font-size: 1.1rem;
+	}
+
+	.faq-hub__cta p {
+		margin: 0;
+		color: var(--ink-muted);
+		line-height: 1.65;
+	}
+
+	.faq-hub__cta a {
+		color: var(--magenta-soft);
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.faq-hub__cta a:hover {
+		color: var(--ink);
+	}
+
+	@media (max-width: 560px) {
+		.faq-hub__actions {
+			flex-direction: column;
+		}
+
+		.faq-hub__buy,
+		.faq-hub__link {
+			width: 100%;
+			justify-content: center;
+		}
+	}
+</style>

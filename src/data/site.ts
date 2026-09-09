@@ -150,6 +150,42 @@ export const seoFaqs: readonly FaqItem[] = [
 		seoDescription:
 			'Check the LoL Cheats Status page after League of Legends or Vanguard patches to confirm the latest ESP, radar, and Aimbot build before you queue.',
 	}),
+	faq({
+		question: 'How do I install {brand} on Windows PC?',
+		answer:
+			'After delivery, run the installer on Windows 10 or 11, activate your license, and load ESP, radar, and aimbot from the in-game menu. Step-by-step screenshots live on the <a href="/setup/">Setup</a> page.',
+		slug: 'how-to-install-lol-cheats',
+		seoTitle: 'How to Install {brand} on Windows PC | FAQ',
+		seoDescription:
+			'Install LoL Cheats on Windows 10 or 11 after purchase — activate your license, load ESP and aimbot, and confirm Status before your first queue.',
+	}),
+	faq({
+		question: 'Monthly or lifetime license — which plan should I pick?',
+		answer:
+			'Monthly fits short seasons or testing the full stack. Lifetime is one payment for the same ESP, radar, and aimbot features with ongoing {antiCheat} maintenance. Compare both on the <a href="/pricing/">Store</a> page.',
+		slug: 'monthly-vs-lifetime-license',
+		seoTitle: 'Monthly vs Lifetime {brand} License | FAQ',
+		seoDescription:
+			'Compare LoL Cheats monthly and lifetime plans — same ESP, radar, and aimbot license with Vanguard maintenance on Windows PC.',
+	}),
+	faq({
+		question: 'Can I get a refund?',
+		answer:
+			'Refunds follow the policy on the <a href="/refund-policy/">Refund Policy</a> page. Email {email} with your order ID if delivery failed or the license never activated.',
+		slug: 'can-i-get-a-refund',
+		seoTitle: 'Can I Get a Refund? | {brand} FAQ',
+		seoDescription:
+			'LoL Cheats refund rules for digital licenses on Windows PC — when refunds apply and how to contact support with your order ID.',
+	}),
+	faq({
+		question: 'Will {brand} get my account banned?',
+		answer:
+			'Any third-party tool carries ban risk on {game}. {brand} is maintained after {antiCheat} patches, but no cheat can guarantee a ban-free account. Check <a href="/updates/">Status</a> before ranked games and use settings you can control.',
+		slug: 'will-lol-cheats-get-me-banned',
+		seoTitle: 'Ban Risk & Account Safety | {brand} FAQ',
+		seoDescription:
+			'Understand ban risk with LoL Cheats on Windows PC — Vanguard maintenance, Status checks, and why no cheat guarantees a safe account.',
+	}),
 ] as const;
 
 /** Homepage FAQ schema — same six pillars as seoFaqs. */

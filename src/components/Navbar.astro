@@ -9,7 +9,7 @@ import {
 import { defaultLocale, locales, type LocaleCode } from '../data/i18n/locales';
 import { reviewsBasePath } from '../data/reviews';
 import { siteConfig } from '../data/site';
-import { getBlogLocaleSwitchHref, isBlogPath } from '../data/blog/helpers';
+import { getBlogBasePath, getBlogLocaleSwitchHref, isBlogPath } from '../data/blog/helpers';
 
 interface Props {
 	locale?: LocaleCode;
@@ -52,6 +52,8 @@ const links = [
 	{ id: 'esp', labelKey: 'nav.features', edit: 'navFeatures', href: getLocalizedPath('features', locale) },
 	{ id: 'pricing', labelKey: 'nav.store', edit: 'navStore', href: getLocalizedPath('pricing', locale) },
 	{ id: 'updates', labelKey: 'nav.status', edit: 'navStatus', href: getLocalizedPath('updates', locale) },
+	{ id: 'faq', labelKey: 'nav.faq', edit: 'navFaq', href: getLocalizedPath('faq', locale) },
+	{ id: 'blog', labelKey: 'nav.blog', edit: 'navBlog', href: getBlogBasePath(locale) },
 	{ id: 'reviews', labelKey: 'nav.reviews', edit: 'navReviews', href: reviewsBasePath },
 ];
 ---

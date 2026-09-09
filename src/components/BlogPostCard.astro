@@ -1,0 +1,129 @@
+---
+import { resolveImageAlt } from '../lib/image-alt';
+import type { ResolvedBlogPost } from '../data/blog/types';
+
+interface Props {
+	post: ResolvedBlogPost;
+	readMore: string;
+	updatedLabel: string;
+	variant?: 'feature' | 'grid';
+	priority?: boolean;
+}
+
+const { post, readMore, updatedLabel, variant = 'grid', priority = false } = Astro.props;
+const isFeature = variant === 'feature';
+---
+
+<article class:list={['blog-card', isFeature && 'blog-card--feature']}>
+	<a href={post.canonicalPath} class="blog-card__link">
+		<div class="blog-card__media">
+			<img
+				src={post.imageSrc}
+				alt={resolveImageAlt(post.translation.imageAlt, post.translation.title)}
+				width={isFeature ? 640 : 480}
+				height={isFeature ? 360 : 270}
+				loading={priority ? 'eager' : 'lazy'}
+				decoding="async"
+				fetchpriority={priority ? 'high' : undefined}
+			/>
+		</div>
+		<div class="blog-card__body">
+			<span class="blog-card__cat">{post.category}</span>
+			<h2>{post.translation.title}</h2>
+			<p>{post.translation.intro}</p>
+			<span class="blog-card__meta">
+				{isFeature ? readMore : `${updatedLabel} ${post.updated}`}
+			</span>
+		</div>
+	</a>
+</article>
+
+<style>
+	.blog-card__link {
+		display: grid;
+		height: 100%;
+		grid-template-rows: auto 1fr;
+		border: 1px solid var(--line);
+		border-radius: var(--radius-md, 0.75rem);
+		background: var(--bg-panel);
+		overflow: hidden;
+		text-decoration: none;
+		color: inherit;
+		transition:
+			border-color 0.15s ease,
+			transform 0.15s ease;
+	}
+
+	.blog-card__link:hover {
+		border-color: color-mix(in srgb, var(--magenta) 35%, var(--line));
+		transform: translateY(-2px);
+	}
+
+	.blog-card--feature .blog-card__link {
+		grid-template-columns: minmax(0, 1.05fr) minmax(0, 1.15fr);
+		grid-template-rows: none;
+		gap: 0;
+	}
+
+	.blog-card__media img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		aspect-ratio: 16 / 9;
+	}
+
+	.blog-card--feature .blog-card__media img {
+		min-height: 100%;
+		max-height: 260px;
+	}
+
+	.blog-card__body {
+		display: grid;
+		align-content: start;
+		gap: 0.35rem;
+		padding: 1rem 1.05rem 1.1rem;
+	}
+
+	.blog-card--feature .blog-card__body {
+		padding: 1.15rem 1.25rem;
+	}
+
+	.blog-card__cat {
+		color: var(--magenta-soft);
+		font-size: 0.72rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+	}
+
+	.blog-card__body h2 {
+		margin: 0;
+		font-size: clamp(1rem, 2.2vw, 1.35rem);
+		line-height: 1.25;
+	}
+
+	.blog-card__body p {
+		margin: 0;
+		color: var(--ink-muted);
+		font-size: 0.92rem;
+		line-height: 1.55;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.blog-card__meta {
+		margin-top: 0.35rem;
+		color: var(--magenta-soft);
+		font-size: 0.8rem;
+		font-weight: 600;
+	}
+
+	@media (max-width: 760px) {
+		.blog-card--feature .blog-card__link {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

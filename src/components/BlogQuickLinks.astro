@@ -1,0 +1,57 @@
+---
+import { getLocalizedPath } from '../data/i18n/routing';
+import type { LocaleCode } from '../data/i18n/locales';
+
+interface Props {
+	locale: LocaleCode;
+}
+
+const { locale } = Astro.props;
+
+const links = [
+	{ href: getLocalizedPath('faq', locale), label: 'FAQ' },
+	{ href: getLocalizedPath('setup', locale), label: 'Setup' },
+	{ href: getLocalizedPath('updates', locale), label: 'Status' },
+	{ href: getLocalizedPath('pricing', locale), label: 'Store' },
+	{ href: getLocalizedPath('features', locale), label: 'Features' },
+];
+---
+
+<nav class="blog-quick" aria-label="Product pages">
+	{
+		links.map((link) => (
+			<a href={link.href} class="blog-quick__pill">
+				{link.label}
+			</a>
+		))
+	}
+</nav>
+
+<style>
+	.blog-quick {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.45rem;
+	}
+
+	.blog-quick__pill {
+		display: inline-flex;
+		align-items: center;
+		padding: 0.45rem 0.85rem;
+		border: 1px solid var(--line-soft);
+		border-radius: 999px;
+		background: color-mix(in srgb, var(--bg-elevated) 80%, transparent);
+		color: var(--ink-muted);
+		font-size: 0.78rem;
+		font-weight: 600;
+		text-decoration: none;
+		transition:
+			color 0.15s ease,
+			border-color 0.15s ease;
+	}
+
+	.blog-quick__pill:hover {
+		color: var(--magenta-soft);
+		border-color: color-mix(in srgb, var(--magenta) 35%, var(--line));
+	}
+</style>
