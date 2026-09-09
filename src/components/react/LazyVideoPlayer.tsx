@@ -23,12 +23,13 @@ export default function LazyVideoPlayer({ src, poster, alt }: Props) {
 				<video
 					ref={videoRef}
 					className="lazy-video__player"
-					src={src}
 					controls
 					playsInline
-					preload="none"
+					preload="metadata"
 					poster={poster}
-				/>
+				>
+					<source src={src} type="video/mp4" />
+				</video>
 			) : (
 				<button
 					type="button"
