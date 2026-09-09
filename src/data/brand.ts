@@ -118,8 +118,9 @@ export const brand = {
 	copy: {
 		tagline: 'Undetected {primaryKeyword} — ESP, aimbot, and radar for PC',
 		summary: '{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
+		heroSubheading: 'League of Legends cheats',
 		heroLede:
-			'Undetected lol cheats for League of Legends on Windows PC. Spot hidden enemies, track river flanks, and queue with confidence — Status updates after every Vanguard patch.',
+			'Undetected wallhack, aim assist, and radar for Windows PC. Check Status before every queue.',
 		blogLabel: 'LoL Intel',
 		ctaBuy: 'Get Access',
 		ctaBuyShort: 'Buy',

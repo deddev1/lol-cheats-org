@@ -112,6 +112,9 @@ function HeroInner({
 					<h1 className="hero__brand">
 						{useBrandHero ? <span data-edit="name">{title}</span> : title}
 					</h1>
+					<p className="hero__subhead" data-edit={useBrandHero ? 'heroSubheading' : undefined}>
+						{t('hero.subheading')}
+					</p>
 					<p className="hero__lede" data-edit={useBrandHero ? 'heroLede' : undefined}>
 						{subtitle}
 					</p>

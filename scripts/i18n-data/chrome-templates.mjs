@@ -79,6 +79,30 @@ const NAV = {
 };
 
 const HERO = {
+	subheading: {
+		en: 'League of Legends cheats',
+		es: 'Trucos de League of Legends',
+		fr: 'Cheats League of Legends',
+		de: 'League of Legends Cheats',
+		pt: 'Cheats de League of Legends',
+		it: 'Cheat per League of Legends',
+		nl: 'League of Legends cheats',
+		pl: 'Cheaty League of Legends',
+		ru: 'Читы League of Legends',
+		tr: 'League of Legends hileleri',
+		ar: 'غش League of Legends',
+		ja: 'League of Legendsチート',
+		ko: 'League of Legends 치트',
+		zh: 'League of Legends 外挂',
+		hi: 'League of Legends cheats',
+		id: 'Cheat League of Legends',
+		th: 'cheat League of Legends',
+		vi: 'Cheat League of Legends',
+		uk: 'Чіти League of Legends',
+		cs: 'Cheaty League of Legends',
+		ro: 'Cheats League of Legends',
+		sv: 'League of Legends-cheats',
+	},
 	priceFrom: {
 		en: 'from', es: 'desde', fr: 'à partir de', de: 'ab', pt: 'a partir de', it: 'da',
 		nl: 'vanaf', pl: 'od', ru: 'от', tr: 'başlangıç', ar: 'من', ja: 'から',

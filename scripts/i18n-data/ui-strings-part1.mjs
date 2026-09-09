@@ -3,7 +3,7 @@
 export const uiStrings = {
 	en: {
 		nav: { home: 'Home', cheats: 'Cheats', aimbot: 'Aimbot', esp: 'ESP', features: 'Features', pricing: 'Pricing', setup: 'Setup', updates: 'Updates', faq: 'FAQ', buyNow: 'Buy Now' },
-		hero: { accent: '2026 — Undetected ESP, Aimbot & Wallhack', accentShort: 'Undetected lol cheats 2026', subtitle: 'Undetected lol cheats for League of Legends on Windows PC. Spot hidden enemies, track river flanks, and queue with confidence — Status updates after every Vanguard patch.', subtitleShort: 'Undetected lol cheats for PC — vision, aim assist, and radar in one license.', buyNow: 'Buy LoL Cheats', seeFeatures: 'See Features' },
+		hero: { accent: '2026 — Undetected ESP, Aimbot & Wallhack', accentShort: 'Undetected lol cheats 2026', subheading: 'League of Legends cheats', subtitle: 'Undetected wallhack, aim assist, and radar for Windows PC. Check Status before every queue.', subtitleShort: 'Undetected lol cheats for PC — vision, aim assist, and radar in one license.', buyNow: 'Buy LoL Cheats', seeFeatures: 'See Features' },
 		trust: { status: 'Online', statusNote: 'LoL Cheats — undetected lol cheats live for League of Legends on Windows PC.', statusShort: 'Live', delivery: 'Instant digital delivery', platform: 'Windows 10 & 11', antiCheat: 'Vanguard maintenance supported', antiCheatShort: 'Vanguard supported' },
 		product: { title: 'LoL Cheats', addToCart: 'Add to Cart', monthly: 'Monthly', lifetime: 'Lifetime', available: 'Available now', gameBadge: 'League of Legends', platformBadge: 'Windows PC', statusBadge: 'Undetected lol cheats' },
 		reviews: { title: 'What champions say', subtitle: 'Recent feedback from LoL Cheats buyers', outOf: 'out of 5', countLabel: 'reviews' },

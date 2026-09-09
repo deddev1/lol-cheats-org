@@ -57,6 +57,9 @@ const chips = [
 			<h1 class="hero__brand">
 				{useBrandHero ? <span data-edit="name">{title}</span> : title}
 			</h1>
+			<p class="hero__subhead" data-edit={useBrandHero ? 'heroSubheading' : undefined}>
+				{t('hero.subheading')}
+			</p>
 			<p class="hero__lede" data-edit={useBrandHero ? 'heroLede' : undefined}>
 				{subtitle}
 			</p>
@@ -244,15 +247,33 @@ const chips = [
 		text-shadow: 0 2px 12px rgba(0, 0, 0, 0.85);
 	}
 
+	.hero__subhead {
+		margin: 0.15rem 0 0.35rem;
+		width: 100%;
+		font-family: var(--font-display);
+		font-size: clamp(1.05rem, 2.1vw, 1.3rem);
+		font-weight: 600;
+		line-height: 1.2;
+		letter-spacing: -0.02em;
+		color: var(--magenta-soft);
+		text-wrap: balance;
+		text-shadow: 0 2px 10px rgba(0, 0, 0, 0.88);
+	}
+
 	.hero__lede {
 		margin: 0;
 		width: 100%;
-		max-width: 34ch;
-		font-size: clamp(0.95rem, 1.45vw, 1.0625rem);
-		line-height: 1.55;
-		color: var(--ink-muted);
+		max-width: 40ch;
+		font-size: clamp(1rem, 1.55vw, 1.125rem);
+		font-weight: 500;
+		line-height: 1.45;
+		color: rgba(255, 255, 255, 0.94);
 		text-wrap: pretty;
-		text-shadow: 0 1px 8px rgba(0, 0, 0, 0.8);
+		text-shadow: 0 2px 12px rgba(0, 0, 0, 0.92);
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		overflow: hidden;
 	}
 
 	.hero__actions {
@@ -429,13 +450,18 @@ const chips = [
 			line-height: 1.08;
 		}
 
+		.hero__subhead {
+			font-size: clamp(0.95rem, 4.2vw, 1.1rem);
+			margin-bottom: 0.3rem;
+		}
+
 		.hero__lede {
-			display: block;
-			overflow: visible;
-			-webkit-line-clamp: unset;
-			font-size: clamp(0.9rem, 3.6vw, 1rem);
-			max-width: 34ch;
-			color: color-mix(in srgb, #fff 80%, var(--ink-muted));
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			overflow: hidden;
+			font-size: clamp(0.95rem, 3.8vw, 1.05rem);
+			max-width: 36ch;
+			color: rgba(255, 255, 255, 0.94);
 		}
 
 		.hero__actions {
