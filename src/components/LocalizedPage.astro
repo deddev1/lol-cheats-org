@@ -12,6 +12,7 @@ import { lolImages } from '../data/lol';
 import { getT } from '../i18n/server';
 import { getPageCrawlImage } from '../data/page-images';
 import { getExternalSecondaryCta } from '../data/external-resources';
+import { resolveImageAlt } from '../lib/image-alt';
 
 interface Props {
 	locale: LocaleCode;
@@ -52,10 +53,10 @@ const introEditByPage: Partial<Record<PageId, string>> = {
 };
 const introEdit = introEditByPage[pageId];
 const gallery = [
-	{ src: crawl.src, alt: page.imageAlt || crawl.caption },
+	{ src: crawl.src, alt: resolveImageAlt(page.imageAlt, crawl.caption) },
 	...lolImages.product.slice(0, 2).map((img) => ({
 		src: img.src,
-		alt: img.alt,
+		alt: resolveImageAlt(img.alt),
 	})),
 ];
 
@@ -121,7 +122,7 @@ const crumbLabel =
 	intro={intro}
 	introEdit={introEdit}
 	heroImage={crawl.src}
-	heroAlt={page.imageAlt || crawl.caption}
+	heroAlt={resolveImageAlt(page.imageAlt, crawl.caption)}
 	gallery={gallery}
 	galleryTitle={galleryTitle}
 	locale={locale}

@@ -11,6 +11,7 @@ import {
 	heroWidth,
 } from '../lib/responsive-images';
 import { getT } from '../i18n/server';
+import { resolveImageAlt } from '../lib/image-alt';
 
 interface Props {
 	locale?: LocaleCode;
@@ -26,7 +27,7 @@ const subtitle = useBrandHero ? t('hero.subtitle') : t('hero.subtitleShort');
 const ctaBuy = useBrandHero ? t('cta.buy') : t('hero.buyNow');
 const priceFrom = t('hero.priceFrom');
 const priceLabel = priceFrom ? `${priceFrom} $${monthly.price}` : `$${monthly.price}`;
-const imageAlt = t('hero.imageAlt', { brand: siteConfig.name });
+const imageAlt = resolveImageAlt(t('hero.imageAlt', { brand: siteConfig.name }));
 
 const chips = [
 	{ key: 'chipEsp', icon: 'esp', edit: 'chipEsp' },

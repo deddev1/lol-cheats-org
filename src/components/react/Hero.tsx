@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import I18nProvider from './I18nProvider';
 import ShimmerButton from './ShimmerButton';
+import { resolveImageAlt } from '../../lib/image-alt';
 
 type Props = {
 	locale: string;
@@ -88,7 +89,7 @@ function HeroInner({
 	const ctaBuy = useBrandHero ? t('cta.buy') : t('hero.buyNow');
 	const priceFrom = t('hero.priceFrom');
 	const priceLabel = priceFrom ? `${priceFrom} $${monthlyPrice}` : `$${monthlyPrice}`;
-	const imageAlt = t('hero.imageAlt', { brand: siteName });
+	const imageAlt = resolveImageAlt(t('hero.imageAlt', { brand: siteName }));
 
 	return (
 		<section className="hero" aria-label={title}>

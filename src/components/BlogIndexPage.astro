@@ -19,6 +19,7 @@ import RelatedPages from './RelatedPages.astro';
 import CategoryRow from './CategoryRow.astro';
 import ExternalResources from './ExternalResources.astro';
 import { getT } from '../i18n/server';
+import { resolveImageAlt } from '../lib/image-alt';
 
 interface Props {
 	locale: LocaleCode;
@@ -91,7 +92,7 @@ const articleListSchema = {
 							<a class="blog__feature-card" href={post.canonicalPath}>
 								<img
 									src={post.imageSrc}
-									alt={post.translation.imageAlt}
+									alt={resolveImageAlt(post.translation.imageAlt, post.translation.title)}
 									width="640"
 									height="360"
 									loading={index === 0 ? 'eager' : 'lazy'}
@@ -118,7 +119,7 @@ const articleListSchema = {
 						<a href={post.canonicalPath}>
 							<img
 								src={post.imageSrc}
-								alt={post.translation.imageAlt}
+								alt={resolveImageAlt(post.translation.imageAlt, post.translation.title)}
 								width="480"
 								height="270"
 								loading="lazy"

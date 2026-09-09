@@ -16,6 +16,7 @@ import { getTopicLinksForBlogCategory } from '../data/internal-links';
 import RelatedPages from './RelatedPages.astro';
 import ExternalResources from './ExternalResources.astro';
 import { getT } from '../i18n/server';
+import { resolveImageAlt } from '../lib/image-alt';
 
 interface Props {
 	locale: LocaleCode;
@@ -26,6 +27,7 @@ const { locale, post } = Astro.props;
 const ui = blogUi[locale];
 const tServer = getT(locale);
 const t = post.translation;
+const postImageAlt = resolveImageAlt(t.imageAlt, t.h1);
 const homeHref = getLocalizedPath('home', locale);
 const blogHref = getBlogBasePath(defaultLocale);
 const related = getRelatedPostsByCategory(post, 3);
@@ -139,7 +141,7 @@ function pageTitle(headline: string): string {
 			<img
 				class="post__hero"
 				src={post.imageSrc}
-				alt={t.imageAlt}
+				alt={postImageAlt}
 				width="1200"
 				height="675"
 				loading="eager"

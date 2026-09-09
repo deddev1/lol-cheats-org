@@ -9,6 +9,7 @@ import { getSelfHreflangAlternates } from '../../data/i18n/routing';
 import { getReviewPath, reviewsBasePath } from '../../data/reviews';
 import { defaultCrawlImageSrc } from '../../data/page-images';
 import { contentSrcSet, productMainSizes } from '../../lib/responsive-images';
+import { resolveImageAlt } from '../../lib/image-alt';
 
 const title = seoPageTitle(brandSeo.reviewsTitle);
 const description = seoDescription(brandSeo.reviewsDescription);
@@ -78,7 +79,7 @@ const extraGraph: Record<string, unknown>[] = [
 					src={defaultCrawlImageSrc}
 					srcset={contentSrcSet(defaultCrawlImageSrc)}
 					sizes={productMainSizes}
-					alt={fillBrandTokens('{brand} customer reviews')}
+					alt={resolveImageAlt(fillBrandTokens('{brand} customer reviews'))}
 					width="1280"
 					height="720"
 					loading="eager"

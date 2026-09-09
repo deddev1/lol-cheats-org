@@ -15,6 +15,7 @@ import { homeFaqs, homeSeo, productInfo, siteConfig, customerReviewStats } from 
 import { heroPreloadSrc, heroSizes, heroSrcSet } from '../lib/responsive-images';
 import { defaultCrawlImageSrc } from '../data/page-images';
 import { getNavPaths } from '../data/i18n/localized-nav-paths';
+import { resolveImageAlt } from '../lib/image-alt';
 
 interface Props {
 	locale: LocaleCode;
@@ -95,11 +96,7 @@ const extraGraph: Record<string, unknown>[] = [
 	description={description}
 	canonicalPath={canonicalPath}
 	ogImage={siteConfig.defaultOgImage}
-	ogImageAlt={
-		home.imageAlt?.trim() && home.imageAlt.trim().length > 12
-			? home.imageAlt
-			: `${siteConfig.name} — League of Legends ESP and aimbot`
-	}
+	ogImageAlt={resolveImageAlt(home.imageAlt)}
 	locale={locale}
 	pageId="home"
 	breadcrumbs={[{ label: ui.nav.home }]}

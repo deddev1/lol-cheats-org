@@ -4,6 +4,7 @@ import { getUi } from '../data/i18n';
 import { getGalleryUi } from '../data/i18n/gallery-ui';
 import { defaultLocale, type LocaleCode } from '../data/i18n/locales';
 import { contentSrcSet, galleryTileSizes } from '../lib/responsive-images';
+import { resolveImageAlt } from '../lib/image-alt';
 
 interface Props {
 	locale?: LocaleCode;
@@ -23,7 +24,7 @@ const galleryAlts = [
 
 const galleryImages = lolImages.gallery.slice(0, 4).map((image, index) => ({
 	src: image.src,
-	alt: galleryAlts[index] ?? image.alt,
+	alt: resolveImageAlt(galleryAlts[index], image.alt),
 }));
 ---
 

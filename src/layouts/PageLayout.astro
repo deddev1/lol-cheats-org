@@ -20,6 +20,7 @@ import { getT } from '../i18n/server';
 import RelatedPages from '../components/RelatedPages.astro';
 import CategoryRow from '../components/CategoryRow.astro';
 import ExternalResources from '../components/ExternalResources.astro';
+import { resolveImageAlt } from '../lib/image-alt';
 
 type GalleryInput = string | { src: string; alt: string };
 
@@ -75,10 +76,7 @@ const {
 } = Astro.props;
 
 const t = getT(locale);
-const resolvedHeroAlt =
-	(heroAlt && heroAlt.trim()) ||
-	t('images.hero') ||
-	`${siteConfig.name} — League of Legends ESP and aimbot`;
+const resolvedHeroAlt = resolveImageAlt(heroAlt, t('images.hero'));
 const resolvedGalleryTitle = galleryTitle ?? t('common.inGameLook');
 
 function resolvePageId(path: string): PageId | undefined {
@@ -96,8 +94,7 @@ const showCrumbCurrent = crumbLabel.trim().toLowerCase() !== heading.trim().toLo
 const normalizedGallery = gallery
 	.map((item) => {
 		if (typeof item !== 'string') {
-			const alt = item.alt?.trim() || resolvedHeroAlt;
-			return { src: item.src, alt };
+			return { src: item.src, alt: resolveImageAlt(item.alt, resolvedHeroAlt) };
 		}
 		return { src: item, alt: resolvedHeroAlt };
 	})

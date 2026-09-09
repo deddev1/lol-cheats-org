@@ -9,6 +9,7 @@ import { contentSrcSet, productMainSizes } from '../../../lib/responsive-images'
 import RelatedPages from '../../../components/RelatedPages.astro';
 import { externalUrls } from '../../../data/external-resources';
 import ExternalResources from '../../../components/ExternalResources.astro';
+import { resolveImageAlt } from '../../../lib/image-alt';
 
 export function getStaticPaths() {
 	return seoFaqs.map((faq) => ({
@@ -24,6 +25,7 @@ const canonicalURL = absoluteFaqUrl(faq.slug);
 const hreflangAlternates = getSelfHreflangAlternates(canonicalPath);
 const related = getRelatedFaqs(faq.slug, 4);
 const photo = getFaqCrawlImage(faq);
+const faqImageAlt = resolveImageAlt(faq.question);
 
 const extraGraph: Record<string, unknown>[] = [
 	{
@@ -85,7 +87,7 @@ const extraGraph: Record<string, unknown>[] = [
 						src={photo.src}
 						srcset={contentSrcSet(photo.src)}
 						sizes={productMainSizes}
-						alt={faq.question}
+						alt={faqImageAlt}
 						width="1280"
 						height="720"
 						loading="eager"

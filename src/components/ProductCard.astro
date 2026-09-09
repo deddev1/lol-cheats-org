@@ -5,6 +5,7 @@ import { defaultLocale, type LocaleCode } from '../data/i18n/locales';
 import { productInfo, siteConfig } from '../data/site';
 import { contentSrcSet, productMainSizes } from '../lib/responsive-images';
 import { getT } from '../i18n/server';
+import { resolveImageAlt } from '../lib/image-alt';
 
 interface Props {
 	name?: string;
@@ -26,7 +27,7 @@ const productAlts = [
 ] as const;
 
 const mainImage = lolImages.product[0];
-const mainAlt = productAlts[0] ?? mainImage.alt;
+const mainAlt = resolveImageAlt(productAlts[0], mainImage.alt);
 const monthlyPlan = productInfo.plans.find((plan) => plan.id === 'monthly') ?? productInfo.plans[0];
 ---
 
