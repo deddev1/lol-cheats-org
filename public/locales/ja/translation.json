@@ -127,7 +127,9 @@
     "aboutUndetected": "undetectedステータス",
     "aboutP2Mid": "、",
     "aboutP2Or": "、または",
-    "aboutP2After": "まだツールを比較している場合。"
+    "aboutP2After": "まだツールを比較している場合。",
+    "aboutP2OrWord": "または",
+    "aboutVideoAlt": "Windows PC向けLoL Cheatsゲーム内プレビュー"
   },
   "homeSeo": {
     "eyebrow": "ガイド",

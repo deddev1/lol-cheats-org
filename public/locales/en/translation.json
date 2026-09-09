@@ -127,7 +127,9 @@
     "aboutUndetected": "undetected status",
     "aboutP2Mid": ",",
     "aboutP2Or": ", or",
-    "aboutP2After": "if you are still comparing tools."
+    "aboutP2After": "if you are still comparing tools.",
+    "aboutP2OrWord": "or",
+    "aboutVideoAlt": "LoL Cheats in-game preview on Windows PC"
   },
   "homeSeo": {
     "eyebrow": "Guides",

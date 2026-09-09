@@ -1,6 +1,12 @@
 import { siteConfig } from './site';
 import { crawlImagePool, siteImageMeta, siteImages } from './site-images';
 
+/** Homepage product preview — loaded only after user clicks play. */
+export const homePreviewVideo = {
+	src: '/videos/lol-cheats-preview.mp4',
+	poster: '/videos/lol-cheats-poster.jpg',
+} as const;
+
 /** Screenshots used across product pages. */
 export const lolImages = {
 	hero: siteConfig.heroImage,

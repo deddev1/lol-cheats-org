@@ -127,7 +127,9 @@
     "aboutUndetected": "حالة غير مكتشف",
     "aboutP2Mid": "،",
     "aboutP2Or": "، أو",
-    "aboutP2After": "إذا كنت لا تزال تقارن الأدوات."
+    "aboutP2After": "إذا كنت لا تزال تقارن الأدوات.",
+    "aboutP2OrWord": "أو",
+    "aboutVideoAlt": "معاينة LoL Cheats داخل اللعبة على Windows PC"
   },
   "homeSeo": {
     "eyebrow": "أدلة",

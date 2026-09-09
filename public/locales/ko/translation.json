@@ -127,7 +127,9 @@
     "aboutUndetected": "undetected 상태",
     "aboutP2Mid": ",",
     "aboutP2Or": ", 또는",
-    "aboutP2After": "아직 도구를 비교 중이라면."
+    "aboutP2After": "아직 도구를 비교 중이라면.",
+    "aboutP2OrWord": "또는",
+    "aboutVideoAlt": "Windows PC용 LoL Cheats 인게임 미리보기"
   },
   "homeSeo": {
     "eyebrow": "가이드",

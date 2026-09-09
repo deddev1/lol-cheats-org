@@ -145,8 +145,15 @@ const extraGraph: Record<string, unknown>[] = [
 		border-bottom: 1px solid var(--line-soft);
 	}
 
+	.home-about-split {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) minmax(220px, 380px);
+		gap: clamp(1.25rem, 3vw, 2.5rem);
+		align-items: center;
+	}
+
 	.home__prose-callout {
-		max-width: 42rem;
+		max-width: none;
 		padding-left: 1.1rem;
 		border-left: 3px solid var(--magenta);
 	}
@@ -194,17 +201,30 @@ const extraGraph: Record<string, unknown>[] = [
 		font-size: 1rem;
 		color: var(--ink);
 	}
+
+	@media (max-width: 860px) {
+		.home-about-split {
+			grid-template-columns: 1fr;
+		}
+	}
 </style>
 
 <style is:global>
-	/* HomeAbout is Rvanguardt-rendered — scoped Astro styles do not reach it. */
+	/* HomeAbout is React-rendered — scoped Astro styles do not reach it. */
 	.home__prose--en {
 		padding-block: clamp(2rem, 4vw, 2.75rem) 0.5rem;
 		border-bottom: 1px solid var(--line-soft);
 	}
 
+	.home-about-split {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr) minmax(220px, 380px);
+		gap: clamp(1.25rem, 3vw, 2.5rem);
+		align-items: center;
+	}
+
 	.home__prose-callout {
-		max-width: 42rem;
+		max-width: none;
 		padding-left: 1.1rem;
 		border-left: 3px solid var(--magenta);
 	}
@@ -239,5 +259,85 @@ const extraGraph: Record<string, unknown>[] = [
 
 	.home__prose--en a:hover {
 		color: var(--ink);
+	}
+
+	.lazy-video {
+		width: 100%;
+		max-width: 380px;
+		justify-self: end;
+	}
+
+	.lazy-video__trigger {
+		position: relative;
+		display: block;
+		width: 100%;
+		padding: 0;
+		border: 1px solid var(--line);
+		border-radius: var(--radius-md, 0.75rem);
+		overflow: hidden;
+		background: var(--bg-panel);
+		cursor: pointer;
+		line-height: 0;
+		transition:
+			border-color 0.15s ease,
+			transform 0.15s ease;
+	}
+
+	.lazy-video__trigger:hover {
+		border-color: color-mix(in srgb, var(--magenta) 40%, var(--line));
+		transform: translateY(-2px);
+	}
+
+	.lazy-video__trigger img {
+		display: block;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 16 / 11;
+		object-fit: cover;
+	}
+
+	.lazy-video__play {
+		position: absolute;
+		inset: 0;
+		display: grid;
+		place-items: center;
+		background: color-mix(in srgb, #070d14 35%, transparent);
+		transition: background 0.15s ease;
+	}
+
+	.lazy-video__trigger:hover .lazy-video__play {
+		background: color-mix(in srgb, #070d14 25%, transparent);
+	}
+
+	.lazy-video__play svg {
+		width: 3.25rem;
+		height: 3.25rem;
+		padding: 0.85rem;
+		border-radius: 50%;
+		background: color-mix(in srgb, var(--magenta) 92%, #fff);
+		color: #070d14;
+		box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+	}
+
+	.lazy-video__player {
+		display: block;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 16 / 11;
+		object-fit: cover;
+		border: 1px solid var(--line);
+		border-radius: var(--radius-md, 0.75rem);
+		background: #000;
+	}
+
+	@media (max-width: 860px) {
+		.home-about-split {
+			grid-template-columns: 1fr;
+		}
+
+		.lazy-video {
+			max-width: none;
+			justify-self: stretch;
+		}
 	}
 </style>
