@@ -207,7 +207,8 @@ const extraGraph: Record<string, unknown>[] = [
 	}
 
 	.review-detail__media {
-		margin: 0 0 1.35rem;
+		margin: 0;
+		width: min(100%, 16rem);
 		border-radius: var(--radius-md, 0.75rem);
 		overflow: hidden;
 		border: 1px solid var(--line-soft);
@@ -218,6 +219,7 @@ const extraGraph: Record<string, unknown>[] = [
 		display: block;
 		width: 100%;
 		height: auto;
+		max-height: 9rem;
 		aspect-ratio: 16 / 9;
 		object-fit: cover;
 	}
