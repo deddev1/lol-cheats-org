@@ -46,9 +46,17 @@ function NavbarInner({
 	const [open, setOpen] = useState(false);
 	const [scrolled, setScrolled] = useState(false);
 
-	const isActive = (href: string) => {
-		if (href === '/') return currentPath === '/' || currentPath === `/${locale}/`;
-		if (href === reviewsBasePath) return currentPath === href || currentPath.startsWith(href);
+	const isActive = (item: NavLink) => {
+		const { id, href } = item;
+		const onHome = currentPath === '/' || currentPath === `/${locale}/`;
+
+		// Home + Cheats share the same URL — only Home gets the active pill on the homepage.
+		if (id === 'home') return onHome;
+		if (id === 'cheats') return false;
+
+		if (href === reviewsBasePath) {
+			return currentPath === href || currentPath.startsWith(href);
+		}
 		return currentPath === href || currentPath.startsWith(href);
 	};
 
@@ -84,7 +92,7 @@ function NavbarInner({
 			links.map((item) => ({
 				...item,
 				label: t(item.labelKey),
-				active: isActive(item.href),
+				active: isActive(item),
 			})),
 		[links, t, currentPath, locale, reviewsBasePath],
 	);
