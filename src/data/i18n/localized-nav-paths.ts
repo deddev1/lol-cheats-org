@@ -6,6 +6,7 @@ import { getLocalizedPath } from './routing';
 export function getNavPaths(locale: LocaleCode) {
 	return {
 		home: getLocalizedPath('home', locale),
+		cheats: getLocalizedPath('cheats', locale),
 		features: getLocalizedPath('features', locale),
 		lolEsp: getLocalizedPath('lol-esp', locale),
 		lolAimbot: getLocalizedPath('lol-aimbot', locale),

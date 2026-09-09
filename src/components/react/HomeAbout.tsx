@@ -22,7 +22,7 @@ function HomeAboutInner({ paths }: { paths: NavPaths }) {
 					<p>{t('home.aboutP1')}</p>
 					<p>
 						{t('home.aboutP2Before')}{' '}
-						<a href={paths.home}>{t('home.aboutPillar')}</a>,{' '}
+						<a href={paths.cheats}>{t('home.aboutPillar')}</a>,{' '}
 						<a href={paths.lolEsp}>{t('home.aboutEsp')}</a>,{' '}
 						<a href={paths.lolAimbot}>{t('home.aboutAimbot')}</a>, {t('home.aboutP2OrWord')}{' '}
 						<a href={paths.updates}>{t('home.aboutUndetected')}</a> {t('home.aboutP2After')}

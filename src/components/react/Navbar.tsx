@@ -15,6 +15,7 @@ type Props = {
 	checkoutUrl: string;
 	currentPath: string;
 	reviewsBasePath: string;
+	cheatsBasePath: string;
 	locales: LocaleMeta[];
 	hrefForLocale: Record<string, string>;
 	links: NavLink[];
@@ -40,6 +41,7 @@ function NavbarInner({
 	checkoutUrl,
 	currentPath,
 	reviewsBasePath,
+	cheatsBasePath,
 	locales,
 	hrefForLocale,
 	links,
@@ -52,9 +54,10 @@ function NavbarInner({
 		const { id, href } = item;
 		const onHome = currentPath === '/' || currentPath === `/${locale}/`;
 
-		// Home + Cheats share the same URL — only Home gets the active pill on the homepage.
 		if (id === 'home') return onHome;
-		if (id === 'cheats') return false;
+		if (id === 'cheats') {
+			return currentPath === cheatsBasePath || currentPath.startsWith(`${cheatsBasePath}`);
+		}
 
 		if (href === reviewsBasePath) {
 			return currentPath === href || currentPath.startsWith(href);
@@ -96,7 +99,7 @@ function NavbarInner({
 				label: t(item.labelKey),
 				active: isActive(item),
 			})),
-		[links, t, currentPath, locale, reviewsBasePath],
+		[links, t, currentPath, locale, reviewsBasePath, cheatsBasePath],
 	);
 
 	return (

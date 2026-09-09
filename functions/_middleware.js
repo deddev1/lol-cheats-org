@@ -36,11 +36,7 @@ const PATH_REDIRECTS = {
 	'/sitemap-en.xml/': '/sitemap-en.xml',
 	'/sitemap-i18n.xml/': '/sitemap-i18n.xml',
 	'/sitemap-images.xml/': '/sitemap-images.xml',
-	// Exact-match keyword → homepage (primary money URL)
-	'/lol-cheats': '/',
-	'/lol-cheats/': '/',
 	'/lol-hacks': '/',
-	'/lol-cheats/': '/',
 	// Cannibalization → homepage (money URL = /)
 	'/lol-esp-cheat': '/lol-esp/',
 	'/lol-esp-cheat/': '/lol-esp/',
