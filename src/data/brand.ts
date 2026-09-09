@@ -73,7 +73,7 @@ export const brand = {
 			'undetected lol cheats',
 			'lol hack',
 			'vanguard lol cheats',
-			'lol wallhack',
+			'lol esp',
 		] as const,
 	},
 
