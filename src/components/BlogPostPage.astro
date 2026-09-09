@@ -14,7 +14,6 @@ import { blogLabel, siteConfig } from '../data/site';
 import { getLocalizedPath, localizeInternalHref } from '../data/i18n/routing';
 import { getTopicLinksForBlogCategory } from '../data/internal-links';
 import RelatedPages from './RelatedPages.astro';
-import ExternalResources from './ExternalResources.astro';
 import { getT } from '../i18n/server';
 import { resolveImageAlt } from '../lib/image-alt';
 
@@ -169,10 +168,6 @@ function pageTitle(headline: string): string {
 			}
 		</article>
 
-		<div class="post__guides">
-			<ExternalResources locale={locale} />
-		</div>
-
 		{
 			related.length > 0 && (
 				<section class="post__related" aria-label={ui.relatedPosts}>
@@ -314,11 +309,5 @@ function pageTitle(headline: string): string {
 
 	.post__topics--top {
 		margin-top: 0.5rem;
-	}
-
-	.post__guides {
-		margin-top: 2rem;
-		display: grid;
-		gap: 1rem;
 	}
 </style>
