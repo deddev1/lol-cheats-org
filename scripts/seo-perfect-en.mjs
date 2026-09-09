@@ -118,7 +118,9 @@ const replacements = [
 	// Point cannibal URLs at canonicals
 	['/lol-esp-cheat/', '/lol-esp/'],
 	['/lol-aimbot-cheat/', '/lol-aimbot/'],
-	['/best-lol-cheats/', '/'],
+	['/best-lol-cheats/', '/lol-cheats/'],
+	['/undetected-lol-cheats/', '/lol-cheats/'],
+	['/blog/cheats-guide/', '/lol-cheats/'],
 	['best lol cheats guide', 'LoL Cheats pillar'],
 	['best lol cheats checklist', 'lol cheats checklist'],
 	['best lol cheats', 'lol cheats'],

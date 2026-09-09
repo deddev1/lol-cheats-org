@@ -506,7 +506,7 @@ const sources = [
 			{
 				h2: 'Vanguard, “undetected,” and honest expectations',
 				paragraphs: [
-					`${EXT.vanguard} protects League of Legends. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href="/undetected-lol-cheats/">undetected lol cheats</a> and <a href="/vanguard-bypass/">Vanguard maintenance</a>.`,
+					`${EXT.vanguard} protects League of Legends. No seller can promise permanent undetected status. What a serious vendor can offer is maintenance: rebuilds after patches, a public status note, and clear setup steps. That workflow is documented on <a href="/lol-cheats/">undetected lol cheats</a> and <a href="/vanguard-bypass/">Vanguard maintenance</a>.`,
 					'Before every patch-day queue up, read <a href="/updates/">Updates</a>. If status is quiet, wait. Responsible settings matter as much as the binary itself.',
 				],
 			},
@@ -591,7 +591,7 @@ const sources = [
 			{
 				h2: 'Why 2026 buyers care more about status pages',
 				paragraphs: [
-					'Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href="/updates/">Updates</a> log and the <a href="/undetected-lol-cheats/">undetected explainer</a> instead of empty guarantees.',
+					'Players got tired of “undetected forever” slogans. They want a dated note after patches. That is why we invest in the <a href="/updates/">Updates</a> log and the <a href="/lol-cheats/">undetected explainer</a> instead of empty guarantees.',
 					`${EXT.vanguard} and League of Legends client updates still force rebuilds. The shops that survive are the ones that communicate during those windows.`,
 				],
 			},
@@ -605,7 +605,7 @@ const sources = [
 			{
 				h2: 'What we recommend you do differently this year',
 				paragraphs: [
-					'Check status before patch-day queue ups. Keep soft aim conservative. Use ward ESP filters so your screen stays clean. Read the <a href="/blog/cheats-guide/">complete 2026 guide</a> if you are new to the category.',
+					'Check status before patch-day queue ups. Keep soft aim conservative. Use ward ESP filters so your screen stays clean. Read the <a href="/lol-cheats/">complete 2026 guide</a> if you are new to the category.',
 					'Pricing remains monthly and lifetime on <a href="/pricing/">Pricing</a> with digital delivery after payment.',
 				],
 			},
@@ -696,7 +696,7 @@ const sources = [
 			{
 				h2: 'Maintenance and responsible use',
 				paragraphs: [
-					'ESP modules rebuild after Vanguard patches like everything else. Check <a href="/updates/">Updates</a> and the <a href="/undetected-lol-cheats/">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”',
+					'ESP modules rebuild after Vanguard patches like everything else. Check <a href="/updates/">Updates</a> and the <a href="/lol-cheats/">undetected guide</a>. No overlay replaces listening and map knowledge — it shortens the time between “I heard something” and “I know where.”',
 				],
 			},
 		],
@@ -741,7 +741,7 @@ const sources = [
 			{
 				h2: 'Where to go next',
 				paragraphs: [
-					'Read <a href="/undetected-lol-cheats/">undetected lol cheats</a>, the <a href="/blog/cheats-guide/">2026 complete guide</a>, and <a href="/pricing/">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.',
+					'Read <a href="/lol-cheats/">undetected lol cheats</a>, the <a href="/lol-cheats/">2026 complete guide</a>, and <a href="/pricing/">Pricing</a> if you want the maintained stack. Undetected status is a process you check — not a sticker on the box.',
 				],
 			},
 		],
@@ -787,7 +787,7 @@ const sources = [
 				h2: 'How to decide without brand loyalty',
 				paragraphs: [
 					'Write down must-haves: dated status, ward ESP, radar, soft aim profiles, Windows PC support. Open each seller’s status channel and feature list side by side. If a shop fails the status test, price does not matter.',
-					'Then return to <a href="/">lol cheats</a> and <a href="/undetected-lol-cheats/">undetected notes</a> if that checklist matches what we ship.',
+					'Then return to <a href="/">lol cheats</a> and <a href="/lol-cheats/">undetected notes</a> if that checklist matches what we ship.',
 				],
 			},
 		],
@@ -886,7 +886,7 @@ const sources = [
 				h2: 'Detection talk without fairy tales',
 				paragraphs: [
 					'Smaller user bases generate fewer public ban screenshots — that is not proof of safety. Larger brands generate more noise even when maintenance is solid. Judge sellers by patch communication speed and whether you can find a dated status note.',
-					'LoL Cheats documents maintenance on <a href="/vanguard-bypass/">Vanguard workflow</a> and <a href="/undetected-lol-cheats/">undetected notes</a>.',
+					'LoL Cheats documents maintenance on <a href="/vanguard-bypass/">Vanguard workflow</a> and <a href="/lol-cheats/">undetected notes</a>.',
 				],
 			},
 			{
@@ -894,6 +894,105 @@ const sources = [
 				paragraphs: [
 					'Choose minimal ESP if budget is tight, you play casually, and you accept Discord-only status tracking. Choose LoL Cheats if radar, ward filters, configurable soft aim, and a public Updates URL are must-haves.',
 					'Decide your must-haves on paper first. Then open <a href="/">lol cheats</a> or keep shopping slim tools — but do not skip patch-day checks on either path.',
+				],
+			},
+		],
+	},
+	{
+		id: 'buy-lol-cheats-guide',
+		imageKey: 'cheatsPackage',
+		published: '2026-08-01',
+		updated: '2026-08-17',
+		category: 'Buyers Guide',
+		featured: true,
+		slug: 'buy-lol-cheats',
+		title: 'Buy LoL Cheats — Checkout & Delivery Guide',
+		metaDescription:
+			'How to buy lol cheats safely on Windows PC — what to check before checkout, delivery timing, and support steps after payment.',
+		h1: 'How to Buy LoL Cheats Without Wasting Money',
+		intro:
+			'Ready to buy lol cheats? Slow down for five minutes. This guide covers what to verify before you pay, how delivery works, and what to do if activation stalls.',
+		keywords: ['buy lol cheats', 'lol cheats checkout', 'lol pricing', 'lol cheats delivery'],
+		imageAlt: 'Checkout checklist before you buy LoL Cheats',
+		sections: [
+			{
+				h2: 'What to check before you buy',
+				paragraphs: [
+					'Confirm a dated status page, ward ESP, radar, soft aim profiles, and Windows PC support. If status lives only in private Discord, pause.',
+					'Compare <a href="/lol-cheats/">the cheats guide</a>, <a href="/features/">Features</a>, and <a href="/pricing/">Pricing</a> on one screen before checkout.',
+				],
+			},
+			{
+				h2: 'Delivery and first launch',
+				paragraphs: [
+					'Licenses deliver digitally after payment confirmation. Follow <a href="/setup/">Setup</a> line by line and keep your order ID for <a href="/support/">Support</a>.',
+					'Check <a href="/updates/">Status</a> before your first ranked queue — especially after patch weeks.',
+				],
+			},
+		],
+	},
+	{
+		id: 'vanguard-status-guide',
+		imageKey: 'champEsp',
+		published: '2026-08-02',
+		updated: '2026-08-17',
+		category: 'Undetected',
+		featured: false,
+		slug: 'vanguard-status',
+		title: 'Vanguard Status for LoL Cheats — When to Queue',
+		metaDescription:
+			'How to read Vanguard status for lol cheats — patch-day habits, rebuild windows, and where LoL Cheats posts maintenance notes.',
+		h1: 'Vanguard Status: What to Check Before You Queue',
+		intro:
+			'Vanguard updates can pause lol cheats until a rebuild ships. This guide explains what status means, where we post notes, and how to avoid queueing on old builds.',
+		keywords: ['vanguard lol cheats', 'lol cheat status', 'undetected lol cheats', 'vanguard patch'],
+		imageAlt: 'Vanguard maintenance status for LoL Cheats',
+		sections: [
+			{
+				h2: 'Where status lives',
+				paragraphs: [
+					`LoL Cheats posts rebuild notes on <a href="/updates/">Updates</a>. Pair that with the <a href="/lol-cheats/">cheats guide</a> and <a href="/blog/undetected/">undetected explainer</a> when wording is unclear.`,
+					`${EXT.vanguard} evolves — undetected means maintained today, not immune forever.`,
+				],
+			},
+			{
+				h2: 'Patch-week routine',
+				paragraphs: [
+					'After League of Legends or Vanguard patches, wait for a status note before ranked games. Keep soft aim conservative and avoid rage settings that draw reports.',
+					'Questions? Read <a href="/faq/undetected/">FAQ</a> or email support with your order ID.',
+				],
+			},
+		],
+	},
+	{
+		id: 'lol-cheats-setup-guide',
+		imageKey: 'hero',
+		published: '2026-08-03',
+		updated: '2026-08-17',
+		category: 'Cheats Guide',
+		featured: false,
+		slug: 'setup-guide',
+		title: 'LoL Cheats Setup Guide — First Launch on Windows PC',
+		metaDescription:
+			'Step-by-step lol cheats setup on Windows 10 and 11 — install, activate your license, load ESP and aim assist, and confirm Status before queue.',
+		h1: 'LoL Cheats Setup Guide for Windows PC',
+		intro:
+			'First launch should take one sitting, not a frustrated weekend. This setup guide walks through install, activation, and the checks we run before the first queue.',
+		keywords: ['lol cheats setup', 'install lol cheats', 'lol cheats guide', 'windows pc'],
+		imageAlt: 'LoL Cheats setup steps on Windows PC',
+		sections: [
+			{
+				h2: 'Install and activate',
+				paragraphs: [
+					'Run the installer as admin on Windows 10 or 11, activate your license, and load overlays from the in-game menu. Full screenshots live on <a href="/setup/">Setup</a>.',
+					'If delivery email is delayed, contact <a href="/support/">Support</a> with your order ID before reinstalling.',
+				],
+			},
+			{
+				h2: 'Before your first match',
+				paragraphs: [
+					'Confirm <a href="/updates/">Status</a> is green, tune ESP categories so the screen stays clean, and test soft aim on a normal game first.',
+					'Still shopping? Read the <a href="/lol-cheats/">cheats guide</a> and <a href="/blog/buy-lol-cheats/">buy guide</a> before you commit.',
 				],
 			},
 		],
@@ -1065,7 +1164,7 @@ const EXTRA_SECTIONS = {
 			h2: 'Your next steps after reading this guide',
 			paragraphs: [
 				'If the stack fits your play style, compare monthly and lifetime on <a href="/pricing/">Pricing</a>, then follow <a href="/setup/">Setup</a> line by line. Keep <a href="/updates/">Updates</a> bookmarked for patch weeks.',
-				'For deeper category pages, read <a href="/lol-esp/">ESP</a>, <a href="/lol-aimbot/">aimbot</a>, and <a href="/undetected-lol-cheats/">undetected notes</a>. Questions before checkout go to <a href="/faq/">FAQ</a> and <a href="/support/">Support</a>.',
+				'For deeper category pages, read <a href="/lol-esp/">ESP</a>, <a href="/lol-aimbot/">aimbot</a>, and <a href="/lol-cheats/">undetected notes</a>. Questions before checkout go to <a href="/faq/">FAQ</a> and <a href="/support/">Support</a>.',
 			],
 		},
 	],
@@ -1074,7 +1173,7 @@ const EXTRA_SECTIONS = {
 			h2: 'Final checklist before checkout',
 			paragraphs: [
 				'Confirm dated status, ward ESP, radar, soft aim profiles, Windows support, and a written refund policy. If any item is missing, pause — cheap weekly subs add up when rebuilds are slow.',
-				'When the checklist passes, open <a href="/lol-cheats/">LoL Cheats</a>, compare <a href="/pricing/">Pricing</a>, and read <a href="/blog/cheats-guide/">the 2026 complete guide</a> for feature context.',
+				'When the checklist passes, open <a href="/lol-cheats/">LoL Cheats</a>, compare <a href="/pricing/">Pricing</a>, and read <a href="/lol-cheats/">the 2026 complete guide</a> for feature context.',
 			],
 		},
 	],
@@ -1083,7 +1182,7 @@ const EXTRA_SECTIONS = {
 			h2: 'What to watch for the rest of 2026',
 			paragraphs: [
 				'Expect more frequent client and anti-cheat touchpoints, not fewer. Shops that survive will keep publishing rebuild notes and tightening overlay readability.',
-				'Follow <a href="/updates/">Updates</a>, review <a href="/features/">Features</a> after each major push, and treat <a href="/undetected-lol-cheats/">undetected</a> as a maintenance process — not a permanent badge.',
+				'Follow <a href="/updates/">Updates</a>, review <a href="/features/">Features</a> after each major push, and treat <a href="/lol-cheats/">undetected</a> as a maintenance process — not a permanent badge.',
 			],
 		},
 	],
@@ -1137,7 +1236,7 @@ const EXTRA_SECTIONS = {
 			h2: 'Pick the stack that matches how you play',
 			paragraphs: [
 				'Casual outline-only champions may tolerate minimal ESP. Players who rotate, ward, and hold objectives usually need radar and filters in one menu — that is the full-stack case for <a href="/lol-cheats/">LoL Cheats</a>.',
-				'Compare <a href="/lol-esp/">ESP</a>, <a href="/lol-radar-cheat/">radar</a>, and <a href="/pricing/">Pricing</a> on paper first. Then read <a href="/undetected-lol-cheats/">undetected notes</a> on whichever path you choose.',
+				'Compare <a href="/lol-esp/">ESP</a>, <a href="/lol-radar-cheat/">radar</a>, and <a href="/pricing/">Pricing</a> on paper first. Then read <a href="/lol-cheats/">undetected notes</a> on whichever path you choose.',
 			],
 		},
 	],
@@ -1196,7 +1295,11 @@ ${translations}
 	}`;
 }
 
-const cheatSources = sources.filter((src) => CHEAT_CATEGORIES.has(src.category));
+const EXCLUDED_BLOG_IDS = new Set(['lol-cheats-complete-guide']);
+
+const cheatSources = sources.filter(
+	(src) => CHEAT_CATEGORIES.has(src.category) && !EXCLUDED_BLOG_IDS.has(src.id),
+);
 
 const file = `/* Auto-generated by scripts/generate-blog-posts.mjs — do not edit by hand. */
 import type { BlogPostDefinition } from './types';

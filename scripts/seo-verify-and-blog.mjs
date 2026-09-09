@@ -66,7 +66,7 @@ const reps = [
 	['CheatVault', 'another cheat shop'],
 	['/lol-aimbot-cheat/', '/lol-aimbot/'],
 	['/lol-esp-cheat/', '/lol-esp/'],
-	['/best-lol-cheats/', '/'],
+	['/best-lol-cheats/', '/lol-cheats/'],
 	['best lol cheats', 'lol cheats'],
 	['hot drops', 'hot spawns'],
 	['ranked grinders', 'match grinders'],

@@ -68,12 +68,12 @@ export const brand = {
 		list: [
 			'lol cheats',
 			'league of legends cheats',
-			'LoL ESP',
-			'LoL Aimbot',
-			'lol wallhack',
-			'lol cheat',
+			'buy lol cheats',
+			'lol cheats 2026',
 			'undetected lol cheats',
-			'best lol cheats',
+			'lol hack',
+			'vanguard lol cheats',
+			'lol wallhack',
 		] as const,
 	},
 
@@ -94,9 +94,9 @@ export const brand = {
 		statusTitle: '{game} Updates | {brand}',
 		statusDescription:
 			'LoL Cheats update log with Vanguard rebuild notes for ESP, soft aim, and radar on Windows PC. Check maintenance status here before queueing after League of Legends patches.',
-		previewTitle: 'LoL Cheats | Undetected ESP & Aimbot',
+		previewTitle: 'LoL Cheats Guide | ESP, Aimbot & Radar',
 		previewDescription:
-			'Undetected LoL Cheats for League of Legends on Windows PC with ESP, soft aim, and radar in one license. Instant digital delivery and Vanguard maintenance after major patches.',
+			'Full lol cheats guide for Windows PC — what ESP, soft aim, and radar do, how Vanguard maintenance works, and where to compare plans before checkout.',
 		setupTitle: '{game} Setup | {brand}',
 		setupDescription:
 			'Set up LoL Cheats on Windows PC after purchase. Activate ESP boxes, soft aim profiles, and radar, then confirm Vanguard status on Updates before your first queue.',
@@ -120,7 +120,7 @@ export const brand = {
 		summary: '{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
 		heroSubheading: 'League of Legends cheats',
 		heroLede:
-			'Undetected wallhack, aim assist, and radar for Windows PC. Check Status before every queue.',
+			'Undetected lol cheats for Windows PC — wallhack, aim assist, and radar. Check Status before every queue.',
 		blogLabel: 'LoL Intel',
 		ctaBuy: 'Get Access',
 		ctaBuyShort: 'Buy',

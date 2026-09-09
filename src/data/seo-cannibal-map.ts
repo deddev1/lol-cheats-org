@@ -3,11 +3,11 @@
  * Kept free of routing imports to avoid circular deps with localizeInternalHref.
  */
 export const cannibalRedirectTargets = {
-	'best-cheats': 'home',
-	'cheats-2026': 'home',
-	undetected: 'home',
-	'mod-menu': 'home',
-	'unlock-all': 'home',
+	'best-cheats': 'cheats',
+	'cheats-2026': 'cheats',
+	undetected: 'cheats',
+	'mod-menu': 'cheats',
+	'unlock-all': 'cheats',
 	'aimbot-cheat': 'lol-aimbot',
 	'soft-aim': 'lol-aimbot',
 	'esp-cheat': 'lol-esp',

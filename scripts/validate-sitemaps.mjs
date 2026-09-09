@@ -52,23 +52,23 @@ async function resolveDistRoot() {
 const SITE = readBrandUrl();
 const IMAGE_SITEMAP_ENTRIES = countBrandSitemapImages();
 
-const BLOG_PAGES = 18; // /blog/ index + 17 posts
-const REVIEW_PAGES = 11; // /reviews/ index + 10 review detail pages
-const FAQ_PAGES = 6; // FAQ answer pages (index is in the product pages)
+const BLOG_PAGES = 13; // /blog/ index + 12 posts
+const REVIEW_PAGES = 26; // /reviews/ index + 25 review detail pages
+const FAQ_PAGES = 10; // FAQ answer pages (index is in the product pages)
 /** Product pages in sitemap — excludes cannibal EN URLs that 301 to stronger pillars */
-const ENGLISH_PRODUCT_PAGES = 13;
+const ENGLISH_PRODUCT_PAGES = 14;
 const ENGLISH_PAGES = ENGLISH_PRODUCT_PAGES + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES;
 const I18N_LOCALES = 21;
 /** Locale product pages also exclude the same cannibal pageIds and retired cheats pillar */
-const PRODUCT_PAGES_PER_LOCALE = 13;
+const PRODUCT_PAGES_PER_LOCALE = 14;
 const BLOG_PAGES_PER_LOCALE = 0; // Locale blog URLs 301 to EN; not in sitemaps
 const PAGES_PER_LOCALE = PRODUCT_PAGES_PER_LOCALE + BLOG_PAGES_PER_LOCALE;
 const I18N_URLS = I18N_LOCALES * PAGES_PER_LOCALE;
 const TOTAL_PAGES = ENGLISH_PAGES + I18N_URLS;
 /** Full EN HTML may still emit redirect stubs for cannibal URLs; sitemaps omit them */
 const ENGLISH_HTML_PAGES = 25 + BLOG_PAGES + REVIEW_PAGES + FAQ_PAGES;
-/** Locale HTML = product pages + blog redirect stubs (index + 17 posts) that are omitted from sitemaps */
-const LOCALE_BLOG_REDIRECT_PAGES = 18;
+/** Locale HTML = product pages + blog redirect stubs (index + 12 posts) that are omitted from sitemaps */
+const LOCALE_BLOG_REDIRECT_PAGES = 13;
 const TOTAL_HTML_PAGES =
 	ENGLISH_HTML_PAGES + I18N_LOCALES * (PRODUCT_PAGES_PER_LOCALE + LOCALE_BLOG_REDIRECT_PAGES);
 const HREFLANG_PER_URL = 23;
@@ -76,9 +76,9 @@ const SITEMAP_INDEX_ENTRIES = 1 + I18N_LOCALES + 1; // EN + locales + images
 
 /** Built HTML that intentionally 301s — allowed to be absent from sitemaps */
 const REDIRECT_ONLY_PATHS = new Set([
-	'/best-lol-cheats/',
 	'/lol-aimbot-cheat/',
 	'/lol-esp-cheat/',
+	'/best-lol-cheats/',
 	'/lol-cheats-2026/',
 	'/undetected-lol-cheats/',
 	'/lol-mod-menu/',
@@ -87,8 +87,7 @@ const REDIRECT_ONLY_PATHS = new Set([
 	'/lol-wallhack/',
 	'/lol-cheat-download/',
 	'/vanguard-bypass/',
-	'/lol-cheats/',
-	'/lol-cheats/',
+	'/blog/cheats-guide/',
 ]);
 
 const ENGLISH_PATHS = [
@@ -101,11 +100,9 @@ const ENGLISH_PATHS = [
 	'/updates/',
 	'/faq/',
 	'/support/',
-	'/undetected-lol-cheats/',
+	'/lol-cheats/',
 	'/lol-wallhack/',
 	'/lol-radar-cheat/',
-	'/vanguard-bypass/',
-	'/lol-cheats-2026/',
 	'/lol-cheat-download/',
 	'/lol-mod-menu/',
 	'/lol-soft-aim/',
@@ -115,8 +112,10 @@ const ENGLISH_PATHS = [
 	'/terms/',
 	'/blog/',
 	'/blog/patch-notes/',
-	'/blog/cheats-guide/',
 	'/blog/buy-cheats/',
+	'/blog/buy-lol-cheats/',
+	'/blog/vanguard-status/',
+	'/blog/setup-guide/',
 	'/blog/cheats-2026/',
 	'/blog/aimbot-settings/',
 	'/blog/esp-wallhack/',
@@ -125,16 +124,31 @@ const ENGLISH_PATHS = [
 	'/blog/cheat-review/',
 	'/blog/vs-esp-only/',
 	'/reviews/',
-	'/reviews/lol-soft-aim-review-xkrypt0/',
-	'/reviews/lol-esp-aram-review-buildsr4k/',
-	'/reviews/lol-cloud-dma-review-dma-wizard/',
-	'/reviews/lol-soft-aim-review-ctrl-player99/',
-	'/reviews/lol-cheat-setup-review-stormchaser07/',
-	'/reviews/lol-ward-esp-review-lootgoblinx/',
-	'/reviews/lol-soft-aim-match-review-rankedgrind42/',
-	'/reviews/lol-radar-cheat-review-vanlifelol/',
-	'/reviews/lol-vanguard-update-review-patchdaymike/',
-	'/reviews/lol-skillshot-soft-aim-review-snipezonly/',
+	'/reviews/review-miket94-esp-ranked/',
+	'/reviews/review-junglersam-radar/',
+	'/reviews/review-clara-lifetime-wards/',
+	'/reviews/review-notsmurflol-setup/',
+	'/reviews/review-dariusonly-soft-aim/',
+	'/reviews/review-supportmain-gold-esp/',
+	'/reviews/review-patchdaypete-vanguard/',
+	'/reviews/review-aramandchill-esp/',
+	'/reviews/review-ctrlfreak-profiles/',
+	'/reviews/review-newpc-setup-help/',
+	'/reviews/review-duoqueuejay-radar/',
+	'/reviews/review-lifetime-luca-plan/',
+	'/reviews/review-midlanemina-skillshot/',
+	'/reviews/review-irontobronze-esp/',
+	'/reviews/review-refundasklater-support/',
+	'/reviews/review-nightowlna-stability/',
+	'/reviews/review-vishenonly-profiles/',
+	'/reviews/review-boxboxbox-esp-colors/',
+	'/reviews/review-coachfriend-team/',
+	'/reviews/review-firstcheatever-new/',
+	'/reviews/review-baronsteals-objectives/',
+	'/reviews/review-latencyking-high-ping/',
+	'/reviews/review-streamsafe-lifetime/',
+	'/reviews/review-oldaccount-return/',
+	'/reviews/review-honesttake99-honest/',
 	'/faq/what-is/',
 	'/faq/undetected/',
 	'/faq/ranked/',

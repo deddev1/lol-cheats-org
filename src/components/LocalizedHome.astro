@@ -11,7 +11,7 @@ import SiteFooter from '../components/SiteFooter.astro';
 import { getLocaleContent, getPageContent } from '../data/i18n';
 import { getLocalizedPath } from '../data/i18n/routing';
 import type { LocaleCode } from '../data/i18n/locales';
-import { homeFaqs, homeSeo, productInfo, siteConfig, customerReviewStats } from '../data/site';
+import { homeFaqs, homeSeo, productInfo, seoKeywords, siteConfig, customerReviewStats } from '../data/site';
 import { heroPreloadSrc, heroSizes, heroSrcSet } from '../lib/responsive-images';
 import { defaultCrawlImageSrc } from '../data/page-images';
 import { getNavPaths } from '../data/i18n/localized-nav-paths';
@@ -94,6 +94,7 @@ const extraGraph: Record<string, unknown>[] = [
 <Layout
 	title={title}
 	description={description}
+	keywords={[...seoKeywords]}
 	canonicalPath={canonicalPath}
 	ogImage={siteConfig.defaultOgImage}
 	ogImageAlt={resolveImageAlt(home.imageAlt)}

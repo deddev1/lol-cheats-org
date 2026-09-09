@@ -174,11 +174,12 @@ export const simplePageCopy: Partial<Record<PageId, SimplePageCopy>> = {
 	cheats: page({
 		title: brandSeo.previewTitle,
 		description: brandSeo.previewDescription,
-		h1: 'LoL Cheats',
-		intro: brandCopy.previewIntro,
+		h1: 'LoL Cheats Guide',
+		intro:
+			'This is the main lol cheats guide for League of Legends on Windows PC. Read what each module does, how undetected maintenance works, and where to buy when you are ready.',
 		ctaPrimary: brandCopy.ctaBuy,
-		ctaSecondary: 'View features',
-		ctaSecondaryHref: '/features/',
+		ctaSecondary: 'Check Vanguard status',
+		ctaSecondaryHref: '/updates/',
 		galleryTitle: 'In-match look',
 		sections: [
 			{

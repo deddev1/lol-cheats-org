@@ -8,7 +8,7 @@ export const enPages = {
 			'LoL cheats for League of Legends on Windows PC with aimbot, ESP, and wallhack. Compare features, pricing, setup steps, and Vanguard update notes before you buy.',
 		h1: 'League of Legends Cheats — Undetected ESP, Wallhack & Aimbot',
 		intro:
-			'LoL Cheats is the undetected LoL Cheats package for Windows PC — built for League of Legends on Windows PC. LoL ESP wallhack, 2D radar, and LoL Aimbot with Vanguard maintenance after every major patch.',
+			'Undetected lol cheats for League of Legends on Windows PC — one license with wallhack vision, aim assist, and radar. Check Status after Vanguard patches, then compare plans on Store.',
 		imageAlt: "LoL Cheats homepage hero — ESP and aimbot for League of Legends",
 		galleryTitle: 'LoL Cheats gallery — ESP, Aimbot and wallhack visuals',
 		ctaPrimary: 'Buy LoL Cheats',
@@ -20,11 +20,11 @@ export const enPages = {
 				'League of Legends rewards map awareness. LoL Cheats combines ESP wallhack for enemy champions and wards, radar-style threat cues, and configurable Aimbot so you can read fights before committing — on match, ARAM, and ranked servers.',
 				`Official seasons, patches, and anti-cheat updates come from ${EXT.lol} and ${EXT.vanguard}. We rebuild ESP, radar, and Aimbot modules when those patches require maintenance — then post status on the <a href="/updates/">Updates page</a>.`,
 				'Licenses ship digitally after payment confirmation. Monthly ($35) and lifetime ($150) plans include Vanguard maintenance rebuilds when anti-cheat or game patches require updates.',
-				'Start with the <a href="/lol-cheats/">LoL Cheats pillar</a>, <a href="/lol-esp/">ESP guide</a>, <a href="/lol-aimbot/">Aimbot controls</a>, and <a href="/lol-cheats/">undetected status</a> pages if you are comparing tools before checkout.',
+				'Compare the <a href="/lol-cheats/">cheats guide</a>, <a href="/lol-esp/">ESP page</a>, and <a href="/lol-aimbot/">aimbot controls</a> if you are still shopping. Check <a href="/updates/">Status</a> before patch-day queues.',
 			),
 			section(
 				'ESP wallhack, radar cheat, and Aimbot in one license',
-				'Instead of stacking separate tools, LoL Cheats bundles player ESP wallhack, ward markers, 2D radar overlays, and Aimbot profiles in one undetected package built for ranked and normal games — covering both “lol cheats” and “lol cheats” search intent.',
+				'One license bundles wallhack vision, flank radar, and aim assist for ranked and normal games — no separate downloads for each module.',
 				'Browse the <a href="/lol-esp/">ESP</a>, <a href="/lol-aimbot/">Aimbot</a>, <a href="/lol-esp/">wallhack</a>, and <a href="/lol-radar-cheat/">radar</a> pages for control details — or jump to <a href="/pricing/">Pricing</a> for monthly and lifetime options.',
 				`Before patch days, check ${EXT.status} for Riot Games service health, then confirm our maintenance notes so you are not queueing on an outdated build.`,
 				'Ready to buy? <a href="{checkout}" target="_blank" rel="noopener noreferrer">Get access</a>, follow <a href="/setup/">Setup</a> after delivery, and keep <a href="/faq/">FAQ</a> / <a href="/support/">Support</a> bookmarked for license questions.',
@@ -322,17 +322,17 @@ export const enPages = {
 		],
 	},
 	cheats: {
-		title: 'LoL Cheats 2026 | Undetected ESP Aimbot Guide',
+		title: 'LoL Cheats Guide | ESP, Aimbot & Radar',
 		description:
-			'lol cheats for Windows PC: undetected ESP wallhack, radar cheat, and Aimbot with Vanguard maintenance. Compare lol cheats options and buy the full package.',
-		h1: 'LoL Cheats — Undetected ESP, Aimbot & Wallhack',
+			'Full lol cheats guide for Windows PC — what wallhack, soft aim, and radar include, how Vanguard maintenance works, and links to pricing and setup.',
+		h1: 'LoL Cheats Guide — Full Package Overview',
 		intro:
-			'lol cheats for match and ARAM combine ESP wallhack visibility, 2D radar-style threat cues, and Aimbot controls in one undetected Windows PC license — maintained after Vanguard patches. This is the pillar guide for lol cheats in 2026.',
+			'This is the main lol cheats guide for League of Legends on Windows PC. Read what each module does, how undetected maintenance works, and where to buy when you are ready.',
 		imageAlt: "LoL Cheats product page — ESP, aimbot, and radar",
 		galleryTitle: 'lol cheats gallery — ESP, Aimbot, wallhack',
 		ctaPrimary: 'Buy LoL Cheats',
-		ctaSecondary: 'See undetected guide',
-		ctaSecondaryHref: '/lol-cheats/',
+		ctaSecondary: 'Check Vanguard status',
+		ctaSecondaryHref: '/updates/',
 		sections: [
 			section(
 				'What lol cheats include in 2026',
@@ -342,9 +342,9 @@ export const enPages = {
 			),
 			section(
 				'How this LoL Cheats pillar fits nearby pages',
-				'Use this pillar for the core product overview. For year-specific buying notes, see the <a href="/lol-cheats/">lol cheats 2026</a> and <a href="/lol-cheats/">lol cheats</a> pages cover buyer comparisons in cheats wording.',
-				'Deep-dive modules: <a href="/lol-esp/">LoL ESP</a>, <a href="/lol-aimbot/">LoL Aimbot</a>, <a href="/lol-esp/">wallhack</a>, <a href="/lol-radar-cheat/">radar cheat</a>, and <a href="/lol-aimbot/">soft aim</a>.',
-				'Blog guides expand Vanguard keyword: <a href="/blog/cheats-guide/">cheats complete guide</a>, <a href="/blog/buy-cheats/">cheats buyers guide</a>, and <a href="/blog/undetected/">undetected Vanguard notes</a>.',
+				'Use this page as the core product overview. For year-specific notes, read the <a href="/blog/cheats-2026/">2026 update guide</a>.',
+				'Deep-dive modules: <a href="/lol-esp/">ESP</a>, <a href="/lol-aimbot/">aimbot</a>, <a href="/lol-radar-cheat/">radar</a>, and the full <a href="/features/">feature list</a>.',
+				'Buyer guides: <a href="/blog/buy-lol-cheats/">how to buy</a>, <a href="/blog/vanguard-status/">Vanguard status</a>, and <a href="/blog/setup-guide/">setup walkthrough</a>.',
 			),
 			section(
 				'lol cheats vs single-feature tools',

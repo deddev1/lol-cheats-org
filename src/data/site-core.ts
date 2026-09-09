@@ -17,7 +17,7 @@ const copyDefaults = {
 	summary:
 		'{brand} is an undetected {game} cheat package for Windows PC. Includes ESP, soft aim, and radar, with {antiCheat} maintenance after patches.',
 	heroSubheading: 'League of Legends cheats',
-	heroLede: 'Undetected wallhack, aim assist, and radar for Windows PC. Check Status before every queue.',
+	heroLede: 'Undetected lol cheats for Windows PC — wallhack, aim assist, and radar. Check Status before every queue.',
 	blogLabel: '{game} Intel',
 	ctaBuy: 'Buy now',
 	ctaBuyShort: 'Buy',
