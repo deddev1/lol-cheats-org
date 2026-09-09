@@ -892,8 +892,8 @@ export function getNavForLocale(locale: LocaleCode, labels: Record<string, strin
 		{ label: labels.home, href: getLocalizedPath('home', locale), pageId: 'home' },
 	{
 		label: labels.cheats ?? 'Cheats',
-		href: getLocalizedPath(getCannibalTargetId('cheats') as PageId, locale),
-		pageId: 'home',
+		href: getLocalizedPath('cheats', locale),
+		pageId: 'cheats',
 	},
 		{ label: labels.aimbot, href: getLocalizedPath('lol-aimbot', locale), pageId: 'lol-aimbot' },
 		{ label: labels.esp, href: getLocalizedPath('lol-esp', locale), pageId: 'lol-esp' },
