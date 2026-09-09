@@ -113,19 +113,19 @@ const extraGraph: Record<string, unknown>[] = [
 		<Hero locale={locale} />
 		<HomeReviews locale={locale} />
 		<section class="home-guides shell" aria-labelledby="home-guides-title">
-			<header class="home-guides__head">
-				<p class="home-guides__eyebrow">{t('homeSeo.eyebrow')}</p>
-				<h2 id="home-guides-title">{t('homeSeo.title')}</h2>
-				<p class="home-guides__lede">{t('homeSeo.lede')}</p>
-			</header>
 			<div class="home-guides__panel">
+				<header class="home-guides__head">
+					<p class="home-guides__eyebrow">{t('homeSeo.eyebrow')}</p>
+					<h2 id="home-guides-title">{t('homeSeo.title')}</h2>
+					<p class="home-guides__lede">{t('homeSeo.lede')}</p>
+				</header>
 				<HomeAbout locale={locale} paths={navPaths} />
 				<HomeSeo locale={locale} navPaths={navPaths} embedded />
+				<ExternalResources locale={locale} omitHrefs={[externalUrls.wiki]} class="home-guides__external" />
 			</div>
-			<ExternalResources locale={locale} omitHrefs={[externalUrls.wiki]} />
 		</section>
-		<SiteFooter locale={locale} />
 	</main>
+	<SiteFooter locale={locale} />
 </Layout>
 
 <style>
@@ -143,7 +143,9 @@ const extraGraph: Record<string, unknown>[] = [
 	}
 
 	.home-guides__head {
-		margin-bottom: 1.25rem;
+		margin: 0;
+		padding-bottom: 1.15rem;
+		border-bottom: 1px solid var(--line-soft);
 	}
 
 	.home-guides__eyebrow {
@@ -174,8 +176,10 @@ const extraGraph: Record<string, unknown>[] = [
 
 	.home-guides__panel {
 		display: grid;
-		gap: 1.5rem;
-		padding: clamp(1.1rem, 2.5vw, 1.5rem);
+		gap: 1.35rem;
+		width: 100%;
+		min-width: 0;
+		padding: clamp(1.15rem, 2.5vw, 1.65rem);
 		border: 1px solid var(--line);
 		border-radius: var(--radius-lg, 1rem);
 		background:
@@ -187,16 +191,17 @@ const extraGraph: Record<string, unknown>[] = [
 <style is:global>
 	.home-guides__intro {
 		display: grid;
-		grid-template-columns: minmax(0, 1fr) minmax(200px, 320px);
-		gap: clamp(1rem, 2.5vw, 1.75rem);
+		grid-template-columns: minmax(0, 1fr) minmax(200px, 300px);
+		gap: clamp(1rem, 2.5vw, 1.5rem);
 		align-items: start;
-		padding-bottom: 1.25rem;
+		width: 100%;
+		min-width: 0;
+		padding-bottom: 1.15rem;
 		border-bottom: 1px solid var(--line-soft);
 	}
 
 	.home-guides__copy {
-		padding-left: 1rem;
-		border-left: 3px solid var(--magenta);
+		min-width: 0;
 	}
 
 	.home-guides__kicker {
@@ -232,12 +237,31 @@ const extraGraph: Record<string, unknown>[] = [
 	}
 
 	.home-seo--embedded {
+		display: grid;
+		gap: 1.35rem;
+		width: 100%;
+		min-width: 0;
 		padding-block: 0;
 	}
 
+	.home-seo--embedded .home-seo__cats {
+		width: 100%;
+		min-width: 0;
+	}
+
 	.home-seo--embedded .home-seo__faq {
-		margin-top: 1.5rem;
-		padding-top: 1.5rem;
+		margin: 0;
+		padding-top: 1.15rem;
+		border-top: 1px solid var(--line-soft);
+	}
+
+	.home-guides__external {
+		margin-top: 0 !important;
+		padding-top: 1.15rem !important;
+		border: 0 !important;
+		border-radius: 0 !important;
+		background: transparent !important;
+		border-top: 1px solid var(--line-soft) !important;
 	}
 
 	@media (max-width: 860px) {
