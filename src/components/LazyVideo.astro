@@ -21,11 +21,11 @@ const { src, poster } = homePreviewVideo;
 	<video
 		class="lazy-video__player"
 		data-lazy-video-player
-		hidden
 		controls
 		playsinline
-		preload="metadata"
+		preload="none"
 		poster={poster}
+		src={src}
 	>
 		<source src={src} type="video/mp4" />
 	</video>
@@ -89,7 +89,7 @@ const { src, poster } = homePreviewVideo;
 	}
 
 	.lazy-video__player {
-		display: block;
+		display: none;
 		width: 100%;
 		height: auto;
 		aspect-ratio: 16 / 11;
@@ -98,26 +98,42 @@ const { src, poster } = homePreviewVideo;
 		border-radius: var(--radius-md, 0.75rem);
 		background: #000;
 	}
-</style>
 
-<script>
-	function initLazyVideos() {
-		document.querySelectorAll<HTMLElement>('[data-lazy-video]').forEach((root) => {
-			if (root.dataset.lazyVideoReady === 'true') return;
-			root.dataset.lazyVideoReady = 'true';
-
-			const trigger = root.querySelector<HTMLButtonElement>('[data-lazy-video-trigger]');
-			const player = root.querySelector<HTMLVideoElement>('[data-lazy-video-player]');
-			if (!trigger || !player) return;
-
-			trigger.addEventListener('click', () => {
-				trigger.hidden = true;
-				player.hidden = false;
-				void player.play();
-			});
-		});
+	.lazy-video.is-playing .lazy-video__trigger {
+		display: none;
 	}
 
-	initLazyVideos();
-	document.addEventListener('astro:page-load', initLazyVideos);
+	.lazy-video.is-playing .lazy-video__player {
+		display: block;
+	}
+</style>
+
+<script is:inline>
+	(function () {
+		function initLazyVideos() {
+			document.querySelectorAll('[data-lazy-video]').forEach(function (root) {
+				if (root.getAttribute('data-lazy-video-ready') === 'true') return;
+				root.setAttribute('data-lazy-video-ready', 'true');
+
+				var trigger = root.querySelector('[data-lazy-video-trigger]');
+				var player = root.querySelector('[data-lazy-video-player]');
+				if (!trigger || !player) return;
+
+				trigger.addEventListener('click', function () {
+					root.classList.add('is-playing');
+					player.preload = 'auto';
+					player.load();
+					var playPromise = player.play();
+					if (playPromise && typeof playPromise.catch === 'function') {
+						playPromise.catch(function () {
+							player.controls = true;
+						});
+					}
+				});
+			});
+		}
+
+		initLazyVideos();
+		document.addEventListener('astro:page-load', initLazyVideos);
+	})();
 </script>
